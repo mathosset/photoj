@@ -1,0 +1,70 @@
+.navbar-transparent {
+  background-color: white;
+  border-bottom: 0px;
+  padding: 1em;
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: #5B91B9;
+  text-decoration: underline;
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: #5B91B9;
+}
+
+.spacer {
+  height: 1em;
+}
+
+.thumbnail {
+  border: 0px;
+}
+
+.thumbnail:hover {
+  background-color: #5B91B9;
+}
+
+.caption h3 {
+  font-size: 16px;
+}
+
+#footer {
+  color: grey;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+#footer a {
+  color: grey;
+}
+
+#footer a:hover {
+  color: #aaaaaa;
+}
+
+/* taille police logo réseaux sociaux
+.social a {
+  font-size: 18px;
+} */
+
+#wrapper {
+  /*height: 700px;*/
+}
+
+body {
+  font-family: 'Abel', sans-serif;
+  padding-top: 6em;
+}
