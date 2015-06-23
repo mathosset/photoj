@@ -68,3 +68,8 @@ body {
   font-family: 'Abel', sans-serif;
   padding-top: 6em;
 }
+
+body h3 {
+  color: grey;
+  font-size: 18px;
+}
