@@ -1,4 +1,5 @@
 # robotstxt.org/
 
 User-agent: *
+
 Sitemap: http://www.mathieuthomasset.fr/sitemap.xml
