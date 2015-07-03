@@ -1,0 +1,11 @@
+# Required
+url: 'http://www.mathieuthomasset.com'
+name: 'Mathieu Thomasset'
+description: 'Photographe indépendant basé à Paris. Reportages, portraits et corporate.'
+title: 'Mathieu Thomasset photographies'
+
+# Optional
+#logo_image_name: 'example-logo-big.png'
+logo_image_path: 'http://mathieuthomasset.fr/images/angel1.jpg'
+twitter_handle: '@mathosset'
+# facebook_app_id: ''
