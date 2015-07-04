@@ -102,3 +102,7 @@ body h3 {
 body p {
   font-size: 16px;
 }
+
+#logo {
+  border-radius: 1%;
+}
