@@ -15,62 +15,12 @@ description: Quelques jours après les attentats de Charlie Hebdo, la grande mos
       <p>Quelques jours après les attentats de Charlie Hebdo, la grande mosquée de Paris dans le 5ème arrondissement de Paris, alors sous haute protection policière, est totalement désertée par les visiteurs. </br>En ces temps troublés, toute l’attention est portée sur la traque des terroristes, dont le dénouement sera retransmis en direct à la télévision dans un flot continue d’images immobiles sonores. </br>Au sein de la Grande mosquée, entre deux prières, le temps est suspendu, tout invite au calme et l’atmosphère est un appel à la méditation.</p>
       <div class="spacer"></div>
     </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-1.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-2.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-3.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-4.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-5.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-6.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag " prieres-7.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-8.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-6">
-      <%= image_tag "prieres-9.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-6">
-      <%= image_tag "prieres-10.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-12.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-13.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-14.jpg", width: "100%" %>
-      <p></p>
-    </div>
-    <div class="col-sm-12">
-      <%= image_tag "prieres-15.jpg", width: "100%" %>
-      <p></p>
-    </div>
+    <% data.prieres.each do |y| %>
+      <div class="col-sm-12">
+        <%= image_tag y.picture, width: "100%" %>
+        <p><%= y.caption %></p>
+      </div>
+    <% end %>
   </div>
 </div>
 
