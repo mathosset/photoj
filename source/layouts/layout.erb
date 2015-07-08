@@ -36,6 +36,10 @@
     <meta property="og:description" content="<%= page_description %>" />
     <meta property="og:site_name" content="<%= data.site.title %>" />
 
+    <% if current_page.data.preferred_url %>
+    <link rel="canonical" href='<%= current_page.data.preferred_url %>'>
+    <% end %>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 
