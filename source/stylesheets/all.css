@@ -15,7 +15,7 @@
 .navbar-transparent .navbar-nav > .open > a:hover,
 .navbar-transparent .navbar-nav > .open > a:focus {
   color: #5B91B9;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .navbar-transparent .navbar-brand:hover,
