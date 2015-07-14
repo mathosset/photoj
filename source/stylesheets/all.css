@@ -44,12 +44,11 @@
 
 .jspane .text {
   background: rgba(255, 255, 255, 1);
-  font-size: 82%;
   color: #5B91B9;
   width: 100%;
   height: 100%;
   line-height: normal;
-  padding: 1px 10px 2px 20px;
+  padding: 2px 30px 2px 30px;
   position: absolute;
   top: 0;
   left: 0;
@@ -59,10 +58,16 @@
   box-sizing: border-box;
 }
 
+.jspane .text h1 {
+  font-size: 1.3em;
+  border-bottom: 1px dotted;
+  letter-spacing: -1px;
+}
+
 .jspane .text p {
   color: grey;
-  font-size: 130%;
-
+  font-size: 1.1em;
+  padding-top: 3px;
 }
 
 #footer {
