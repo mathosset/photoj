@@ -16,6 +16,9 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 # Protect email
 gem 'middleman-protect-emails'
 
+# Minify HTML
+gem "middleman-minify-html"
+
 # Deploy to GitHub Pages
 gem 'middleman-deploy', '~> 1.0'
 
