@@ -1,0 +1,26 @@
+---
+title: blog
+preferred_url: http://www.mathieuthomasset.fr/blog
+---
+
+<div class="spacer"></div>
+
+<div id="wrapper">
+  <div class="container">
+    <% page_articles.each_with_index do |article, i| %>
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+          <article>
+            <h1>
+              <%= article.title %></br>
+            </h1>
+            <time><%= article.date.strftime('%e %b %Y') %></time>
+            <p><%= article.summary(1000, '...') %></p>
+            <a href="<%= article.url %>">Lire plus</a></br>
+          </article>
+          <div class="big-spacer"></div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

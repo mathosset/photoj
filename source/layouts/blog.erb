@@ -1,0 +1,36 @@
+<% wrap_layout :layout do %>
+  <div class="spacer"></div>
+
+  <div id="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <article>
+              <h1><%= current_article.data.title %></h1>
+              <p><%= current_article.data.date.to_date.strftime('%e %b %Y') %></p>
+              <%= yield %>
+              <div class="spacer"></div>
+              <% if current_page.previous_article %>
+                <div id="previous-post">
+                  <% link_to current_page.previous_article do %>
+                    <i class="fa fa-angle-double-left"></i>
+                    <%= current_page.previous_article.title %>
+                  <% end %>
+                </div>
+              <% end%>
+              <% if current_page.next_article %>
+                <div id="next-post">
+                  <% link_to current_page.next_article do %>
+                    <%= current_page.next_article.title %>
+                    <i class="fa fa-angle-double-right"></i>
+                  <% end %>
+                </div>
+              <% end%>
+              <div class="big-spacer"></div>
+              <%= disqus %>
+            </article>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

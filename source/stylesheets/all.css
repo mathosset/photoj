@@ -28,8 +28,16 @@
   height: 1em;
 }
 
+.big-spacer {
+  height: 3em;
+}
+
 .thumbnail {
   border: 0px;
+}
+
+.img-blog {
+  width: 100%;
 }
 
 .jspane {
@@ -70,6 +78,16 @@
   padding-top: 3px;
 }
 
+#next-post {
+  display: inline;
+  float: right;
+}
+
+#previous-post {
+  display: inline;
+  float: left;
+}
+
 #footer {
   color: grey;
   padding-top: 3em;
@@ -106,6 +124,15 @@ body h3 {
 
 body p {
   font-size: 18px;
+}
+
+article p {
+  font-size: 1.2em;
+}
+
+article h1 {
+  color: #5B91B9;
+  font-size: 1.7em;
 }
 
 #logo {
