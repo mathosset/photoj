@@ -15,5 +15,7 @@ Au Japon, le festival réunit chaque année au mois d'août rien que dans la vil
 La version française, bien plus modeste, a permis de faire découvrir cette tradition datant du XVIème siècle à un public parisien venu nombreux.
 
 ![picture alt](/images/blog/awaodori-01.jpg "Le festival Awa Odori à Paris"){: .img-blog}
+![picture alt](/images/angel1.jpg "Title is optional"){: .img-blog}
+
 
 Pour tout savoir sur ce festival et son origine : [Awa Odori Paris](http://awaodoriparis.com/fr/awa/)
