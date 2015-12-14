@@ -2,7 +2,7 @@
 title: Rencontres et portraits lors de la COP21
 title_seo: "Portraits réalisés à l'espace Générations Climat de la COP21"
 description: ""
-date: 2015-12-09
+date: 2015-12-10
 thumbnail:
 category: emi
 excerpt: ""
