@@ -1,31 +1,30 @@
 ---
-title: Entre ciel et terre
-image_path: http://mathieuthomasset.fr/images/marie_02.jpg
-description: Marie est restauratrice de peinture et consacre sa vie à la préservation d’oeuvres classées aux monuments historiques.
-preferred_url: http://www.mathieuthomasset.fr/entre-ciel-et-terre.html
+title: Multimédia
+preferred_url: http://www.mathieuthomasset.fr/multimédia.html
 ---
 
 <div class="spacer"></div>
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-9">
+    <div class="col-xs-12 col-sm-5">
       <h3>Entre ciel et terre
-        <% link_to "multimedia.html" do %>
-          <i class="fa fa-play-circle-o"></i>
-        <% end %>
-        </br>2016</h3>
-      </br>
+      <% link_to "entre-ciel-et-terre.html" do %>
+        <i class="fa fa-cubes"></i>
+      <% end %></br>2016</h3>
       <p>A une époque où certains détruisent ses sites archéologiques et des oeuvres d’art parfois millénaires, d’autres, au contraire, se mettent au service de la sauvegarde de ce qui fait l’essence même de toute civilisation, l’art, la culture et la mémoire.</br> Marie est restauratrice de peinture et consacre sa vie à la préservation d’oeuvres classées aux monuments historiques.</br> A la tête d’un groupement solidaire de dix restauratrices, Marie et son équipe ont démarré un chantier qui s’étalera sur quatre ans de restauration des fresques d’un des meilleurs élèves d’Ingres, Amaury Duval, dans l’église de Saint Germain-en-laye.</br>La restauration d'oeuvre d'art est un travail long, méticuleux et passionnant qui requiert patience et prudence afin d’en préserver son intégrité. Au fur et à mesure, jour après jour,  le restaurateur voit lentement l'oeuvre renaître sous ses yeux.</p>
-      <div class="spacer"></div>
     </div>
-    <% data.marie.each do |y| %>
-      <div class="col-sm-12">
-        <%= image_tag y.picture, width: "100%" %>
-        <p><%= y.caption %></p>
+    <div class="col-xs-12 col-sm-7">
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <div class="video-container">
+        <iframe src="https://player.vimeo.com/video/151305576?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
-    <% end %>
+    </div>
   </div>
 </div>
 
 <div class="spacer"></div>
+
+<i class="fa fa-play-circle-o"></i>
