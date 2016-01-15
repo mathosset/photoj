@@ -16,3 +16,9 @@ $(document).ready(function() {
     });
   }
 });
+
+//= $(document).ready(function() {
+  //= $('#btn-grid').click(function() {
+  //=  $("#grid").removeClass("col-sm-12").addClass("col-sm-4");
+  //= });
+//= });
