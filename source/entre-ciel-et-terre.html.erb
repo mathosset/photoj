@@ -19,12 +19,21 @@ preferred_url: http://www.mathieuthomasset.fr/entre-ciel-et-terre.html
       <p>A une époque où certains détruisent ses sites archéologiques et des oeuvres d’art parfois millénaires, d’autres, au contraire, se mettent au service de la sauvegarde de ce qui fait l’essence même de toute civilisation, l’art, la culture et la mémoire.</br> Marie est restauratrice de peinture et consacre sa vie à la préservation d’oeuvres classées aux monuments historiques.</br> A la tête d’un groupement solidaire de dix restauratrices, Marie et son équipe ont démarré un chantier qui s’étalera sur quatre ans de restauration des fresques d’un des meilleurs élèves d’Ingres, Amaury Duval, dans l’église de Saint Germain-en-laye.</br>La restauration d'oeuvre d'art est un travail long, méticuleux et passionnant qui requiert patience et prudence afin d’en préserver son intégrité. Au fur et à mesure, jour après jour,  le restaurateur voit lentement l'oeuvre renaître sous ses yeux.</p>
       <div class="spacer"></div>
     </div>
-    <% data.marie.each do |y| %>
-      <div class="col-sm-12">
-        <%= image_tag y.picture, width: "100%" %>
-        <p><%= y.caption %></p>
-      </div>
-    <% end %>
+    <div class="col-sm-12 text-right">
+      <button class="btn btn-default fa fa-stop disabled" id="btn-list"></button>
+      <button class="btn btn-default fa fa-th-large" id="btn-grid"></button>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <section id="grid">
+      <% data.marie.each do |y| %>
+        <div class="col-sm-12" >
+          <%= image_tag y.picture, width: "100%" %>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+
   </div>
 </div>
 
