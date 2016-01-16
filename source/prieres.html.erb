@@ -15,12 +15,20 @@ preferred_url: http://www.mathieuthomasset.fr/prieres.html
       <p>Quelques jours après les attentats de Charlie Hebdo, la grande mosquée de Paris dans le 5ème arrondissement de Paris, alors sous haute protection policière, est totalement désertée par les visiteurs. </br>En ces temps troublés, toute l’attention est portée sur la traque des terroristes, dont le dénouement sera retransmis en direct à la télévision dans un flot continue d’images immobiles sonores. </br>Au sein de la Grande mosquée, entre deux prières, le temps est suspendu, tout invite au calme et l’atmosphère est un appel à la méditation.</p>
       <div class="spacer"></div>
     </div>
-    <% data.prieres.each do |y| %>
-      <div class="col-sm-12">
-        <%= image_tag y.picture, width: "100%" %>
-        <p><%= y.caption %></p>
-      </div>
-    <% end %>
+    <div class="col-sm-12 text-right">
+      <button class="btn btn-default fa fa-stop disabled" id="btn-list"></button>
+      <button class="btn btn-default fa fa-th-large" id="btn-grid"></button>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <section id="grid">
+      <% data.prieres.each do |y| %>
+        <div class="col-sm-12">
+          <%= image_tag y.picture, width: "100%" %>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
   </div>
 </div>
 

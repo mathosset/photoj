@@ -1,0 +1,34 @@
+---
+title: COP21 édition 2015
+image_path: http://mathieuthomasset.fr/images/cop21-15.jpg
+description: Parallèlement à la COP 21, les espaces Générations Climat, accessibles gratuitement à tout public du 1er au 11 décembre 2015 sur le site du Bourget, ont été l'occasion de nombreux débats et conférences autour des enjeux climatiques et des solutions à apporter aux dérèglements climatiques actuels.
+preferred_url: http://www.mathieuthomasset.fr/cop21.html
+---
+
+<div class="spacer"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+      <h3>COP21 édition 2015</br>2015</h3>
+      </br>
+      <p>Parallèlement à la COP21, les espaces Générations Climat, accessibles gratuitement à tout public du 1er au 11 décembre 2015 sur le site du Bourget, ont été l'occasion de nombreux débats et conférences autour des enjeux climatiques et des solutions à apporter aux dérèglements climatiques actuels.</br>Au total les espaces ont proposé 360 conférences et 60 projections de films.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="col-sm-12 text-right">
+      <button class="btn btn-default fa fa-stop disabled" id="btn-list"></button>
+      <button class="btn btn-default fa fa-th-large" id="btn-grid"></button>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <section id="grid">
+      <% data.cop21.each do |y| %>
+        <div class="col-sm-12" >
+          <%= image_tag y.picture, width: "100%" %>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+  </div>
+</div>
+<div class="spacer"></div>
