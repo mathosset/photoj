@@ -25,7 +25,7 @@
 }
 
 .navbar-transparent .dropdown-menu a {
-  color: grey;
+  color: grey !important;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
