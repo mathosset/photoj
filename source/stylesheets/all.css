@@ -7,7 +7,6 @@
 .navbar-transparent .dropdown-menu {
   border-radius: 4px !important;
   margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
 }
 
@@ -36,7 +35,7 @@
 .navbar-transparent .navbar-nav > .open > a:focus,
 .navbar-transparent .dropdown-menu a:hover {
   color: #5B91B9;
-  background-color: white !important;
+  background-color: transparent !important;
   /* text-decoration: underline; */
 }
 
