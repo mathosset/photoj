@@ -86,6 +86,7 @@ height: 100%;
 }
 .jspane img {
   line-height: 0;
+  width: 100%;
 }
 
 .jspane .text {
