@@ -1,49 +1,6 @@
-.navbar-transparent {
-  background-color: white;
-  border-bottom: 0px;
-  padding: 1em;
-}
-
-.navbar-transparent .dropdown-menu {
-  border-radius: 4px !important;
-  margin-top: 15px;
-  border-color: #E6E6E6;
-}
-
-.navbar-transparent .dropdown-menu :before{
-  content: ' ';
-  height: 10px;
-  width: 10px;
-  position: absolute;
-  right: 30px;
-  top: -6px;
-  background-color: white;
-  transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
-}
-
-.navbar-transparent .dropdown-menu a {
-  color: #555;
-}
-
-.navbar-transparent .navbar-nav > li > a:hover,
-.navbar-transparent .navbar-nav > li > a:active,
-.navbar-transparent .navbar-nav > li > a:focus,
-.navbar-transparent .navbar-nav > .open > a,
-.navbar-transparent .navbar-nav > .open > a:hover,
-.navbar-transparent .navbar-nav > .open > a:focus,
-.navbar-transparent .dropdown-menu a:hover {
-  color: #5B91B9;
-  background-color: transparent !important;
-  /* text-decoration: underline; */
-}
-
-.navbar-transparent .navbar-brand:hover,
-.navbar-transparent .navbar-brand:active,
-.navbar-transparent .navbar-brand:focus {
-  color: #5B91B9;
-}
+@import url("layout/navbar.css");
+@import url("layout/footer.css");
+@import url("vendor/animation.css");
 
 .spacer {
   height: 1em;
@@ -126,26 +83,6 @@ height: 100%;
   display: inline;
   float: left;
 }
-
-#footer {
-  color: grey;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  text-align: center;
-}
-
-#footer a {
-  color: #777;
-}
-
-#footer a:hover {
-  color: #5B91B9;
-}
-
-/* taille police logo réseaux sociaux
-.social a {
-  font-size: 18px;
-} */
 
 /* #wrapper {
   height: 700px;
