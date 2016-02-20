@@ -17,6 +17,7 @@ $(document).ready(function() {
   }
 });
 
+
 $(document).ready(function() {
   $('#btn-grid').click(function() {
     $("section div:nth-child(n)").removeClass("col-sm-12").addClass("col-xs-6 col-sm-4");
