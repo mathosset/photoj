@@ -1,0 +1,38 @@
+---
+title: OTTO10
+image_path: http://mathieuthomasset.fr/images/otto_01.jpg
+description: Pour sa huitième édition, le collectif OTTO10 s'installe à Noisy-le-sec et propose un nouveau "détournement" des soirées traditionnelles parisiennes intitulé "la Rélovution est en charme".
+preferred_url: http://www.mathieuthomasset.fr/otto10.html
+---
+
+<div class="spacer"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+      <h1>OTTO10 : Que votre volonté soit fête !</br>2016</h1>
+      </br>
+      <p>Pour sa huitième édition, le collectif OTTO10 s'installe à Noisy-le-sec et propose un nouveau "détournement" des soirées traditionnelles parisiennes intitulé "la Rélovution est en charme".</br>
+      <% link_to "publications.html" do %> 
+        <%= image_tag "publication_03.jpg", width: "70px" %>
+      <%end%>
+      Publication dans MEDIALIBRE le magazine de l'EMI-CFD, avril 2016.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="col-sm-12 text-right">
+      <button class="btn btn-default fa fa-stop" id="btn-list"></button>
+      <button class="btn btn-default fa fa-th-large disabled" id="btn-grid"></button>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <section id="grid">
+      <% data.otto.each do |y| %>
+        <div class="col-xs-6 col-sm-4" >
+          <%= image_tag y.picture, width: "100%" %>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+  </div>
+</div>
+<div class="spacer"></div>
