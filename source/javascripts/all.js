@@ -1,4 +1,5 @@
 //= require jquery
+//= require swipebox
 //= require bootstrap-sprockets
 //= require_tree .
 
@@ -29,4 +30,14 @@ $(document).ready(function() {
     $('#btn-list').addClass('disabled');
     $('#btn-grid').removeClass('disabled');
   });
+});
+
+$(document).ready(function() {
+    ;( function( $ ) {
+            $( '.swipebox' ).swipebox({
+              hideBarsDelay : 30000, // delay before hiding bars on desktop
+              loopAtEnd: true // true will return to the first image after the last image is
+            });
+
+    } )( jQuery );
 });

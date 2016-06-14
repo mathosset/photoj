@@ -1,6 +1,7 @@
 @import url("layout/navbar.css");
 @import url("layout/footer.css");
 @import url("vendor/animation.css");
+@import url("vendor/swipebox.css");
 
 .spacer {
   height: 1em;
