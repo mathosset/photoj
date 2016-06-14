@@ -35,7 +35,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     ;( function( $ ) {
             $( '.swipebox' ).swipebox({
-              hideBarsDelay : 30000, // delay before hiding bars on desktop
+              hideBarsDelay : 900000, // delay before hiding bars on desktop
               loopAtEnd: true // true will return to the first image after the last image is
             });
 
