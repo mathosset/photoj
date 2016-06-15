@@ -16,98 +16,21 @@ preferred_url: http://www.mathieuthomasset.fr/regis.html
       <div class="spacer"></div>
     </div>
     <div class="col-sm-12 text-right">
-      <button class="btn btn-default fa fa-stop disabled" id="btn-list"></button>
-      <button class="btn btn-default fa fa-th-large" id="btn-grid"></button>
+      <button class="btn btn-default fa fa-stop" id="btn-list"> slide</button>
+      <button class="btn btn-default fa fa-th-large disabled" id="btn-grid"> planche</button>
       <div class="spacer"></div>
     </div>
     <div class="spacer"></div>
     <section id="grid">
-      <div class="col-sm-12">
-          <%= image_tag "regis-1.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-2.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-3.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-4.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-5.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-6.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-7.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-8.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-9.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-10.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-11.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-12.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-13.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-14.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-15.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-16.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-19.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-21.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-23.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis-24.jpg", width: "100%" %>
-          <p></p>
-      </div>
-      <div class="col-sm-12">
-          <%= image_tag "regis3.jpg", width: "100%" %>
-          <p></p>
-      </div>
+      <% data.regis.each do |y| %>
+        <div class="col-xs-6 col-sm-4" >
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <%= image_tag y.picture, width: "100%" %>
+          </a>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
     </section>
   </div>
 </div>
-
 <div class="spacer"></div>

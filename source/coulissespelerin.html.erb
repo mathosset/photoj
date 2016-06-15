@@ -13,7 +13,7 @@ preferred_url: http://www.mathieuthomasset.fr/coulissespelerin.html
       <h1>Dans les coulisses du journal Pèlerin
       <% link_to "multimedia.html" do %>
           <i class="fa fa-play-circle-o pulse"></i>
-        <% end %></br>2016</h1>
+        <% end %></br>mai 2016</h1>
       </br>
       <p>Quelques semaines dans la vie de la rédaction du journal Pèlerin au contact de ceux qui font cet hebdomadaire créé en 1873 et édité par le groupe de presse indépendant Bayard.</br>Chaque numéro mobilise une équipe de 64 personnes : 46 membres de la rédaction dont 41 journalistes, ainsi que les services communication, publicité, diffusion, fabrication...</br></br>
       <% link_to "publications.html" do %> 
@@ -31,7 +31,9 @@ preferred_url: http://www.mathieuthomasset.fr/coulissespelerin.html
     <section id="grid">
       <% data.pelerin.each do |y| %>
         <div class="col-xs-6 col-sm-4">
-          <%= image_tag y.picture, width: "100%" %>
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <%= image_tag y.picture, width: "100%" %>
+          </a>
           <p><%= y.caption %></p>
         </div>
       <% end %>

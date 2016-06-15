@@ -28,7 +28,9 @@ preferred_url: http://www.mathieuthomasset.fr/otto10.html
     <section id="grid">
       <% data.otto.each do |y| %>
         <div class="col-xs-6 col-sm-4" >
-          <%= image_tag y.picture, width: "100%" %>
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <%= image_tag y.picture, width: "100%" %>
+          </a>
           <p><%= y.caption %></p>
         </div>
       <% end %>
