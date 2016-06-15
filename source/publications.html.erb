@@ -16,11 +16,22 @@ preferred_url: http://www.mathieuthomasset.fr/publications.html
     <section id="grid">
       <% data.publications.each do |y| %>
         <div class="col-xs-6 col-sm-4">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <%= image_tag y.picture, width: "100%" %>
+          </a>  
+            <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+
+   <!-- <section id="grid">
+      <% data.publications.each do |y| %>
+        <div class="col-xs-6 col-sm-4">
           <%= image_tag y.picture, width: "100%" %>
           <p><%= y.caption %></p>
         </div>
       <% end %>
-    </section>
+    </section> -->
   </div>
 </div>
 
