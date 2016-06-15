@@ -57,7 +57,7 @@ html.swipebox-html.swipebox-touch {
 #swipebox-slider .slide .swipebox-video-container,
 #swipebox-slider .slide .swipebox-inline-container {
   display: inline-block;
-  max-height: 100%;
+  max-height: 90%;
   max-width: 100%;
   margin: 0;
   padding: 0;
@@ -121,9 +121,10 @@ html.swipebox-html.swipebox-touch {
 
 #swipebox-title {
   display: block;
-  margin: 20px auto;
+  margin: 10px auto;
   width: 80%;
   text-align: center;
+  opacity: 0.8;
 }
 
 #swipebox-prev,
@@ -149,19 +150,28 @@ html.swipebox-html.swipebox-touch {
 #swipebox-prev {
   background-position: -32px 13px;
   float: left;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  opacity: 0.75;
 }
 
 #swipebox-next {
   background-position: -78px 13px;
   float: right;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  opacity: 0.75;
 }
 
 #swipebox-close {
-  top: 0;
-  right: 0;
+  top: 5px;
+  right: 5px;
   position: absolute;
   z-index: 9999;
   background-position: 15px 12px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  opacity: 0.75;
 }
 
 .swipebox-no-close-button #swipebox-close {
@@ -278,16 +288,16 @@ html.swipebox-html.swipebox-touch {
 /* Skin 
 --------------------------*/
 #swipebox-overlay {
-  background: #4c4a4a;
+  background: white;
 }
 
 #swipebox-bottom-bar,
 #swipebox-top-bar {
-  background: #4c4a4a;
+  background: white;
 }
 
 #swipebox-top-bar {
-  color: white !important;
+  color: #383636 !important;
   font-size: 15px;
   font-family: Helvetica, Arial, sans-serif;
 }
