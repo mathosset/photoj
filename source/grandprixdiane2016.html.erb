@@ -26,7 +26,11 @@ preferred_url: http://www.mathieuthomasset.fr/grandprixdiane2016.html
       <% data.diane.each do |y| %>
         <div class="col-sm-12" >
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
-            <%= image_tag y.picture, width: "100%" %>
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "44%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
           </a>
           <p><%= y.caption %></p>
         </div>
