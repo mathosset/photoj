@@ -61,8 +61,8 @@ $(document).ready(function() {
 // });
 
 $(document).ready(function () {
-  if(window.location.href.indexOf("reportages") > -1) 
-    {
+  // if(window.location.href.indexOf("x") > -1)
+  if ( window.location.pathname == '/' ) {
       document.getElementById("transparent").style.backgroundColor = "transparent";
       // document.getElementById("white").style.color = "white";
       $(".navbar-default .navbar-nav>li>a").css({"color":"white"});

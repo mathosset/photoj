@@ -3,46 +3,186 @@ title: Reportages
 preferred_url: http://www.mathieuthomasset.fr/reportages.html
 ---
 
-<header id="myCarousel" class="carousel slide">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-	  	<% data.home.each_with_index do |y, index| %>
-	  		<% if index==0 %>
-	    		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	    	<% else %>	
-	    		<li data-target="#myCarousel" data-slide-to="<%= index %>"></li>
-	    	<% end %>
-	    <% end %>
-	  </ol>
+<div class="big-spacer"></div>
 
-    <!-- Wrapper for Slides -->
-    <div class="carousel-inner">
-	  	<% data.home.each_with_index do |y, index| %>
-	  		<% if index==0 %>
-		    	<div class="item active">
-		    <% else %>
-		  		<div class="item">
-	      	<% end %>
- 	      			<div class="fill" style="background-image:url('../images/<%= y.picture %>');"></div>
-		         	<div class="carousel-caption">
-		         		<h3><%= y.title.upcase %></h3>
-		         		<div class="spacer"></div>
-		         		<a href="<%= y.page %>" class="btn-medium">Reportage</a>
-	          		</div>
-	        	</div>
-	    <% end %>
-	  	</div>
-	</div>
-
-    <!-- Controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="icon-prev"></span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="icon-next" aria-hidden="true"></span>
-    </a>
-</header>
-
-
-
-
+<div id="wrapper">
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="bobo.html" class="thumbnail">
+            <%= image_tag "bobo_10.jpg" %>
+            <div class="text">
+              <h1>Horsecart Driver n°20</h1>
+              <p>Le quotidien d'un chauffeur de carriole en Birmanie à Bagan, un site archéologique boudhique qui s'étale sur plus de 50 km carrés.</p>
+            </div>
+          </a>
+        </div>
+      </div> -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="tentes-migrants.html" class="thumbnail">
+            <%= image_tag "tentes_01.jpg" %>
+            <div class="text">
+              <h1>Des bénévoles se mobilisent pour aider les migrants à Paris</h1>
+              <p>La maire de Paris, Anne Hidalgo, a annoncé la mise à disposition d’un camps humanitaire aux normes internationales pour accueillir les réfugiés d’ici à la mi septembre. En attendant des bénévoles se regroupent pour apporter une aide concrète et immédiate aux réfugiés.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="marseille-reborn.html" class="thumbnail">
+            <%= image_tag "marseille-reborn_01.jpg" %>
+            <div class="text">
+              <h1>Marseille reborn</h1>
+              <p>Le renouveau du quartier de la Joliette à Marseille, épicentre du renouveau culturel de la ville. Cet ensemble s'inscrit dans le projet Marseille Euroméditerranée, la plus grande opération de rénovation urbaine d'Europe du Sud, qui, en près de vingt, a refaçonné le visage de la ville.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="philharmonie.html" class="thumbnail">
+            <%= image_tag "philharmonie_01.jpg"%>
+            <div class="text">
+              <h1>Dans les coulisses de la Philharmonie de Paris</h1>
+              <p>Inaugurée au janvier 2015, la Philharmonie de Paris est un lieu culturel exceptionnel ouvrant une passerelle entre Paris et la banlieue, entre amateurs et professionnels. Conçu par Jean Nouvel et Marshall Day Acoustics pour l'acoustique du bâtiment, la Philharmonie est la première réalisation concrète du futur Grand Paris.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="grandprixdiane2016.html" class="thumbnail">
+            <%= image_tag "grandprixdiane_01.jpg"%>
+            <div class="text">
+              <h1>Grand Prix de Diane, une bulle champêtre</h1>
+              <p>Chevaux, chapeaux et champagne... une bulle champêtre loin du tumulte parisien de ces dernières semaines. Ce dimanche 19 juin 2016 à l'hippodrome de Chantilly se tenait le Grand Prix de Diane, à la fois course hippique, pic-nic géant et concours d'élégance.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="inondations-paris-2016.html" class="thumbnail">
+            <%= image_tag "inondations-paris_01.jpg"%>
+            <div class="text">
+              <h1>Inondation à Paris, la Seine au pic de sa popularité</h1>
+              <p>Avec un pic de crue qui devrait atteindre dans la journée du samedi 4 juin un maximum de 6,50m, la Seine est devenue l'attraction numéro un des touristes et des parisiens ainsi que des médias.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="coulissespelerin.html" class="thumbnail">
+            <%= image_tag "pelerin_21.jpg"%>
+            <div class="text">
+              <h1>Dans les coulisses du journal Pèlerin</h1>
+              <p>Quelques semaines dans la vie de la rédaction du journal Pèlerin au contact de ceux qui font cet hebdomadaire créé en 1873 et édité par le groupe de presse indépendant Bayard.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="multimedia.html" class="thumbnail">
+            <%= image_tag "lartdemanifester.jpg"%>
+            <div class="text">
+              <h1>L'art de manifester</h1>
+              <p>Quelle est la place de la manifestation aujourd’hui dans notre société ? Pourquoi certains continuent de descendre dans la rue, là où d’autres expérimentent de nouvelles formes d'engagements non-violents ? Etat des lieux de l'activisme en France avec Xavier Renou, fondateur du collectif des Désobéissants.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+<!--       <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="prieres.html" class="thumbnail">
+            <%= image_tag "prieres-3.jpg" %>
+            <div class="text">
+              <h1>Entre deux prières</h1>
+              <p>Quelques jours après les attentats de Charlie Hebdo, la grande mosquée de Paris dans le 5ème arrondissement de Paris, alors sous haute protection policière, est totalement désertée par les visiteurs.</p>
+            </div>
+          </a>
+        </div>
+      </div> -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="otto10.html" class="thumbnail">
+            <%= image_tag "otto_01.jpg" %>
+            <div class="text">
+              <h1>OTTO10 : Que votre volonté soit fête !</h1>
+              <p>Pour sa huitième édition, le collectif OTTO10 s'installe à Noisy-le-sec et propose un nouveau "détournement" des soirées traditionnelles parisiennes intitulé "la Rélovution est en charme".</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="entre-ciel-et-terre.html" class="thumbnail">
+            <%= image_tag "marie_03.jpg"%>
+            <div class="text">
+              <h1>Entre ciel et terre</h1>
+              <p>A la tête d’un groupement solidaire de restauratrices de peinture, Marie et son équipe ont démarré un chantier qui s’étalera sur quatre ans de restauration des fresques d’un des meilleurs élèves d’Ingres, Amaury Duval, dans l’église de Saint Germain-en-laye.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="cop21.html" class="thumbnail">
+            <%= image_tag "cop21-17.jpg"%>
+            <div class="text">
+              <h1>COP21</h1>
+              <p>Parallèlement à la COP21, les espaces Générations Climat du 1er au 11 décembre 2015 sur le site du Bourget, ont été l'occasion de nombreux débats et conférences autour des enjeux climatiques et des solutions à apporter aux dérèglements climatiques actuels.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+<!--       <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="globetrotters.html" class="thumbnail">
+            <%= image_tag "globetrotters-1.jpg"%>
+            <div class="text">
+              <h1>D'ici et d'ailleurs</h1>
+              <p>Ils ont pris la route pour un tour du monde pendant 6 mois, un an ou parfois plus. En quête de liberté ou tout simplement pour redonner du sens à leur vie, ils ont vécu leur rêve de découverte, de rencontres et de grands espaces… Mais que se passe-t-il au retour d’une telle expérience ?</p>
+            </div>
+          </a>
+        </div>
+      </div> -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="fukushima.html" class="thumbnail">
+            <%= image_tag "fukushima-1.JPG"%>
+            <div class="text">
+              <h1>Welcome to Fukushima</h1>
+              <p>La projection au CENTQUATRE à Paris du documentaire, Welcome to Fukushima, réalisé par Alain de Halleux, a été l’occasion pour l’auteur et militante anti-nucléaire Yûki Takahata de faire un point sur la situation dans la région.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="regis.html" class="thumbnail">
+            <%= image_tag "regis3.jpg" %>
+            <div class="text">
+              <h1>Qu'as-tu fait des rêves de tes 20 ans ?</h1>
+              <p>20 ans l'âge de l'insouciance, l'âge des engagements, l'âge des choix. A 20 ans, Régis voulait réussir ses études tout en rêvant de devenir chanteur.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card jspane">
+          <a href="#" class="thumbnail">
+            <img src="images/angel1.jpg" alt="...">
+            <div class="text">
+              <h1>En cours</h1>
+            </div>
+          </a>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</div>
