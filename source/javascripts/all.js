@@ -41,3 +41,32 @@ $(document).ready(function() {
 
     } )( jQuery );
 });
+
+$(document).ready(function() {
+  $('.carousel').carousel({
+    interval: 4000,
+    keyboard: "true",
+    wrap: "true",
+    items: 12
+  })
+});
+
+// $(document).ready(function() {
+//   if ( document.URL.contains("index") ) {
+//     $(".navbar-transparent").css("background-color", "transparent");
+//   }else{
+//     $('.navbar-transparent').css('background-color', 'white');
+//   };
+//   end;
+// });
+
+$(document).ready(function () {
+  if(window.location.href.indexOf("reportages") > -1) 
+    {
+      document.getElementById("transparent").style.backgroundColor = "transparent";
+      // document.getElementById("white").style.color = "white";
+      $(".navbar-default .navbar-nav>li>a").css({"color":"white"});
+      $(".navbar-default .navbar-brand").css({"color":"white"});
+      $(".navbar-default .navbar-toggle .icon-bar").css({"background-color":"white"});
+    }
+});
