@@ -1,0 +1,35 @@
+- picture: portrait_stephane-geffroy.jpg
+  page: portraits.html
+  title: "Stephane Geffroy"
+  caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
+  category: "Portraits" 
+
+- picture: lartdemanifester.jpg
+  page: multimedia.html
+  title: "L'art de manifester"
+  caption: "Quelle est la place de la manifestation dans notre société ?"
+  category: "Multimedia" 
+
+- picture: blog/arles_01.jpg
+  page: les-rencontres-d-arles-2016.html
+  title: "Les rencontres d'Arles 2016"
+  caption: "Morceaux choisis"
+  category: "Blog" 
+
+- picture: blog/manifestation-26mai2016-05.jpg
+  page: manifestation-contre-la-loi-travail.html
+  title: "Manifestation contre la loi travail "
+  caption: "Manifestation du 26 mai 2016 à Paris"
+  category: "Blog" 
+
+- picture: globetrotters-1.jpg
+  page: globetrotters.html
+  title: "D'ici et d'ailleurs"
+  caption: "Le retour du voyageur au long cours"
+  category: "Work in progess" 
+
+- picture: publication_06.jpg
+  page: publications.html
+  title: "Grand Angle - PELERIN N°6962"
+  caption: "Dans les coulisses du journal Pèlerin"
+  category: "Publications" 
