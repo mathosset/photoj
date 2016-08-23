@@ -44,10 +44,10 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('.carousel').carousel({
-    interval: 4000,
-    keyboard: "true",
-    wrap: "true",
-    items: 12
+    interval: 6000,
+    keyboard: true,
+    wrap: true,
+    items: 9
   })
 });
 

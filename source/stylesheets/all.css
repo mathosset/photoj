@@ -10,6 +10,10 @@
   height: 1em;
 }
 
+.mid-spacer {
+  height: 4em;
+}
+
 .big-spacer {
   height: 6em;
 }
