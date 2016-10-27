@@ -4,7 +4,7 @@ title_seo: "Manifestation contre la loi travail le 26 mai 2016 à Paris"
 description: ""
 date: 2016-05-27 14:33:12 +0200
 thumbnail:
-category:
+category: manifestation
 excerpt: ""
 author:
 ---
