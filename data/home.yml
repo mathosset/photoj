@@ -1,13 +1,13 @@
-- picture: marseille-reborn_01.jpg
-  page: marseille-reborn.html
-  category: "STORIES"
-  title: "Marseille reborn"
-  caption: "Le renouveau du quartier de la Joliette à Marseille, épicentre du renouveau culturel de la ville. Cet ensemble s'inscrit dans le projet Marseille Euroméditerranée, la plus grande opération de rénovation urbaine d'Europe du Sud, qui, en près de vingt, a refaçonné le visage de la ville." 
 - picture: pelerin_21.jpg
   page: coulissespelerin.html
   category: "STORIES"
   title: "Dans les coulisses du journal Pelerin"
   caption: "uelques semaines dans la vie de la rédaction du journal Pèlerin au contact de ceux qui font cet hebdomadaire créé en 1873 et édité par le groupe de presse indépendant Bayard."
+- picture: marseille-reborn_01.jpg
+  page: marseille-reborn.html
+  category: "STORIES"
+  title: "Marseille reborn"
+  caption: "Le renouveau du quartier de la Joliette à Marseille, épicentre du renouveau culturel de la ville. Cet ensemble s'inscrit dans le projet Marseille Euroméditerranée, la plus grande opération de rénovation urbaine d'Europe du Sud, qui, en près de vingt, a refaçonné le visage de la ville." 
 - picture: tentes_01.jpg
   page: tentes-migrants.html
   category: "NEWS"
