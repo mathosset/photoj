@@ -12,12 +12,4 @@ author:
 Ce mercredi 26 octobre 2016, manifestation en soutien aux salariés McDonald's à Paris au sein de plusieurs succursales d'un franchisé de la chaine de restauration rapide pour une revalorisation du salaire horaire #FightFor13€ et dénoncer la fraude fiscale dont l'enseigne fait l'objet d'une enquête.   
 
 
-![picture alt](/images/blog/indignes-mcdo_01.jpg "Occupation du McDonald's de la gare du Nord et manifestation de soutien aux salariés"){: .img-blog}
-
-![picture alt](/images/blog/indignes-mcdo_02.jpg "Occupation du McDonald's de la gare du Nord et manifestation de soutien aux salariés"){: .img-blog}
-
-![picture alt](/images/blog/indignes-mcdo_03.jpg "Occupation du McDonald's de la gare du Nord et manifestation de soutien aux salariés"){: .img-blog}
-
-![picture alt](/images/blog/indignes-mcdo_04.jpg "Occupation du McDonald's de la gare du Nord et manifestation de soutien aux salariés"){: .img-blog}
-
-![picture alt](/images/blog/indignes-mcdo_05.jpg "Occupation du McDonald's de la gare du Nord et manifestation de soutien aux salariés"){: .img-blog}
+![picture alt](/images/indignes-mcdo_08.jpg "Occupation du McDonald's de la gare du Nord et manifestation de soutien aux salariés"){: .img-blog}
