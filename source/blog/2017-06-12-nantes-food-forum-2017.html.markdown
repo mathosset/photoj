@@ -9,7 +9,7 @@ excerpt: ""
 author:
 ---
 
-La première édition du Nantes Food Forum s'est déroulée du 2 au 5 juin 2017 autour du thème manger demain. Conférences, débats, dîners, ateliers et le grand marché des Pays de la Loire ont animé pendant 4 jours cet événement qui a rencontré un franc succés et qui connaitra en 2018 une seconde édition.
+La première édition du Nantes Food Forum s'est déroulée du 2 au 5 juin 2017 autour du thème manger demain. Conférences, débats, dîners, ateliers et le grand marché des Pays de la Loire ont animé pendant 4 jours cet événement qui a rencontré un franc succés et qui connaîtra en 2018 une seconde édition.
 
 ![picture alt](/images/blog/Nantes-Food-Forum_01.jpg "première édition du Nantes Food Forum"){: .img-blog}
 
@@ -22,3 +22,5 @@ La première édition du Nantes Food Forum s'est déroulée du 2 au 5 juin 2017 
 ![picture alt](/images/blog/Nantes-Food-Forum_05.jpg "première édition du Nantes Food Forum"){: .img-blog}
 
 ![picture alt](/images/blog/Nantes-Food-Forum_06.jpg "première édition du Nantes Food Forum"){: .img-blog}
+
+Pour tout savoir sur cette première édition : [Nantes Food Forum](http://www.nantesfoodforum.com/)
