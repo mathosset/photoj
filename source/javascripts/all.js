@@ -16,10 +16,7 @@ $(document).ready(function() {
 
     });
   }
-});
 
-
-$(document).ready(function() {
   $('#btn-grid').click(function() {
     $("section div:nth-child(n)").removeClass("col-sm-12").addClass("col-xs-6 col-sm-4");
     $('#btn-grid').addClass('disabled');
@@ -30,26 +27,22 @@ $(document).ready(function() {
     $('#btn-list').addClass('disabled');
     $('#btn-grid').removeClass('disabled');
   });
-});
 
-$(document).ready(function() {
-    ;( function( $ ) {
-            $( '.swipebox' ).swipebox({
-              hideBarsDelay : 900000, // delay before hiding bars on desktop
-              loopAtEnd: true // true will return to the first image after the last image is
-            });
 
-    } )( jQuery );
-});
+  ;( function( $ ) {
+          $( '.swipebox' ).swipebox({
+            hideBarsDelay : 900000, // delay before hiding bars on desktop
+            loopAtEnd: true // true will return to the first image after the last image is
+          });
 
-$(document).ready(function() {
+  } )( jQuery );
+
   $('.carousel').carousel({
     interval: 6000,
     keyboard: true,
     wrap: true,
     items: 9
   })
-});
 
 // $(document).ready(function() {
 //   if ( document.URL.contains("index") ) {
@@ -60,7 +53,6 @@ $(document).ready(function() {
 //   end;
 // });
 
-$(document).ready(function () {
   // if(window.location.href.indexOf("x") > -1)
   if ( window.location.pathname == '/' ) {
       document.getElementById("transparent").style.backgroundColor = "transparent";
