@@ -107,6 +107,10 @@ body h1 {
   font-size: 1.6em;
 }
 
+.carousel-caption > h1 {
+  color: white;
+}
+
 body p {
   font-size: 18px;
 }
