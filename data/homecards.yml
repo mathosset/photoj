@@ -1,8 +1,14 @@
-- picture: portrait_stephane-geffroy.jpg
-  page: portraits.html
-  title: "Stephane Geffroy"
-  caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
-  category: "Portraits" 
+# - picture: portrait_stephane-geffroy.jpg
+#   page: portraits.html
+#   title: "Stephane Geffroy"
+#   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
+#   category: "Portraits" 
+
+- picture: blog/Nantes-Food-Forum_02.jpg
+  page: nantes-food-forum-2017.html
+  title: "Nantes Food Forum 2017"
+  caption: "Morceaux choisis"
+  category: "Blog" 
 
 - picture: globetrotters-1.jpg
   page: globetrotters.html
