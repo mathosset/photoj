@@ -10,10 +10,10 @@
   caption: "Les riverains de l'aéroport en colère"
   category: "Blog" 
 
-- picture: blog/route-chicanes_02.jpg
-  page: la-route-des-chicanes.html
-  title: "La route des chicanes"
-  caption: "Notre Dame-des-Landes"
+- picture: blog/centrale-solaire_01.jpg
+  page: la-plus-grande-centrale-solaire-des-pays-de-la-loire.html
+  title: "Energie solaire"
+  caption: "La plus grande centrale solaire des Pays de la Loire"
   category: "Blog" 
 
 - picture: blog/chantierXXL_01.jpg
@@ -22,10 +22,10 @@
   caption: "Min de Nantes"
   category: "Blog" 
 
-- picture: blog/Nantes-Food-Forum_02.jpg
-  page: nantes-food-forum-2017.html
-  title: "Nantes Food Forum"
-  caption: "Morceaux choisis"
+- picture: blog/route-chicanes_03.jpg
+  page: la-route-des-chicanes.html
+  title: "La route des chicanes"
+  caption: "Notre Dame-des-Landes"
   category: "Blog" 
 
 - picture: globetrotters-1.jpg
@@ -34,17 +34,17 @@
   caption: "Le retour du voyageur au long cours"
   category: "Work in progess" 
 
-- picture: blog/centrale-solaire_01.jpg
-  page: la-plus-grande-centrale-solaire-des-pays-de-la-loire.html
-  title: "Energie solaire"
-  caption: "La plus grande centrale solaire des Pays de la Loire"
-  category: "Blog" 
-
 - picture: lartdemanifester.jpg
   page: multimedia.html
   title: "L'art de manifester"
   caption: "Quelle est la place de la manifestation dans notre société ?"
   category: "Multimedia" 
+
+- picture: blog/Nantes-Food-Forum_02.jpg
+  page: nantes-food-forum-2017.html
+  title: "Nantes Food Forum"
+  caption: "Morceaux choisis"
+  category: "Blog" 
 
 - picture: publication_06.jpg
   page: publications.html

@@ -8,6 +8,11 @@
   category: "PORTRAITS"
   title: ""
 
+- picture: blog/route-chicanes_02.jpg
+  page: la-route-des-chicanes.html
+  category: "NEWS"
+  title: "La route des chicanes NDDL"
+
 - picture: grandprixdiane_01.jpg
   page: grandprixdiane2016.html
   category: "NEWS"
@@ -26,17 +31,17 @@
 #   title: "Nantes Food Forum 2017"
 #   caption: "Première édition du Nantes Food Forum autour du thème manger demain." 
   
-- picture: marseille-reborn_01.jpg
-  page: marseille-reborn.html
-  category: "STORIES"
-  title: "Marseille reborn"
-  caption: "Le renouveau du quartier de la Joliette à Marseille, épicentre du renouveau culturel de la ville. Cet ensemble s'inscrit dans le projet Marseille Euroméditerranée, la plus grande opération de rénovation urbaine d'Europe du Sud, qui, en près de vingt, a refaçonné le visage de la ville." 
+# - picture: marseille-reborn_01.jpg
+#   page: marseille-reborn.html
+#   category: "STORIES"
+#   title: "Marseille reborn"
+#   caption: "Le renouveau du quartier de la Joliette à Marseille, épicentre du renouveau culturel de la ville. Cet ensemble s'inscrit dans le projet Marseille Euroméditerranée, la plus grande opération de rénovation urbaine d'Europe du Sud, qui, en près de vingt, a refaçonné le visage de la ville." 
 
-- picture: tentes_01.jpg
-  page: tentes-migrants.html
-  category: "NEWS"
-  title: "Des benevoles se mobilisent pour aider les migrants"
-  caption: "La maire de Paris, Anne Hidalgo, a annoncé la mise à disposition d’un camps humanitaire aux normes internationales pour accueillir les réfugiés d’ici à la mi septembre. En attendant des bénévoles se regroupent pour apporter une aide concrète et immédiate aux réfugiés."
+# - picture: tentes_01.jpg
+#   page: tentes-migrants.html
+#   category: "NEWS"
+#   title: "Des benevoles se mobilisent pour aider les migrants"
+#   caption: "La maire de Paris, Anne Hidalgo, a annoncé la mise à disposition d’un camps humanitaire aux normes internationales pour accueillir les réfugiés d’ici à la mi septembre. En attendant des bénévoles se regroupent pour apporter une aide concrète et immédiate aux réfugiés."
 
 - picture: inondations-paris_01.jpg
   page: inondations-paris-2016.html

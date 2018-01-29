@@ -16,4 +16,6 @@ Lien vers toute la série sur le site Hans Lucas : [Route des Chicanes](http://h
 
 ![picture alt](/images/blog/route-chicanes_02.jpg "La route départementale 281 ou route des chicanes traverse la ZAD à Notre Dame des Landes"){: .img-blog}
 
+![picture alt](/images/blog/route-chicanes_03.jpg "La route départementale 281 ou route des chicanes traverse la ZAD à Notre Dame des Landes"){: .img-blog}
+
 ![picture alt](/images/blog/route-chicanes_01.jpg "La route départementale 281 ou route des chicanes traverse la ZAD à Notre Dame des Landes"){: .img-blog}
