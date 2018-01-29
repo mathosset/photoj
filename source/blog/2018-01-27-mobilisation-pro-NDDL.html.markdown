@@ -1,7 +1,7 @@
 ---
 title: Mobilisation des pro NDDL
 title_seo: "Mobilisation des riverains de l'aéroport Nantes-Atlantique"
-description: "Mobilisation des riverains de l'aéroport Nantes-Atlantique"
+description: "Mobilisation des riverains de l'aéroport Nantes-Atlantique pour la venue de la Ministre des transports Elisabeth Borne devant l'Hôtel de ville à Saint-Aignan Grandlieu"
 date: 2018-01-27 11:29:06 +0100
 thumbnail:
 category:
