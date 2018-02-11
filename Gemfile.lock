@@ -146,7 +146,7 @@ GEM
     tilt (1.4.1)
     timers (4.0.1)
       hitimes
-    tzinfo (1.2.4)
+    tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uber (0.0.13)
     uglifier (2.7.1)
@@ -172,4 +172,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
