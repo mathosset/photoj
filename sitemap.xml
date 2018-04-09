@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://mathieuthomasset.fr/index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/multimedia.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/waterlicht.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/cop21.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/blog.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/philharmonie.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://mathieuthomasset.fr/404.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/artdemanifester.html</loc>
+    <loc>http://mathieuthomasset.fr/otto10.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/globetrotters.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -13,15 +41,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/manifestation-contre-la-loi-travail.html</loc>
+    <loc>http://mathieuthomasset.fr/tentes-migrants.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/les-rencontres-d-arles-2016.html</loc>
+    <loc>http://mathieuthomasset.fr/portraits.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/mondial-de-l-auto-2016.html</loc>
+    <loc>http://mathieuthomasset.fr/bobo.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/premiers-essais-en-mer-du-plus-gros-paquebot-europeen-msc-meraviglia.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -29,7 +61,15 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/premiers-essais-en-mer-du-plus-gros-paquebot-europeen-msc-meraviglia.html</loc>
+    <loc>http://mathieuthomasset.fr/les-rencontres-d-arles-2016.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/manifestation-contre-la-loi-travail.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/un-chantier-xxl.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -41,35 +81,11 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/un-chantier-xxl.html</loc>
+    <loc>http://mathieuthomasset.fr/mondial-de-l-auto-2016.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/blog.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/bobo.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/cop21.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/coulissespelerin.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/entre-ciel-et-terre.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/fukushima.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/globetrotters.html</loc>
+    <loc>http://mathieuthomasset.fr/publications.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -77,11 +93,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/tentes-migrants.html</loc>
+    <loc>http://mathieuthomasset.fr/coulissespelerin.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/index.html</loc>
+    <loc>http://mathieuthomasset.fr/marseille-reborn.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/reportages.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/artdemanifester.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/regis.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/fukushima.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/prieres.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -93,43 +129,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/marseille-reborn.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/multimedia.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/otto10.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/philharmonie.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/portraits.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/prieres.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/publications.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/regis.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/reportages.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://mathieuthomasset.fr/waterlicht.html</loc>
+    <loc>http://mathieuthomasset.fr/entre-ciel-et-terre.html</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
