@@ -8,6 +8,11 @@
   category: "PORTRAITS"
   title: ""
 
+- picture: portrait_deux-soeurs.jpg
+  page: portraits.html
+  category: "PORTRAITS"
+  title: ""
+
 - picture: blog/route-chicanes_02.jpg
   page: la-route-des-chicanes.html
   category: "NEWS"
@@ -29,13 +34,13 @@
 #   page: nantes-food-forum-2017.html
 #   category: "NEWS"
 #   title: "Nantes Food Forum 2017"
-#   caption: "Première édition du Nantes Food Forum autour du thème manger demain." 
-  
+#   caption: "Première édition du Nantes Food Forum autour du thème manger demain."
+
 # - picture: marseille-reborn_01.jpg
 #   page: marseille-reborn.html
 #   category: "STORIES"
 #   title: "Marseille reborn"
-#   caption: "Le renouveau du quartier de la Joliette à Marseille, épicentre du renouveau culturel de la ville. Cet ensemble s'inscrit dans le projet Marseille Euroméditerranée, la plus grande opération de rénovation urbaine d'Europe du Sud, qui, en près de vingt, a refaçonné le visage de la ville." 
+#   caption: "Le renouveau du quartier de la Joliette à Marseille, épicentre du renouveau culturel de la ville. Cet ensemble s'inscrit dans le projet Marseille Euroméditerranée, la plus grande opération de rénovation urbaine d'Europe du Sud, qui, en près de vingt, a refaçonné le visage de la ville."
 
 # - picture: tentes_01.jpg
 #   page: tentes-migrants.html
