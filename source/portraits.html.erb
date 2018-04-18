@@ -19,7 +19,7 @@ preferred_url: http://www.mathieuthomasset.fr/portraits
       <% data.portraits.each do |y| %>
         <div class="col-sm-12">
           <a href="images/<%= y.picture %>" title="<%= y.caption %>">
-            <%= image_tag y.picture, width: "100%" %>
+            <%= image_tag y.picture, width: "100%", class: "swipebox"  %>
           </a>
           <p><%= y.caption %></p>
         </div>
@@ -112,67 +112,6 @@ preferred_url: http://www.mathieuthomasset.fr/portraits
         <p>Mathieu</p>
       </div>
     </section> -->
-
-    <!--swipebox start
-    <section id="grid">
-      <div class="col-sm-12">
-        <%= image_tag "portrait_stephane-geffroy.jpg", width: "100%" %>
-        <p>Stéphane Geffroy, auteur du livre "A l'abattoir" aux éditions Seuil</p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "portrait-geberowicz.jpg", width: "100%" %>
-        <p>Bernard Geberowicz, auteur de "J'arrête d'être jaloux(se) !", Ed. Eyrolles</p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "pelerin_03.jpg", width: "100%" %>
-        <p>P. Sébastien Antonin, assomptionniste</p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "globetrotters-1.jpg", width: "100%" %>
-        <p>Caroline, globetrotter de retour de près de deux années de nomadisme</p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "blog/portraits-cop21-01.jpg", width: "100%" %>
-        <p>Sawsan Abdalla Ali Obeid Alla, négociatrice pour le Soudan, lors de la COP 21 au Bourget le 8 décembre 2015</p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "blog/portraits-cop21-02.jpg", width: "100%" %>
-        <p>Yuhi Takahata, militante anti-nucléaire, au CENTQUATRE à Paris lors de la Zone d'action pour le climat (ZAC) du 7 au 11 décembre 2015</p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "blog/portraits-cop21-03.jpg", width: "100%" %>
-        <p>Brice Lalonde, ancien ministre de l'environnement, avant son intervention à la conférence "Entreprises et justice climatique" à la COP 21, le 10 décembre 2015</p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "blog/portraits-cop21-05.jpg", width: "100%" %>
-        <p>Margaux BOFFI, traductrice lors des conférences de la COP 21 au Bourget le 8 décembre 2015</p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "angel1.jpg", width: "100%" %>
-        <p>Angel</p>
-      </div>
-      <div class="col-sm-6">
-        <%= image_tag "portraitjulien-1.jpg", width: "100%" %>
-        <p>Julien, circassien</p>
-      </div>
-      <div class="col-sm-6">
-        <%= image_tag "portraitjulien-2.jpg", width: "100%" %>
-        <p></p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "blog/marche-climat-diptyque-02.jpg", width: "100%" %>
-        <p>Nos chaussures marcheront pour nous. Anne, vendredi 27 novembre 2015, place de la République à Paris.</p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "sven1.jpg", width: "100%" %>
-        <p>Sven et Olivia</p>
-      </div>
-      <div class="col-sm-12">
-        <%= image_tag "portraitmathieu-1.jpg", width: "100%" %>
-        <p>Mathieu</p>
-      </div>
-    </section>
-    swipebox end-->
   </div>
 </div>
 
