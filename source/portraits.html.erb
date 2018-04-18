@@ -18,8 +18,8 @@ preferred_url: http://www.mathieuthomasset.fr/portraits
     <section id="grid">
       <% data.portraits.each do |y| %>
         <div class="col-sm-12">
-          <a href="images/<%= y.picture %>" title="<%= y.caption %>">
-            <%= image_tag y.picture, width: "100%", class: "swipebox"  %>
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <%= image_tag y.picture, width: "100%" %>
           </a>
           <p><%= y.caption %></p>
         </div>
