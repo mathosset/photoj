@@ -2,58 +2,64 @@
 #   page: portraits.html
 #   title: "Stephane Geffroy"
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
-#   category: "Portraits" 
+#   category: "Portraits"
+
+- picture: blog/foulee-gois-01.jpg
+  page: les foules-du-gois.html
+  title: "Les Foulées du Gois 2018"
+  caption: "Noirmoutier"
+  category: "Blog"
 
 - picture: blog/mobilisation-pronddl_01.jpg
   page: mobilisation-pronddl.html
   title: "Mobilisation des pro-NDDL"
   caption: "Les riverains de l'aéroport en colère"
-  category: "Blog" 
+  category: "Blog"
 
 - picture: blog/centrale-solaire_01.jpg
   page: la-plus-grande-centrale-solaire-des-pays-de-la-loire.html
   title: "Energie solaire"
   caption: "La plus grande centrale solaire des Pays de la Loire"
-  category: "Blog" 
+  category: "Blog"
 
 - picture: blog/chantierXXL_01.jpg
   page: un-chantier-xxl.html
   title: "Un chantier XXL"
   caption: "Min de Nantes"
-  category: "Blog" 
+  category: "Blog"
 
 - picture: blog/route-chicanes_03.jpg
   page: la-route-des-chicanes.html
   title: "La route des chicanes"
   caption: "Notre Dame-des-Landes"
-  category: "Blog" 
+  category: "Blog"
 
 - picture: globetrotters-1.jpg
   page: globetrotters.html
   title: "D'ici et d'ailleurs"
   caption: "Le retour du voyageur au long cours"
-  category: "Work in progess" 
+  category: "Work in progess"
 
 - picture: lartdemanifester.jpg
   page: multimedia.html
   title: "L'art de manifester"
   caption: "Quelle est la place de la manifestation dans notre société ?"
-  category: "Multimedia" 
+  category: "Multimedia"
 
 - picture: blog/Nantes-Food-Forum_02.jpg
   page: nantes-food-forum-2017.html
   title: "Nantes Food Forum"
   caption: "Morceaux choisis"
-  category: "Blog" 
+  category: "Blog"
 
-- picture: publication_06.jpg
-  page: publications.html
-  title: "Grand Angle - PELERIN N°6962"
-  caption: "Dans les coulisses du journal Pèlerin"
-  category: "Publications" 
+# - picture: publication_06.jpg
+#   page: publications.html
+#   title: "Grand Angle - PELERIN N°6962"
+#   caption: "Dans les coulisses du journal Pèlerin"
+#   category: "Publications"
 
 - picture: portraitmathieu-1.jpg
   page: bio.html
   title: "Parcours et Contact"
   caption: "Photographe indépendant basé à Nantes"
-  category: "Bio" 
+  category: "Bio"
