@@ -2,7 +2,7 @@
 title: Les foulées du Gois
 title_seo: "Course sur la route submersible qui relie le continent à l'île de Normoutier"
 description: "Course 8km Populaires sur la route submersible qui relie le continent à l'île de Normoutier"
-date: 2018-05-06 14:18:39 +0200
+date: 2018-05-18 14:18:39 +0200
 thumbnail:
 category:
 excerpt: ""
