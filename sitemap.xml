@@ -81,6 +81,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://mathieuthomasset.fr/terminal-grand-ouest.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://mathieuthomasset.fr/les-rdv-de-l-erdre.html</loc>
     <priority>0.7</priority>
   </url>
@@ -134,6 +138,10 @@
   </url>
   <url>
     <loc>http://mathieuthomasset.fr/entre-ciel-et-terre.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/corporate.html</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
