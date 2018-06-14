@@ -4,6 +4,12 @@
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
 #   category: "Portraits"
 
+- picture: blog/tgo_01.jpg
+  page: terminal-grand-ouest.html
+  title: "Terminal Grand Ouest"
+  caption: "Saint-Nazaire"
+  category: "Corporate"
+
 - picture: blog/foulee-gois-01.jpg
   page: les-foulees-du-gois.html
   title: "Les Foulées du Gois 2018"
@@ -34,11 +40,11 @@
   caption: "Notre Dame-des-Landes"
   category: "Blog"
 
-- picture: globetrotters-1.jpg
-  page: globetrotters.html
-  title: "D'ici et d'ailleurs"
-  caption: "Le retour du voyageur au long cours"
-  category: "Work in progess"
+# - picture: globetrotters-1.jpg
+#   page: globetrotters.html
+#   title: "D'ici et d'ailleurs"
+#   caption: "Le retour du voyageur au long cours"
+#   category: "Work in progess"
 
 - picture: lartdemanifester.jpg
   page: multimedia.html

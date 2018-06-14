@@ -1,0 +1,24 @@
+---
+title: Corporate : reportage, portrait - Mathieu Thomasset
+preferred_url: http://www.mathieuthomasset.fr/corporate
+---
+
+<div class="big-spacer"></div>
+
+<div class="container">
+  <div class="row">
+    <% data.corporate.each_with_index do |y| %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.1)), url('images/<%= y.picture %>');">
+          <div class="card-category"><%= y.category.upcase %></div>
+          <div class="card-description">
+            <h2><%= y.title.upcase %></h2>
+            <p><%= y.caption %></p>
+          </div>
+          <a class="card-link" href="<%= y.page %>" ></a>
+        </div>
+        <div class="spacer"></div>
+      </div>
+    <% end %>
+  </div>
+</div>
