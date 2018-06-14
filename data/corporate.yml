@@ -3,3 +3,51 @@
   title: "Terminal Grand Ouest"
   caption: "Saint-Nazaire"
   category: "Corporate"
+
+- picture: blog/foulee-gois-01.jpg
+  page: les-foulees-du-gois.html
+  title: "Les foulées du Gois"
+  caption: "Noirmoutier"
+  category: "Evénementiel"
+
+- picture: portraitjulien-1.jpg
+  page: portraits.html
+  title: "Porfolio portraits"
+  caption: "Nantes"
+  category: "Portrait"
+
+- picture: lartdemanifester.jpg
+  page: multimedia.html
+  title: "Diaporama sonore"
+  caption: ""
+  category: "Reportage"
+
+- picture: philharmonie_08.jpg
+  page: philharmonie.html
+  title: "Dans les coulisses de la Philharmonie"
+  caption: "Paris"
+  category: "Reportage"
+
+- picture: cop21-17.jpg
+  page: cop21.html
+  title: "COP21"
+  caption: "Paris"
+  category: "Evénementiel"
+
+- picture: pelerin_21.jpg
+  page: coulissespelerin.html
+  title: "Dans les coulisses d'une rédaction"
+  caption: "Montrouge"
+  category: "Reportage"
+
+- picture: marie_21.jpg
+  page: entre-ciel-et-terre.html
+  title: "Marie et les filles"
+  caption: "Saint germain-en-laye"
+  category: "Reportage"
+
+- picture: otto_01.jpg
+  page: otto10.html
+  title: "OTTO10 : Que votre volonté soit fête !"
+  caption: "Paris"
+  category: "Evénementiel"

@@ -1,8 +1,8 @@
+- picture: cop21-01.jpg
+  caption:
 - picture: cop21-17.jpg
   caption:
 - picture: cop21-16.jpg
-  caption:
-- picture: cop21-01.jpg
   caption:
 - picture: cop21-02.jpg
   caption:
@@ -10,8 +10,8 @@
   caption:
 - picture: cop21-04.jpg
   caption:
-- picture: cop21-05.jpg
-  caption:
+# - picture: cop21-05.jpg
+#   caption:
 - picture: cop21-06.jpg
   caption:
 - picture: cop21-07.jpg
