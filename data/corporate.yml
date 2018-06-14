@@ -4,28 +4,34 @@
   caption: "Saint-Nazaire"
   category: "Corporate"
 
-- picture: blog/foulee-gois-01.jpg
-  page: les-foulees-du-gois.html
-  title: "Les foulées du Gois"
-  caption: "Noirmoutier"
-  category: "Evénementiel"
-
 - picture: portraitjulien-1.jpg
   page: portraits.html
   title: "Porfolio portraits"
   caption: "Nantes"
   category: "Portrait"
 
-- picture: lartdemanifester.jpg
-  page: multimedia.html
-  title: "Diaporama sonore"
-  caption: ""
-  category: "Reportage"
+- picture: blog/foulee-gois-01.jpg
+  page: les-foulees-du-gois.html
+  title: "Les foulées du Gois"
+  caption: "Noirmoutier"
+  category: "Evénementiel"
+
+- picture: blog/montfort-sur-meu_01.jpg
+  page: montfort-sur-meu.html
+  title: "TMairie de Montfort-sur-Meu"
+  caption: "Bretagne"
+  category: "Portrait"
 
 - picture: philharmonie_08.jpg
   page: philharmonie.html
   title: "Dans les coulisses de la Philharmonie"
   caption: "Paris"
+  category: "Reportage"
+
+- picture: lartdemanifester.jpg
+  page: multimedia.html
+  title: "Diaporama sonore"
+  caption: ""
   category: "Reportage"
 
 - picture: cop21-17.jpg
