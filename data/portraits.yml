@@ -1,19 +1,37 @@
-- picture: portrait_deux-soeurs.jpg
-  caption: Noémie et Amelia - Série Sisters
+
 - picture: portrait-samuel-nantes-atlantique.jpg
   caption: Samuel habite une des maisons les plus proches de la piste de l'aéroport Nantes-Atlantique à Saint-Aignan de Grand Lieu
+- picture: portrait_sisters.jpg
+  caption: Noémie et Amelia - Série Sisters
+- picture: angel2.jpg
+  caption: Angel
 - picture: portrait_stephane-geffroy.jpg
   caption: Stéphane Geffroy, auteur du livre "A l'abattoir" aux éditions Seuil
 - picture: portrait-geberowicz.jpg
   caption: Bernard Geberowicz, auteur de "J'arrête d'être jaloux(se) !", Ed. Eyrolles
 - picture: pelerin_03.jpg
   caption: Père Sébastien Antoni, assomptionniste
-- picture: angel1.jpg
-  caption: Angel
+# - picture: portrait_marcel-thebaud.jpg
+#   caption: Marcel Thébaud, agriculteur à NDDL
+  vertical: "yes"
 - picture: portraitjulien-1.jpg
   caption: Julien, circassien
   vertical: "yes"
 - picture: portraitjulien-2.jpg
   caption: Julien, circassien
-- picture: sven1.jpg
-  caption: Sven et Olivia
+- picture: portraitmathieu-1.jpg
+  caption: Autoportrait
+# - picture: sven1.jpg
+#   caption: Sven et Olivia
+- picture: cop21-14.jpg
+  caption:
+- picture: cop21-15.jpg
+  caption:
+- picture: fukushima-8.JPG
+  caption:
+- picture: globetrotters-1.jpg
+  caption:
+- picture: globetrotters-2.jpg
+  caption:
+- picture: globetrotters-3.jpg
+  caption:

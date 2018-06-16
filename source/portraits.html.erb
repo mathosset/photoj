@@ -9,20 +9,21 @@ preferred_url: http://www.mathieuthomasset.fr/portraits
 <div class="container">
   <div class="row">
     <div class="spacer"></div>
-<!--     <div class="col-sm-12 text-right">
+    <div class="col-sm-12 text-right">
       <button class="btn btn-default fa fa-stop" id="btn-list"> slide</button>
       <button class="btn btn-default fa fa-th-large disabled" id="btn-grid"> planche</button>
       <div class="spacer"></div>
-    </div> -->
+    </div>
     <div class="spacer"></div>
     <section id="grid">
       <% data.portraits.each do |y| %>
-        <div class="col-sm-12">
+        <div class="col-sm-4">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <%= image_tag y.picture, width: "100%" %>
+            <div class="spacer"></div>
           </a>
-          <p><%= y.caption %></p>
-        </div>
+<!--           <p><%= y.caption %></p>
+ -->        </div>
       <% end %>
     </section>
 
