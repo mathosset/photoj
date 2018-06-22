@@ -16,13 +16,13 @@ preferred_url: http://www.mathieuthomasset.fr/publications
     <div class="spacer"></div>
     <section id="grid">
       <% data.publications.each do |y| %>
-        <div class="col-xs-6 col-sm-4">
+<!--         <div class="col-xs-6 col-sm-4">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <%= image_tag y.picture, width: "100%" %>
-          </a>  
+          </a>
             <p><%= y.caption %></p>
-        </div>
-  <!--       <div class="col-xs-6 col-sm-4" >
+        </div> -->
+        <div class="col-xs-6 col-sm-4" >
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
               <%= image_tag y.picture, width: "47%", class: "center-block" %>
@@ -31,7 +31,7 @@ preferred_url: http://www.mathieuthomasset.fr/publications
             <% end %>
           </a>
           <p><%= y.caption %></p>
-        </div> -->
+        </div>
       <% end %>
     </section>
 
@@ -46,4 +46,4 @@ preferred_url: http://www.mathieuthomasset.fr/publications
   </div>
 </div>
 
-<div class="spacer"></div> 
+<div class="spacer"></div>
