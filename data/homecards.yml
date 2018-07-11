@@ -4,6 +4,12 @@
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
 #   category: "Portraits"
 
+- picture: emeutes-nantes_01.jpg
+  page: emeutes-nantes.html
+  title: "Vent de révolte à Nantes"
+  caption: "Nantes"
+  category: "NEws"
+
 - picture: blog/tgo_01.jpg
   page: terminal-grand-ouest.html
   title: "Terminal Grand Ouest"
@@ -52,11 +58,11 @@
   caption: "Quelle est la place de la manifestation dans notre société ?"
   category: "Multimedia"
 
-- picture: blog/Nantes-Food-Forum_02.jpg
-  page: nantes-food-forum-2017.html
-  title: "Nantes Food Forum"
-  caption: "Morceaux choisis"
-  category: "Blog"
+# - picture: blog/Nantes-Food-Forum_02.jpg
+#   page: nantes-food-forum-2017.html
+#   title: "Nantes Food Forum"
+#   caption: "Morceaux choisis"
+#   category: "Blog"
 
 # - picture: publication_06.jpg
 #   page: publications.html
