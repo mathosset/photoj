@@ -1,0 +1,41 @@
+---
+title: OuestMedialab SpeedTraining
+image_path: http://mathieuthomasset.fr/images/ouestmedialab_01.jpg
+description: Reportage ppour la 5ème édition du Medialab SpeedTraining au Médiacampus à Nantes.
+preferred_url: http://www.mathieuthomasset.fr/ouestmedialab
+---
+
+<div class="big-spacer"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+      <h1>Port de Nantes Saint-Nazaire</h1>
+      </br>
+      <p>Client : OuestMedialab, cluster et labo des médias en région Pays de la Loire et Bretagne.</br></br>
+     Reportage pour la 5ème édition du Medialab SpeedTraining au Médiacampus le 18 septembre 2018.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="col-sm-12 text-right">
+      <button class="btn btn-default fa fa-stop" id="btn-list"> slide</button>
+      <button class="btn btn-default fa fa-th-large disabled" id="btn-grid"> planche</button>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <section id="grid">
+      <% data.ouestmedialab.each do |y| %>
+        <div class="col-xs-6 col-sm-4">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "40%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+          </a>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+  </div>
+</div>
+<div class="spacer"></div>
