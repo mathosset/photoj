@@ -4,11 +4,17 @@
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
 #   category: "Portraits"
 
+- picture: 44BZH_01.jpg
+  page: 44-breizh.html
+  title: "44 = BREIZH"
+  caption: "Nantes"
+  category: "News"
+
 - picture: emeutes-nantes_01.jpg
   page: emeutes-nantes.html
   title: "Vent de révolte à Nantes"
   caption: "Nantes"
-  category: "NEws"
+  category: "News"
 
 - picture: blog/tgo_01.jpg
   page: terminal-grand-ouest.html
@@ -26,7 +32,7 @@
   page: mobilisation-pronddl.html
   title: "Mobilisation des pro-NDDL"
   caption: "Les riverains de l'aéroport en colère"
-  category: "Blog"
+  category: "News"
 
 - picture: blog/centrale-solaire_01.jpg
   page: la-plus-grande-centrale-solaire-des-pays-de-la-loire.html
@@ -38,25 +44,25 @@
   page: un-chantier-xxl.html
   title: "Un chantier XXL"
   caption: "Min de Nantes"
-  category: "Blog"
+  category: "News"
 
-- picture: blog/route-chicanes_03.jpg
+- picture: blog/route-chicanes_02.jpg
   page: la-route-des-chicanes.html
   title: "La route des chicanes"
   caption: "Notre Dame-des-Landes"
-  category: "Blog"
+  category: "News"
 
 # - picture: globetrotters-1.jpg
 #   page: globetrotters.html
 #   title: "D'ici et d'ailleurs"
 #   caption: "Le retour du voyageur au long cours"
-#   category: "Work in progess"
+#   category: "Portraits"
 
-- picture: lartdemanifester.jpg
-  page: multimedia.html
-  title: "L'art de manifester"
-  caption: "Quelle est la place de la manifestation dans notre société ?"
-  category: "Multimedia"
+# - picture: lartdemanifester.jpg
+#   page: multimedia.html
+#   title: "L'art de manifester"
+#   caption: "Quelle est la place de la manifestation dans notre société ?"
+#   category: "Multimedia"
 
 # - picture: blog/Nantes-Food-Forum_02.jpg
 #   page: nantes-food-forum-2017.html

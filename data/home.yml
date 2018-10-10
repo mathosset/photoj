@@ -13,10 +13,10 @@
   category: "PORTRAITS"
   title: ""
 
-- picture: blog/route-chicanes_02.jpg
-  page: la-route-des-chicanes.html
-  category: "NEWS"
-  title: "La route des chicanes NDDL"
+# - picture: blog/route-chicanes_02.jpg
+#   page: la-route-des-chicanes.html
+#   category: "NEWS"
+#   title: "La route des chicanes NDDL"
 
 - picture: grandprixdiane_01.jpg
   page: grandprixdiane2016.html
