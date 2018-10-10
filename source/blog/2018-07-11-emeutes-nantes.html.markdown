@@ -1,7 +1,7 @@
 ---
 title: Vent de révolte à Nantes
-title_seo: ""
-description: ""
+title_seo: "nuits de violences urbaines à Nantes"
+description: "nuits de violences urbaines à Nantes"
 date: 2018-07-11 18:14:47 +0200
 thumbnail:
 category:
