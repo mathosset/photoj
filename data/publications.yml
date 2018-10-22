@@ -1,10 +1,13 @@
+- picture: publication_22.jpg
+  caption: LE FIGARO 19 Octobre 2018
 - picture: publication_21.jpg
   caption: LE PARISIEN 30 Août 2018
+  # vertical: "yes"
 - picture: publication_20.jpg
   caption: TELERAMA 24 Juillet 2018
-- picture: publication_19.jpg
-  caption: LES JOURS Juin 2018
 - picture: publication_19c.jpg
+  caption: LES JOURS Juin 2018
+- picture: publication_19.jpg
   caption: LES JOURS Juin 2018
 - picture: publication_18.jpg
   caption: LE FIGARO du 27 Janvier 2018
