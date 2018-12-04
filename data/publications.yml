@@ -1,8 +1,10 @@
-- picture: publication_22a.jpg
-  caption: LE FIGARO 22 Octobre 2018
-  vertical: "yes"
+- picture: publication_24.jpg
+  caption: LES JOURS 6 Novembre 2018
 - picture: publication_22.jpg
   caption: LE FIGARO 19 Octobre 2018
+- picture: publication_22a.jpg
+  caption: LE FIGARO 22 Octobre 2018
+  # vertical: "yes"
 - picture: publication_23.jpg
   caption: FINANCIAL TIMES 19 Octobre 2018
 - picture: publication_23a.jpg
