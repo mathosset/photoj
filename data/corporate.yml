@@ -1,3 +1,9 @@
+- picture: viragegroup_30.jpg
+  page: viragegroup.html
+  title: "Virage Group"
+  caption: "Nantes"
+  category: "Corporate"
+
 - picture: ouestmedialab_01.jpg
   page: ouestmedialab.html
   title: "OuestMedialab SpeedTraining"
@@ -64,8 +70,8 @@
   caption: "Saint germain-en-laye"
   category: "Reportage"
 
-- picture: otto_01.jpg
-  page: otto10.html
-  title: "OTTO10 : Que votre volonté soit fête !"
-  caption: "Paris"
-  category: "Evénementiel"
+# - picture: otto_01.jpg
+#   page: otto10.html
+#   title: "OTTO10 : Que votre volonté soit fête !"
+#   caption: "Paris"
+#   category: "Evénementiel"
