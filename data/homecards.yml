@@ -4,10 +4,34 @@
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
 #   category: "Portraits"
 
+- picture: viragegroup_18A.jpg
+  page: viragegroup.html
+  title: "Virage Group"
+  caption: "Nantes"
+  category: "Corporate"
+
+- picture: blog/tgo_01.jpg
+  page: terminal-grand-ouest.html
+  title: "Terminal Grand Ouest"
+  caption: "Saint-Nazaire"
+  category: "Corporate"
+
+- picture: blog/chantierXXL_01.jpg
+  page: un-chantier-xxl.html
+  title: "Un chantier XXL"
+  caption: "Min de Nantes"
+  category: "News"
+
 - picture: 44BZH_01.jpg
   page: 44-breizh.html
   title: "44 = BREIZH"
   caption: "Nantes"
+  category: "News"
+
+- picture: blog/mobilisation-pronddl_01.jpg
+  page: mobilisation-pronddl.html
+  title: "Mobilisation des pro-NDDL"
+  caption: "Les riverains de l'aéroport en colère"
   category: "News"
 
 - picture: emeutes-nantes_01.jpg
@@ -16,23 +40,11 @@
   caption: "Nantes"
   category: "News"
 
-- picture: blog/tgo_01.jpg
-  page: terminal-grand-ouest.html
-  title: "Terminal Grand Ouest"
-  caption: "Saint-Nazaire"
-  category: "Corporate"
-
 - picture: blog/foulee-gois-01.jpg
   page: les-foulees-du-gois.html
   title: "Les Foulées du Gois 2018"
   caption: "Noirmoutier"
   category: "Blog"
-
-- picture: blog/mobilisation-pronddl_01.jpg
-  page: mobilisation-pronddl.html
-  title: "Mobilisation des pro-NDDL"
-  caption: "Les riverains de l'aéroport en colère"
-  category: "News"
 
 - picture: blog/centrale-solaire_01.jpg
   page: la-plus-grande-centrale-solaire-des-pays-de-la-loire.html
@@ -40,17 +52,12 @@
   caption: "La plus grande centrale solaire des Pays de la Loire"
   category: "Blog"
 
-- picture: blog/chantierXXL_01.jpg
-  page: un-chantier-xxl.html
-  title: "Un chantier XXL"
-  caption: "Min de Nantes"
-  category: "News"
 
-- picture: blog/route-chicanes_02.jpg
-  page: la-route-des-chicanes.html
-  title: "La route des chicanes"
-  caption: "Notre Dame-des-Landes"
-  category: "News"
+# - picture: blog/route-chicanes_02.jpg
+#   page: la-route-des-chicanes.html
+#   title: "La route des chicanes"
+#   caption: "Notre Dame-des-Landes"
+#   category: "News"
 
 # - picture: globetrotters-1.jpg
 #   page: globetrotters.html
