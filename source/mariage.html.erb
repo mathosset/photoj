@@ -1,0 +1,48 @@
+---
+title: Photographe professionnel à Nantes - Mariage, Reportage, Portrait studio
+description: Photographe professionnel mariage portrait à Nantes (44) - Reportage et portraits pour la Presse, les Entreprises et les particuliers - Membre du studio Hans Lucas
+preferred_url: http://www.mathieuthomasset.fr/mariage
+---
+
+<div class="big-spacer"></div>
+
+<div class="container">
+    <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h1>Photographe professionnel à Nantes </br>/// Mariage et Portraits ///</h1>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-8">
+      <p>Formé à Paris aux Gobelins, l'école de l'image, et en photojournalisme au sein de l'Ecole des Métiers de l'Information EMI, je suis <strong>photographe indépendant</strong> basé à Nantes et je travaille principalement pour la Presse, les Institutionnels et les Entreprises mais aussi pour les particuliers. </br> Je me propose de mettre mon expérience du reportage et en tant que portraitiste ainsi que mon regard d’auteur photographe pour vous accompagner dans vos projets : reportage de <strong>mariage</strong>, séance de <strong>portrait</strong> en couple, famille...</p>
+      <p class="text-right"> <i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon portfolio <%= link_to 'MARIAGES', '/images/Portfolio_Mariage_MThomasset.pdf', target: "_blank" %> <br><i class="fa fa-envelope-o"></i> Demander un <a href="mailto:mathieuthomasset@gmx.com?subject=Demande_de_devis_mariage">devis</a> </p>
+      <div class="spacer"></div>
+    </div>
+  </div>
+  <div class="spacer"></div>
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-sm-12 text-right">
+      <button class="btn btn-default fa fa-stop" id="btn-list"> slide</button>
+      <button class="btn btn-default fa fa-th-large disabled" id="btn-grid"> planche</button>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <section id="grid">
+      <% data.mariage.each do |y| %>
+        <div class="col-sm-4">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "44%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+            <div class="spacer"></div>
+          </a>
+<!--           <p><%= y.caption %></p>
+ -->        </div>
+      <% end %>
+    </section>
+  </div>
+</div>
+
+<div class="spacer"></div>
