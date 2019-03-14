@@ -28,7 +28,8 @@
 }
 .card-description p {
   font-size: 1em;
-  }
+}
+
 .card-link {
   position: absolute;
   top: 0;
@@ -38,7 +39,8 @@
   background: black;
   opacity: 0;
 }
-.card-link:hover{
+
+.card-link:hover {
   opacity: 0.2;
 }
 
@@ -59,10 +61,8 @@
 
 .card-img {
   height: 250px;
-  /*width: 100%;*/
   background-size: cover !important;
-/*  background-size: cover;
-*/}
+}
 
 .card-trip-infos {
   position: absolute;
@@ -83,14 +83,12 @@
 .card-trip h2 {
   font-size: 20px;
   font-weight: bold;
-/*  margin: 0;
-*/}
+}
 
 .card-trip p {
   font-size: 12px;
   opacity: .8;
-/*  margin: 0;
-*/}
+}
 
 
 /*.card-trip-infos {
@@ -100,7 +98,6 @@ bottom: 20px;*/
 /*  justify-content: space-between;
   align-items: flex-end;
   position: relative;*/
-}
 
 /*.card-trip-infos .card-trip-user {
   position: absolute;
