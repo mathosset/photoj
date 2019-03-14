@@ -42,3 +42,70 @@
   opacity: 0.2;
 }
 
+.card-trip {
+  overflow: hidden;
+  background: white;
+  position: relative;
+  height: 440px;
+  border-radius: 3px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.card-trip a {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}
+
+.card-img {
+  height: 250px;
+  /*width: 100%;*/
+  background-size: cover !important;
+/*  background-size: cover;
+*/}
+
+.card-trip-infos {
+  position: absolute;
+  bottom: 55px;
+  left: 5px;
+}
+
+.card-trip-pricing {
+  position: absolute;
+  right: 20px;
+  bottom: 145px;
+}
+
+.card-trip-pricing h3 {
+  font-size: 20px;
+}
+
+.card-trip h2 {
+  font-size: 20px;
+  font-weight: bold;
+/*  margin: 0;
+*/}
+
+.card-trip p {
+  font-size: 12px;
+  opacity: .8;
+/*  margin: 0;
+*/}
+
+
+/*.card-trip-infos {
+  padding: 16px;
+  position: absolute;
+bottom: 20px;*/
+/*  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;*/
+}
+
+/*.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}*/
+
