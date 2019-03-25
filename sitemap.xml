@@ -21,10 +21,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://mathieuthomasset.fr/mariage.html</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>http://mathieuthomasset.fr/philharmonie.html</loc>
     <priority>0.7</priority>
   </url>
@@ -134,6 +130,10 @@
   </url>
   <url>
     <loc>http://mathieuthomasset.fr/marseille-reborn.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://mathieuthomasset.fr/photographe-mariage-nantes.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
