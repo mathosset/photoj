@@ -90,6 +90,11 @@
   opacity: .8;
 }
 
+.modal-body {
+    max-height: calc(100vh - 212px);
+    overflow-y: auto;
+}
+
 
 /*.card-trip-infos {
   padding: 16px;
