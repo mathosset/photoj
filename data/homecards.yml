@@ -10,11 +10,17 @@
   caption: "Nantes"
   category: "Corporate"
 
-- picture: blog/tgo_01.jpg
-  page: terminal-grand-ouest.html
-  title: "Terminal Grand Ouest"
-  caption: "Saint-Nazaire"
-  category: "Corporate"
+- picture: run-energie_01.jpg
+  page: vent-vert-sur-la-reunion.html
+  title: "Vent vert sur la Réunion"
+  caption: "La Réunion"
+  category: "Blog"
+
+# - picture: blog/tgo_01.jpg
+#   page: terminal-grand-ouest.html
+#   title: "Terminal Grand Ouest"
+#   caption: "Saint-Nazaire"
+#   category: "Corporate"
 
 - picture: blog/chantierXXL_01.jpg
   page: un-chantier-xxl.html
