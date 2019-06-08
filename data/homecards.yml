@@ -16,54 +16,54 @@
   caption: "La Réunion"
   category: "Blog"
 
-# - picture: blog/tgo_01.jpg
-#   page: terminal-grand-ouest.html
-#   title: "Terminal Grand Ouest"
-#   caption: "Saint-Nazaire"
-#   category: "Corporate"
-
-- picture: blog/chantierXXL_01.jpg
-  page: un-chantier-xxl.html
-  title: "Un chantier XXL"
-  caption: "Min de Nantes"
-  category: "News"
-
-- picture: 44BZH_01.jpg
-  page: 44-breizh.html
-  title: "44 = BREIZH"
-  caption: "Nantes"
-  category: "News"
-
 - picture: blog/mobilisation-pronddl_01.jpg
   page: mobilisation-pronddl.html
   title: "Mobilisation des pro-NDDL"
   caption: "Les riverains de l'aéroport en colère"
   category: "News"
 
-- picture: emeutes-nantes_01.jpg
-  page: emeutes-nantes.html
-  title: "Vent de révolte à Nantes"
+- picture: blog/tgo_01.jpg
+  page: terminal-grand-ouest.html
+  title: "Terminal Grand Ouest"
+  caption: "Saint-Nazaire"
+  category: "Corporate"
+
+- picture: 44BZH_01.jpg
+  page: 44-breizh.html
+  title: "44 = BREIZH"
   caption: "Nantes"
   category: "News"
+  
+- picture: blog/chantierXXL_01.jpg
+  page: un-chantier-xxl.html
+  title: "Un chantier XXL"
+  caption: "Min de Nantes"
+  category: "News"
+
+# - picture: emeutes-nantes_01.jpg
+#   page: emeutes-nantes.html
+#   title: "Vent de révolte à Nantes"
+#   caption: "Nantes"
+#   category: "News"
 
 - picture: blog/foulee-gois-01.jpg
   page: les-foulees-du-gois.html
-  title: "Les Foulées du Gois 2018"
+  title: "Les Foulées du Gois"
   caption: "Noirmoutier"
   category: "Blog"
 
-- picture: blog/centrale-solaire_01.jpg
-  page: la-plus-grande-centrale-solaire-des-pays-de-la-loire.html
-  title: "Energie solaire"
-  caption: "La plus grande centrale solaire des Pays de la Loire"
-  category: "Blog"
+# - picture: blog/centrale-solaire_01.jpg
+#   page: la-plus-grande-centrale-solaire-des-pays-de-la-loire.html
+#   title: "Energie solaire"
+#   caption: "La plus grande centrale solaire des Pays de la Loire"
+#   category: "Blog"
 
 
-# - picture: blog/route-chicanes_02.jpg
-#   page: la-route-des-chicanes.html
-#   title: "La route des chicanes"
-#   caption: "Notre Dame-des-Landes"
-#   category: "News"
+- picture: blog/route-chicanes_02.jpg
+  page: la-route-des-chicanes.html
+  title: "La route des chicanes"
+  caption: "Notre Dame-des-Landes"
+  category: "News"
 
 # - picture: globetrotters-1.jpg
 #   page: globetrotters.html
