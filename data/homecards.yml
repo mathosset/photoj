@@ -16,10 +16,16 @@
   caption: "La Réunion"
   category: "Blog"
 
-- picture: blog/mobilisation-pronddl_01.jpg
-  page: mobilisation-pronddl.html
-  title: "Mobilisation des pro-NDDL"
-  caption: "Les riverains de l'aéroport en colère"
+# - picture: blog/mobilisation-pronddl_01.jpg
+#   page: mobilisation-pronddl.html
+#   title: "Mobilisation des pro-NDDL"
+#   caption: "Les riverains de l'aéroport en colère"
+#   category: "News"
+
+- picture: ouestlajustice_01.jpg
+  page: ou-est-la-justice.html
+  title: "Où est la Justice ?"
+  caption: "Disparition de Steve Maia Caniço"
   category: "News"
 
 - picture: blog/tgo_01.jpg
