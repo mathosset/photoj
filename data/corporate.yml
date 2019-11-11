@@ -1,3 +1,9 @@
+- picture: dragon_03.jpg
+  page: dragon.html
+  title: "Grand Port Maritime Nantes-Saint-Nazaire"
+  caption: "Nantes"
+  category: "Corporate"
+
 - picture: capacites_02.jpg
   page: capacites.html
   title: "Capacites - Université de Nantes"
@@ -82,11 +88,11 @@
   caption: "Montrouge"
   category: "Reportage"
 
-- picture: marie_21.jpg
-  page: entre-ciel-et-terre.html
-  title: "Marie et les filles"
-  caption: "Saint germain-en-laye"
-  category: "Reportage"
+# - picture: marie_21.jpg
+#   page: entre-ciel-et-terre.html
+#   title: "Marie et les filles"
+#   caption: "Saint germain-en-laye"
+#   category: "Reportage"
 
 # - picture: otto_01.jpg
 #   page: otto10.html

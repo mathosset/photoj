@@ -4,6 +4,12 @@
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
 #   category: "Portraits"
 
+- picture: dragon_03.jpg
+  page: dragon.html
+  title: "GPM Nantes-Saint-Nazaire"
+  caption: "Nantes"
+  category: "Corporate"
+
 - picture: viragegroup_06A.jpg
   page: viragegroup.html
   title: "Virage Group"
@@ -52,11 +58,11 @@
 #   caption: "Nantes"
 #   category: "News"
 
-- picture: blog/foulee-gois-01.jpg
-  page: les-foulees-du-gois.html
-  title: "Les Foulées du Gois"
-  caption: "Noirmoutier"
-  category: "Blog"
+# - picture: blog/foulee-gois-01.jpg
+#   page: les-foulees-du-gois.html
+#   title: "Les Foulées du Gois"
+#   caption: "Noirmoutier"
+#   category: "Blog"
 
 # - picture: blog/centrale-solaire_01.jpg
 #   page: la-plus-grande-centrale-solaire-des-pays-de-la-loire.html
