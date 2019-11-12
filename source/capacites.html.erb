@@ -5,7 +5,7 @@ description: Séminaire Capacités, pôle innovation et R&D de l'Université de 
 preferred_url: http://www.mathieuthomasset.fr/cogelec
 ---
 
-<div class="big-spacer"></div>
+<!-- <div class="big-spacer"></div>
 
 <div class="container">
   <div class="row">
@@ -36,6 +36,40 @@ preferred_url: http://www.mathieuthomasset.fr/cogelec
         </div>
       <% end %>
     </section>
+  </div>
+</div>
+<div class="spacer"></div> -->
+
+<div class="big-spacer"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">Université de Nantes</h1>
+      </br>
+      <p>Client : <span id="uk">Capacités, pôle innovation et R&D de l'Université de Nantes</span></br></br>
+      Séminaire Capacités, pôle innovation et R&D de l'Université de Nantes, structure dédiée à la valorisation de la recherche.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+          <section id="grid">
+      <% data.capacites.each do |y| %>
+        <div class="col-xs-12 col-sm-6">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+          </a>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+    </div>  
+
   </div>
 </div>
 <div class="spacer"></div>

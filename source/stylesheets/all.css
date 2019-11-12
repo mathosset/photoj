@@ -131,3 +131,7 @@ article h1 {
 #uk {
   color: black;
 }
+
+#upper {
+  text-transform: uppercase;
+}

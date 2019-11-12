@@ -7,27 +7,24 @@ preferred_url: http://www.mathieuthomasset.fr/cogelec
 
 <div class="big-spacer"></div>
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-sm-9">
-      <h1>Cogelec</h1>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">COGELEC</h1>
       </br>
-      <p>Client : Les ECHOS Publishing</br></br>
+      <p>Client : <span id="uk">Les ECHOS Publishing</span></br></br>
       Portrait de Roger Leclerc, pdg de la société Cogelec, spécialiste du contrôle d’accès à l’habitat collectif basé en Vendée.</p>
       <div class="spacer"></div>
     </div>
-    <div class="col-sm-12 text-right">
-      <button class="btn btn-default" id="btn-list"><i class="fa fa-stop"></i> single</button>
-      <button class="btn btn-default disabled" id="btn-grid"><i class="fa fa-th-large"></i> planche</button>
-      <div class="spacer"></div>
-    </div>
     <div class="spacer"></div>
-    <section id="grid">
+    <div class="col-xs-12 col-sm-8">
+          <section id="grid">
       <% data.cogelec.each do |y| %>
-        <div class="col-xs-6 col-sm-4">
+        <div class="col-xs-12 col-sm-6">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
-              <%= image_tag y.picture, width: "46%", class: "center-block" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" %>
             <% else %>
               <%= image_tag y.picture, width: "100%" %>
             <% end %>
@@ -36,6 +33,8 @@ preferred_url: http://www.mathieuthomasset.fr/cogelec
         </div>
       <% end %>
     </section>
+    </div>  
+
   </div>
 </div>
 <div class="spacer"></div>

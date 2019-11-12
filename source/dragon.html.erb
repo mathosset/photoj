@@ -7,7 +7,7 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
 
 <div class="big-spacer"></div>
 
-<div class="container">
+<!-- <div class="container">
   <div class="row">
     <div class="col-sm-12">
       <h1>GPM Nantes-Saint-Nazaire</h1>
@@ -16,11 +16,11 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
       <p>Projet : Reportage sur les quais du Grand Port Maritime Nantes-Saint-Nazaire pour le chargement d'un dragon de 72 tonnes fabriqué par la Compagnie La Machine en partence pour la ville de Calais.</p>
       <div class="spacer"></div>
     </div>
-<!--     <div class="col-sm-12 text-right">
+    <div class="col-sm-12 text-right">
       <button class="btn btn-default fa fa-stop" id="btn-list"> slide</button>
       <button class="btn btn-default fa fa-th-large disabled" id="btn-grid"> planche</button>
       <div class="spacer"></div>
-    </div> -->
+    </div>
     <div class="spacer"></div>
     <section id="grid">
       <% data.dragon.each do |y| %>
@@ -36,6 +36,38 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
         </div>
       <% end %>
     </section>
+  </div>
+</div>
+<div class="spacer"></div> -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">GPM Nantes-Saint-Nazaire</h1>
+      </br>
+      <p>Client : <span id="uk">Grand Port Maritime Nantes-Saint-Nazaire</span></br></br>
+      Reportage sur les quais du Grand Port Maritime Nantes-Saint-Nazaire pour le chargement d'un dragon de 72 tonnes fabriqué par la Compagnie La Machine en partence pour la ville de Calais.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+          <section id="grid">
+      <% data.dragon.each do |y| %>
+        <div class="col-xs-12 col-sm-6">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+          </a>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+    </div>  
+
   </div>
 </div>
 <div class="spacer"></div>

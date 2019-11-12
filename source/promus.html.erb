@@ -5,7 +5,7 @@ description: Portrait d'un des fondateurs de la société Promus, Charles Raymon
 preferred_url: http://www.mathieuthomasset.fr/promus
 ---
 
-<div class="big-spacer"></div>
+<!-- <div class="big-spacer"></div>
 
 <div class="container">
   <div class="row">
@@ -36,6 +36,41 @@ preferred_url: http://www.mathieuthomasset.fr/promus
         </div>
       <% end %>
     </section>
+  </div>
+</div>
+<div class="spacer"></div> -->
+
+
+<div class="big-spacer"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">Promus Box</h1>
+      </br>
+      <p>Client : <span id="uk">Les ECHOS Publishing</span></br></br>
+      Portrait d'un des fondateurs de la société Promus, Charles Raymond, lors de l'installation d'un container Promus Box dans la région de Nantes, solution logistique pour développer les circuits courts du secteur alimentaire.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+          <section id="grid">
+      <% data.promus.each do |y| %>
+        <div class="col-xs-12 col-sm-6">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+          </a>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+    </div>  
+
   </div>
 </div>
 <div class="spacer"></div>

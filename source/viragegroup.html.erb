@@ -5,7 +5,7 @@ description: Reportage et portraits des salariés pour l'éditeur de logiciel Vi
 preferred_url: http://www.mathieuthomasset.fr/viragegroup
 ---
 
-<div class="big-spacer"></div>
+<!-- <div class="big-spacer"></div>
 
 <div class="container">
   <div class="row">
@@ -16,11 +16,11 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
       <p>Projet : Réalisation de 50 portraits des salariés en studio mobile et création d'une photothèque d'illustration.</p>
       <div class="spacer"></div>
     </div>
-<!--     <div class="col-sm-12 text-right">
+    <div class="col-sm-12 text-right">
       <button class="btn btn-default fa fa-stop" id="btn-list"> slide</button>
       <button class="btn btn-default fa fa-th-large disabled" id="btn-grid"> planche</button>
       <div class="spacer"></div>
-    </div> -->
+    </div>
     <div class="spacer"></div>
     <section id="grid">
       <% data.viragegroup.each do |y| %>
@@ -36,6 +36,42 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
         </div>
       <% end %>
     </section>
+  </div>
+</div>
+<div class="spacer"></div> -->
+
+
+<div class="big-spacer"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">Virage Group</h1>
+      </br>
+      <p>Client : <span id="uk">Virage Group</span></br></br>
+      Editeur de logiciel nantais spécialisé dans la gestion de projets et la performance </br></br>
+      Réalisation de 50 portraits des salariés en studio mobile et création d'une photothèque d'illustration.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+          <section id="grid">
+      <% data.viragegroup.each do |y| %>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "100%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+          </a>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+    </div>  
+
   </div>
 </div>
 <div class="spacer"></div>
