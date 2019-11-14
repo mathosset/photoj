@@ -4,7 +4,7 @@ image_path: http://mathieuthomasset.fr/images/port-nantes_03.jpg
 description: Reportage port de Nantes Saint Nazaire, zone portuaire de Cheviré pour le chargement d'un cargo en partance pour Tripoli.
 preferred_url: http://www.mathieuthomasset.fr/port-nantes-chevire
 ---
-
+<!-- 
 <div class="big-spacer"></div>
 
 <div class="container">
@@ -36,6 +36,40 @@ preferred_url: http://www.mathieuthomasset.fr/port-nantes-chevire
         </div>
       <% end %>
     </section>
+  </div>
+</div>
+<div class="spacer"></div> -->
+
+<div class="big-spacer"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">GPM Nantes-Saint-Nazaire</h1>
+      </br>
+      <p>Client : <span id="uk">Grand Port Maritime Nantes-Saint-Nazaire</span></br></br>
+      Reportage dans le port de Nantes Saint-Nazaire, sur la zone portuaire de Cheviré, pour le chargement de caisses XXL sur un cargo en partance pour Tripoli.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+          <section id="grid">
+      <% data.portnanteschevire.each do |y| %>
+        <div class="col-xs-12 col-sm-6">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "45%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+          </a>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+    </div>  
+
   </div>
 </div>
 <div class="spacer"></div>
