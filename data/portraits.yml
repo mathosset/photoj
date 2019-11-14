@@ -16,18 +16,18 @@
   caption: Roland Besnard, CEO of Bouyer Leroux pour le Financial Times
 - picture: FT-medef_04.jpg
   caption: Roland Besnard, CEO of Bouyer Leroux pour le Financial Times
+- picture: portrait-samuel-nantes-atlantique.jpg
+  caption: Samuel habite une des maisons les plus proches de la piste de l'aéroport Nantes-Atlantique à Saint-Aignan de Grand Lieu
 - picture: FT-medef_01.jpg
   caption: Sylvain Apaire, président du Medef du Pays Choletais pour le Financial Times
-- picture: FT-medef_02.jpg
-  caption: Bruno Fradet, manager de SDEI Ouest pour le Financial Times
-  vertical: "yes"
 - picture: cogelec_01.jpg
   caption: Roger Leclerc, pdg de Cogelec
 - picture: cogelec_03.jpg
   caption: Roger Leclerc, pdg de Cogelec
   vertical: "yes"
-- picture: portrait-samuel-nantes-atlantique.jpg
-  caption: Samuel habite une des maisons les plus proches de la piste de l'aéroport Nantes-Atlantique à Saint-Aignan de Grand Lieu
+- picture: FT-medef_02.jpg
+  caption: Bruno Fradet, manager de SDEI Ouest pour le Financial Times
+  vertical: "yes"
 - picture: portrait_sisters.jpg
   caption: Noémie et Amelia - Série Sisters
 - picture: angel2.jpg
@@ -38,8 +38,8 @@
   caption: Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
 - picture: portrait_stephane-geffroy2.jpg
   caption: Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
-- picture: portrait-geberowicz.jpg
-  caption: Bernard Geberowicz, auteur de J'arrête d'être jaloux(se) !, Ed. Eyrolles
+# - picture: portrait-geberowicz.jpg
+#   caption: Bernard Geberowicz, auteur de J'arrête d'être jaloux(se) !, Ed. Eyrolles
 - picture: pelerin_03.jpg
   caption: Père Sébastien Antoni, assomptionniste
 # - picture: portrait_marcel-thebaud.jpg
