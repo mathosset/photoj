@@ -2,49 +2,49 @@
   page: dragon.html
   title: "Grand Port Maritime Nantes-Saint-Nazaire"
   caption: "Nantes"
-  category: "Corporate"
+  category: "Reportage"
 
 - picture: capacites_02.jpg
   page: capacites.html
-  title: "Capacites - Université de Nantes"
+  title: "Université de Nantes"
   caption: "Nantes"
-  category: "Corporate"
+  category: "Evénementiel"
 
 - picture: cogelec_01.jpg
   page: cogelec.html
   title: "Les Echos Publishing"
   caption: "Vendée"
-  category: "Corporate"
+  category: "Portrait"
 
 - picture: promus_03.jpg
   page: promus.html
   title: "Les Echos Publishing"
   caption: "Nantes"
-  category: "Corporate"
+  category: "Portrait"
 
 - picture: viragegroup_06A.jpg
   page: viragegroup.html
   title: "Virage Group"
   caption: "Nantes"
-  category: "Corporate"
+  category: "Portrait"
 
 - picture: ouestmedialab_01.jpg
   page: ouestmedialab.html
   title: "OuestMedialab SpeedTraining"
   caption: "Nantes"
-  category: "Corporate"
+  category: "Evénementiel"
 
 - picture: port-nantes_03.jpg
   page: port-nantes-chevire.html
   title: "Port de Nantes"
   caption: "Nantes"
-  category: "Corporate"
+  category: "Reportage"
 
 - picture: blog/tgo_01.jpg
   page: tgo.html
   title: "Terminal Grand Ouest"
   caption: "Saint-Nazaire"
-  category: "Corporate"
+  category: "Reportage"
 
 - picture: portraitjulien-1.jpg
   page: portraits.html

@@ -8,6 +8,11 @@
   category: "PORTRAITS"
   title: "Portrait de l'écrivain Stéphane Geffroy"
 
+- picture: ouestlajustice_01.jpg
+  page: ou-est-la-justice.html
+  category: "NEWS"
+  title: "Où est la Justice ?"
+
 - picture: dragon_07.jpg
   page: corporate
   category: "CORPORATE"
@@ -22,11 +27,6 @@
   page: portraits
   category: "PORTRAITS"
   title: "Portrait série Sisters"
-
-# - picture: blog/route-chicanes_02.jpg
-#   page: la-route-des-chicanes.html
-#   category: "NEWS"
-#   title: "La route des chicanes NDDL"
 
 - picture: grandprixdiane_01.jpg
   page: grandprixdiane2016
@@ -58,14 +58,14 @@
 #   title: "Des benevoles se mobilisent pour aider les migrants"
 #   caption: "La maire de Paris, Anne Hidalgo, a annoncé la mise à disposition d’un camps humanitaire aux normes internationales pour accueillir les réfugiés d’ici à la mi septembre. En attendant des bénévoles se regroupent pour apporter une aide concrète et immédiate aux réfugiés."
 
-- picture: inondations-paris_01.jpg
-  page: inondations-paris-2016
-  category: "NEWS"
-  title: "Reportage sur les Inondation a Paris, la Seine au pic de sa popularité"
-  caption: "Avec un pic de crue qui devrait atteindre dans la journée du samedi 4 juin un maximum de 6,50m, la Seine est devenue l'attraction numéro un des touristes et des parisiens ainsi que des médias."
+# - picture: inondations-paris_01.jpg
+#   page: inondations-paris-2016
+#   category: "NEWS"
+#   title: "Reportage sur les Inondation a Paris, la Seine au pic de sa popularité"
+#   caption: "Avec un pic de crue qui devrait atteindre dans la journée du samedi 4 juin un maximum de 6,50m, la Seine est devenue l'attraction numéro un des touristes et des parisiens ainsi que des médias."
 
-- picture: mariage_06.jpg
-  page: photographe-mariage-nantes
-  category: "Mariage"
-  title: "Photographe de mariage à Nantes"
-  caption: "Reportage, mariage, portrait en couple ou en famille"
+# - picture: mariage_06.jpg
+#   page: photographe-mariage-nantes
+#   category: "Mariage"
+#   title: "Photographe de mariage à Nantes"
+#   caption: "Reportage, mariage, portrait en couple ou en famille"
