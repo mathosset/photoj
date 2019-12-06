@@ -1,5 +1,5 @@
 ---
-title: Premiers essais en mer du plus gros paquebot d'Europe, le MSC Meraviglia
+title: MSC Meraviglia
 title_seo: "MSC Meraviglia"
 description: "Départ tôt le matin du 30 mars 2017, du bassin C du port de Saint Nazaire du MSC Meraviglia pour les premiers essais en mer de ce qui sera bientôt le plus gros paquebot d'Europe."
 date: 2017-03-30 15:31:13 +0200

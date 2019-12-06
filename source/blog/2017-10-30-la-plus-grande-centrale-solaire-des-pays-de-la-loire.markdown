@@ -1,5 +1,5 @@
 ---
-title: La plus grande centrale solaire des Pays de la Loire
+title: Centrale solaire des Pays de la Loire
 title_seo: "La plus grande centrale solaire des Pays de la Loire"
 description: "La plus grande centrale solaire en toiture des Pays de la Loire "
 date: 2017-10-30 13:52:32 +0100
