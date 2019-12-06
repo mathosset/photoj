@@ -8,7 +8,7 @@ category:
 excerpt: ""
 author:
 ---
+![picture alt](/images/blog/chantierXXL_01.jpg "chantier du Marché d'intérêt national MIN de Nantes"){: .img-blog}
 
 Visite du chantier du Marché d'intérêt national MIN de Nantes, le deuxième de France après Rungis, avec Johanna Rolland, maire de Nantes et présidente de Nantes métropole, des élus locaux et la presse. Rezé, le 13 novembre 2017.
 
-![picture alt](/images/blog/chantierXXL_01.jpg "chantier du Marché d'intérêt national MIN de Nantes"){: .img-blog}

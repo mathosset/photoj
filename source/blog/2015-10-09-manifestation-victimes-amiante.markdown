@@ -8,6 +8,7 @@ category: emi
 excerpt: ""
 author:
 ---
+![picture alt](/images/blog/amiante-02.JPG "Manifestation victimes de l'amiante à Paris"){: .img-blog}
 
 L'Association Nationale de Défense des Victimes de l'Amiante organisait ce vendredi 9 octobre 2015 une marche dans Paris avec les familles et victimes de l'amiante venues de toute la France. Le point de départ de la manifestation, l'avenue Messine, où se situait l'ancien siège de la structure de lobbying des industriels, le Comité permanent amiante, a été choisi symboliquement pour rappeler le rôle joué par cette structure dans le retardement de l'interdiction de l'amiante en France.
 
@@ -19,9 +20,8 @@ La loi Fauchon sur les délits non intentionnels votées en 2000 ne visait, selo
 
 Les manifestants ont rejoint le pôle judiciaire de Santé publique, rue des Italiens dans le 9ème arrondissement de Paris, qui a en charge l’instruction du procès pénal de l’amiante. Les représentants de l'ANDEVA ont alors déposé au Pôle Santé les dossiers de 1221 victimes de la Normed et de la Sollac à Dunkerque et ont été reçu par des magistrats du pôle de Santé publique pour faire le point sur l’état d’avancement des dossiers.
 
-![picture alt](/images/blog/amiante-01.JPG "Manifestation victimes de l'amiante à Paris"){: .img-blog}
 
-![picture alt](/images/blog/amiante-02.JPG "Manifestation victimes de l'amiante à Paris"){: .img-blog}
+![picture alt](/images/blog/amiante-01.JPG "Manifestation victimes de l'amiante à Paris"){: .img-blog}
 
 ![picture alt](/images/blog/amiante-03.JPG "Manifestation victimes de l'amiante à Paris"){: .img-blog}
 

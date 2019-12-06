@@ -8,13 +8,13 @@ category: emi
 excerpt: ""
 author:
 ---
+![picture alt](/images/waterlicht-4.jpg "Waterlicht, nuits blanches 2015"){: .img-blog}
 
 Immersion dans l'oeuvre de l'artiste et designer néerlandais Dan Roosegarde, présentée pour la première fois à Paris lors des Nuits Blanches 2015, qui simule la montée des eaux à travers un impressionnant dispositif de lasers bleus : **Waterlicht**
 
-![picture alt](/images/waterlicht-1.jpg "Waterlicht, nuits blanches 2015"){: .img-blog}
 
-![picture alt](/images/waterlicht-2.jpg "Waterlicht, nuits blanches 2015"){: .img-blog}
+![picture alt](/images/waterlicht-1.jpg "Waterlicht, nuits blanches 2015"){: .img-blog}
 
 ![picture alt](/images/waterlicht-5.jpg "Waterlicht, nuits blanches 2015"){: .img-blog}
 
-![picture alt](/images/waterlicht-4.jpg "Waterlicht, nuits blanches 2015"){: .img-blog}
+![picture alt](/images/waterlicht-2.jpg "Waterlicht, nuits blanches 2015"){: .img-blog}

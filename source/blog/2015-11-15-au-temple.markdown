@@ -8,10 +8,10 @@ category: emi
 excerpt: ""
 author:
 ---
+![picture alt](/images/blog/temple-06.jpg "Au temple"){: .img-blog}
 
 Au temple, hommage à la mémoire de ceux qui nous ont quittés.
 
-![picture alt](/images/blog/temple-01.jpg "Au temple"){: .img-blog}
 
 ![picture alt](/images/blog/temple-02.jpg "Au temple"){: .img-blog}
 
@@ -21,5 +21,5 @@ Au temple, hommage à la mémoire de ceux qui nous ont quittés.
 
 ![picture alt](/images/blog/temple-05.jpg "Au temple"){: .img-blog}
 
-![picture alt](/images/blog/temple-06.jpg "Au temple"){: .img-blog}
+![picture alt](/images/blog/temple-01.jpg "Au temple"){: .img-blog}
 

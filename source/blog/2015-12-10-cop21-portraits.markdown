@@ -8,12 +8,12 @@ category: emi
 excerpt: ""
 author:
 ---
+![picture alt](/images/blog/portraits-cop21-01.jpg "Portrait lors de la COP21"){: .img-blog}
+
+Sawsan Abdalla Ali Obeid Alla, négociatrice pour le Soudan, lors de la COP 21 au Bourget le 8 décembre 2015.
+
 
 Portraits de militants, négociateurs, participants et conférenciers réalisés au Bourget entre le 8 et le 10 décembre 2015, lors de la COP21 et au Centquatre dans le cadre de la Zone d'action pour le climat, dans le cadre du [Médialibre](https://blogs.emi-cfd.coop/etatsdurgence/) de l'EMI-CFD.
-
-
-![picture alt](/images/blog/portraits-cop21-01.jpg "Portrait lors de la COP21"){: .img-blog}
-Sawsan Abdalla Ali Obeid Alla, négociatrice pour le Soudan, lors de la COP 21 au Bourget le 8 décembre 2015.
 
 
 ![picture alt](/images/blog/portraits-cop21-02.jpg "Portrait lors de la COP21"){: .img-blog}

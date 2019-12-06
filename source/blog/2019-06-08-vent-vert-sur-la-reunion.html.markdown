@@ -8,10 +8,10 @@ category:
 excerpt: ""
 author:
 ---
+![picture alt](/images/run-energie_01.jpg "Ferme d'éoliennes à Piton Sainte Rose"){: .img-blog}
 
 La transition énergétique est en marche sur l'île de la Réunion qui veut verdir son électricité. Avec un tiers de sa production en renouvelables, l'île fait figure de bon élève parmi les départements d'outre-mer. <!-- Mais l'objectif des 50% en 2023 reste un réel défi qui sera difficilement atteint au rythme actuel des investissements.  -->  
 
-![picture alt](/images/run-energie_01.jpg "Ferme d'éoliennes à Piton Sainte Rose"){: .img-blog}
 
 
 

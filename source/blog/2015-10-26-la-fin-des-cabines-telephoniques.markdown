@@ -8,6 +8,7 @@ category: emi
 excerpt: ""
 author:
 ---
+![picture alt](/images/blog/cabinestelephoniques-01.jpg "La fin des cabines téléphoniques"){: .img-blog}
 
 Vestige d’une époque où le téléphone portable n’était pas encore roi, les dernières cabines téléphoniques vont définitivement disparaître du paysage urbain d’ici à 2017. Mais les utilise-t-on encore et pourquoi ?
 
@@ -15,7 +16,6 @@ La loi Macron voté en juillet dernier exclut désormais du service universel de
 
 Orange va ainsi réaliser plusieurs millions d’euros d’économies par an en entretien du parc et n’aura pas à investir des dizaines de millions afin de moderniser et respecter ses obligations de mise au norme pour l’accès des handicapés.
 
-![picture alt](/images/blog/cabinestelephoniques-01.jpg "La fin des cabines téléphoniques"){: .img-blog}
 
 ![picture alt](/images/blog/cabinestelephoniques-02.jpg "La fin des cabines téléphoniques"){: .img-blog}
 

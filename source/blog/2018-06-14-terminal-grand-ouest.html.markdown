@@ -8,6 +8,7 @@ category:
 excerpt: ""
 author:
 ---
+![picture alt](/images/blog/tgo_01.jpg "Terminal Grand Ouest"){: .img-blog}
 
 Client : Nantes Saint-Nazaire Port
 

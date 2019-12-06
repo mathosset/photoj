@@ -7,23 +7,29 @@ preferred_url: http://www.mathieuthomasset.fr/blog
 <div class="big-spacer"></div>
 
 <div id="wrapper">
-  <div class="container">
-    <% page_articles.each_with_index do |article, i| %>
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-12 col-md-12">
-          <article>
+    <% page_articles.each_with_index do |article, i| %>
+      
+        <article>
+          <div class="col-xs-12 col-md-4">
             <h1>
-              <%= article.title %></br>
+              <%= article.title %>
             </h1>
             <time><%= article.date.strftime('%e %b %Y') %></time>
-            <p><%= article.summary(5000, '...') %></p>
-            <a href="<%= article.url %>">Lire plus</a></br>
-          </article>
-          <div class="spacer"></div>
-          <div class="spacer"></div>
+            <a href="<%= article.url %>">
+
+            <p><%= article.summary(5, '...') %></p>
+            </a></br>
+            <!-- <a href="<%= article.url %>">Lire plus</a></br> -->
+        </article>
           <div class="spacer"></div>
         <% end %>
       </div>
+
     </div>
   </div>
 </div>
+
+
+<div class="spacer"></div>

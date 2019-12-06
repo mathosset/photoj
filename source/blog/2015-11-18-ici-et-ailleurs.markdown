@@ -8,6 +8,7 @@ category: emi
 excerpt: ""
 author:
 ---
+![picture alt](/images/blog/leretourduvoyageur-01.jpg ""Le retour du voyageur"){: .img-blog}
 
 Ils ont pris la route pour un tour du monde pendant 6 mois à un an, parfois plus. En quête de liberté ou tout simplement pour redonner du sens à leur vie, ils ont vécu leur rêve de découverte, de rencontres et de grands espaces... Mais que se passe-t-il au retour d’une telle expérience ? Ont-ils repris leur vie là où ils l’avaient laissée ou bien un tout autre chemin ?
 
@@ -17,7 +18,6 @@ Une fois de retour, le virus du nomade, cette envie d'ailleurs, ne les quitte so
 
 Ils sont désormais d'ici et d'ailleurs.
 
-![picture alt](/images/blog/leretourduvoyageur-01.jpg ""Le retour du voyageur"){: .img-blog}
 
 ![picture alt](/images/blog/leretourduvoyageur-02.jpg ""Le retour du voyageur"){: .img-blog}
 

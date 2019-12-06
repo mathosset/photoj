@@ -8,12 +8,11 @@ category: emi
 excerpt: ""
 author:
 ---
+![picture alt](/images/blog/concertregiskole-2.JPG ""Concert de Régis Kole"){: .img-blog}
 
 Superbe soirée au Sunset pour le concert de Régis Kole.
 
 ![picture alt](/images/blog/concertregiskole-1.JPG ""Concert de Régis Kole"){: .img-blog}
-
-![picture alt](/images/blog/concertregiskole-2.JPG ""Concert de Régis Kole"){: .img-blog}
 
 Pour en savoir plus :
 

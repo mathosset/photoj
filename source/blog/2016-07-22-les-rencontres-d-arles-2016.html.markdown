@@ -8,10 +8,10 @@ category:
 excerpt: ""
 author:
 ---
+![picture alt](/images/blog/arles_01.jpg "Les rencontres d'Arles 2016"){: .img-blog}
 
 Morceaux choisis #lesrencontresdarles2016
 
-![picture alt](/images/blog/arles_01.jpg "Les rencontres d'Arles 2016"){: .img-blog}
 
 ![picture alt](/images/blog/arles_02.jpg "Les rencontres d'Arles 2016"){: .img-blog}
 
