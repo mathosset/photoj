@@ -1,27 +1,30 @@
+- picture: publication_35.jpg
+  caption: Les Echos 10 décembre 2019
 - picture: publication_34.jpg
   caption: Le P'tit Libé 7 Novembre 2019
 - picture: publication_33.jpg
   caption: Le Parisien / Aujourd'hui en France 8 septembre 2019
 - picture: publication_32.jpg
   caption: TELERAMA 7 Aôut 2019
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_31.jpg
   caption: BDO Zoom 3ème trimestre 2019
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_31b.jpg
   caption: BDO Zoom 3ème trimestre 2019
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_30.jpg
   caption: LA CROIX 1er Juillet 2019
 - picture: publication_30b.jpg
   caption: LA-CROIX.COM 1er Juillet 2019
+  vertical: "yes"
 - picture: publication_29.jpg
   caption: LES JOURS 7 Mai 2019
 - picture: publication_28.jpg
   caption: Les Echos Publishing 2ème trim. 2019
 - picture: publication_27.jpg
   caption: Télérama 15 Décembre 2018
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_26.jpg
   caption: LSA 29 Novembre 2018
 - picture: publication_25.jpg
