@@ -6,8 +6,8 @@
       <div class="row">
         <div class="col-sm-12 col-md-12">
             <article>
+              <p>/// <%= current_article.data.date.to_date.strftime('%e %b %Y') %> ///</p>
               <h1><%= current_article.data.title %></h1>
-              <p><%= current_article.data.date.to_date.strftime('%e %b %Y') %></p>
               <%= yield %>
               <div class="spacer"></div>
               <% if current_page.previous_article %>
