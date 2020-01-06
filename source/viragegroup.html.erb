@@ -51,14 +51,14 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
       </br>
       <p>Client : <span id="uk">Virage Group</span></br></br>
       Editeur de logiciel nantais spécialisé dans la gestion de projets et la performance </br></br>
-      Réalisation de 50 portraits des salariés en studio mobile et création d'une photothèque d'illustration.</p>
+      Réalisation de 60 portraits des salariés en studio mobile et création d'une photothèque d'illustration.</p>
       <div class="spacer"></div>
     </div>
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-8">
           <section id="grid">
       <% data.viragegroup.each do |y| %>
-        <div class="col-xs-12 col-sm-6 col-lg-3">
+        <div class="col-xs-12 col-sm-6 col-lg-12">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
               <%= image_tag y.picture, width: "100%", class: "center-block" %>

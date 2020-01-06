@@ -1,12 +1,17 @@
+- picture: publication_37.jpg
+  caption: Libération 3 janvier 2020
+- picture: publication_36.jpg
+  caption: Les Cahiers Science&Vie janvier-février 2020
 - picture: publication_35.jpg
   caption: Les Echos 10 décembre 2019
+  vertical: "yes"
 - picture: publication_34.jpg
   caption: Le P'tit Libé 7 Novembre 2019
 - picture: publication_33.jpg
   caption: Le Parisien / Aujourd'hui en France 8 septembre 2019
 - picture: publication_32.jpg
   caption: TELERAMA 7 Aôut 2019
-  # vertical: "yes"
+  vertical: "yes"
 - picture: publication_31.jpg
   caption: BDO Zoom 3ème trimestre 2019
   # vertical: "yes"
