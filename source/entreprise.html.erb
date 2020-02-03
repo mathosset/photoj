@@ -1,0 +1,46 @@
+---
+title: Photographe professionnel à Nantes - Reportage, Portrait, évenementiel
+description: Photographe d'entreprise à Nantes (44) - Portraits pour la Presse, les Entreprises et les particuliers - Membre du studio Hans Lucas
+preferred_url: http://www.mathieuthomasset.fr/entreprise
+---
+
+<div class="big-spacer"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">Photographe d'entreprise à Nantes</h1>
+      </br>
+      <p>Je travaille pour les <span id="uk">entreprises </span>, la presse et les <span id="uk">institutionnels</span> à Nantes, en région Pays de Loire et en Bretagne.</p>
+      <p>J'accompagne mes clients pour documenter et illustrer la <strong>vie de leur entreprise, association ou institution</strong> en réalisant des <span id="uk">reportages</span> dans leur locaux ou sur site, des séances de <strong><span id="uk">portraits</span></strong>, des photos d'<strong><span id="uk">événementiel</span></strong> ou d'<span id="uk">illustration</span>.</p>
+      <p>Je travaille tout autant dans des environnements <strong>industriels</strong> et <strong>IT</strong> qu'au contact d'<strong>artisans</strong> souhaitant valoriser leur savoir-faire.</p>
+      <p>Je collabore à ce jour avec :</p>
+      <p><span id="uk">/// Entreprise ///</span> APMSL, Ici Barbès, Les Echos Publishing, Les Enigmatics, MAIF, OuestMedialab, Port de Nantes Saint-Nazaire, Swpl, Teminal du Grand Ouest, Université de Nantes, Virage Group</p>
+      <p><span id="uk">/// Média ///</span> Alternatives Economiques, Financial Times, La Croix, Le Figaro, Le Moniteur, Le Parisien Magazine, Le Parisien Aujourd’hui en France, Les Echos, Les Cahiers Science&Vie, Libération, LSA, Les Jours, Pélerin, Télérama</p>
+      <p class="text-right"> <i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon <%= link_to 'PORTFOLIO', '/images/Portfolio_Corporate_MThomasset.pdf', target: "_blank" %></p> <br>
+      <p class="text-right"><% link_to "demande-de-contact", class: "btn-treehouse" do %>
+        <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
+      <% end %></p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+      <section id="grid">
+        <% data.entreprise.each do |y| %>
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+            <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+              <% if y.vertical == "yes" %>
+                <%= image_tag y.picture, width: "100%", class: "center-block" %>
+              <% else %>
+                <%= image_tag y.picture, width: "100%" %>
+              <% end %>
+            </a>
+            <div class="spacer"></div>
+          </div>
+        <% end %>
+      </section>
+    </div>  
+  </div>
+</div>
+<div class="spacer"></div>
