@@ -50,6 +50,10 @@ activate :disqus do |d|
   d.shortname = 'mathieuthomasset'
 end
 
+# configure :development do
+#   activate :php
+# end
+
 ###
 # Compass
 ###

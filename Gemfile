@@ -24,7 +24,7 @@ gem 'middleman-deploy', '~> 1.0'
 
 # Assets
 gem 'jquery-middleman'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', ">= 3.4.1"
 gem 'font-awesome-sass'
 
 gem "middleman-blog"

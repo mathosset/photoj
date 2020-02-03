@@ -132,6 +132,13 @@ article h1 {
   color: black;
 }
 
+#uk2 {
+  color: black;
+  color: #5B91B9;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
 #upper {
   text-transform: uppercase;
 }

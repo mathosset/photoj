@@ -13,42 +13,68 @@ preferred_url: http://www.mathieuthomasset.fr/demande-de-contact
       <h1 id="upper">Dempande de contact</h1>
       </br>
       <p>Vous avez un projet photographique et souhaitez être contacté pour recevoir un devis ou vous souhaitez simplement des renseignements, remplissez ce formulaire afin que je vous contacte très prochainement.</p>
-<!--       <p>Je réalise des portraits pour la <span id="uk">Presse</span>, les <span id="uk">Entreprises</span> et les <span id="uk">particuliers</span> à Nantes, en région Pays de la Loire et Bretagne ainsi qu'en France.</br> Je photographie des dirigeants, salariés, artisans, écrivains, artistes... Les séances photo de <strong>portrait</strong> se déroulent en studio mobile ou en lumière naturelle.</p>
-      <p class="text-right"> <i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon portfolio <%= link_to 'PORTRAIT', '/images/Portfolio_Portrait_MThomasset.pdf', target: "_blank" %></p> <br> -->
+      <p><i class="fa fa-mobile"></i> +33(0)6.95.51.46.79</p>
+      <p><i class="fa fa-envelope-o"> <a href="mailto:mathieuthomasset@gmx.com"></i> mathieuthomasset(at)gmx.com</a></p>
       <div class="spacer"></div>
     </div>
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-4 col-md-offset-1">
-      <form role="form" id="contactForm" class="contact-form">
+      <form action="https://app.99inbound.com/api/e/FFeLfbsA" method="POST" target="_blank">
+        <div class="form-group">
+          <label for="name">Votre Nom</label>
+          <input type="text" name="name" placeholder="Prénom et Nom" class="form-control" >
+        </div>
+        <div class="form-group">
+          <label for="email">Votre Email</label>
+          <input type="email" name="email" placeholder="nom@domaine.fr" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="message">Votre Message</label>
+          <textarea name="message" placeholder="Votre message" class="form-control" rows="10"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn-treehouse btn-block">Envoyer</button>
+        </div>
+      </form>
+<!--       <form action="https://app.99inbound.com/api/e/FFeLfbsA" method="POST" target="_blank">
       	<div class="form-group">
           <label for="name">Nom</label>
-          <input type="text" class="form-control" id="name" placeholder="Nom et Prénom" required data-error="Please enter your name">
+          <input type="text" class="form-control" name="name" placeholder="Nom et Prénom" required data-error="Please enter your name">
         </div>
         <div class="form-group">
-          <label for="email1">Email</label>
-          <input type="email" class="form-control" id="email1" placeholder="nom@domaine.fr">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" name="email1" placeholder="nom@domaine.fr">
         </div>
- <!--        <div class="form-group">
-        	  <label>Vous êtes : </label>
-        	  <select class="form-control">
-        	      <option value="" disabled>Faire un choix</option>
-        	      <option value="1" selected>une entreprise</option>
-        	      <option value="2">une association</option>
-        	      <option value="2">une collectivité</option>
-        	      <option value="3">un média</option>
-        	      <option value="4">un particulier</option>
-        	      <option value="2">autre</option>
-        	  </select>
-        </div> -->
-         <div class="form-group">
+        <div class="form-group">
           <label for="message">Message</label>
-          <textarea class="form-control" rows="5" id="message" placeholder="Votre message"></textarea>
+          <textarea class="form-control" rows="5" name="message" placeholder="Votre message"></textarea>
         </div>
         <div class="form-group">
-        	<button type="submit" id="submit" class="btn-treehouse btn-block">ENVOYER</button>
+        	<button type="submit" class="btn-treehouse btn-block">ENVOYER</button>
         </div>
-        <div id="msgSubmit" class="h3 text-center hidden">Message envoyé !</div> 
-      </form>  
+      </form>   -->
+
+<!--       <div id="wufoo-m1wmlreu1crx2sj">
+      Fill out my <a href="https://thomasset.wufoo.com/forms/m1wmlreu1crx2sj">online form</a>.
+      </div>
+      <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+      <script type="text/javascript">var m1wmlreu1crx2sj;(function(d, t) {
+      var s = d.createElement(t), options = {
+      'userName':'thomasset',
+      'formHash':'m1wmlreu1crx2sj',
+      'autoResize':true,
+      'height':'680',
+      'async':true,
+      'host':'wufoo.com',
+      'header':'show',
+      'ssl':true};
+      s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'secure.wufoo.com/scripts/embed/form.js';
+      s.onload = s.onreadystatechange = function() {
+      var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+      try { m1wmlreu1crx2sj = new WufooForm();m1wmlreu1crx2sj.initialize(options);m1wmlreu1crx2sj.display(); } catch (e) {}};
+      var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+      })(document, 'script');</script> -->
+
     </div>  
   </div>
 </div>

@@ -13,10 +13,10 @@
   category: "PORTRAITS"
   title: "Portrait de l'écrivain Stéphane Geffroy"
 
-- picture: planche-contact_02B.jpg
-  page: viragegroup.html
-  category: "PORTRAIT"
-  title: "Portraits de salariés en studio mobile"
+# - picture: planche-contact_02B.jpg
+#   page: viragegroup.html
+#   category: "PORTRAIT"
+#   title: "Portraits de salariés en studio mobile"
 
 - picture: dragon_03.jpg
   page: corporate
