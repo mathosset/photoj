@@ -49,6 +49,15 @@
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
 
+    <!-- Global site tag (gtag.js) - Google Ads: 1022405015 --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1022405015"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-1022405015'); </script>
+
+    <% if current_page.data.preferred_url=='http://www.mathieuthomasset.fr/confirmation-de-contact' %>
+        <!-- Event snippet for Prospect conversion page --> 
+        <script> gtag('event', 'conversion', {'send_to': 'AW-1022405015/BnkYCJPx_8EBEJfTwucD'}); </script>
+    <% end %>
+ </head>
+
   <body class="<%= page_classes %>">
 
     <%= partial 'layouts/navbar' %>
