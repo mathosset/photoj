@@ -21,8 +21,39 @@
   transition: background 0.3s ease;
 }
 .btn-treehouse:hover {
-  opacity: 1;
-  background: red;
+  background: none;
+  border: 2px solid #5B91B9;
+  text-decoration: none;
+  color: #5B91B9;
+}
+/*.btn-treehouse {
+  color: #5B91B9;
+  border: 2px solid #5B91B9;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: none;
+  transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  background: #5B91B9;
+  
   text-decoration: none;
   color: white;
+}*/
+
+.btn-medium-nav {
+  color: white;
+  border: 1px solid grey;
+  background: #E6E6E6;
+  padding: 4px 8px;
+  border-radius: 4px;
+/*  font-weight: lighter;*/
+  opacity: 0.9;
+}
+.btn-medium-nav:hover {
+  /*opacity: 1;*/
+  text-decoration: none;
+  color: white;
+  border: 2px solid #5B91B9;
 }
