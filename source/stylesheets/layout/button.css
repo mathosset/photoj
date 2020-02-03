@@ -26,7 +26,7 @@
   text-decoration: none;
   color: #5B91B9;
 }
-/*.btn-treehouse {
+.btn-treehouse2 {
   color: #5B91B9;
   border: 2px solid #5B91B9;
   padding: 10px 15px;
@@ -35,12 +35,12 @@
   background: none;
   transition: background 0.3s ease;
 }
-.btn-treehouse:hover {
+.btn-treehouse2:hover {
   background: #5B91B9;
   
   text-decoration: none;
   color: white;
-}*/
+}
 
 .btn-medium-nav {
   color: white;
