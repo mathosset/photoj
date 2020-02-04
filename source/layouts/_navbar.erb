@@ -41,11 +41,19 @@
             <li><%= link_to "Qu'as-tu fait des rêves de tes 20 ans ?", "regis" %></li>
           </ul>
         </li> -->   
+        <% if current_page.data.preferred_url=='http://www.mathieuthomasset.fr' %>
           <li>
             <% link_to "demande-de-contact", class: "btn-medium" do %>
               <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
             <% end %>
-          </li>  
+          </li>
+        <% else %>
+          <li>
+            <% link_to "demande-de-contact", class: "btn-medium-nav" do %>
+              <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
+            <% end %>
+          </li> 
+        <% end %>  
 
         <li>
           <% link_to "portraits" do %>
