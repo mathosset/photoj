@@ -28,6 +28,11 @@ $(document).ready(function() {
     $('#btn-grid').removeClass('disabled');
   });
 
+  $('#hide').click(function() {
+    $('#unhide').removeClass('hide');
+    // $('#btn-grid').removeClass('disabled');
+  });
+
 
   ;( function( $ ) {
           $( '.swipebox' ).swipebox({
