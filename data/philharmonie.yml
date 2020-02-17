@@ -1,5 +1,5 @@
-- picture: philharmonie_16.jpg
-  caption: 
+# - picture: philharmonie_16.jpg
+#   caption: 
 - picture: philharmonie_01.jpg
   caption:
 - picture: philharmonie_02.jpg
@@ -22,15 +22,15 @@
   caption:
 - picture: philharmonie_10.jpg
   caption:
-- picture: philharmonie_18.jpg
-  caption:
+# - picture: philharmonie_18.jpg
+#   caption:
 - picture: philharmonie_17.jpg
   caption:
-- picture: philharmonie_11.jpg
-  caption:
-- picture: philharmonie_13.jpg
-  caption:
-- picture: philharmonie_14.jpg
-  caption:
+# - picture: philharmonie_11.jpg
+#   caption:
+# - picture: philharmonie_13.jpg
+#   caption:
+# - picture: philharmonie_14.jpg
+#   caption:
 
 

@@ -4,6 +4,12 @@
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
 #   category: "Portraits"
 
+- picture: bruno-retailleau_06.jpg
+  page: portrait-de-bruno-retailleau-pour-le-jdd.html
+  title: "Portrait du sénateur Bruno Retailleau"
+  caption: "Vendée"
+  category: "Portrait Presse"
+
 - picture: dragon_03.jpg
   page: dragon.html
   title: "GPM Nantes-Saint-Nazaire"
@@ -101,8 +107,8 @@
 #   caption: "Dans les coulisses du journal Pèlerin"
 #   category: "Publications"
 
-- picture: portraitmathieu-1.jpg
-  page: bio.html
-  title: "Parcours et Contact"
-  caption: "Photographe indépendant basé à Nantes"
-  category: "Bio"
+# - picture: portraitmathieu-1.jpg
+#   page: bio.html
+#   title: "Parcours et Contact"
+#   caption: "Photographe indépendant basé à Nantes"
+#   category: "Bio"

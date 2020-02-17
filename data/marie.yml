@@ -6,13 +6,13 @@
   caption:
 - picture: marie_03.jpg
   caption:
-- picture: marie_04.jpg
-  caption:
+# - picture: marie_04.jpg
+#   caption:
 - picture: marie_05.jpg
   caption:
-- picture: marie_06.jpg
-  caption:
 - picture: marie_07.jpg
+  caption:
+- picture: marie_06.jpg
   caption:
 - picture: marie_08.jpg
   caption:
@@ -30,8 +30,8 @@
   caption:
 - picture: marie_17.jpg
   caption:
-- picture: marie_18.jpg
-  caption:
+# - picture: marie_18.jpg
+#   caption:
 - picture: marie_19.jpg
   caption:
 - picture: marie_20.jpg
