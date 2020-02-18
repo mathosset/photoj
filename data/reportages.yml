@@ -1,8 +1,8 @@
-- picture: 44BZH_01.jpg
-  page: 44-breizh.html
-  title: "44 = BREIZH"
+- picture: bruno-retailleau_06.jpg
+  page: portrait-de-bruno-retailleau-pour-le-jdd.html
+  title: "Portrait pour le JDD"
   # caption: "Nantes"
-  category: "News"
+  category: "Portrait Presse"
 
 - picture: ouestlajustice_01.jpg
   page: ou-est-la-justice.html
@@ -40,16 +40,22 @@
   # caption: "Notre Dame-des-Landes"
   category: "News"
 
+- picture: 44BZH_01.jpg
+  page: 44-breizh.html
+  title: "44 = BREIZH"
+  # caption: "Nantes"
+  category: "News"  
+
 - picture: emeutes-nantes_01.jpg
   page: emeutes-nantes.html
   title: "Vent de révolte à Nantes"
   category: "News"
 
-# - picture: blog/mobilisation-pronddl_01.jpg
-#   page: mobilisation-pronddl.html
-#   title: "Mobilisation des pro-NDDL"
-#   # caption: "Les riverains de l'aéroport en colère"
-#   category: "News"
+- picture: blog/mobilisation-pronddl_01.jpg
+  page: mobilisation-pronddl.html
+  title: "Mobilisation des pro-NDDL"
+  # caption: "Les riverains de l'aéroport en colère"
+  category: "News"
 
 - picture: philharmonie_01.jpg
   page: philharmonie.html
@@ -57,8 +63,8 @@
   # caption: "Les riverains de l'aéroport en colère"
   category: "Reportage"
 
-# - picture: lartdemanifester.jpg
-#   page: multimedia.html
-#   title: "L'art de manifester"
-#   # caption: "Quelle est la place de la manifestation dans notre société ?"
-#   category: "Multimedia"
+- picture: lartdemanifester.jpg
+  page: multimedia.html
+  title: "L'art de manifester"
+  # caption: "Quelle est la place de la manifestation dans notre société ?"
+  category: "Multimedia"

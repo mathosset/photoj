@@ -11,7 +11,7 @@ preferred_url: http://www.mathieuthomasset.fr/blog
     <div class="row">
     <% page_articles.each_with_index do |article, i| %>
         <article>
-          <div class="col-xs-12 col-md-4">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
             <time>/// <%= article.date.strftime('%e %b %Y')%> ///</time>
             <h1>
               <%= article.title %>
