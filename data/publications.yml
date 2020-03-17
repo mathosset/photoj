@@ -1,16 +1,19 @@
+- picture: publication_41.jpg
+  caption: Famille Chrétienne, du 14 au 20 mars 2020
 - picture: publication_40.jpg
   caption: Libération, vendredi 28 févier 2020
 - picture: publication_39.jpg
   caption: Le Journal du Dimanche 16 févier 2020
+  vertical: "yes"
 - picture: publication_39b.jpg
   caption: Le Journal du Dimanche 16 févier 2020
-- picture: publication_37.jpg
-  caption: Libération 3 janvier 2020
 - picture: publication_36.jpg
   caption: Les Cahiers Science&Vie janvier-février 2020
+- picture: publication_37.jpg
+  caption: Libération 3 janvier 2020
 - picture: publication_35.jpg
   caption: Les Echos 10 décembre 2019
-  # vertical: "yes"
+  vertical: "yes"
 - picture: publication_34.jpg
   caption: Le P'tit Libé 7 Novembre 2019
 - picture: publication_33.jpg
