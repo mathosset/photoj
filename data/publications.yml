@@ -1,10 +1,12 @@
+- picture: publication_42.jpg
+  caption: CFDT Magazine, Avril 2020
 - picture: publication_41.jpg
   caption: Famille Chrétienne, du 14 au 20 mars 2020
 - picture: publication_40.jpg
   caption: Libération, vendredi 28 févier 2020
 - picture: publication_39.jpg
   caption: Le Journal du Dimanche 16 févier 2020
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_39b.jpg
   caption: Le Journal du Dimanche 16 févier 2020
 - picture: publication_36.jpg
