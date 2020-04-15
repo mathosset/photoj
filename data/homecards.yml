@@ -6,14 +6,14 @@
 
 - picture: bruno-retailleau_06.jpg
   page: portrait-de-bruno-retailleau-pour-le-jdd.html
-  title: "Portrait du sénateur Bruno Retailleau"
+  title: "Portrait du sénateur Bruno Retailleau pour le JDD"
   caption: "Vendée"
   category: "Portrait Presse"
 
 - picture: dragon_03.jpg
   page: dragon.html
   title: "GPM Nantes-Saint-Nazaire"
-  caption: "Nantes"
+  caption: "Industrie"
   category: "Corporate"
 
 - picture: portrait-virage_01.jpg
@@ -22,11 +22,23 @@
   caption: "Nantes"
   category: "Corporate"
 
-- picture: run-energie_01.jpg
-  page: vent-vert-sur-la-reunion.html
-  title: "Vent vert sur la Réunion"
-  caption: "La Réunion"
+- picture: FT-medef_04.jpg
+  page: portraits.html
+  title: "Portraits d'entrepreneurs pour le Financial Times"
+  caption: "Vendée"
+  category: "Portrait Presse"
+
+- picture: confinement_02.jpg
+  page: journal-de-confinement.html
+  title: "Journal d'un confinement"
+  caption: "Nantes"
   category: "Blog"
+
+# - picture: run-energie_01.jpg
+#   page: vent-vert-sur-la-reunion.html
+#   title: "Vent vert sur la Réunion"
+#   caption: "La Réunion"
+#   category: "Blog"
 
 # - picture: blog/mobilisation-pronddl_01.jpg
 #   page: mobilisation-pronddl.html
@@ -40,11 +52,17 @@
   caption: "Disparition de Steve Maia Caniço"
   category: "News"
 
-- picture: blog/tgo_01.jpg
-  page: terminal-grand-ouest.html
-  title: "Terminal Grand Ouest"
-  caption: "Saint-Nazaire"
-  category: "Corporate"
+- picture: portrait_stephane-geffroy.jpg
+  page: portraits.html
+  title: "Photographe portrait à Nantes"
+  caption: "Grand Ouest"
+  category: "Portrait"
+
+# - picture: blog/tgo_01.jpg
+#   page: terminal-grand-ouest.html
+#   title: "Terminal Grand Ouest"
+#   caption: "Saint-Nazaire"
+#   category: "Corporate"
 
 - picture: 44BZH_01.jpg
   page: 44-breizh.html
@@ -77,11 +95,11 @@
 #   category: "Blog"
 
 
-- picture: blog/route-chicanes_02.jpg
-  page: la-route-des-chicanes.html
-  title: "La route des chicanes"
-  caption: "Notre Dame-des-Landes"
-  category: "News"
+# - picture: blog/route-chicanes_02.jpg
+#   page: la-route-des-chicanes.html
+#   title: "La route des chicanes"
+#   caption: "Notre Dame-des-Landes"
+#   category: "News"
 
 # - picture: globetrotters-1.jpg
 #   page: globetrotters.html
