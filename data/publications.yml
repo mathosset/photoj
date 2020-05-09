@@ -1,6 +1,12 @@
+- picture: publication_45.jpg
+  caption: Le Journal du Dimanche, 3 mai 2020
+  # vertical: "yes"
+- picture: publication_44.jpg
+  caption: Famille Chrétienne, du 2 au 8 mai 2020
+  # vertical: "yes"
 - picture: publication_43.jpg
   caption: Télérama, 15 Avril 2020
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_42.jpg
   caption: CFDT Magazine, Avril 2020
   vertical: "yes"
@@ -44,7 +50,7 @@
   caption: Les Echos Publishing 2ème trim. 2019
 - picture: publication_27.jpg
   caption: Télérama 15 Décembre 2018
-  # vertical: "yes"
+  vertical: "yes"
 - picture: publication_26.jpg
   caption: LSA 29 Novembre 2018
 - picture: publication_25.jpg
