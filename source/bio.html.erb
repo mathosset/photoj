@@ -30,7 +30,7 @@ preferred_url: http://www.mathieuthomasset.fr/bio
       <p>Membre du studio <a href="http://hanslucas.com/mthomasset/photo" target="_blank">HANS LUCAS</a> depuis août 2017.</p>
       <p>Carte de Presse n°127141</p>
       <p>Membre de la <a href="http://www.saif.fr" target="_blank">SAIF</a> - Société des Auteurs des arts visuels et de l’Image Fixe.</p>
-      <div class="spacer"></div>
+<!--       <div class="spacer"></div> -->
     </div>
     <div class="col-sm-4" id="uk">
       <p>---- EN -----------------------</p>
@@ -39,13 +39,20 @@ preferred_url: http://www.mathieuthomasset.fr/bio
       <p>Member of <a href="http://hanslucas.com/mthomasset/photo" target="_blank">HANS LUCAS studio</a> since August 2017.</p>
       <p> Press Card n°127141</p>
       <p>Membre de la <a href="http://www.saif.fr" target="_blank">SAIF</a> - Society of Authors of Visual Arts and Still Image.</p>
-      <div class="spacer"></div>
     </div>
     <div class="col-sm-8">
-      <p><%= partial 'layouts/clients' %></p>
-      <!-- <p id="uk">-- MEDIA ------ Financial Times-Le Figaro--Famille Chrétienne-Le Parisien-Libération-Aujourd'hui en France-La Croix-Les Echos Publishing-LSA-Pélerin-Télérama-Les Jours-Alternatives économiques-Le Moniteur-Le JDD Journal du Dimanche</p>
-      <p>-- CORPORATE ------ APMSL-Ici Barbès-Les Echos Publishing-Les Enigmatics-MAIF-OuestMedialab-Port de Nantes Saint-Nazaire-Swpl-Teminal du Grand Ouest-Université de Nantes-Virage Group-</p> -->
+      <div class="row">
+        <div class="col-sm-6">
+          <p><%= partial 'layouts/clientsmedias' %></p>
+        </div>
+        <div class="col-sm-6">
+          <p><%= partial 'layouts/clientsentreprises' %></p>
+        </div>
+      </div>
+
     </div>
+<!--     <p id="uk">-- MEDIA ------ Financial Times-Le Figaro--Famille Chrétienne-Le Parisien-Libération-Aujourd'hui en France-La Croix-Les Echos Publishing-LSA-Pélerin-Télérama-Les Jours-Alternatives économiques-Le Moniteur-Le JDD Journal du Dimanche</p>
+    <p>-- CORPORATE ------ APMSL-Ici Barbès-Les Echos Publishing-Les Enigmatics-MAIF-OuestMedialab-Port de Nantes Saint-Nazaire-Swpl-Teminal du Grand Ouest-Université de Nantes-Virage Group-</p> -->
   </div>
 </div>
 <div class="spacer"></div>

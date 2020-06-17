@@ -1,0 +1,15 @@
+<!-- <p><span id="uk">-- ENTREPRISES ------</span> APMSL - Ici Barbès - Les Echos Publishing - Les Enigmatics - MAIF - OuestMedialab - Port de Nantes Saint-Nazaire - Swpl - Teminal du Grand Ouest - Université de Nantes - Virage Group</p>
+<p><span id="uk">-- MEDIAS ------</span> Alternatives Economiques - Financial Times - Le Figaro - Famille Chrétienne - Libération - Le Parisien Aujourd'hui en France - La Croix - Le1hebdo - L'OBS - LSA - Les Jours - Les Cahiers Science&Vie - Le Moniteur - Le JDD Journal du Dimanche - Pélerin - Télérama</p> -->
+<div class="row">
+	<div class="col-xs-12">
+		<p><span id="uk">-- ENTREPRISES ------</span>
+	</div>
+</div>
+<div class="row">
+	<% data.logo.each do |y| %>
+		<div class="col-xs-3">
+			<%= image_tag y.picture, width: "100%", height: "100%" %>
+		</div>
+    <% end %>
+</div>
+<div class="spacer"></div>
