@@ -104,7 +104,8 @@ body {
 
 body h1 {
   color: #5B91B9;
-  font-size: 1.5em;
+  font-size: 1.6em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .carousel-caption > h1 {
