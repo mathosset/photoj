@@ -108,6 +108,12 @@ body h1 {
   font-family: 'Roboto', sans-serif;
 }
 
+body h3 {
+  color: grey;
+  font-size: 1.3em;
+  font-family: 'Roboto', sans-serif;
+}
+
 .carousel-caption > h1 {
   color: white;
 }
