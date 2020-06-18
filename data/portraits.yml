@@ -1,7 +1,3 @@
-- picture: portrait_stephane-geffroy.jpg
-  caption: Portrait de Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
-- picture: portrait_stephane-geffroy2.jpg
-  caption: Portrait de Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
 - picture: virage-triptyque_01.jpg
   caption: Portrait en triptyque de salariés de l'éditeur nantais Virage Group
 - picture: virage-triptyque_02.jpg
@@ -14,10 +10,10 @@
   caption: Portrait de salariés
 - picture: planche-contact_01.jpg
   caption: Portrait de salariés
-- picture: apmsl_01.jpg
-  caption: Portrait des membres du conseil d'administration de l'APMSL
-- picture: apmsl_06.jpg
-  caption: Portrait des membres du conseil d'administration de l'APMSL
+# - picture: apmsl_01.jpg
+#   caption: Portrait des membres du conseil d'administration de l'APMSL
+# - picture: apmsl_06.jpg
+#   caption: Portrait des membres du conseil d'administration de l'APMSL
 # - picture: viragegroup-duo_01.jpg
 #   caption: Portrait de salarié d'un éditeur de logiciel nantais
 # - picture: viragegroup-duo_02.jpg
@@ -30,18 +26,22 @@
 #   caption: Portrait de salarié d'un éditeur de logiciel nantais
 # - picture: viragegroup-duo_04.jpg
 #   caption: Portrait de salarié d'un éditeur de logiciel nantais
-- picture: FT-medef_05.jpg
-  caption: Bouyer Leroux pour le Financial Times
-- picture: FT-medef_03.jpg
-  caption: Portrait de Roland Besnard, pdg de Bouyer Leroux pour le Financial Times
+# - picture: FT-medef_05.jpg
+#   caption: Bouyer Leroux pour le Financial Times
+# - picture: FT-medef_03.jpg
+#   caption: Portrait de Roland Besnard, pdg de Bouyer Leroux pour le Financial Times
 - picture: FT-medef_04.jpg
   caption: Portrait de Roland Besnard, pdg de Bouyer Leroux pour le Financial Times
 - picture: portrait-samuel-nantes-atlantique.jpg
   caption: Portrait de Samuel qui habite une des maisons les plus proches de la piste de l'aéroport Nantes-Atlantique à Saint-Aignan de Grand Lieu
 - picture: FT-medef_01.jpg
   caption: Portrait de Sylvain Apaire, président du Medef du Pays Choletais pour le Financial Times
-- picture: cogelec_01.jpg
-  caption: Portrait de Roger Leclerc, pdg de Cogelec
+- picture: portrait_stephane-geffroy.jpg
+  caption: Portrait de Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
+# - picture: portrait_stephane-geffroy2.jpg
+#   caption: Portrait de Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
+# - picture: cogelec_01.jpg
+#   caption: Portrait de Roger Leclerc, pdg de Cogelec
 - picture: cogelec_03.jpg
   caption: Portrait de Roger Leclerc, pdg de Cogelec
   vertical: "yes"
