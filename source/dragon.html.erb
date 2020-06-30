@@ -44,8 +44,6 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
   <div class="row">
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-3 col-md-offset-1">
-<!--       <h1 id="upper">GPM Nantes-Saint-Nazaire</h1>
-      </br> -->
       <%= image_tag "logo-portnantes.jpg", width: "50%" %>
       <p>Client : <span id="uk">Grand Port Maritime Nantes-Saint-Nazaire</span></br></br>
       Reportage sur les quais du Grand Port Maritime Nantes-Saint-Nazaire pour le chargement d'un dragon de 72 tonnes fabriqué par la Compagnie La Machine en partence pour la ville de Calais.</p>
@@ -68,7 +66,32 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
       <% end %>
     </section>
     </div>  
-
+  </div>
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+<!--       <%= image_tag "logo-portnantes.jpg", width: "50%" %>
+      <p>Client : <span id="uk">Grand Port Maritime Nantes-Saint-Nazaire</span></br></br> -->
+      <p>Reportage de nuit pour la mise en place du pivot sur le pont métallique du Pertuis au port de Saint-Nazaire.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+          <section id="grid">
+      <% data.pertuis.each do |y| %>
+        <div class="col-xs-12 col-sm-6">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+          </a>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+    </div>  
   </div>
 </div>
 <div class="spacer"></div>
