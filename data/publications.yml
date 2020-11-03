@@ -1,14 +1,20 @@
+- picture: publication_52.jpg
+  caption: La Croix, 2 novembre 2020
+- picture: publication_51.jpg
+  caption: CFDT Magazine, Novembre 2020
 - picture: publication_50.jpg
   caption: Le Monde, 18 septembre 2020
+  vertical: "yes"
 - picture: publication_49.jpg
   caption: Le Figaro, 1er septembre 2020
 - picture: publication_47B.jpg
   caption: L'OBS, 28 mai 2020
 - picture: publication_48B.jpg
   caption: Le1hebdo, 20 mai 2020
+  vertical: "yes"
 - picture: publication_46B.jpg
   caption: Le Figaro, 13 mai 2020
-  # vertical: "yes"
+  vertical: "yes"
 - picture: publication_45.jpg
   caption: Le Journal du Dimanche, 3 mai 2020
   # vertical: "yes"
