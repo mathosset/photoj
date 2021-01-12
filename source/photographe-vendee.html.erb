@@ -1,0 +1,50 @@
+---
+title: Mathieu Thomasset - Photographe basé en Vendée
+description: Photographe pour les particuliers et les entreprises en Vendée - Reportage, Portraits, Studio mobile
+preferred_url: http://www.mathieuthomasset.fr/photographe-vendee
+---
+
+<div class="big-spacer"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">Photographe professionnel en Vendée</h1>
+      <h3 style="text-transform: uppercase;">Portrait et Reportage</h3>
+      </br>
+      <p>Formé à Paris aux Gobelins, l'école de l'image, et en photojournalisme au sein de l'Ecole des Métiers de l'Information (EMI), je suis <strong><span id="uk">photographe professionnel</span></strong> indépendant basé à Montaigu-Vendée et je travaille principalement pour la <span id="uk">Presse </span>, les <span id="uk">Institutionnels </span> et les <span id="uk">Entreprises </span> mais aussi pour les <span id="uk">Particuliers</span>. </br> Je me propose de mettre mon expérience du <span id="uk">reportage</span> et du <span id="uk">portrait</span> ainsi que mon regard d'<span id="uk">auteur</span> photographe pour vous accompagner dans vos projets.</p>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <p class="text-right"><% link_to "demande-de-contact", class: "btn-treehouse" do %>
+        <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
+      <% end %></p>
+      <div class="big-spacer"></div>
+      <p>Je collabore à ce jour avec :</p>
+      <p><%= partial 'layouts/clientsentreprises' %></p>
+      <p><%= partial 'layouts/clientsmedias' %></p>
+      <div class="spacer"></div>
+      <p class="text-left"> <i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon portfolio <%= link_to 'PARTICULIERS', '/images/Portfolio_Mariage_MThomasset.pdf', target: "_blank" %>, <%= link_to 'ENTREPRISES', '/images/Portfolio_Corporate_MThomasset.pdf', target: "_blank" %>, <%= link_to 'PORTRAITS', '/images/Portfolio_Portrait_MThomasset.pdf', target: "_blank" %></p><br>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+      <section id="grid">
+        <% data.global.each do |y| %>
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+            <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+              <% if y.vertical == "yes" %>
+                <%= image_tag y.picture, width: "100%", class: "center-block" %>
+              <% else %>
+                <%= image_tag y.picture, width: "100%" %>
+              <% end %>
+            </a>
+            <div class="spacer"></div>
+          </div>
+        <% end %>
+      </section>
+    </div>  
+  </div>
+</div>
+<div class="spacer"></div>
+
