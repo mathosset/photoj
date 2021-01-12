@@ -1,31 +1,38 @@
+- picture: publication_56.jpg
+  caption: CIGI, 14 décembre 2020
 - picture: publication_53.jpg
   caption: Le Figaro, 12 décembre 2020
+  vertical: "yes" 
+- picture: publication_55.jpg
+  caption: Zeit Online, 30 novembre 2020
 - picture: publication_52.jpg
   caption: La Croix, 2 novembre 2020
 - picture: publication_51.jpg
   caption: CFDT Magazine, Novembre 2020
+  # vertical: "yes" 
 - picture: publication_50.jpg
   caption: Le Monde, 18 septembre 2020
+  vertical: "yes" 
 - picture: publication_49.jpg
   caption: Le Figaro, 1er septembre 2020
-  # vertical: "yes"
+  vertical: "yes"
 - picture: publication_47B.jpg
   caption: L'OBS, 28 mai 2020
 - picture: publication_48B.jpg
   caption: Le1hebdo, 20 mai 2020
-  # vertical: "yes"
+  vertical: "yes"
 - picture: publication_46B.jpg
   caption: Le Figaro, 13 mai 2020
-  # vertical: "yes"
+  vertical: "yes"
 - picture: publication_45.jpg
   caption: Le Journal du Dimanche, 3 mai 2020
-  # vertical: "yes"
+  vertical: "yes"
 - picture: publication_44.jpg
   caption: Famille Chrétienne, du 2 au 8 mai 2020
   # vertical: "yes"
 - picture: publication_43.jpg
   caption: Télérama, 15 Avril 2020
-  # vertical: "yes"
+  vertical: "yes"
 - picture: publication_42.jpg
   caption: CFDT Magazine, Avril 2020
   vertical: "yes"
@@ -51,18 +58,20 @@
   caption: Le Parisien / Aujourd'hui en France 8 septembre 2019
 - picture: publication_32.jpg
   caption: TELERAMA 7 Aôut 2019
-  # vertical: "yes"
-- picture: publication_31.jpg
-  caption: BDO Zoom 3ème trimestre 2019
-  # vertical: "yes"
-- picture: publication_31b.jpg
-  caption: BDO Zoom 3ème trimestre 2019
-  # vertical: "yes"
+  vertical: "yes"
 - picture: publication_30.jpg
   caption: LA CROIX 1er Juillet 2019
-- picture: publication_30b.jpg
-  caption: LA-CROIX.COM 1er Juillet 2019
+# - picture: publication_30b.jpg
+#   caption: LA-CROIX.COM 1er Juillet 2019
   vertical: "yes"
+- picture: publication_31.jpg
+  caption: BDO Zoom 3ème trimestre 2019
+  vertical: "yes"
+- picture: publication_31b.jpg
+  caption: BDO Zoom 3ème trimestre 2019
+  vertical: "yes"
+- picture: publication_54.jpg
+  caption: Maif Mag, Juin 2019
 - picture: publication_29.jpg
   caption: LES JOURS 7 Mai 2019
 - picture: publication_28.jpg
