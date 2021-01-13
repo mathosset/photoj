@@ -1,8 +1,8 @@
 ---
 title: Grand Port Maritime Nantes Saint Nazaire
 image_path: http://mathieuthomasset.fr/images/dragon_01.jpg
-description: Reportage au Grand Port Maritime Nantes Saint Nazaire.
-preferred_url: http://www.mathieuthomasset.fr/viragegroup
+description: Reportages au Grand Port Maritime Nantes Saint Nazaire.
+preferred_url: http://www.mathieuthomasset.fr/port-nantes-saint-nazaire
 ---
 
 <div class="big-spacer"></div>
@@ -40,13 +40,41 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
 </div>
 <div class="spacer"></div> -->
 
+
+
 <div class="container-fluid">
   <div class="row">
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-3 col-md-offset-1">
       <%= image_tag "logo-portnantes.jpg", width: "50%" %>
       <p>Client : <span id="uk">Grand Port Maritime Nantes-Saint-Nazaire</span></br></br>
-      Reportage sur les quais du Grand Port Maritime Nantes-Saint-Nazaire pour le chargement d'un dragon de 72 tonnes fabriqué par la Compagnie La Machine en partence pour la ville de Calais.</p>
+      Reportage à Saint-Nazaire pour le changement de l’arbre entraînant l’hélice du dragueur Samuel de Champlain appartenant à la flotte du GIE Dragage-Ports.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+          <section id="grid">
+      <% data.champlain.each do |y| %>
+        <div class="col-xs-12 col-sm-6">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+          </a>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+    </div>  
+  </div>
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+  <!--     <%= image_tag "logo-portnantes.jpg", width: "50%" %>
+      <p>Client : <span id="uk">Grand Port Maritime Nantes-Saint-Nazaire</span></br></br> -->
+     <p>Reportage sur les quais du Grand Port Maritime Nantes-Saint-Nazaire pour le chargement d'un dragon de 72 tonnes fabriqué par la Compagnie La Machine en partence pour la ville de Calais.</p>
       <div class="spacer"></div>
     </div>
     <div class="spacer"></div>
@@ -66,7 +94,7 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
       <% end %>
     </section>
     </div>  
-  </div>
+  </div>  
   <div class="row">
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-3 col-md-offset-1">

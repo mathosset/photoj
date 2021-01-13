@@ -3,66 +3,55 @@
   title: "Portrait pour le JDD"
   # caption: "Nantes"
   category: "Portrait Presse"
-
 - picture: ouestlajustice_01.jpg
   page: ou-est-la-justice.html
   title: "Où est la Justice ?"
   # caption: "Disparition de Steve Maia Caniço"
   category: "News"
-
 - picture: publication_23.jpg
   page: publications.html
   title: "PUBLICATIONS"
   # caption: "Nantes"
   category: "Presse"
-
 - picture: marie_16.jpg
   page: entre-ciel-et-terre.html
   title: "Marie et les filles"
   # caption: "La Réunion"
   category: "Reportage"
-
 - picture: pelerin_21.jpg
   page: coulissespelerin.html
   title: "Dans les coulisses d'une rédaction"
   # caption: "La Réunion"
-  category: "Reportage"
-  
+  category: "Reportage"  
 - picture: blog/chantierXXL_01.jpg
   page: un-chantier-xxl.html
   title: "Un chantier XXL"
   # caption: "Min de Nantes"
   category: "News"
-
 - picture: blog/route-chicanes_02.jpg
   page: la-route-des-chicanes.html
   title: "La route des chicanes"
   # caption: "Notre Dame-des-Landes"
   category: "News"
-
 - picture: 44BZH_01.jpg
   page: 44-breizh.html
   title: "44 = BREIZH"
   # caption: "Nantes"
   category: "News"  
-
 - picture: emeutes-nantes_01.jpg
   page: emeutes-nantes.html
   title: "Vent de révolte à Nantes"
   category: "News"
-
 - picture: blog/mobilisation-pronddl_01.jpg
   page: mobilisation-pronddl.html
   title: "Mobilisation des pro-NDDL"
   # caption: "Les riverains de l'aéroport en colère"
   category: "News"
-
 - picture: philharmonie_01.jpg
   page: philharmonie.html
   title: "Behind the scene"
   # caption: "Les riverains de l'aéroport en colère"
   category: "Reportage"
-
 - picture: lartdemanifester.jpg
   page: multimedia.html
   title: "L'art de manifester"
