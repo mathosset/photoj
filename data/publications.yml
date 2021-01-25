@@ -1,3 +1,7 @@
+- picture: publication_58.jpg
+  caption: 6minutos, 19 Janvier 2021
+- picture: publication_57.jpg
+  caption: France Inter, 19 Janvier 2021
 - picture: publication_56.jpg
   caption: CIGI, 14 décembre 2020
 - picture: publication_53.jpg
@@ -7,9 +11,10 @@
   caption: Zeit Online, 30 novembre 2020
 - picture: publication_52.jpg
   caption: La Croix, 2 novembre 2020
+  vertical: "yes" 
 - picture: publication_51.jpg
   caption: CFDT Magazine, Novembre 2020
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_50.jpg
   caption: Le Monde, 18 septembre 2020
   vertical: "yes" 
@@ -18,6 +23,7 @@
   vertical: "yes"
 - picture: publication_47B.jpg
   caption: L'OBS, 28 mai 2020
+  vertical: "yes" 
 - picture: publication_48B.jpg
   caption: Le1hebdo, 20 mai 2020
   vertical: "yes"

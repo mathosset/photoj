@@ -104,8 +104,12 @@ body {
 
 body h1 {
   color: #5B91B9;
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-family: 'Roboto', sans-serif;
+}
+
+body h2 {
+  font-size: 1.6em;
 }
 
 body h3 {
