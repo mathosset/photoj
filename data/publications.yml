@@ -1,3 +1,10 @@
+- picture: publication_61.jpg
+  caption: La Croix, 28 Janvier 2021
+- picture: publication_60.jpg
+  caption: L'OBS, 28 Janvier 2021
+- picture: publication_59.jpg
+  caption: Le Figaro, 27 Janvier 2021
+  # vertical: "yes"
 - picture: publication_58.jpg
   caption: 6minutos, 19 Janvier 2021
 - picture: publication_57.jpg
@@ -6,7 +13,7 @@
   caption: CIGI, 14 décembre 2020
 - picture: publication_53.jpg
   caption: Le Figaro, 12 décembre 2020
-  vertical: "yes" 
+  # vertical: "yes" 
 - picture: publication_55.jpg
   caption: Zeit Online, 30 novembre 2020
 - picture: publication_52.jpg
