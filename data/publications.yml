@@ -1,10 +1,17 @@
+- picture: publication_63.jpg
+  caption: Science & Vie Hors série, février 2021
+- picture: publication_62.jpg
+  caption: La Croix, 28 Janvier 2021
 - picture: publication_61.jpg
   caption: La Croix, 28 Janvier 2021
-- picture: publication_60.jpg
-  caption: L'OBS, 28 Janvier 2021
 - picture: publication_59.jpg
   caption: Le Figaro, 27 Janvier 2021
   # vertical: "yes"
+- picture: publication_60.jpg
+  caption: L'OBS, 28 Janvier 2021
+- picture: publication_64.jpg
+  caption: Sciences Avenir, 20 janvier 2021
+  vertical: "yes"
 - picture: publication_58.jpg
   caption: 6minutos, 19 Janvier 2021
 - picture: publication_57.jpg
@@ -18,44 +25,44 @@
   caption: Zeit Online, 30 novembre 2020
 - picture: publication_52.jpg
   caption: La Croix, 2 novembre 2020
-  vertical: "yes" 
+  # vertical: "yes" 
 - picture: publication_51.jpg
   caption: CFDT Magazine, Novembre 2020
-  vertical: "yes" 
+  # vertical: "yes" 
 - picture: publication_50.jpg
   caption: Le Monde, 18 septembre 2020
-  vertical: "yes" 
+  # vertical: "yes" 
 - picture: publication_49.jpg
   caption: Le Figaro, 1er septembre 2020
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_47B.jpg
   caption: L'OBS, 28 mai 2020
-  vertical: "yes" 
+  # vertical: "yes" 
 - picture: publication_48B.jpg
   caption: Le1hebdo, 20 mai 2020
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_46B.jpg
   caption: Le Figaro, 13 mai 2020
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_45.jpg
   caption: Le Journal du Dimanche, 3 mai 2020
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_44.jpg
   caption: Famille Chrétienne, du 2 au 8 mai 2020
   # vertical: "yes"
 - picture: publication_43.jpg
   caption: Télérama, 15 Avril 2020
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_42.jpg
   caption: CFDT Magazine, Avril 2020
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_41.jpg
   caption: Famille Chrétienne, du 14 au 20 mars 2020
 - picture: publication_40.jpg
   caption: Libération, vendredi 28 févier 2020
 - picture: publication_39.jpg
   caption: Le Journal du Dimanche 16 févier 2020
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_39b.jpg
   caption: Le Journal du Dimanche 16 févier 2020
 - picture: publication_36.jpg
@@ -64,25 +71,25 @@
   caption: Libération 3 janvier 2020
 - picture: publication_35.jpg
   caption: Les Echos 10 décembre 2019
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_34.jpg
   caption: Le P'tit Libé 7 Novembre 2019
 - picture: publication_33.jpg
   caption: Le Parisien / Aujourd'hui en France 8 septembre 2019
 - picture: publication_32.jpg
   caption: TELERAMA 7 Aôut 2019
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_30.jpg
   caption: LA CROIX 1er Juillet 2019
 # - picture: publication_30b.jpg
 #   caption: LA-CROIX.COM 1er Juillet 2019
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_31.jpg
   caption: BDO Zoom 3ème trimestre 2019
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_31b.jpg
   caption: BDO Zoom 3ème trimestre 2019
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_54.jpg
   caption: Maif Mag, Juin 2019
 - picture: publication_29.jpg
