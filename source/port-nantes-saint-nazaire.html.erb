@@ -48,7 +48,31 @@ preferred_url: http://www.mathieuthomasset.fr/port-nantes-saint-nazaire
     <div class="col-xs-12 col-sm-3 col-md-offset-1">
       <%= image_tag "logo-portnantes.jpg", width: "50%" %>
       <p>Client : <span id="uk">Grand Port Maritime Nantes-Saint-Nazaire</span></br></br>
-      Reportage à Saint-Nazaire pour le changement de l’arbre entraînant l’hélice du dragueur Samuel de Champlain appartenant à la flotte du GIE Dragage-Ports.</p>
+      Reportage à Saint-Nazaire pour le déchangement du voilier cargo Grain Sail qui rapporte 33 tonnes de cacao bio en provenance de la République Dominicaine.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+          <section id="grid">
+      <% data.graindesail.each do |y| %>
+        <div class="col-xs-12 col-sm-6">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+          </a>
+          <p><%= y.caption %></p>
+        </div>
+      <% end %>
+    </section>
+    </div>  
+  </div>
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <p>Reportage à Saint-Nazaire pour le changement de l’arbre entraînant l’hélice du dragueur Samuel de Champlain appartenant à la flotte du GIE Dragage-Ports.</p>
       <div class="spacer"></div>
     </div>
     <div class="spacer"></div>
