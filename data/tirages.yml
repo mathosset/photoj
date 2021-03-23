@@ -6,20 +6,20 @@
   caption: Angel I
   format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
   price: 450 EUR
-- picture: LaR.jpg
-  caption: LaR
-  format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
-  price: 350 EUR
 - picture: musem.jpg
   caption: musem
   format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
   price: 350 EUR
-- picture: traces.jpg
-  caption: traces
+- picture: LaR.jpg
+  caption: LaR
   format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
-  price: 200 EUR
-- picture: india.jpg
-  caption: india
+  price: 350 EUR
+- picture: redI.jpg
+  caption: red I
+  format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
+  price: 320 EUR
+- picture: redII.jpg
+  caption: red II
   format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
   price: 250 EUR
 - picture: memoriesI.jpg
@@ -34,6 +34,14 @@
   caption: memories III
   format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
   price: 450 EUR
+- picture: traces.jpg
+  caption: traces
+  format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
+  price: 200 EUR
+- picture: india.jpg
+  caption: india
+  format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
+  price: 250 EUR
 - picture: waterlicht-4.jpg
   caption: Waterlicht
   format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
