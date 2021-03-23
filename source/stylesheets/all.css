@@ -153,3 +153,7 @@ article h1 {
 #upper {
   text-transform: uppercase;
 }
+
+#small {
+  font-size: 1.1em;
+}

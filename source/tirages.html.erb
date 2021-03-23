@@ -1,0 +1,53 @@
+---
+title: Mathieu Thomasset - Auteur Photographe basé en Vendée
+description: Auteur photographe en Vendée - Vente de tirages signés et numérotées limités à 30 exemplaires
+preferred_url: http://www.mathieuthomasset.fr/tirages
+---
+
+<div class="big-spacer"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">Vente de Tirages</h1>
+      </br>
+      <p> Les tirages des photographies de Mathieu Thomasset sont <span id="uk">signés</span> et <span id="uk">numérotés</span>.</p>
+      <p>Ils sont vendus en <span id="uk">édition limitée</span> à <span id="uk">30 exemplaires</span> maximum et livrés sous 15 jours accompagnés d'un certificat d'authenticité signé par l'auteur.</p>
+      <div class="spacer"></div>
+      <p>---------------------</p>
+      <div class="spacer"></div>
+      <p id="small">Les prix indiqués inclus les frais de port pour un envoi au sein de l'Union Européenne.</p>
+      <p id="small">Lors de votre commande merci d'indiquer le nom du tirage.</p>
+      <div class="spacer"></div>
+      <p>---------------------</p>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <p class="text-right"><% link_to "demande-de-contact", class: "btn-treehouse" do %>
+        <i class="fa fa-cubes"></i> COMMANDER
+      <% end %></p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+      <section id="grid">
+      <% data.tirages.each do |y| %>
+        <div class="col-xs-12 col-sm-6 col-lg-6">
+          <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "78%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
+          </a>
+          <p id="uk2"><%= y.caption %></p>
+          <p id="small"><%= y.format %></p>
+          <p id="uk"><%= y.price %></p>
+          <div class="spacer"></div>
+        </div>
+      <% end %>
+    </section>
+    </div>  
+  </div>
+</div>
+<div class="spacer"></div>

@@ -40,7 +40,12 @@
             <li><%= link_to "Marie et les filles", "entre-ciel-et-terre" %></li>            
             <li><%= link_to "Qu'as-tu fait des rêves de tes 20 ans ?", "regis" %></li>
           </ul>
-        </li> -->   
+        </li> -->  
+        <li>
+          <% link_to "tirages" do %>
+            <i class="fa fa-cube"></i> TIRAGES
+          <% end %>
+        </li> 
         <% if current_page.data.preferred_url=='http://www.mathieuthomasset.fr' %>
           <li>
             <% link_to "demande-de-contact", class: "btn-medium" do %>
@@ -54,7 +59,6 @@
             <% end %>
           </li> 
         <% end %>  
-
         <li>
           <% link_to "portraits" do %>
             <i class="fa fa-cube"></i> PORTRAITS
