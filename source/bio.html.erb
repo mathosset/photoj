@@ -18,7 +18,14 @@ preferred_url: http://www.mathieuthomasset.fr/bio
         <i class="fa fa-cubes"></i> ME CONTACTER
       <% end %></p></br>
       
-      <p><i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon <%= link_to 'PORTFOLIO', '/images/Portfolio-Mathieu_Thomasset.pdf', target: "_blank" %></br></br><!-- <i class="fa fa-envelope-o"></i> Demander un <a href="mailto:mathieuthomasset@gmx.com?subject=Demande_de_devis">devis</a> -->
+      <p><i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon <%= link_to 'PORTFOLIO', '/images/Portfolio-Mathieu_Thomasset.pdf', target: "_blank" %></p>
+      <p><i class="fa fa-cube"></i> Commander un <% link_to "tirages" do %>
+            TIRAGE
+          <% end %></p>
+       <p><% link_to "demande-de-contact", class: "btn-medium" do %>
+              <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
+            <% end %></p></br></br>
+        <!-- <i class="fa fa-envelope-o"></i> Demander un <a href="mailto:mathieuthomasset@gmx.com?subject=Demande_de_devis">devis</a> -->
 <!--       <i class="fa fa-circle-o-notch" aria-hidden="true"></i> Je photographie aussi des <% link_to "photographe-nantes" do %>
           mariages
         <% end %></p></br> -->
