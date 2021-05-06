@@ -24,13 +24,14 @@ preferred_url: http://www.mathieuthomasset.fr/photographe-vendee
       <p><%= partial 'layouts/clientsentreprises' %></p>
       <p><%= partial 'layouts/clientsmedias' %></p>
       <div class="spacer"></div>
-      <p class="text-left"> <i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon portfolio <%= link_to 'PARTICULIERS', '/images/Portfolio_Mariage_MThomasset.pdf', target: "_blank" %>, <%= link_to 'ENTREPRISES', '/images/Portfolio_Corporate_MThomasset.pdf', target: "_blank" %>, <%= link_to 'PORTRAITS', '/images/Portfolio_Portrait_MThomasset.pdf', target: "_blank" %></p><br>
+      <p><i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon <%= link_to 'PORTFOLIO', '/images/Portfolio-Mathieu_Thomasset.pdf', target: "_blank" %></p>
+      <!-- <p class="text-left"> <i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon portfolio <%= link_to 'PARTICULIERS', '/images/Portfolio_Mariage_MThomasset.pdf', target: "_blank" %>, <%= link_to 'ENTREPRISES', '/images/Portfolio_Corporate_MThomasset.pdf', target: "_blank" %>, <%= link_to 'PORTRAITS', '/images/Portfolio_Portrait_MThomasset.pdf', target: "_blank" %></p> --><br>
       <div class="spacer"></div>
     </div>
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-8">
       <section id="grid">
-        <% data.global.each do |y| %>
+        <% data.vendee.each do |y| %>
           <div class="col-xs-12 col-sm-6 col-lg-6">
             <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
               <% if y.vertical == "yes" %>
