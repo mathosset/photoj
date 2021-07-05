@@ -34,11 +34,11 @@
   caption: "Nantes"
   category: "Evénementiel"
 
-- picture: port-nantes_03.jpg
-  page: port-nantes-chevire.html
-  title: "Port de Nantes"
-  caption: "Nantes"
-  category: "Reportage"
+# - picture: port-nantes_03.jpg
+#   page: port-nantes-chevire.html
+#   title: "Port de Nantes"
+#   caption: "Nantes"
+#   category: "Reportage"
 
 - picture: blog/tgo_01.jpg
   page: tgo.html
@@ -58,12 +58,6 @@
   caption: "Noirmoutier"
   category: "Evénementiel"
 
-- picture: blog/montfort-sur-meu_01.jpg
-  page: montfort-sur-meu.html
-  title: "Mairie de Montfort-sur-Meu"
-  caption: "Bretagne"
-  category: "Portrait"
-
 - picture: philharmonie_08.jpg
   page: philharmonie.html
   title: "Dans les coulisses de la Philharmonie"
@@ -75,12 +69,6 @@
   title: "Diaporama sonore"
   caption: ""
   category: "Reportage"
-
-- picture: cop21-17.jpg
-  page: cop21.html
-  title: "COP21"
-  caption: "Paris"
-  category: "Evénementiel"
 
 - picture: pelerin_21.jpg
   page: coulissespelerin.html
