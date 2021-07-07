@@ -1,11 +1,4 @@
 User-agent: *
-Disallow: /bobo.html
-Disallow: /regis.html
-Disallow: /prieres.html
-Disallow: /port-nantes-chevire.html
-Disallow: /tgo.html
-Disallow: /otto10.html
-Disallow: /indignes-mcdonalds.html
 Disallow: /favicon.ico
 Disallow: /confirmation-de-contact.html
 
