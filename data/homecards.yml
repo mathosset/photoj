@@ -4,6 +4,24 @@
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
 #   category: "Portraits"
 
+- picture: LaGouriniere_PAUL_04.jpg
+  page: portrait-paul-vendee.html
+  title: "Portraits à la ferme"
+  caption: "Vendée"
+  category: "Portrait"
+
+- picture: LaGouriniere_PAUL_10.jpg
+  page: portrait-michel-vendee.html
+  title: "Portraits à la ferme"
+  caption: "Vendée"
+  category: "Portrait"
+
+- picture: LaGouriniere_Alexis-Jeremie_03.jpg
+  page: portrait-alexisetjeremie-vendee.html
+  title: "Portraits à la ferme"
+  caption: "Vendée"
+  category: "Portrait"
+
 - picture: bruno-retailleau_06.jpg
   page: portrait-de-bruno-retailleau-pour-le-jdd.html
   title: "Portrait du sénateur Bruno Retailleau pour le JDD"

@@ -1,16 +1,24 @@
+- picture: publication_76.jpg
+  caption: JDD, 26 septembre 2021
+- picture: publication_77.jpg
+  caption: L'Humanité, 7 septembre 2021
+- picture: publication_75.jpg
+  caption: La Croix, 30 août 2021
+  # vertical: "yes"
 - picture: publication_74.jpg
   caption: Le Monde, 25 & 26 juillet 2021
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_73.jpg
   caption: Les ECHOS, 18 juillet 2021
-  vertical: "yes"
-- picture: publication_72b.jpg
+  # vertical: "yes"
+- picture: publication_72.jpg
   caption: Le Figaro, 23 mai 2021
-  vertical: "yes" 
+  # vertical: "yes" 
 - picture: publication_71.jpg
   caption: L'Humanité Dimanche, 6 au 11 mai 2021
 - picture: publication_69.jpg
   caption: Les Echos, 28 avril 2021
+  # vertical: "yes" 
 - picture: publication_70.jpg
   caption: France Info, 3 mai 2021
 - picture: publication_68.jpg

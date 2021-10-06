@@ -1,11 +1,11 @@
+- picture: LaGouriniere_PAUL_04.jpg
+  caption: Portrait de Paul, éleveur de porc en Vendée
+- picture: portrait_stephane-geffroy.jpg
+  caption: Portrait de Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
 - picture: virage-triptyque_01.jpg
   caption: Portrait en triptyque de salariés de l'éditeur nantais Virage Group
 - picture: virage-triptyque_02.jpg
   caption: Portrait en triptyque de salariés de l'éditeur nantais Virage Group
-- picture: portraitjulien-1.jpg
-  caption: Portrait de Julien, circassien
-- picture: portraitjulien-2.jpg
-  caption: Portrait de Julien, circassien
 - picture: planche-contact_02.jpg
   caption: Portrait de salariés
 - picture: planche-contact_01.jpg
@@ -30,14 +30,18 @@
 #   caption: Bouyer Leroux pour le Financial Times
 # - picture: FT-medef_03.jpg
 #   caption: Portrait de Roland Besnard, pdg de Bouyer Leroux pour le Financial Times
+- picture: LaGouriniere_PAUL_03.jpg
+  caption: Portrait de Paul, éleveur de porc en Vendée
+  vertical: "yes"
+- picture: LaGouriniere_Alexis-Jeremie_02.jpg
+  caption: Portrait de Jérémie et Alexis maraichers en Vendée
+  vertical: "yes"
 - picture: FT-medef_04.jpg
   caption: Portrait de Roland Besnard, pdg de Bouyer Leroux pour le Financial Times
 - picture: portrait-samuel-nantes-atlantique.jpg
   caption: Portrait de Samuel qui habite une des maisons les plus proches de la piste de l'aéroport Nantes-Atlantique à Saint-Aignan de Grand Lieu
-- picture: FT-medef_01.jpg
-  caption: Portrait de Sylvain Apaire, président du Medef du Pays Choletais pour le Financial Times
-- picture: portrait_stephane-geffroy.jpg
-  caption: Portrait de Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
+# - picture: FT-medef_01.jpg
+#   caption: Portrait de Sylvain Apaire, président du Medef du Pays Choletais pour le Financial Times
 # - picture: portrait_stephane-geffroy2.jpg
 #   caption: Portrait de Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
 # - picture: cogelec_01.jpg
@@ -48,6 +52,14 @@
 - picture: FT-medef_02.jpg
   caption: Portrait de Bruno Fradet, manager de SDEI Ouest pour le Financial Times
   vertical: "yes"
+- picture: LaGouriniere_PAUL_02.jpg
+  caption: Portrait de Paul, éleveur de porc en Vendée
+- picture: LaGouriniere_PAUL_10.jpg
+  caption: Portrait de Michel travaillant à la transformation dans une ferme en Vendée
+- picture: LaGouriniere_Alexis-Jeremie_06.jpg
+  caption: Portrait de Jérémie et Alexis maraichers en Vendée
+- picture: LaGouriniere_Alexis-Jeremie_10.jpg
+  caption: Portrait de Jérémie et Alexis maraichers en Vendée
 - picture: portrait_sisters.jpg
   caption: Noémie et Amelia - Série Sisters
 - picture: angel2.jpg
@@ -64,12 +76,16 @@
 #   caption: Autoportrait
 # - picture: sven1.jpg
 #   caption: Sven et Olivia
-- picture: cop21-14.jpg
-  caption: Portrait lors de la COP21
-- picture: cop21-15.jpg
-  caption: Portrait lors de la COP21
+# - picture: cop21-14.jpg
+#   caption: Portrait lors de la COP21
+# - picture: cop21-15.jpg
+#   caption: Portrait lors de la COP21
 # - picture: fukushima-8.JPG
 #   caption:
+- picture: portraitjulien-1.jpg
+  caption: Portrait de Julien, circassien
+- picture: portraitjulien-2.jpg
+  caption: Portrait de Julien, circassien
 - picture: globetrotters-1.jpg
   caption:
 - picture: globetrotters-3.jpg

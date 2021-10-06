@@ -1,5 +1,5 @@
 ---
-title: Premier diaporama sonore
+title: Premier diaporama sonore en marge de la COP21
 title_seo: "Diaporama sonore, la marche pour le climat en marge de la COP 21"
 description: ""
 date: 2015-12-04
