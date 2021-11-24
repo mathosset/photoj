@@ -1,7 +1,17 @@
+- picture: publication_79.jpg
+  caption: Mediapart, 24 novembre 2021   
+- picture: publication_81.jpg
+  caption: France Info, 14 octobre 2021
+- picture: publication_78.jpg
+  caption: Libération, 9 & 10 octobre 2021   
+- picture: publication_80.jpg
+  caption: Amnesty International, 8 octobre 2021  
 - picture: publication_76.jpg
   caption: JDD, 26 septembre 2021
+  # vertical: "yes"
 - picture: publication_77.jpg
   caption: L'Humanité, 7 septembre 2021
+  # vertical: "yes"
 - picture: publication_75.jpg
   caption: La Croix, 30 août 2021
   # vertical: "yes"
@@ -49,7 +59,7 @@
   caption: CIGI, 14 décembre 2020
 - picture: publication_53.jpg
   caption: Le Figaro, 12 décembre 2020
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_55.jpg
   caption: Zeit Online, 30 novembre 2020
 - picture: publication_52.jpg

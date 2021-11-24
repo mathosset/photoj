@@ -1,32 +1,40 @@
-- picture: LaGouriniere_PAUL_02.jpg
-  caption: Portrait de Paul, éleveur de porc en Vendée
-- picture: LaGouriniere_PAUL_10.jpg
-  caption: Portrait de Michel travaillant à la transformation dans une ferme en Vendée
-- picture: LaGouriniere_Alexis-Jeremie_06.jpg
-  caption: Portrait de Jérémie et Alexis maraichers en Vendée
-- picture: LaGouriniere_Alexis-Jeremie_10.jpg
-  caption: Portrait de Jérémie et Alexis maraichers en Vendée
-- picture: blog/chantierXXL_01.jpg
-  caption: Visite de la maire de Nantes sur le chantier du MIN
-- picture: FT-medef_04.jpg
-  caption: Bouyer Leroux pour le Financial Times
-- picture: run-energie_01.jpg
-- picture: dragon_03.jpg
-  caption: Reportage pour le Grand Port maritime de Nantes Saint NAzaire
+- picture: portraitjulien-1.jpg
+  caption: Portrait de Julien, circassien
+- picture: portraitjulien-2.jpg
+  caption: Portrait de Julien, circassien
+- picture: portrait_stephane-geffroy.jpg
+  caption: Portrait de Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
+- picture: pelerin_03.jpg
+  caption: Portrait de Père Sébastien Antoni, assomptionniste
 - picture: bruno-retailleau_06.jpg
   caption: Portrait du sénateur de la Vendée Bruno Retailleau pour le JDD
 - picture: cogelec_03.jpg
   caption: Portrait de Roger Leclerc, pdg de Cogelec
-- picture: portrait_stephane-geffroy.jpg
-  caption: Portrait de Stéphane Geffroy, auteur du livre A l'abattoir aux éditions Seuil
-
-- picture: pelerin_03.jpg
-  caption: Portrait de Père Sébastien Antoni, assomptionniste
+- picture: blog/chantierXXL_01.jpg
+  caption: Visite de la maire de Nantes sur le chantier du MIN
+- picture: FT-medef_04.jpg
+  caption: Bouyer Leroux pour le Financial Times
+- picture: LaGouriniere_PAUL_02.jpg
+  caption: Portrait de Paul, éleveur de porc en Vendée
+- picture: LaGouriniere_PAUL_10.jpg
+  caption: Portrait de Michel travaillant à la transformation dans une ferme en Vendée
+# - picture: LaGouriniere_Isabelle-Remi_07.jpg
+#   caption: Isabelle et Rémi, éleveur de vaches limousines
+- picture: LaGouriniere_Isabelle-Remi_26.jpg
+  caption: Isabelle et Rémi, éleveur de vaches limousines
+# - picture: LaGouriniere_Alexis-Jeremie_06.jpg
+#   caption: Portrait de Jérémie et Alexis maraichers en Vendée
+- picture: LaGouriniere_Alexis-Jeremie_10.jpg
+  caption: Portrait de Jérémie et Alexis maraichers en Vendée
+- picture: run-energie_01.jpg
+- picture: dragon_03.jpg
+  caption: Reportage pour le Grand Port maritime de Nantes Saint NAzaire
 - picture: blog/concertregiskole-2.JPG
 - picture: mariage_06.jpg
 - picture: dragon_01.jpg
   caption: Reportage pour le Grand Port maritime de Nantes Saint NAzaire
 - picture: ouestmedialab_08.jpg
+
 # - picture: pelerin_03.jpg
 #   caption: Portrait de Père Sébastien Antoni, assomptionniste
 # - picture: globetrotters-1.jpg
@@ -34,10 +42,6 @@
 - picture: planche-contact_02.jpg
   caption: Portrait de salariés
 - picture: portrait-aymeric_06.jpg
-- picture: portraitjulien-1.jpg
-  caption: Portrait de Julien, circassien
-- picture: portraitjulien-2.jpg
-  caption: Portrait de Julien, circassien
 - picture: planche-contact_01.jpg
   caption: Portrait de salariés
 - picture: viragegroup_34.jpg

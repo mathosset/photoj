@@ -6,6 +6,10 @@
   caption: Portrait en triptyque de salariés de l'éditeur nantais Virage Group
 - picture: virage-triptyque_02.jpg
   caption: Portrait en triptyque de salariés de l'éditeur nantais Virage Group
+- picture: portraitjulien-1.jpg
+  caption: Portrait de Julien, circassien
+- picture: portraitjulien-2.jpg
+  caption: Portrait de Julien, circassien
 - picture: planche-contact_02.jpg
   caption: Portrait de salariés
 - picture: planche-contact_01.jpg
@@ -52,14 +56,18 @@
 - picture: FT-medef_02.jpg
   caption: Portrait de Bruno Fradet, manager de SDEI Ouest pour le Financial Times
   vertical: "yes"
-- picture: LaGouriniere_PAUL_02.jpg
-  caption: Portrait de Paul, éleveur de porc en Vendée
+# - picture: LaGouriniere_PAUL_02.jpg
+#   caption: Portrait de Paul, éleveur de porc en Vendée
 - picture: LaGouriniere_PAUL_10.jpg
   caption: Portrait de Michel travaillant à la transformation dans une ferme en Vendée
-- picture: LaGouriniere_Alexis-Jeremie_06.jpg
-  caption: Portrait de Jérémie et Alexis maraichers en Vendée
+# - picture: LaGouriniere_Alexis-Jeremie_06.jpg
+#   caption: Portrait de Jérémie et Alexis maraichers en Vendée
 - picture: LaGouriniere_Alexis-Jeremie_10.jpg
   caption: Portrait de Jérémie et Alexis maraichers en Vendée
+- picture: LaGouriniere_Isabelle-Remi_07.jpg
+  caption: Isabelle et Rémi, éleveur de vaches limousines
+- picture: LaGouriniere_Isabelle-Remi_26.jpg
+  caption: Isabelle et Rémi, éleveur de vaches limousines
 - picture: portrait_sisters.jpg
   caption: Noémie et Amelia - Série Sisters
 - picture: angel2.jpg
@@ -82,10 +90,6 @@
 #   caption: Portrait lors de la COP21
 # - picture: fukushima-8.JPG
 #   caption:
-- picture: portraitjulien-1.jpg
-  caption: Portrait de Julien, circassien
-- picture: portraitjulien-2.jpg
-  caption: Portrait de Julien, circassien
 - picture: globetrotters-1.jpg
   caption:
 - picture: globetrotters-3.jpg
