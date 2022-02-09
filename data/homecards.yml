@@ -4,8 +4,20 @@
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
 #   category: "Portraits"
 
+- picture: LaGouriniere_Yannick_01.jpg
+  page: portrait-yannick-vendee.html
+  title: "Portraits à la ferme"
+  caption: "Vendée"
+  category: "Portrait"
+
 - picture: LaGouriniere_PAUL_04.jpg
   page: portrait-paul-vendee.html
+  title: "Portraits à la ferme"
+  caption: "Vendée"
+  category: "Portrait"
+
+- picture: LaGouriniere_Isabelle_01.jpg
+  page: portrait-isabelle-vendee.html
   title: "Portraits à la ferme"
   caption: "Vendée"
   category: "Portrait"
@@ -22,6 +34,12 @@
   caption: "Vendée"
   category: "Portrait"
 
+- picture: LaGouriniere_Remi_02.jpg
+  page: portrait-remi-vendee.html
+  title: "Portraits à la ferme"
+  caption: "Vendée"
+  category: "Portrait"
+
 - picture: bruno-retailleau_06.jpg
   page: portrait-de-bruno-retailleau-pour-le-jdd.html
   title: "Portrait du sénateur Bruno Retailleau pour le JDD"
@@ -32,12 +50,6 @@
   page: port-nantes-saint-nazaire.html
   title: "Grand Port Maritime de Nantes-Saint-Nazaire"
   caption: "Industrie"
-  category: "Corporate"
-
-- picture: portrait-virage_01.jpg
-  page: viragegroup.html
-  title: "Virage Group"
-  caption: "Nantes"
   category: "Corporate"
 
 - picture: FT-medef_04.jpg
@@ -93,6 +105,12 @@
   title: "Un chantier XXL"
   caption: "Min de Nantes"
   category: "News"
+
+- picture: portrait-virage_01.jpg
+  page: viragegroup.html
+  title: "Virage Group"
+  caption: "Nantes"
+  category: "Corporate"
 
 # - picture: emeutes-nantes_01.jpg
 #   page: emeutes-nantes.html
