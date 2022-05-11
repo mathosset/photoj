@@ -16,11 +16,11 @@
   caption: "Vendée"
   category: "Portrait"
 
-- picture: LaGouriniere_Isabelle_01.jpg
-  page: portrait-isabelle-vendee.html
-  title: "Portraits à la ferme"
-  caption: "Vendée"
-  category: "Portrait"
+# - picture: LaGouriniere_Isabelle_01.jpg
+#   page: portrait-isabelle-vendee.html
+#   title: "Portraits à la ferme"
+#   caption: "Vendée"
+#   category: "Portrait"
 
 - picture: LaGouriniere_PAUL_10.jpg
   page: portrait-michel-vendee.html
@@ -28,17 +28,17 @@
   caption: "Vendée"
   category: "Portrait"
 
-- picture: LaGouriniere_Alexis-Jeremie_03.jpg
-  page: portrait-alexisetjeremie-vendee.html
-  title: "Portraits à la ferme"
-  caption: "Vendée"
-  category: "Portrait"
+# - picture: LaGouriniere_Alexis-Jeremie_03.jpg
+#   page: portrait-alexisetjeremie-vendee.html
+#   title: "Portraits à la ferme"
+#   caption: "Vendée"
+#   category: "Portrait"
 
-- picture: LaGouriniere_Remi_02.jpg
-  page: portrait-remi-vendee.html
-  title: "Portraits à la ferme"
-  caption: "Vendée"
-  category: "Portrait"
+# - picture: LaGouriniere_Remi_02.jpg
+#   page: portrait-remi-vendee.html
+#   title: "Portraits à la ferme"
+#   caption: "Vendée"
+#   category: "Portrait"
 
 - picture: bruno-retailleau_06.jpg
   page: portrait-de-bruno-retailleau-pour-le-jdd.html
