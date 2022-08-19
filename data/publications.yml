@@ -1,12 +1,34 @@
+- picture: publication_99.jpg
+  caption: L'Humanité, 10 août 2022
+# - picture: publication_98.jpg
+#   caption: Le Parisien, 10 août 2022
+# - picture: publication_97.jpg
+#   caption: Le Figaro, 9 août 2022
+- picture: publication_96.jpg
+  caption: L'OBS, 21 juillet 2022
+- picture: publication_95.jpg
+  caption: Le Figaro, 10 juillet 2022
+- picture: publication_94.jpg
+  caption: Le Parisien, 17 juin 2022
+- picture: publication_93.jpg
+  caption: Le Figaro, 16 juin 2022
+- picture: publication_100.jpg
+  caption: Alternatives économiques, juin 2022
+- picture: publication_92.jpg
+  caption: Libération, 14 et 15 mai 2022
+  vertical: "yes" 
 - picture: publication_89.jpg
   caption: Stratégies, 21 avril 2022
-  vertical: "yes" 
+  # vertical: "yes" 
+- picture: publication_90.jpg
+  caption: Le Figaro, 24 janvier 2022
+  # vertical: "yes" 
 - picture: publication_87.jpg
   caption: La Vie, 20 janvier 2022
-  vertical: "yes" 
+  # vertical: "yes" 
 - picture: publication_88.jpg
   caption: La Croix, 19 janvier 2022
-  vertical: "yes" 
+  # vertical: "yes" 
 # - picture: publication_86.jpg
 #   caption: France Info, 17 janvier 2022
 - picture: publication_83.jpg
@@ -15,7 +37,6 @@
   caption: L'Echo, 4 janvier 2022
 - picture: publication_84.jpg
   caption: CNRS Le Journal, 5 janvier 2022
-
 - picture: publication_85.jpg
   caption: The Atlantic, 7 décembre 2021
 - picture: publication_79.jpg
@@ -37,7 +58,7 @@
   # vertical: "yes"
 - picture: publication_74.jpg
   caption: Le Monde, 25 & 26 juillet 2021
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_73.jpg
   caption: Les ECHOS, 18 juillet 2021
   # vertical: "yes"
@@ -65,7 +86,7 @@
   caption: La Croix, 28 Janvier 2021
 - picture: publication_59.jpg
   caption: Le Figaro, 27 Janvier 2021
-  vertical: "yes"
+  # vertical: "yes"
 - picture: publication_60.jpg
   caption: L'OBS, 28 Janvier 2021
 - picture: publication_64.jpg
@@ -79,7 +100,7 @@
   caption: CIGI, 14 décembre 2020
 - picture: publication_53.jpg
   caption: Le Figaro, 12 décembre 2020
-  vertical: "yes" 
+  # vertical: "yes" 
 - picture: publication_55.jpg
   caption: Zeit Online, 30 novembre 2020
 - picture: publication_52.jpg
