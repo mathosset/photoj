@@ -1,13 +1,40 @@
+- picture: publication_112.jpg
+  caption: Le Figaro, 14 septembre 2023
+  vertical: "yes" 
+- picture: publication_111.jpg
+  caption: Le Figaro, 29 août 2023
+  # vertical: "yes" 
+- picture: publication_110.jpg
+  caption: Le Monde, 24 août 2023
+  # vertical: "yes" 
+- picture: publication_109.jpg
+  caption: L'OBS, 24 août 2023
+  # vertical: "yes" 
+- picture: publication_108.jpg
+  caption: La Croix, 5 juillet 2023
+  # vertical: "yes" 
+- picture: publication_107.jpg
+  caption: Le Courrier de l'Ouest, 2 juin 2023
+  vertical: "yes" 
+- picture: publication_105.jpg
+  caption: Santé Magazine, mai 2023
+  vertical: "yes" 
+- picture: publication_106.jpg
+  caption: La Croix, 7 avril 2023
+  # vertical: "yes" 
+- picture: publication_104.jpg
+  caption: L'Humanité, 26 février 2023
+  vertical: "yes" 
 - picture: publication_102b.jpg
   caption: Le Figaro, 30 novembre 2022
   vertical: "yes" 
 - picture: publication_103.jpg
   caption: Le Parisien, 25 octobre 2022
   vertical: "yes" 
-- picture: publication_101.jpg
-  caption: Demain Vendée, septembre 2022
 - picture: publication_99.jpg
   caption: L'Humanité, 10 août 2022
+- picture: publication_101.jpg
+  caption: Demain Vendée, septembre 2022
 - picture: publication_98.jpg
   caption: Le Parisien, 10 août 2022
   vertical: "yes" 
@@ -26,7 +53,7 @@
   caption: Alternatives économiques, juin 2022
 - picture: publication_92.jpg
   caption: Libération, 14 et 15 mai 2022
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_89.jpg
   caption: Stratégies, 21 avril 2022
   # vertical: "yes" 
@@ -35,10 +62,10 @@
   # vertical: "yes" 
 - picture: publication_87.jpg
   caption: La Vie, 20 janvier 2022
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_88.jpg
   caption: La Croix, 19 janvier 2022
-  # vertical: "yes" 
+  vertical: "yes" 
 # - picture: publication_86.jpg
 #   caption: France Info, 17 janvier 2022
 - picture: publication_83.jpg
