@@ -1,3 +1,12 @@
+- picture: publication_115.jpg
+  caption: La Croix, 31 janvier 2024
+  # vertical: "yes" 
+- picture: publication_113.jpg
+  caption: Politis, 18 janvier 2024
+  # vertical: "yes" 
+- picture: publication_114B.jpg
+  caption: Le Figaro, 17 janvier 2024
+  # vertical: "yes" 
 - picture: publication_112.jpg
   caption: Le Figaro, 14 septembre 2023
   vertical: "yes" 
@@ -9,7 +18,7 @@
   # vertical: "yes" 
 - picture: publication_109.jpg
   caption: L'OBS, 24 août 2023
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_108.jpg
   caption: La Croix, 5 juillet 2023
   # vertical: "yes" 
@@ -24,7 +33,7 @@
   # vertical: "yes" 
 - picture: publication_104.jpg
   caption: L'Humanité, 26 février 2023
-  vertical: "yes" 
+  # vertical: "yes" 
 - picture: publication_102b.jpg
   caption: Le Figaro, 30 novembre 2022
   vertical: "yes" 
@@ -42,7 +51,7 @@
   caption: Le Figaro, 9 août 2022
 - picture: publication_96.jpg
   caption: L'OBS, 21 juillet 2022
-  vertical: "yes" 
+  # vertical: "yes" 
 - picture: publication_95.jpg
   caption: Le Figaro, 10 juillet 2022
 - picture: publication_94.jpg
@@ -53,7 +62,10 @@
   caption: Alternatives économiques, juin 2022
 - picture: publication_92.jpg
   caption: Libération, 14 et 15 mai 2022
-  vertical: "yes" 
+  # vertical: "yes" 
+- picture: publication_116.jpg
+  caption: Le Soir, 28 février 2022
+  # vertical: "yes" 
 - picture: publication_89.jpg
   caption: Stratégies, 21 avril 2022
   # vertical: "yes" 
@@ -65,7 +77,7 @@
   vertical: "yes" 
 - picture: publication_88.jpg
   caption: La Croix, 19 janvier 2022
-  vertical: "yes" 
+  # vertical: "yes" 
 # - picture: publication_86.jpg
 #   caption: France Info, 17 janvier 2022
 - picture: publication_83.jpg

@@ -1,48 +1,74 @@
-- picture: angel2b.jpg
-  caption: Angel II
-  format: Format 40x60 Imprimé sur du papier japonais Awagami Unryu 55g
-  price: 250 EUR
-- picture: angel1b.jpg
-  caption: Angel I
-  format: Format 40x60 Imprimé sur du papier japonais Awagami Unryu 55g
-  price: 250 EUR
-- picture: musem.jpg
-  caption: musem
-  format: Format 30x40 Imprimé sur du papier Mat Hahnemühle
-  price: 200 EUR
-- picture: LaR.jpg
-  caption: LaR
-  format: Format 30x40 Imprimé sur du papier Baryta Prestige Canson 340g
-  price: 200 EUR
-- picture: redI.jpg
-  caption: red I
-  format: Format 30x40 Imprimé sur du papier Baryta Prestige Canson 340g
-  price: 200 EUR
-- picture: redII.jpg
-  caption: red II
-  format: Format 30x40 Imprimé sur du papier Baryta Prestige Canson 340g
-  price: 200 EUR
-- picture: memoriesI.jpg
-  caption: memories I
-  format: Format 30x40 Imprimé sur du Museum Etching Hahnemühle 350 g
-  price: 200 EUR
-- picture: memoriesII.jpg
-  caption: memories II
-  format: Format 30x40 Imprimé sur du Museum Etching Hahnemühle 350 g
-  price: 200 EUR
-- picture: memoriesIII.jpg
-  caption: memories III
-  format: Format 30x40 Imprimé sur du Museum Etching Hahnemühle 350 g
-  price: 200 EUR
-- picture: traces.jpg
-  caption: traces
-  format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
-  price: 150 EUR
-- picture: india.jpg
-  caption: india
-  format: Format 30x40 Imprimé sur du Museum Etching Hahnemühle 350 g
-  price: 150 EUR
-- picture: waterlicht-4.jpg
-  caption: Waterlicht
-  format: Format 30x40 Imprimé sur RC Satiné Photo Premium Infinity Canson 310g
-  price: 150 EUR
+- picture: tirage_1.jpg
+  caption: Kyoto By night
+  format: Kyoto, 2023
+  price: Référence KYO1
+- picture: tirage_2.jpg
+  caption: Tokyo By night
+  format: Tokyo, 2023
+  price: Référence KYO2
+- picture: tirage_3.jpg
+  caption: Man with an umbrella
+  format: Tokyo, 2023
+  price: Référence TOK1
+- picture: tirage_6.jpg
+  caption: Saigon Social Club
+  format: Rooftop du centre-ville de Ho Chi Minh, 2023
+  price: Référence SAI1
+- picture: tirage_4.jpg
+  caption: SHIJO
+  format: Métro de Kyoto, 2023
+  price: Référence KYO3
+- picture: tirage_5.jpg
+  caption: Narita Airport
+  format: Aéoport de Narita à Tokyo, 2023
+  price: Référence TOK2
+
+
+# - picture: angel2b.jpg
+#   caption: Angel II
+#   format: Format 40x60 Imprimé sur du papier japonais Awagami Unryu 55g
+#   price: 250 EUR
+# - picture: angel1b.jpg
+#   caption: Angel I
+#   format: Format 40x60 Imprimé sur du papier japonais Awagami Unryu 55g
+#   price: 250 EUR
+# - picture: musem.jpg
+#   caption: musem
+#   format: Format 30x40 Imprimé sur du papier Mat Hahnemühle
+#   price: 200 EUR
+# - picture: LaR.jpg
+#   caption: LaR
+#   format: Format 30x40 Imprimé sur du papier Baryta Prestige Canson 340g
+#   price: 200 EUR
+# - picture: redI.jpg
+#   caption: red I
+#   format: Format 30x40 Imprimé sur du papier Baryta Prestige Canson 340g
+#   price: 200 EUR
+# - picture: redII.jpg
+#   caption: red II
+#   format: Format 30x40 Imprimé sur du papier Baryta Prestige Canson 340g
+#   price: 200 EUR
+# - picture: memoriesI.jpg
+#   caption: memories I
+#   format: Format 30x40 Imprimé sur du Museum Etching Hahnemühle 350 g
+#   price: 200 EUR
+# - picture: memoriesII.jpg
+#   caption: memories II
+#   format: Format 30x40 Imprimé sur du Museum Etching Hahnemühle 350 g
+#   price: 200 EUR
+# - picture: memoriesIII.jpg
+#   caption: memories III
+#   format: Format 30x40 Imprimé sur du Museum Etching Hahnemühle 350 g
+#   price: 200 EUR
+# - picture: traces.jpg
+#   caption: traces
+#   format: Format 40x60 Imprimé sur du papier Mat Hahnemühle
+#   price: 150 EUR
+# - picture: india.jpg
+#   caption: india
+#   format: Format 30x40 Imprimé sur du Museum Etching Hahnemühle 350 g
+#   price: 150 EUR
+# - picture: waterlicht-4.jpg
+#   caption: Waterlicht
+#   format: Format 30x40 Imprimé sur RC Satiné Photo Premium Infinity Canson 310g
+#   price: 150 EUR
