@@ -1,27 +1,27 @@
 - picture: tirage_1.jpg
-  caption: Kyoto By night
-  format: Kyoto, 2023
+  # caption: Kyoto By night
+  # format: Kyoto, 2023
   price: Référence KYO1
 - picture: tirage_2.jpg
-  caption: Tokyo By night
-  format: Tokyo, 2023
+  # caption: Tokyo By night
+  # format: Tokyo, 2023
   price: Référence KYO2
 - picture: tirage_3.jpg
-  caption: Man with an umbrella
-  format: Tokyo, 2023
+  # caption: Man with an umbrella
+  # format: Tokyo, 2023
   price: Référence TOK1
 - picture: tirage_6.jpg
-  caption: Saigon Social Club
-  format: Rooftop du centre-ville de Ho Chi Minh, 2023
+  # caption: Saigon Social Club
+  # format: Rooftop du centre-ville de Ho Chi Minh, 2023
   price: Référence SAI1
 - picture: tirage_4.jpg
-  caption: SHIJO
-  format: Métro de Kyoto, 2023
+  # caption: SHIJO
+  # format: Métro de Kyoto, 2023
   price: Référence KYO3
-- picture: tirage_5.jpg
-  caption: Narita Airport
-  format: Aéoport de Narita à Tokyo, 2023
-  price: Référence TOK2
+# - picture: tirage_5.jpg
+#   # caption: Narita Airport
+#   # format: Aéoport de Narita à Tokyo, 2023
+#   price: Référence TOK2
 
 
 # - picture: angel2b.jpg

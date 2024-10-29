@@ -7,15 +7,15 @@
 - picture: publication_134B.jpg
   caption: Les Echos, 20 et 21 septembre 2024
   # vertical: "yes" 
-- picture: publication_133.jpg
-  caption: Libération, 15 et 16 juin 2024
-  vertical: "yes"
 - picture: publication_130.jpg
   caption: Politis, 18 juillet 2024
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_129.jpg
   caption: Le Figaro, 1er juillet 2024
-  vertical: "yes" 
+  # vertical: "yes" 
+- picture: publication_133.jpg
+  caption: Libération, 15 et 16 juin 2024
+  # vertical: "yes"
 - picture: publication_132.jpg
   caption: Libération, 5 juin 2024
   # vertical: "yes" 
