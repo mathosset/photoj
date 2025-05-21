@@ -4,6 +4,25 @@
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
 #   category: "Portraits"
 
+
+- picture: vendee-globe_01.jpg
+  page: vendee-globe.html
+  title: "Vendée Globe Monochrome"
+  caption: "Vendée"
+  category: "Série"
+
+- picture: portrait-jlbidet.jpg
+  page: ateliers-perrault.html
+  title: "Portrait pour le Fincial Times"
+  caption: "Vendée"
+  category: "Portrait Presse"
+
+- picture: depart-vg_01.jpg
+  page: depart-vendee-globe.html
+  title: "Départ du Vendée Globe"
+  caption: "Vendée"
+  category: "Presse"
+
 - picture: LaGouriniere_Yannick_01.jpg
   page: portrait-yannick-vendee.html
   title: "Portraits à la ferme"
@@ -42,7 +61,7 @@
 
 - picture: bruno-retailleau_06.jpg
   page: portrait-de-bruno-retailleau-pour-le-jdd.html
-  title: "Portrait du sénateur Bruno Retailleau pour le JDD"
+  title: "Portrait de Bruno Retailleau pour le JDD"
   caption: "Vendée"
   category: "Portrait Presse"
 
@@ -94,23 +113,23 @@
 #   caption: "Saint-Nazaire"
 #   category: "Corporate"
 
-- picture: 44BZH_01.jpg
-  page: 44-breizh.html
-  title: "44 = BREIZH"
-  caption: "Nantes"
-  category: "News"
+# - picture: 44BZH_01.jpg
+#   page: 44-breizh.html
+#   title: "44 = BREIZH"
+#   caption: "Nantes"
+#   category: "News"
   
-- picture: blog/chantierXXL_01.jpg
-  page: un-chantier-xxl.html
-  title: "Un chantier XXL"
-  caption: "Min de Nantes"
-  category: "News"
+# - picture: blog/chantierXXL_01.jpg
+#   page: un-chantier-xxl.html
+#   title: "Un chantier XXL"
+#   caption: "Min de Nantes"
+#   category: "News"
 
-- picture: portrait-virage_01.jpg
-  page: viragegroup.html
-  title: "Virage Group"
-  caption: "Nantes"
-  category: "Corporate"
+# - picture: portrait-virage_01.jpg
+#   page: viragegroup.html
+#   title: "Virage Group"
+#   caption: "Nantes"
+#   category: "Corporate"
 
 # - picture: emeutes-nantes_01.jpg
 #   page: emeutes-nantes.html

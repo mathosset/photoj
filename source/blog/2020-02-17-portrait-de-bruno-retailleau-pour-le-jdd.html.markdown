@@ -12,7 +12,7 @@ image_path: "http://www.mathieuthomasset.fr/images/bruno-retailleau_06.jpg"
 
 ![picture alt](/images/bruno-retailleau_06.jpg "Portrait sénateur Bruno Retailleau pour le JDD"){: .img-blog}
 
-> ###Portrait du sénateur Bruno Retailleau dans sa maison en Vendée, président du groupe Les Républicains au sénat. Lien vers toute la série sur le site du studio Hans Lucas : [Portrait de Bruno Retailleau](http://hanslucas.com/mthomasset/photo/30641)
+> ###Portrait du sénateur Bruno Retailleau dans sa maison en Vendée, président du groupe Les Républicains au sénat. Lien vers toute la série sur le site du studio Hans Lucas : [Portrait de Bruno Retailleau](https://hanslucas.com/vue/mthomassetretailleau)
 
 ![picture alt](/images/publication_39.jpg "Portrait sénateur Bruno Retailleau pour le JDD"){: .img-blog}
 
