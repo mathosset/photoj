@@ -1,3 +1,36 @@
+- picture: publication_143.jpg
+  caption: Nouvel Obs, 20 mars 2025
+  # vertical: "yes" 
+- picture: publication_149.png
+  caption: La Gazette, 27 janvier 2025
+  # vertical: "yes" 
+- picture: publication_148.png
+  caption: La Tribune, 19 février 2025
+  # vertical: "yes" 
+- picture: publication_146.png
+  caption: Le Soir, 2 février 2025
+  # vertical: "yes" 
+- picture: publication_147.png
+  caption: La Croix, 9 janvier 2025
+  # vertical: "yes" 
+- picture: publication_145.png
+  caption: Le Monde, 18 décembre  2024
+  # vertical: "yes" 
+- picture: publication_144.png
+  caption: Que Choisir, décembre  2024
+  # vertical: "yes" 
+- picture: publication_142.png
+  caption: Financial Times, 7 décembre  2024
+  # vertical: "yes" 
+- picture: publication_137.jpg
+  caption: Le Figaro, 30 novembre 2024
+  # vertical: "yes" 
+- picture: publication_141.png
+  caption: Le Pélerin, 28 novembre 2024
+  # vertical: "yes" 
+- picture: publication_140.png
+  caption: Le Figaro, 15 novembre 2024
+  # vertical: "yes" 
 - picture: publication_136.jpg
   caption: Le Figaro, 28 octobre 2024
   # vertical: "yes" 
@@ -12,7 +45,7 @@
   vertical: "yes" 
 - picture: publication_129.jpg
   caption: Le Figaro, 1er juillet 2024
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_133.jpg
   caption: Libération, 15 et 16 juin 2024
   # vertical: "yes"
