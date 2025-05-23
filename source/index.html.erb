@@ -42,8 +42,9 @@ preferred_url: http://www.mathieuthomasset.fr
         <span class="icon-next" aria-hidden="true"></span>
     </a> -->
 </header>
-<div class="mid-spacer"></div>
+<!-- <div class="mid-spacer"></div> -->
 <div class="container">
+  <div class="mid-spacer"></div>
   <div class="row">
     <% data.homecards.each_with_index do |y| %>
       <div class="col-xs-12 col-sm-4">
@@ -58,6 +59,12 @@ preferred_url: http://www.mathieuthomasset.fr
         <div class="spacer"></div>
       </div>
     <% end %>
+  </div>
+  <div class="mid-spacer"></div>
+  <div class="row">
+    <div class="col-sm-12">
+      <p><%= partial 'layouts/bofpublications' %></p>
+    </div>
   </div>
 </div>
 
