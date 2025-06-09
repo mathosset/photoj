@@ -1,18 +1,19 @@
 - picture: angel2.jpg
   page: bio
   category: "CONTACT"
-  title: "Photographe professionnel Vendée"
+  title: "Photographe portrait reportage Vendée"
   subtitle: "Montaigu - Vendée - Nantes - Saint-Nazaire - Pays de la Loire"
 
-# - picture: ouestlajustice_01.jpg
-#   page: ou-est-la-justice.html
-#   category: "NEWS"
-#   title: "Où est la Justice ?"
+# - picture: vendee-globe_01.jpg
+#   page: blog
+#   category: "SERIE"
+#   title: "Vendée Globe Monochrome"
 
 # - picture: portrait_stephane-geffroy.jpg
 #   page: portraits
 #   category: "PORTRAITS"
 #   title: "Portrait de l'écrivain Stéphane Geffroy"
+#   subtitle: "Presse - Corporate"
 
 # - picture: planche-contact_02B.jpg
 #   page: viragegroup.html
