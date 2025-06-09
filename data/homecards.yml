@@ -77,17 +77,17 @@
   category: "Portrait Presse"
 
 
-- picture: FT-medef_04.jpg
-  page: portraits.html
-  title: "Portraits d'entrepreneurs pour le Financial Times"
-  caption: "Vendée"
-  category: "Portrait Presse"
+# - picture: FT-medef_04.jpg
+#   page: portraits.html
+#   title: "Portraits d'entrepreneurs pour le Financial Times"
+#   caption: "Vendée"
+#   category: "Portrait Presse"
 
-- picture: confinement_02.jpg
-  page: journal-de-confinement.html
-  title: "Journal d'un confinement"
-  caption: "Nantes"
-  category: "Blog"
+# - picture: confinement_02.jpg
+#   page: journal-de-confinement.html
+#   title: "Journal d'un confinement"
+#   caption: "Nantes"
+#   category: "Blog"
 
 # - picture: run-energie_01.jpg
 #   page: vent-vert-sur-la-reunion.html
@@ -107,11 +107,11 @@
 #   caption: "Disparition de Steve Maia Caniço à Nantes"
 #   category: "News"
 
-- picture: portrait_stephane-geffroy.jpg
-  page: portraits.html
-  title: "Photographe portrait en Vendée"
-  caption: "Grand Ouest"
-  category: "Portrait"
+# - picture: portrait_stephane-geffroy.jpg
+#   page: portraits.html
+#   title: "Photographe portrait en Vendée"
+#   caption: "Grand Ouest"
+#   category: "Portrait"
 
 # - picture: blog/tgo_01.jpg
 #   page: terminal-grand-ouest.html

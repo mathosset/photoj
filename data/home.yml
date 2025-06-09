@@ -2,28 +2,29 @@
   page: bio
   category: "CONTACT"
   title: "Photographe portrait reportage Vendée"
-  subtitle: "Montaigu - Vendée - Nantes - Saint-Nazaire - Pays de la Loire"
+  subtitle: "Basé à Montaigu"
 
 # - picture: vendee-globe_01.jpg
 #   page: blog
 #   category: "SERIE"
 #   title: "Vendée Globe Monochrome"
 
-# - picture: portrait_stephane-geffroy.jpg
-#   page: portraits
-#   category: "PORTRAITS"
-#   title: "Portrait de l'écrivain Stéphane Geffroy"
-#   subtitle: "Presse - Corporate"
+- picture: portrait_stephane-geffroy.jpg
+  page: portraits
+  category: "PORTRAITS"
+  title: "Photographe portrait en Vendée"
+  subtitle: "Presse - Corporate - Entreprise - Industrie - Artisans"
 
 # - picture: planche-contact_02B.jpg
 #   page: viragegroup.html
 #   category: "PORTRAIT"
 #   title: "Portraits de salariés en studio mobile"
 
-# - picture: dragon_03.jpg
-#   page: corporate
-#   category: "CORPORATE"
-#   title: "Reportage industrie"
+- picture: dragon_03.jpg
+  page: entreprise
+  category: "Entreprises"
+  title: "Reportage entreprise industrie artisanat"
+  subtitle: "Montaigu - Vendée - Pays de la Loire - Grand Ouest"
 
 # - picture: viragegroup_34.jpg
 #   page: corporate
