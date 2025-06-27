@@ -1,3 +1,12 @@
+- picture: publication_150.png
+  caption: CFDT magazine, Juillet - Aout 2025
+  # vertical: "yes" 
+- picture: publication_152.jpg
+  caption: Le Figaro, 25 juin 2025
+  vertical: "yes" 
+- picture: publication_151.png
+  caption: L'Humanité magazine, 12 juin 2025
+  # vertical: "yes" 
 - picture: publication_143.jpg
   caption: Nouvel Obs, 20 mars 2025
   # vertical: "yes" 
@@ -6,22 +15,22 @@
   # vertical: "yes" 
 - picture: publication_148.png
   caption: La Tribune, 19 février 2025
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_146.png
   caption: Le Soir, 2 février 2025
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_147.png
   caption: La Croix, 9 janvier 2025
   # vertical: "yes" 
 - picture: publication_145.png
   caption: Le Monde, 18 décembre  2024
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_144.png
   caption: Que Choisir, décembre  2024
   # vertical: "yes" 
 - picture: publication_142.png
   caption: Financial Times, 7 décembre  2024
-  # vertical: "yes" 
+  vertical: "yes" 
 - picture: publication_137.jpg
   caption: Le Figaro, 30 novembre 2024
   # vertical: "yes" 

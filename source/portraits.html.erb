@@ -26,9 +26,15 @@ preferred_url: http://www.mathieuthomasset.fr/portraits
       <p><%= partial 'layouts/clientsmedias' %></p>
       <p class="text-right"> <i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon portfolio <%= link_to 'PORTRAIT', '/images/Portfolio_Portrait_MThomasset.pdf', target: "_blank" %></p> <br>
       <div class="spacer"></div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p><%= partial 'layouts/bofpublications' %></p>
+        </div>
+      </div>
     </div>
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-8">
+
       <section id="grid">
         <% data.portraits.each do |y| %>
           <div class="col-xs-12 col-sm-6 col-lg-6">
