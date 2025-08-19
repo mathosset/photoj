@@ -37,13 +37,11 @@ preferred_url: http://www.mathieuthomasset.fr/entreprise
       <section id="grid">
         <% data.entreprise.each do |y| %>
           <div class="col-xs-12 col-sm-6 col-lg-6">
-            <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
-              <% if y.vertical == "yes" %>
-                <%= image_tag y.picture, width: "100%", class: "center-block" %>
-              <% else %>
-                <%= image_tag y.picture, width: "100%" %>
-              <% end %>
-            </a>
+            <% if y.vertical == "yes" %>
+              <%= image_tag y.picture, width: "100%", class: "center-block" %>
+            <% else %>
+              <%= image_tag y.picture, width: "100%" %>
+            <% end %>
             <div class="spacer"></div>
           </div>
         <% end %>

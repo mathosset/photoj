@@ -1,22 +1,14 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <title><%= page_title %></title>
-    <!-- Meta Data -->
-    <meta name='description' content='<%= page_description %>'>
-    <meta name='author' content='Mathieu Thomasset'>
-
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name='robots' content='index,follow'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    <!-- Viewport, set to device width -->
-
-<!--     <meta http-equiv="content-language" content="fr">
- -->
-
+    <title><%= page_title %></title>
+    <meta name="description" content="<%= page_description %>">
+    <meta name="author" content="Mathieu Thomasset">
+    <meta name="robots" content="index,follow">
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
@@ -26,7 +18,7 @@
     <meta name="twitter:creator" content="<%= data.site.twitter_handle %>">
     <meta name="twitter:image" content="<%= page_image %>">
 
-    <!-- Opengraph Data -->
+    <!-- Open Graph -->
     <meta property="og:title" content="<%= page_title %>"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="<%= current_page_url %>"/>
@@ -37,45 +29,45 @@
     <meta property="og:site_name" content="<%= data.site.title %>"/>
 
     <% if current_page.data.preferred_url %>
-        <link rel="canonical" href='<%= current_page.data.preferred_url %>'>
+      <link rel="canonical" href="<%= current_page.data.preferred_url %>">
     <% end %>
 
+    <!-- Styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@900&display=swap" rel="stylesheet">
-<!--     <link href='http://fonts.googleapis.com/css?family=Abel|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
- -->   <!--  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type='text/css'> -->
-
     <%= favicon_tag 'favicon.ico' %>
     <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
-
-    <!-- Global site tag (gtag.js) - Google Ads: 1022405015 --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1022405015"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-1022405015'); </script>
-
-    <% if current_page.data.preferred_url=='http://www.mathieuthomasset.fr/confirmation-de-contact' %>
-        <!-- Event snippet for Prospect conversion page --> 
-        <script> gtag('event', 'conversion', {'send_to': 'AW-1022405015/BnkYCJPx_8EBEJfTwucD'}); </script>
-    <% end %>
   </head>
 
   <body class="<%= page_classes %>">
-
     <%= partial 'layouts/navbar' %>
-
     <%= yield %>
-
     <%= partial 'layouts/footer' %>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-      ga('create', 'UA-64698854-1', 'auto');
-      ga('send', 'pageview');
+    <!-- Ton JS -->
+    <%= javascript_include_tag "all" %>
+
+    <!-- Google Ads & Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1022405015"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-1022405015');
     </script>
 
+    <% if current_page.data.preferred_url == 'http://www.mathieuthomasset.fr/confirmation-de-contact' %>
+      <script>
+        gtag('event', 'conversion', {'send_to': 'AW-1022405015/BnkYCJPx_8EBEJfTwucD'});
+      </script>
+    <% end %>
   </body>
 </html>
