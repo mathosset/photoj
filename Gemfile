@@ -22,7 +22,8 @@ gem 'middleman-protect-emails'
 gem "middleman-minify-html"
 
 # Deploy to GitHub Pages
-# gem 'middleman-deploy', '~> 1.0'
+# gem "middleman-deploy", "~> 1.0"
+
 
 # Assets
 gem 'jquery-middleman'
@@ -31,4 +32,7 @@ gem 'font-awesome-sass'
 
 gem "nokogiri"
 
-gem "middleman-disqus"
+# gem "middleman-disqus"
+
+gem 'net-ftp', require: 'net/ftp'
+

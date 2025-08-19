@@ -31,6 +31,7 @@ GEM
     concurrent-ruby (1.3.5)
     connection_pool (2.5.3)
     contracts (0.17.2)
+    date (3.4.1)
     dotenv (3.1.8)
     drb (2.2.3)
     em-websocket (0.5.3)
@@ -108,8 +109,6 @@ GEM
       toml
       uglifier (>= 3, < 5)
       webrick
-    middleman-disqus (1.2.0)
-      middleman-core (~> 4.0)
     middleman-livereload (3.5.0)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -123,6 +122,11 @@ GEM
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
     minitest (5.25.5)
+    net-ftp (0.3.8)
+      net-protocol
+      time
+    net-protocol (0.2.2)
+      timeout
     nokogiri (1.18.9-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.9-aarch64-linux-musl)
@@ -168,6 +172,9 @@ GEM
     temple (0.10.4)
     thor (1.4.0)
     tilt (2.6.1)
+    time (0.4.1)
+      date
+    timeout (0.4.3)
     toml (0.3.0)
       parslet (>= 1.8.0, < 3.0.0)
     tzinfo (2.0.6)
@@ -193,11 +200,11 @@ DEPENDENCIES
   jquery-middleman
   middleman (~> 4.0)
   middleman-blog (~> 4.0)
-  middleman-disqus
   middleman-livereload (~> 3.2)
   middleman-minify-html
   middleman-protect-emails
   middleman-sprockets (~> 4.0)
+  net-ftp
   nokogiri
   tzinfo-data
   wdm (~> 0.1.0)
