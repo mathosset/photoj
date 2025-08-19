@@ -109,6 +109,10 @@ GEM
       toml
       uglifier (>= 3, < 5)
       webrick
+    middleman-deploy (2.0.0.pre.alpha)
+      middleman-core (>= 3.2)
+      net-sftp
+      ptools
     middleman-livereload (3.5.0)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -127,6 +131,9 @@ GEM
       time
     net-protocol (0.2.2)
       timeout
+    net-sftp (4.0.0)
+      net-ssh (>= 5.0.0, < 8.0.0)
+    net-ssh (7.3.0)
     nokogiri (1.18.9-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.9-aarch64-linux-musl)
@@ -150,6 +157,7 @@ GEM
     padrino-support (0.15.3)
     parallel (1.27.0)
     parslet (2.0.0)
+    ptools (1.5.0)
     public_suffix (6.0.2)
     racc (1.8.1)
     rack (3.1.16)
@@ -200,6 +208,7 @@ DEPENDENCIES
   jquery-middleman
   middleman (~> 4.0)
   middleman-blog (~> 4.0)
+  middleman-deploy (= 2.0.0.pre.alpha)
   middleman-livereload (~> 3.2)
   middleman-minify-html
   middleman-protect-emails

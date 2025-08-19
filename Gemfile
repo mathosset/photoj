@@ -22,8 +22,7 @@ gem 'middleman-protect-emails'
 gem "middleman-minify-html"
 
 # Deploy to GitHub Pages
-# gem "middleman-deploy", "~> 1.0"
-
+gem "middleman-deploy", "2.0.0.pre.alpha"
 
 # Assets
 gem 'jquery-middleman'

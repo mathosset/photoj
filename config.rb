@@ -136,9 +136,9 @@ configure :build do
 end
 
 # Deployment
-# activate :deploy do |deploy|
-#   deploy.deploy_method = :git            # obligatoire pour Git
+activate :deploy do |deploy|
+   deploy.deploy_method = :git            # obligatoire pour Git
 #   deploy.branch        = "gh-pages"     # branche de destination
 #   deploy.remote        = "origin"       # nom du remote
-#   deploy.build_before  = true           # build avant de déployer
-# end
+   deploy.build_before  = true           # build avant de déployer
+end
