@@ -3,12 +3,11 @@
 
 source "https://rubygems.org"
 
-gem "middleman", "~> 4.3"
-gem "middleman-sprockets", "~> 4.1"
+gem 'middleman', '~> 4.0'
+gem "middleman-livereload", "~> 3.2"
 
-
-# Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem 'middleman-blog', '~> 4.0'   # si tu utilises middleman-blog
+gem 'middleman-sprockets', '~> 4.0' 
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
@@ -23,14 +22,12 @@ gem 'middleman-protect-emails'
 gem "middleman-minify-html"
 
 # Deploy to GitHub Pages
-gem 'middleman-deploy', '~> 1.0'
+# gem 'middleman-deploy', '~> 1.0'
 
 # Assets
 gem 'jquery-middleman'
 gem 'bootstrap-sass', ">= 3.4.1"
 gem 'font-awesome-sass'
-
-gem "middleman-blog", "~> 4.0"
 
 gem "nokogiri"
 

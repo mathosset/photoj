@@ -36,7 +36,7 @@ preferred_url: http://www.mathieuthomasset.fr/portraits
     <div class="col-xs-12 col-sm-8">
 
       <section id="grid">
-        <% current_resource.data.portraits.each do |y| %>
+        <% data.portraits.each do |y| %>
           <div class="col-xs-12 col-sm-6 col-lg-6">
             <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
               <% if y.vertical == "yes" %>

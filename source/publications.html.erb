@@ -10,7 +10,7 @@ preferred_url: http://www.mathieuthomasset.fr/publications
   <div class="row">
     <div class="spacer"></div>
     <section id="grid">
-      <% current_resource.data.publications.each do |y| %>
+      <% data.publications.each do |y| %>
         <div class="col-xs-12 col-sm-6 col-lg-3">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>

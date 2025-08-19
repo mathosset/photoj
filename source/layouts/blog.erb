@@ -10,25 +10,24 @@
               <h1><%= current_article.data.title %></h1>
               <%= yield %>
               <div class="spacer"></div>
-              <% if current_page.previous_article %>
+              <% if current_page.article_previous %>
                 <div id="previous-post">
-                  <% link_to current_page.previous_article do %>
+                  <% link_to current_page.article_previous do %>
                     <i class="fa fa-angle-double-left"></i>
-                    <%= current_page.previous_article.title %>
+                    <%= current_page.article_previous %>
                   <% end %>
                 </div>
               <% end%>
-              <% if current_page.next_article %>
+              <% if current_page.article_next %>
                 <div id="next-post">
-                  <% link_to current_page.next_article do %>
-                    <%= current_page.next_article.title %>
+                  <% link_to current_page.article_next do %>
+                    <%= current_page.article_next %>
                     <i class="fa fa-angle-double-right"></i>
                   <% end %>
                 </div>
               <% end%>
               <div class="big-spacer"></div>
-<!--               <%= disqus %>
- -->            </article>
+          </article>
         </div>
       </div>
     </div>
