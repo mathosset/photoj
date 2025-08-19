@@ -35,7 +35,7 @@ preferred_url: http://www.mathieuthomasset.fr/tirages
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-8">
       <section id="grid">
-      <% data.tirages.each do |y| %>
+      <% current_resource.data.tirages.each do |y| %>
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>

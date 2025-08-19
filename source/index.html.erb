@@ -17,7 +17,7 @@ preferred_url: http://www.mathieuthomasset.fr
     </ol> -->
     <!-- Wrapper for Slides -->
     <div class="carousel-inner">
-      <% data.home.each_with_index do |y, index| %>
+      <% current_resource.data.home.each_with_index do |y, index| %>
         <% if index==0 %>
           <div class="item active">
         <% else %>
@@ -46,7 +46,7 @@ preferred_url: http://www.mathieuthomasset.fr
 <div class="container">
   <div class="mid-spacer"></div>
   <div class="row">
-    <% data.homecards.each_with_index do |y| %>
+    <% current_resource.data.homecards.each_with_index do |y| %>
       <div class="col-xs-12 col-sm-4">
         <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.1)), url('images/<%= y.picture %>');">
           <div class="card-category"><%= y.category.upcase %></div>

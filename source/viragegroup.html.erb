@@ -58,7 +58,7 @@ preferred_url: http://www.mathieuthomasset.fr/viragegroup
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-8">
           <section id="grid">
-      <% data.viragegroup.each do |y| %>
+      <% current_resource.data.viragegroup.each do |y| %>
         <div class="col-xs-12 col-sm-6 col-lg-12">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>

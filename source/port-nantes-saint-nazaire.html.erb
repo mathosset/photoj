@@ -54,7 +54,7 @@ preferred_url: http://www.mathieuthomasset.fr/port-nantes-saint-nazaire
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-8">
           <section id="grid">
-      <% data.graindesail.each do |y| %>
+      <% current_resource.data.graindesail.each do |y| %>
         <div class="col-xs-12 col-sm-6">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
@@ -78,7 +78,7 @@ preferred_url: http://www.mathieuthomasset.fr/port-nantes-saint-nazaire
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-8">
           <section id="grid">
-      <% data.champlain.each do |y| %>
+      <% current_resource.data.champlain.each do |y| %>
         <div class="col-xs-12 col-sm-6">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
@@ -104,7 +104,7 @@ preferred_url: http://www.mathieuthomasset.fr/port-nantes-saint-nazaire
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-8">
           <section id="grid">
-      <% data.dragon.each do |y| %>
+      <% current_resource.data.dragon.each do |y| %>
         <div class="col-xs-12 col-sm-6">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
@@ -130,7 +130,7 @@ preferred_url: http://www.mathieuthomasset.fr/port-nantes-saint-nazaire
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-8">
           <section id="grid">
-      <% data.pertuis.each do |y| %>
+      <% current_resource.data.pertuis.each do |y| %>
         <div class="col-xs-12 col-sm-6">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
