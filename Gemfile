@@ -1,8 +1,11 @@
 # If you do not have OpenSSL installed, update
 # the following line to use "http://" instead
-source 'http://rubygems.org'
 
-gem "middleman", "~>3.3.12"
+source "https://rubygems.org"
+
+gem "middleman", "~> 4.3"
+gem "middleman-sprockets", "~> 4.1"
+
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
@@ -27,7 +30,7 @@ gem 'jquery-middleman'
 gem 'bootstrap-sass', ">= 3.4.1"
 gem 'font-awesome-sass'
 
-gem "middleman-blog"
+gem "middleman-blog", "~> 4.0"
 
 gem "nokogiri"
 
