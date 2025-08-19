@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /favicon.ico
+Disallow: /confirmation-de-contact.html
+
+Sitemap: http://www.mathieuthomasset.fr/sitemap.xml
