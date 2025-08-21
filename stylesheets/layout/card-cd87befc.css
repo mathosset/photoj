@@ -1,1 +1,112 @@
-.card{height:250px;text-shadow:0 1px 3px rgba(0,0,0,0.6);background-size:cover !important;color:white;position:relative;border-radius:3px}.card-category{position:absolute;top:10px;left:10px;font-size:1em;text-transform:uppercase}.card-description{position:absolute;bottom:10px;left:10px}.card-description h2{font-size:1.3em}.card-description p{font-size:1em}.card-link{position:absolute;top:0;bottom:0;width:100%;z-index:2;background:black;opacity:0}.card-link:hover{opacity:0.2}.card-trip{overflow:hidden;background:white;position:relative;height:440px;border-radius:3px;box-shadow:0 0 8px rgba(0,0,0,0.2)}.card-trip a{position:absolute;right:20px;bottom:15px}.card-img{height:250px;background-size:cover !important}.card-trip-infos{position:absolute;bottom:55px;left:5px}.card-trip-pricing{position:absolute;right:20px;bottom:145px}.card-trip-pricing h3{font-size:20px}.card-trip h2{font-size:20px;font-weight:bold}.card-trip p{font-size:12px;opacity:.8}.modal-body{max-height:calc(100vh - 212px);overflow-y:auto}
+.card {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 3px;
+}
+/*.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}*/
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 1.3em;
+}
+.card-description p {
+  font-size: 1em;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+
+.card-link:hover {
+  opacity: 0.2;
+}
+
+.card-trip {
+  overflow: hidden;
+  background: white;
+  position: relative;
+  height: 440px;
+  border-radius: 3px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.card-trip a {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}
+
+.card-img {
+  height: 250px;
+  background-size: cover !important;
+}
+
+.card-trip-infos {
+  position: absolute;
+  bottom: 55px;
+  left: 5px;
+}
+
+.card-trip-pricing {
+  position: absolute;
+  right: 20px;
+  bottom: 145px;
+}
+
+.card-trip-pricing h3 {
+  font-size: 20px;
+}
+
+.card-trip h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-trip p {
+  font-size: 12px;
+  opacity: .8;
+}
+
+.modal-body {
+    max-height: calc(100vh - 212px);
+    overflow-y: auto;
+}
+
+
+/*.card-trip-infos {
+  padding: 16px;
+  position: absolute;
+bottom: 20px;*/
+/*  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;*/
+
+/*.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}*/

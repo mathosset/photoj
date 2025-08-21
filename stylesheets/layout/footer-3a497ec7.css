@@ -1,1 +1,19 @@
-#footer{color:grey;padding-top:3em;padding-bottom:3em;text-align:center}#footer a{color:#777}#footer a:hover{color:#5B91B9}
+#footer {
+  color: grey;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+#footer a {
+  color: #777;
+}
+
+#footer a:hover {
+  color: #5B91B9;
+}
+
+/* taille police logo réseaux sociaux
+.social a {
+  font-size: 18px;
+} */
