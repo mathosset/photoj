@@ -1,0 +1,3226 @@
+/Users/mathieuthomasset/.rbenv/versions/3.3.5/lib/ruby/3.3.0/json/common.rb:3: warning: ostruct was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 3.5.0.
+You can add ostruct to your Gemfile or gemspec to silence this warning.
+Deprecation warning: Expected string default value for '--instrument'; got false (boolean).
+This will be rejected in the future unless you explicitly pass the options `check_default_type: false` or call `allow_incompatible_default_type!` in your code
+You can silence deprecations warning by setting the environment variable THOR_SILENCE_DEPRECATION.
+== Activating: file_watcher
+== Activating: front_matter
+== Activating: data
+== Activating: inline_url_rewriter
+== Activating: sitemap_ondisk
+== Activating: sitemap_import
+== Activating: sitemap_endpoint
+== Activating: sitemap_proxies
+== Activating: sitemap_redirects
+== Activating: sitemap_move_files
+== Activating: sitemap_ignore
+== Activating: external_helpers
+== Activating: erb_renderer
+== Activating: coffee_renderer
+== Activating: haml_renderer
+== Activating: sass_renderer
+== Activating: markdown_renderer
+== Failed Activation `liquid_renderer` : cannot load such file -- liquid
+== Failed Activation `slim_renderer` : cannot load such file -- slim
+== Activating: less_renderer
+== Activating: default_helpers
+== Activating: lorem
+== Activating: routing
+== Activating: collections
+== Change (#<Set: {:data}>): ouestmedialab.yml
+== Change (#<Set: {:data}>): tgo.yml
+== Change (#<Set: {:data}>): capacites.yml
+== Change (#<Set: {:data}>): philharmonie.yml
+== Change (#<Set: {:data}>): media.yml
+== Change (#<Set: {:data}>): publications.yml
+== Change (#<Set: {:data}>): regis.yml
+== Change (#<Set: {:data}>): champlain.yml
+== Change (#<Set: {:data}>): diane.yml
+== Change (#<Set: {:data}>): globetrotters.yml
+== Change (#<Set: {:data}>): site.yml
+== Change (#<Set: {:data}>): pertuis.yml
+== Change (#<Set: {:data}>): waterlicht.yml
+== Change (#<Set: {:data}>): fukushima.yml
+== Change (#<Set: {:data}>): reportages.yml
+== Change (#<Set: {:data}>): logo.yml
+== Change (#<Set: {:data}>): cop21.yml
+== Change (#<Set: {:data}>): bofpublications.yml
+== Change (#<Set: {:data}>): portraits.yml
+== Change (#<Set: {:data}>): pelerin.yml
+== Change (#<Set: {:data}>): promus.yml
+== Change (#<Set: {:data}>): marseille.yml
+== Change (#<Set: {:data}>): homecards.yml
+== Change (#<Set: {:data}>): portnanteschevire.yml
+== Change (#<Set: {:data}>): tirages.yml
+== Change (#<Set: {:data}>): inondations.yml
+== Change (#<Set: {:data}>): dragon.yml
+== Change (#<Set: {:data}>): viragegroup.yml
+== Change (#<Set: {:data}>): home.yml
+== Change (#<Set: {:data}>): cogelec.yml
+== Change (#<Set: {:data}>): graindesail.yml
+== Change (#<Set: {:data}>): otto.yml
+== Change (#<Set: {:data}>): corporate.yml
+== Change (#<Set: {:data}>): vendee.yml
+== Change (#<Set: {:data}>): prieres.yml
+== Change (#<Set: {:data}>): bobo.yml
+== Change (#<Set: {:data}>): global.yml
+== Change (#<Set: {:data}>): individual.yml
+== Change (#<Set: {:data}>): entreprise.yml
+== Change (#<Set: {:data}>): marie.yml
+== Change (#<Set: {:data}>): mcdonalds.yml
+== Change (#<Set: {:data}>): tentes.yml
+== Change (#<Set: {:data}>): mariage.yml
+== Rebuilding resource list
+== Requesting resource list rebuilding: touched_data_file
+== Change (#<Set: {:source}>): photographe-vendee.html.erb
+== Change (#<Set: {:source}>): new-article.erb
+== Change (#<Set: {:source}>): index.html.erb
+== Change (#<Set: {:source}>): tirages.html.erb
+== Change (#<Set: {:source}>): sitemap.xml.erb
+== Change (#<Set: {:source}>): favicon.ico
+== Change (#<Set: {:source}>): blog.html.erb
+== Change (#<Set: {:source}>): exposition-voie.html.erb
+== Change (#<Set: {:source}>): CNAME
+== Change (#<Set: {:source}>): images/inondations-paris_17.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_03.jpg
+== Change (#<Set: {:source}>): images/marie_01.jpg
+== Change (#<Set: {:source}>): images/marie_15.jpg
+== Change (#<Set: {:source}>): images/tentes_12.jpg
+== Change (#<Set: {:source}>): images/tentes_06.jpg
+== Change (#<Set: {:source}>): images/otto_03.jpg
+== Change (#<Set: {:source}>): images/tirage_1.jpg
+== Change (#<Set: {:source}>): images/logo-icibarbes.jpg
+== Change (#<Set: {:source}>): images/LaR.jpg
+== Change (#<Set: {:source}>): images/graindesail_03.jpg
+== Change (#<Set: {:source}>): images/viragegroup_33.jpg
+== Change (#<Set: {:source}>): images/publication_133.jpg
+== Change (#<Set: {:source}>): images/viragegroup_27.jpg
+== Change (#<Set: {:source}>): images/publication_127.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_03.jpg
+== Change (#<Set: {:source}>): images/cop21-03.jpg
+== Change (#<Set: {:source}>): images/cop21-17.jpg
+== Change (#<Set: {:source}>): images/publication_71.jpg
+== Change (#<Set: {:source}>): images/publication_65.jpg
+== Change (#<Set: {:source}>): images/publication_59.jpg
+== Change (#<Set: {:source}>): images/traces.jpg
+== Change (#<Set: {:source}>): images/angel1b.jpg
+== Change (#<Set: {:source}>): images/fukushima-1.JPG
+== Change (#<Set: {:source}>): images/publication_58.jpg
+== Change (#<Set: {:source}>): images/publication_64.jpg
+== Change (#<Set: {:source}>): images/publication_70.jpg
+== Change (#<Set: {:source}>): images/cop21-16.jpg
+== Change (#<Set: {:source}>): images/cop21-02.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_02.jpg
+== Change (#<Set: {:source}>): images/publication_126.jpg
+== Change (#<Set: {:source}>): images/viragegroup_26.jpg
+== Change (#<Set: {:source}>): images/publication_132.jpg
+== Change (#<Set: {:source}>): images/viragegroup_32.jpg
+== Change (#<Set: {:source}>): images/graindesail_02.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Isabelle-Remi_26.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_01.jpg
+== Change (#<Set: {:source}>): images/otto_02.jpg
+== Change (#<Set: {:source}>): images/tentes_07.jpg
+== Change (#<Set: {:source}>): images/tentes_13.jpg
+== Change (#<Set: {:source}>): images/marie_14.jpg
+== Change (#<Set: {:source}>): images/44BZH_01.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_02.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_16.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_08.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_28.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_14.jpg
+== Change (#<Set: {:source}>): images/marie_16.jpg
+== Change (#<Set: {:source}>): images/marie_02.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Alexis-Jeremie_03.jpg
+== Change (#<Set: {:source}>): images/capacites_08.jpg
+== Change (#<Set: {:source}>): images/tentes_05.jpg
+== Change (#<Set: {:source}>): images/tentes_11.jpg
+== Change (#<Set: {:source}>): images/otto_14.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_03.jpg
+== Change (#<Set: {:source}>): images/logo-pelerin.jpg
+== Change (#<Set: {:source}>): images/tirage_2.jpg
+== Change (#<Set: {:source}>): images/viragegroup_18.jpg
+== Change (#<Set: {:source}>): images/publication_118.jpg
+== Change (#<Set: {:source}>): images/viragegroup_24.jpg
+== Change (#<Set: {:source}>): images/publication_124.jpg
+== Change (#<Set: {:source}>): images/viragegroup_30.jpg
+== Change (#<Set: {:source}>): images/publication_130.jpg
+== Change (#<Set: {:source}>): images/FT-medef_04.jpg
+== Change (#<Set: {:source}>): images/publication_99.jpg
+== Change (#<Set: {:source}>): images/cop21-14.jpg
+== Change (#<Set: {:source}>): images/publication_66.jpg
+== Change (#<Set: {:source}>): images/publication_72.jpg
+== Change (#<Set: {:source}>): images/fukushima-3.JPG
+== Change (#<Set: {:source}>): images/logo-portnantes.jpg
+== Change (#<Set: {:source}>): images/fukushima-2.JPG
+== Change (#<Set: {:source}>): images/viragegroup_18A.jpg
+== Change (#<Set: {:source}>): images/publication_73.jpg
+== Change (#<Set: {:source}>): images/publication_67.jpg
+== Change (#<Set: {:source}>): images/cop21-01.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_01.jpg
+== Change (#<Set: {:source}>): images/cop21-15.jpg
+== Change (#<Set: {:source}>): images/publication_98.jpg
+== Change (#<Set: {:source}>): images/FT-medef_05.jpg
+== Change (#<Set: {:source}>): images/publication_131.jpg
+== Change (#<Set: {:source}>): images/viragegroup_31.jpg
+== Change (#<Set: {:source}>): images/publication_125.jpg
+== Change (#<Set: {:source}>): images/viragegroup_25.jpg
+== Change (#<Set: {:source}>): images/graindesail_01.jpg
+== Change (#<Set: {:source}>): images/publication_119.jpg
+== Change (#<Set: {:source}>): images/viragegroup_19.jpg
+== Change (#<Set: {:source}>): images/logo-unantes.jpg
+== Change (#<Set: {:source}>): images/tirage_3.jpg
+== Change (#<Set: {:source}>): images/publication_69B.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_02.jpg
+== Change (#<Set: {:source}>): images/otto_15.jpg
+== Change (#<Set: {:source}>): images/otto_01.jpg
+== Change (#<Set: {:source}>): images/tentes_10.jpg
+== Change (#<Set: {:source}>): images/tentes_04.jpg
+== Change (#<Set: {:source}>): images/capacites_09.jpg
+== Change (#<Set: {:source}>): images/Portfolio_Corporate_MThomasset.pdf
+== Change (#<Set: {:source}>): images/marie_03.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Alexis-Jeremie_02.jpg
+== Change (#<Set: {:source}>): images/marie_17.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_15.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_01.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_29.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_05.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_11.jpg
+== Change (#<Set: {:source}>): images/publication_150b.png
+== Change (#<Set: {:source}>): images/ouestmedialab_08.jpg
+== Change (#<Set: {:source}>): images/tentes_14.jpg
+== Change (#<Set: {:source}>): images/capacites_19.jpg
+== Change (#<Set: {:source}>): images/marie_13.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Alexis-Jeremie_06.jpg
+== Change (#<Set: {:source}>): images/marie_07.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_06.jpg
+== Change (#<Set: {:source}>): images/otto_05.jpg
+== Change (#<Set: {:source}>): images/otto_11.jpg
+== Change (#<Set: {:source}>): images/tirage_7.jpg
+== Change (#<Set: {:source}>): images/viragegroup_21.jpg
+== Change (#<Set: {:source}>): images/publication_121.jpg
+== Change (#<Set: {:source}>): images/viragegroup_35.jpg
+== Change (#<Set: {:source}>): images/publication_135.jpg
+== Change (#<Set: {:source}>): images/graindesail_05.jpg
+== Change (#<Set: {:source}>): images/graindesail_11.jpg
+== Change (#<Set: {:source}>): images/viragegroup_09.jpg
+== Change (#<Set: {:source}>): images/publication_109.jpg
+== Change (#<Set: {:source}>): images/cop21-11.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_05.jpg
+== Change (#<Set: {:source}>): images/publication_88.jpg
+== Change (#<Set: {:source}>): images/cop21-05.jpg
+== Change (#<Set: {:source}>): images/virage-triptyque_02.jpg
+== Change (#<Set: {:source}>): images/FT-medef_01.jpg
+== Change (#<Set: {:source}>): images/fukushima-6.JPG
+== Change (#<Set: {:source}>): images/publication_63.jpg
+== Change (#<Set: {:source}>): images/publication_77.jpg
+== Change (#<Set: {:source}>): images/logo-lesechospublishing.jpg
+== Change (#<Set: {:source}>): images/publication_76.jpg
+== Change (#<Set: {:source}>): images/publication_62.jpg
+== Change (#<Set: {:source}>): images/fukushima-7.JPG
+== Change (#<Set: {:source}>): images/virage-triptyque_03.jpg
+== Change (#<Set: {:source}>): images/cop21-04.jpg
+== Change (#<Set: {:source}>): images/publication_89.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_04.jpg
+== Change (#<Set: {:source}>): images/cop21-10.jpg
+== Change (#<Set: {:source}>): images/publication_13b.jpg
+== Change (#<Set: {:source}>): images/publication_108.jpg
+== Change (#<Set: {:source}>): images/viragegroup_08.jpg
+== Change (#<Set: {:source}>): images/graindesail_10.jpg
+== Change (#<Set: {:source}>): images/graindesail_04.jpg
+== Change (#<Set: {:source}>): images/publication_134.jpg
+== Change (#<Set: {:source}>): images/viragegroup_34.jpg
+== Change (#<Set: {:source}>): images/publication_120.jpg
+== Change (#<Set: {:source}>): images/viragegroup_20.jpg
+== Change (#<Set: {:source}>): images/tirage_6.jpg
+== Change (#<Set: {:source}>): images/otto_10.jpg
+== Change (#<Set: {:source}>): images/otto_04.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_07.jpg
+== Change (#<Set: {:source}>): images/marie_06.jpg
+== Change (#<Set: {:source}>): images/marie_12.jpg
+== Change (#<Set: {:source}>): images/capacites_18.jpg
+== Change (#<Set: {:source}>): images/tentes_15.jpg
+== Change (#<Set: {:source}>): images/tentes_01.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_09.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_10.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_04.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_12.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_06.jpg
+== Change (#<Set: {:source}>): images/bobo_9.jpg
+== Change (#<Set: {:source}>): images/tentes_03.jpg
+== Change (#<Set: {:source}>): images/marie_04.jpg
+== Change (#<Set: {:source}>): images/marie_10.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_05.jpg
+== Change (#<Set: {:source}>): images/publication_72b.jpg
+== Change (#<Set: {:source}>): images/otto_12.jpg
+== Change (#<Set: {:source}>): images/logo-ft.jpg
+== Change (#<Set: {:source}>): images/otto_06.jpg
+== Change (#<Set: {:source}>): images/tirage_4.jpg
+== Change (#<Set: {:source}>): images/viragegroup_36.jpg
+== Change (#<Set: {:source}>): images/publication_136.jpg
+== Change (#<Set: {:source}>): images/viragegroup_22.jpg
+== Change (#<Set: {:source}>): images/publication_122.jpg
+== Change (#<Set: {:source}>): images/graindesail_12.jpg
+== Change (#<Set: {:source}>): images/graindesail_06.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_06.jpg
+== Change (#<Set: {:source}>): images/cop21-06.jpg
+== Change (#<Set: {:source}>): images/portrait-jlbidet.jpg
+== Change (#<Set: {:source}>): images/cop21-12.jpg
+== Change (#<Set: {:source}>): images/FT-medef_02.jpg
+== Change (#<Set: {:source}>): images/virage-triptyque_01.jpg
+== Change (#<Set: {:source}>): images/publication_48.jpg
+== Change (#<Set: {:source}>): images/fukushima-5.JPG
+== Change (#<Set: {:source}>): images/publication_74.jpg
+== Change (#<Set: {:source}>): images/publication_60.jpg
+== Change (#<Set: {:source}>): images/publication_61.jpg
+== Change (#<Set: {:source}>): images/publication_75.jpg
+== Change (#<Set: {:source}>): images/fukushima-4.JPG
+== Change (#<Set: {:source}>): images/publication_49.jpg
+== Change (#<Set: {:source}>): images/publication_48B.jpg
+== Change (#<Set: {:source}>): images/FT-medef_03.jpg
+== Change (#<Set: {:source}>): images/cop21-13.jpg
+== Change (#<Set: {:source}>): images/cop21-07.jpg
+== Change (#<Set: {:source}>): images/graindesail_07.jpg
+== Change (#<Set: {:source}>): images/publication_13a.jpg
+== Change (#<Set: {:source}>): images/graindesail_13.jpg
+== Change (#<Set: {:source}>): images/publication_123.jpg
+== Change (#<Set: {:source}>): images/viragegroup_23.jpg
+== Change (#<Set: {:source}>): images/publication_137.jpg
+== Change (#<Set: {:source}>): images/viragegroup_37.jpg
+== Change (#<Set: {:source}>): images/tirage_5.jpg
+== Change (#<Set: {:source}>): images/otto_07.jpg
+== Change (#<Set: {:source}>): images/otto_13.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_10.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_04.jpg
+== Change (#<Set: {:source}>): images/publication_09b.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Alexis-Jeremie_10.jpg
+== Change (#<Set: {:source}>): images/marie_11.jpg
+== Change (#<Set: {:source}>): images/marie_05.jpg
+== Change (#<Set: {:source}>): images/tentes_02.jpg
+== Change (#<Set: {:source}>): images/logo-lesjours.jpg
+== Change (#<Set: {:source}>): images/tentes_16.jpg
+== Change (#<Set: {:source}>): images/bobo_8.jpg
+== Change (#<Set: {:source}>): images/publication_51m.jpg
+== Change (#<Set: {:source}>): images/portrait_marcel-thebaud.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_07.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_13.jpg
+== Change (#<Set: {:source}>): images/apmsl_06.jpg
+== Change (#<Set: {:source}>): images/prieres-13.jpg
+== Change (#<Set: {:source}>): images/pelerin_16.jpg
+== Change (#<Set: {:source}>): images/pelerin_02.jpg
+== Change (#<Set: {:source}>): images/pertuis_06.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_05.jpg
+== Change (#<Set: {:source}>): images/regis-9.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Isabelle_01.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_07.jpg
+== Change (#<Set: {:source}>): images/waterlicht-1.jpg
+== Change (#<Set: {:source}>): images/publication_18a.jpg
+== Change (#<Set: {:source}>): images/prieres-8.jpg
+== Change (#<Set: {:source}>): images/publication_150.jpg
+== Change (#<Set: {:source}>): images/globetrotters-1.jpg
+== Change (#<Set: {:source}>): images/philharmonie_09.jpg
+== Change (#<Set: {:source}>): images/grasla4.jpg
+== Change (#<Set: {:source}>): images/publication_144.png
+== Change (#<Set: {:source}>): images/publication_150.png
+== Change (#<Set: {:source}>): images/publication_12.jpg
+== Change (#<Set: {:source}>): images/publication_06.jpg
+== Change (#<Set: {:source}>): images/mariage_10.jpg
+== Change (#<Set: {:source}>): images/mariage_04.jpg
+== Change (#<Set: {:source}>): images/mariage_05.jpg
+== Change (#<Set: {:source}>): images/mariage_11.jpg
+== Change (#<Set: {:source}>): images/publication_07.jpg
+== Change (#<Set: {:source}>): images/publication_151.png
+== Change (#<Set: {:source}>): images/publication_145.png
+== Change (#<Set: {:source}>): images/port-nantes_08.jpg
+== Change (#<Set: {:source}>): images/logo-lacroix.jpg
+== Change (#<Set: {:source}>): images/publication_38b.jpg
+== Change (#<Set: {:source}>): images/philharmonie_08.jpg
+== Change (#<Set: {:source}>): images/PC1-bruno-retailleau.jpg
+== Change (#<Set: {:source}>): images/prieres-9.jpg
+== Change (#<Set: {:source}>): images/planche-contact_02B.jpg
+== Change (#<Set: {:source}>): images/logo-apmsl.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_12.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_01.jpg
+== Change (#<Set: {:source}>): images/logo-ouestmedialab.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_06.jpg
+== Change (#<Set: {:source}>): images/regis-8.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_04.jpg
+== Change (#<Set: {:source}>): images/pertuis_07.jpg
+== Change (#<Set: {:source}>): images/pelerin_03.jpg
+== Change (#<Set: {:source}>): images/publication_145bis.png
+== Change (#<Set: {:source}>): images/pelerin_17.jpg
+== Change (#<Set: {:source}>): images/publication_22a.jpg
+== Change (#<Set: {:source}>): images/prieres-12.jpg
+== Change (#<Set: {:source}>): images/apmsl_05.jpg
+== Change (#<Set: {:source}>): images/prieres-10.jpg
+== Change (#<Set: {:source}>): images/redII.jpg
+== Change (#<Set: {:source}>): images/pelerin_01.jpg
+== Change (#<Set: {:source}>): images/tgo_08.jpg
+== Change (#<Set: {:source}>): images/pelerin_15.jpg
+== Change (#<Set: {:source}>): images/pertuis_05.jpg
+== Change (#<Set: {:source}>): images/virage-illustration.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_06.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_03.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_10.jpg
+== Change (#<Set: {:source}>): images/waterlicht-2.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_04.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Isabelle_02.jpg
+== Change (#<Set: {:source}>): images/publication_18b.jpg
+== Change (#<Set: {:source}>): images/publication_153.jpg
+== Change (#<Set: {:source}>): images/globetrotters-2.jpg
+== Change (#<Set: {:source}>): images/regis-24.jpg
+== Change (#<Set: {:source}>): images/publication_147.png
+== Change (#<Set: {:source}>): images/publication_05.jpg
+== Change (#<Set: {:source}>): images/publication_11.jpg
+== Change (#<Set: {:source}>): images/mariage_07.jpg
+== Change (#<Set: {:source}>): images/publication_39.jpg
+== Change (#<Set: {:source}>): images/mariage_13.jpg
+== Change (#<Set: {:source}>): images/mariage_12.jpg
+== Change (#<Set: {:source}>): images/mariage_06.jpg
+== Change (#<Set: {:source}>): images/publication_38.jpg
+== Change (#<Set: {:source}>): images/publication_10.jpg
+== Change (#<Set: {:source}>): images/logo-parisienwe.jpg
+== Change (#<Set: {:source}>): images/regis4.jpg
+== Change (#<Set: {:source}>): images/publication_04.jpg
+== Change (#<Set: {:source}>): images/logo-telerama.jpg
+== Change (#<Set: {:source}>): images/publication_142m.png
+== Change (#<Set: {:source}>): images/publication_146.png
+== Change (#<Set: {:source}>): images/memoriesIII.jpg
+== Change (#<Set: {:source}>): images/regis-19.jpg
+== Change (#<Set: {:source}>): images/globetrotters-3.jpg
+== Change (#<Set: {:source}>): images/publication_152.jpg
+== Change (#<Set: {:source}>): images/dragon_08.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_05.jpg
+== Change (#<Set: {:source}>): images/waterlicht-3.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Isabelle_03.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_11.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_02.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_07.jpg
+== Change (#<Set: {:source}>): images/pertuis_04.jpg
+== Change (#<Set: {:source}>): images/pelerin_14.jpg
+== Change (#<Set: {:source}>): images/tgo_09.jpg
+== Change (#<Set: {:source}>): images/prieres-11.jpg
+== Change (#<Set: {:source}>): images/apmsl_04.jpg
+== Change (#<Set: {:source}>): images/pelerin_04.jpg
+== Change (#<Set: {:source}>): images/pelerin_10.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_06.jpg
+== Change (#<Set: {:source}>): images/waterlicht-7.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_01.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_03.jpg
+== Change (#<Set: {:source}>): images/publication_19c.jpg
+== Change (#<Set: {:source}>): images/publication_142.png
+== Change (#<Set: {:source}>): images/regis-21.jpg
+== Change (#<Set: {:source}>): images/mariage_02.jpg
+== Change (#<Set: {:source}>): images/mariage_16.jpg
+== Change (#<Set: {:source}>): images/publication_28.jpg
+== Change (#<Set: {:source}>): images/publication_14.jpg
+== Change (#<Set: {:source}>): images/publication_15.jpg
+== Change (#<Set: {:source}>): images/regis1.jpg
+== Change (#<Set: {:source}>): images/publication_01.jpg
+== Change (#<Set: {:source}>): images/mariage_17.jpg
+== Change (#<Set: {:source}>): images/publication_29.jpg
+== Change (#<Set: {:source}>): images/mariage_03.jpg
+== Change (#<Set: {:source}>): images/grasla3.jpg
+== Change (#<Set: {:source}>): images/publication_143.jpg
+== Change (#<Set: {:source}>): images/publication_19b.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_02.jpg
+== Change (#<Set: {:source}>): images/waterlicht-6.jpg
+== Change (#<Set: {:source}>): images/pertuis_01.jpg
+== Change (#<Set: {:source}>): images/pelerin_11.jpg
+== Change (#<Set: {:source}>): images/pelerin_05.jpg
+== Change (#<Set: {:source}>): images/apmsl_01.jpg
+== Change (#<Set: {:source}>): images/prieres-14.jpg
+== Change (#<Set: {:source}>): images/logo-lesenigmatics.jpg
+== Change (#<Set: {:source}>): images/apmsl_03.jpg
+== Change (#<Set: {:source}>): images/pelerin_13.jpg
+== Change (#<Set: {:source}>): images/pelerin_07.jpg
+== Change (#<Set: {:source}>): images/portraitmathieu-1.jpg
+== Change (#<Set: {:source}>): images/publication_23a.jpg
+== Change (#<Set: {:source}>): images/pertuis_03.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_02.jpg
+== Change (#<Set: {:source}>): images/waterlicht-4.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_05.jpg
+== Change (#<Set: {:source}>): images/publication_03c.jpg
+== Change (#<Set: {:source}>): images/philharmonie_18.jpg
+== Change (#<Set: {:source}>): images/globetrotters-4.jpg
+== Change (#<Set: {:source}>): images/publication_141.png
+== Change (#<Set: {:source}>): images/logo-moniteur.jpg
+== Change (#<Set: {:source}>): images/publication_39b.jpg
+== Change (#<Set: {:source}>): images/grasla1.jpg
+== Change (#<Set: {:source}>): images/mariage_15.jpg
+== Change (#<Set: {:source}>): images/logo-figaro.jpg
+== Change (#<Set: {:source}>): images/mariage_01.jpg
+== Change (#<Set: {:source}>): images/publication_17.jpg
+== Change (#<Set: {:source}>): images/publication_03.jpg
+== Change (#<Set: {:source}>): images/regis3.jpg
+== Change (#<Set: {:source}>): images/regis2.jpg
+== Change (#<Set: {:source}>): images/publication_02.jpg
+== Change (#<Set: {:source}>): images/publication_16.jpg
+== Change (#<Set: {:source}>): images/publication_147bis.png
+== Change (#<Set: {:source}>): images/mariage_14.jpg
+== Change (#<Set: {:source}>): images/logo-altereco.jpg
+== Change (#<Set: {:source}>): images/regis-23.jpg
+== Change (#<Set: {:source}>): images/publication_140.png
+== Change (#<Set: {:source}>): images/publication_03b.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_01.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_04.jpg
+== Change (#<Set: {:source}>): images/waterlicht-5.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_03.jpg
+== Change (#<Set: {:source}>): images/moi.jpg
+== Change (#<Set: {:source}>): images/pertuis_02.jpg
+== Change (#<Set: {:source}>): images/sven1.jpg
+== Change (#<Set: {:source}>): images/pelerin_06.jpg
+== Change (#<Set: {:source}>): images/pelerin_12.jpg
+== Change (#<Set: {:source}>): images/memoriesII.jpg
+== Change (#<Set: {:source}>): images/apmsl_02.jpg
+== Change (#<Set: {:source}>): images/blog/amiante-02.JPG
+== Change (#<Set: {:source}>): images/blog/msc-meraviglia_03.jpg
+== Change (#<Set: {:source}>): images/blog/msc-meraviglia_02.jpg
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_01.jpg
+== Change (#<Set: {:source}>): images/blog/amiante-03.JPG
+== Change (#<Set: {:source}>): images/blog/amiante-01.JPG
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-08.jpg
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_03.jpg
+== Change (#<Set: {:source}>): images/blog/msc-meraviglia_01.jpg
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_02.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-09.jpg
+== Change (#<Set: {:source}>): images/blog/amiante-04.JPG
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_06.jpg
+== Change (#<Set: {:source}>): images/blog/route-chicanes_02.jpg
+== Change (#<Set: {:source}>): images/blog/msc-meraviglia_05.jpg
+== Change (#<Set: {:source}>): images/blog/msc-meraviglia_04.jpg
+== Change (#<Set: {:source}>): images/blog/montfort-sur-meu_01.jpg
+== Change (#<Set: {:source}>): images/blog/route-chicanes_03.jpg
+== Change (#<Set: {:source}>): images/blog/amiante-05.JPG
+== Change (#<Set: {:source}>): images/blog/route-chicanes_01.jpg
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_05.jpg
+== Change (#<Set: {:source}>): images/blog/montfort-sur-meu_02.jpg
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_04.jpg
+== Change (#<Set: {:source}>): images/blog/amiante-06.JPG
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-01.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-07.JPG
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-03.jpg
+== Change (#<Set: {:source}>): images/blog/arles_04.jpg
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-02.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-06.JPG
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-06.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-14.jpg
+== Change (#<Set: {:source}>): images/blog/monroyaume-05.JPG
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-02.jpg
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-04.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-10.JPG
+== Change (#<Set: {:source}>): images/blog/awaodori-04.JPG
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-01.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-05.JPG
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-01B.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-11.JPG
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-05.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-03.jpg
+== Change (#<Set: {:source}>): images/blog/foulee-gois-01.jpg
+== Change (#<Set: {:source}>): images/blog/monroyaume-04.JPG
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-07.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-13.jpg
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-01.jpg
+== Change (#<Set: {:source}>): images/blog/mondialauto2016_02.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-01.JPG
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-05.jpg
+== Change (#<Set: {:source}>): images/blog/arles_03.jpg
+== Change (#<Set: {:source}>): images/blog/arles_02.jpg
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-04.jpg
+== Change (#<Set: {:source}>): images/blog/mondialauto2016_03.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-12.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-06.jpg
+== Change (#<Set: {:source}>): images/blog/monroyaume-01.JPG
+== Change (#<Set: {:source}>): images/blog/monroyaume-03.JPG
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-10.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-04.jpg
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-02.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-02.JPG
+== Change (#<Set: {:source}>): images/blog/mondialauto2016_01.jpg
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-06.jpg
+== Change (#<Set: {:source}>): images/blog/arles_01.jpg
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-07.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-03.JPG
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-03.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-05.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-11.jpg
+== Change (#<Set: {:source}>): images/blog/monroyaume-02.JPG
+== Change (#<Set: {:source}>): images/blog/danslaville-02.JPG
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-08.jpg
+== Change (#<Set: {:source}>): images/blog/temple-06.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-09.jpg
+== Change (#<Set: {:source}>): images/blog/danslaville-03.JPG
+== Change (#<Set: {:source}>): images/blog/danslaville-01.JPG
+== Change (#<Set: {:source}>): images/blog/tgo_01.jpg
+== Change (#<Set: {:source}>): images/blog/temple-05.jpg
+== Change (#<Set: {:source}>): images/blog/temple-04.jpg
+== Change (#<Set: {:source}>): images/blog/danslaville-04.JPG
+== Change (#<Set: {:source}>): images/blog/awaodori-08.JPG
+== Change (#<Set: {:source}>): images/blog/temple-01.jpg
+== Change (#<Set: {:source}>): images/blog/mobilisation-pronddl_01.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-09.JPG
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-02B.jpg
+== Change (#<Set: {:source}>): images/blog/danslaville-05.JPG
+== Change (#<Set: {:source}>): images/blog/chantierXXL_01.jpg
+== Change (#<Set: {:source}>): images/blog/temple-03.jpg
+== Change (#<Set: {:source}>): images/blog/temple-02.jpg
+== Change (#<Set: {:source}>): images/blog/centrale-solaire_01.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-02.jpg
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-05.jpg
+== Change (#<Set: {:source}>): images/blog/concertregiskole-2.JPG
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-04.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-03.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-01.jpg
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-05.jpg
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-06.jpg
+== Change (#<Set: {:source}>): images/blog/concertregiskole-1.JPG
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-04.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-04.jpg
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-03.jpg
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-02.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-05.jpg
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-01.jpg
+== Change (#<Set: {:source}>): images/blog/rdv-erdre_01.jpg
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-03.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-07.jpg
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-01.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-06.jpg
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-02.jpg
+== Change (#<Set: {:source}>): images/tgo_02.jpg
+== Change (#<Set: {:source}>): images/publication_102b.jpg
+== Change (#<Set: {:source}>): images/philharmonie_14.jpg
+== Change (#<Set: {:source}>): images/bobo_10.jpg
+== Change (#<Set: {:source}>): images/dragon_03.jpg
+== Change (#<Set: {:source}>): images/prieres-1.jpg
+== Change (#<Set: {:source}>): images/confinement_02.jpg
+== Change (#<Set: {:source}>): images/regis-12.jpg
+== Change (#<Set: {:source}>): images/publication_33.jpg
+== Change (#<Set: {:source}>): images/publication_114B.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Remi_01.jpg
+== Change (#<Set: {:source}>): images/publication_27.jpg
+== Change (#<Set: {:source}>): images/mariage_19.jpg
+== Change (#<Set: {:source}>): images/mariage_25.jpg
+== Change (#<Set: {:source}>): images/mariage_24.jpg
+== Change (#<Set: {:source}>): images/publication_26.jpg
+== Change (#<Set: {:source}>): images/mariage_18.jpg
+== Change (#<Set: {:source}>): images/publication_32.jpg
+== Change (#<Set: {:source}>): images/regis-13.jpg
+== Change (#<Set: {:source}>): images/depart-vg_04.jpg
+== Change (#<Set: {:source}>): images/port-nantes_01.jpg
+== Change (#<Set: {:source}>): images/confinement_03.jpg
+== Change (#<Set: {:source}>): images/publication_137m.jpg
+== Change (#<Set: {:source}>): images/dragon_02.jpg
+== Change (#<Set: {:source}>): images/emeutes-nantes_01.jpg
+== Change (#<Set: {:source}>): images/bobo_11.jpg
+== Change (#<Set: {:source}>): images/philharmonie_15.jpg
+== Change (#<Set: {:source}>): images/philharmonie_01.jpg
+== Change (#<Set: {:source}>): images/portrait-virage_01.jpg
+== Change (#<Set: {:source}>): images/regis-1.jpg
+== Change (#<Set: {:source}>): images/logo-parisien.jpg
+== Change (#<Set: {:source}>): images/publication_142bis.png
+== Change (#<Set: {:source}>): images/tgo_03.jpg
+== Change (#<Set: {:source}>): images/Portfolio_Portrait_MThomasset.pdf
+== Change (#<Set: {:source}>): images/viragegroup_06A.jpg
+== Change (#<Set: {:source}>): images/pelerin_08.jpg
+== Change (#<Set: {:source}>): images/tgo_01.jpg
+== Change (#<Set: {:source}>): images/pelerin_20.jpg
+== Change (#<Set: {:source}>): images/regis-3.jpg
+== Change (#<Set: {:source}>): images/planche-contact-triptyque_01.jpg
+== Change (#<Set: {:source}>): images/memoriesI.jpg
+== Change (#<Set: {:source}>): images/philharmonie_17.jpg
+== Change (#<Set: {:source}>): images/bobo_13.jpg
+== Change (#<Set: {:source}>): images/philharmonie_03.jpg
+== Change (#<Set: {:source}>): images/prieres-2.jpg
+== Change (#<Set: {:source}>): images/confinement_01.jpg
+== Change (#<Set: {:source}>): images/regis-11.jpg
+== Change (#<Set: {:source}>): images/viragegroup_10A.jpg
+== Change (#<Set: {:source}>): images/port-nantes_03.jpg
+== Change (#<Set: {:source}>): images/logo-tgo.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Remi_02.jpg
+== Change (#<Set: {:source}>): images/publication_24.jpg
+== Change (#<Set: {:source}>): images/publication_30.jpg
+== Change (#<Set: {:source}>): images/publication_18.jpg
+== Change (#<Set: {:source}>): images/publication_19.jpg
+== Change (#<Set: {:source}>): images/publication_31.jpg
+== Change (#<Set: {:source}>): images/publication_25.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Remi_03.jpg
+== Change (#<Set: {:source}>): images/port-nantes_02.jpg
+== Change (#<Set: {:source}>): images/regis-10.jpg
+== Change (#<Set: {:source}>): images/prieres-3.jpg
+== Change (#<Set: {:source}>): images/dragon_01.jpg
+== Change (#<Set: {:source}>): images/Portfolio-Mathieu_Thomasset.pdf
+== Change (#<Set: {:source}>): images/philharmonie_02.jpg
+== Change (#<Set: {:source}>): images/publication_134B.jpg
+== Change (#<Set: {:source}>): images/bobo_12.jpg
+== Change (#<Set: {:source}>): images/philharmonie_16.jpg
+== Change (#<Set: {:source}>): images/portrait-geberowicz.jpg
+== Change (#<Set: {:source}>): images/Portfolio_Mariage_MThomasset.pdf
+== Change (#<Set: {:source}>): images/regis-2.jpg
+== Change (#<Set: {:source}>): images/pelerin_21.jpg
+== Change (#<Set: {:source}>): images/pelerin_09.jpg
+== Change (#<Set: {:source}>): images/musem.jpg
+== Change (#<Set: {:source}>): images/pelerin_19.jpg
+== Change (#<Set: {:source}>): images/tgo_10.jpg
+== Change (#<Set: {:source}>): images/logo-capacites.jpg
+== Change (#<Set: {:source}>): images/tgo_04.jpg
+== Change (#<Set: {:source}>): images/regis-6.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_08.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_01b.jpg
+== Change (#<Set: {:source}>): images/dragon_05.jpg
+== Change (#<Set: {:source}>): images/prieres-7.jpg
+== Change (#<Set: {:source}>): images/bobo_16.jpg
+== Change (#<Set: {:source}>): images/publication_135b.jpg
+== Change (#<Set: {:source}>): images/philharmonie_06.jpg
+== Change (#<Set: {:source}>): images/regis-14.jpg
+== Change (#<Set: {:source}>): images/port-nantes_12.jpg
+== Change (#<Set: {:source}>): images/port-nantes_06.jpg
+== Change (#<Set: {:source}>): images/depart-vg_03.jpg
+== Change (#<Set: {:source}>): images/mariage_23.jpg
+== Change (#<Set: {:source}>): images/publication_09.jpg
+== Change (#<Set: {:source}>): images/publication_21.jpg
+== Change (#<Set: {:source}>): images/publication_35.jpg
+== Change (#<Set: {:source}>): images/publication_34.jpg
+== Change (#<Set: {:source}>): images/publication_20.jpg
+== Change (#<Set: {:source}>): images/voie.jpg
+== Change (#<Set: {:source}>): images/publication_08.jpg
+== Change (#<Set: {:source}>): images/mariage_22.jpg
+== Change (#<Set: {:source}>): images/depart-vg_02.jpg
+== Change (#<Set: {:source}>): images/port-nantes_07.jpg
+== Change (#<Set: {:source}>): images/port-nantes_13.jpg
+== Change (#<Set: {:source}>): images/regis-15.jpg
+== Change (#<Set: {:source}>): images/philharmonie_07.jpg
+== Change (#<Set: {:source}>): images/philharmonie_13.jpg
+== Change (#<Set: {:source}>): images/prieres-6.jpg
+== Change (#<Set: {:source}>): images/dragon_04.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Yannick_01.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_09.jpg
+== Change (#<Set: {:source}>): images/regis-7.jpg
+== Change (#<Set: {:source}>): images/portrait-frere-christophe.jpg
+== Change (#<Set: {:source}>): images/tgo_05.jpg
+== Change (#<Set: {:source}>): images/tgo_11.jpg
+== Change (#<Set: {:source}>): images/pelerin_18.jpg
+== Change (#<Set: {:source}>): images/tgo_07.jpg
+== Change (#<Set: {:source}>): images/regis-5.jpg
+== Change (#<Set: {:source}>): images/PC2-bruno-retailleau.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Yannick_03.jpg
+== Change (#<Set: {:source}>): images/dragon_06.jpg
+== Change (#<Set: {:source}>): images/prieres-4.jpg
+== Change (#<Set: {:source}>): images/philharmonie_05.jpg
+== Change (#<Set: {:source}>): images/bobo_15.jpg
+== Change (#<Set: {:source}>): images/philharmonie_11.jpg
+== Change (#<Set: {:source}>): images/port-nantes_05.jpg
+== Change (#<Set: {:source}>): images/port-nantes_11.jpg
+== Change (#<Set: {:source}>): images/publication_148.png
+== Change (#<Set: {:source}>): images/mariage_20.jpg
+== Change (#<Set: {:source}>): images/publication_36.jpg
+== Change (#<Set: {:source}>): images/mariage_08.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Remi_04.jpg
+== Change (#<Set: {:source}>): images/publication_22.jpg
+== Change (#<Set: {:source}>): images/publication_23.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Remi_05.jpg
+== Change (#<Set: {:source}>): images/publication_37.jpg
+== Change (#<Set: {:source}>): images/mariage_09.jpg
+== Change (#<Set: {:source}>): images/mariage_21.jpg
+== Change (#<Set: {:source}>): images/publication_149.png
+== Change (#<Set: {:source}>): images/FT-medef_04A.jpg
+== Change (#<Set: {:source}>): images/port-nantes_10.jpg
+== Change (#<Set: {:source}>): images/regis-16.jpg
+== Change (#<Set: {:source}>): images/depart-vg_01.jpg
+== Change (#<Set: {:source}>): images/port-nantes_04.jpg
+== Change (#<Set: {:source}>): images/philharmonie_10.jpg
+== Change (#<Set: {:source}>): images/bobo_14.jpg
+== Change (#<Set: {:source}>): images/philharmonie_04.jpg
+== Change (#<Set: {:source}>): images/prieres-5.jpg
+== Change (#<Set: {:source}>): images/dragon_07.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Yannick_02.jpg
+== Change (#<Set: {:source}>): images/regis-4.jpg
+== Change (#<Set: {:source}>): images/tgo_12.jpg
+== Change (#<Set: {:source}>): images/tgo_06.jpg
+== Change (#<Set: {:source}>): images/portrait-samuel-nantes-atlantique.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_22.jpg
+== Change (#<Set: {:source}>): images/bobo_5.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_04.jpg
+== Change (#<Set: {:source}>): images/redI.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_10.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_07.jpg
+== Change (#<Set: {:source}>): images/capacites_02.jpg
+== Change (#<Set: {:source}>): images/marie_20.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_13.jpg
+== Change (#<Set: {:source}>): images/capacites_16.jpg
+== Change (#<Set: {:source}>): images/marie_08.jpg
+== Change (#<Set: {:source}>): images/min-nantes_05.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_09.jpg
+== Change (#<Set: {:source}>): images/tirage_8.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_02.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_02.jpg
+== Change (#<Set: {:source}>): images/viragegroup_12.jpg
+== Change (#<Set: {:source}>): images/publication_112.jpg
+== Change (#<Set: {:source}>): images/viragegroup_06.jpg
+== Change (#<Set: {:source}>): images/publication_106.jpg
+== Change (#<Set: {:source}>): images/publication_93.jpg
+== Change (#<Set: {:source}>): images/logo-virage.jpg
+== Change (#<Set: {:source}>): images/publication_87.jpg
+== Change (#<Set: {:source}>): images/publication_50.jpg
+== Change (#<Set: {:source}>): images/publication_30b.jpg
+== Change (#<Set: {:source}>): images/publication_44.jpg
+== Change (#<Set: {:source}>): images/publication_78.jpg
+== Change (#<Set: {:source}>): images/vendee-globe_02.jpg
+== Change (#<Set: {:source}>): images/publication_79.jpg
+== Change (#<Set: {:source}>): images/publication_45.jpg
+== Change (#<Set: {:source}>): images/publication_51.jpg
+== Change (#<Set: {:source}>): images/fukushima-8.JPG
+== Change (#<Set: {:source}>): images/publication_86.jpg
+== Change (#<Set: {:source}>): images/publication_92.jpg
+== Change (#<Set: {:source}>): images/promus_01.jpg
+== Change (#<Set: {:source}>): images/publication_107.jpg
+== Change (#<Set: {:source}>): images/viragegroup_07.jpg
+== Change (#<Set: {:source}>): images/publication_113.jpg
+== Change (#<Set: {:source}>): images/viragegroup_13.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_03.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_03.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Isabelle-Remi_07.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_08.jpg
+== Change (#<Set: {:source}>): images/min-nantes_04.jpg
+== Change (#<Set: {:source}>): images/marie_09.jpg
+== Change (#<Set: {:source}>): images/capacites_17.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_12.jpg
+== Change (#<Set: {:source}>): images/capacites_03.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_06.jpg
+== Change (#<Set: {:source}>): images/marie_21.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_11.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_05.jpg
+== Change (#<Set: {:source}>): images/bobo_4.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_23.jpg
+== Change (#<Set: {:source}>): images/logo-lobs.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_01.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_03.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_09.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_21.jpg
+== Change (#<Set: {:source}>): images/run-energie_01.jpg
+== Change (#<Set: {:source}>): images/bobo_6.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_10.jpg
+== Change (#<Set: {:source}>): images/capacites_15.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_04.jpg
+== Change (#<Set: {:source}>): images/capacites_01.jpg
+== Change (#<Set: {:source}>): images/min-nantes_06.jpg
+== Change (#<Set: {:source}>): images/publication_06c.jpg
+== Change (#<Set: {:source}>): images/otto_09.jpg
+== Change (#<Set: {:source}>): images/logo-maif.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_01.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_01.jpg
+== Change (#<Set: {:source}>): images/india.jpg
+== Change (#<Set: {:source}>): images/viragegroup_05.jpg
+== Change (#<Set: {:source}>): images/publication_105.jpg
+== Change (#<Set: {:source}>): images/graindesail_09.jpg
+== Change (#<Set: {:source}>): images/viragegroup_11.jpg
+== Change (#<Set: {:source}>): images/publication_111.jpg
+== Change (#<Set: {:source}>): images/cop21-09.jpg
+== Change (#<Set: {:source}>): images/publication_84.jpg
+== Change (#<Set: {:source}>): images/publication_139.png
+== Change (#<Set: {:source}>): images/promus_03.jpg
+== Change (#<Set: {:source}>): images/publication_90.jpg
+== Change (#<Set: {:source}>): images/publication_47.jpg
+== Change (#<Set: {:source}>): images/publication_53.jpg
+== Change (#<Set: {:source}>): images/logo-jdd.jpg
+== Change (#<Set: {:source}>): images/vendee-globe_01.jpg
+== Change (#<Set: {:source}>): images/publication_52.jpg
+== Change (#<Set: {:source}>): images/publication_47B.jpg
+== Change (#<Set: {:source}>): images/publication_46.jpg
+== Change (#<Set: {:source}>): images/publication_138.png
+== Change (#<Set: {:source}>): images/promus_02.jpg
+== Change (#<Set: {:source}>): images/publication_91.jpg
+== Change (#<Set: {:source}>): images/publication_85.jpg
+== Change (#<Set: {:source}>): images/cop21-08.jpg
+== Change (#<Set: {:source}>): images/publication_110.jpg
+== Change (#<Set: {:source}>): images/viragegroup_10.jpg
+== Change (#<Set: {:source}>): images/graindesail_08.jpg
+== Change (#<Set: {:source}>): images/publication_104.jpg
+== Change (#<Set: {:source}>): images/viragegroup_04.jpg
+== Change (#<Set: {:source}>): images/viragegroup_38.jpg
+== Change (#<Set: {:source}>): images/otto_08.jpg
+== Change (#<Set: {:source}>): images/publication_06b.jpg
+== Change (#<Set: {:source}>): images/min-nantes_07.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_05.jpg
+== Change (#<Set: {:source}>): images/capacites_14.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_11.jpg
+== Change (#<Set: {:source}>): images/bobo_7.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_20.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_08.jpg
+== Change (#<Set: {:source}>): images/portrait_sisters.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_02.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_24.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_18.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_06.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_02.jpg
+== Change (#<Set: {:source}>): images/ouestlajustice_01.jpg
+== Change (#<Set: {:source}>): images/planche-contact_03.jpg
+== Change (#<Set: {:source}>): images/bobo_3.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_15.jpg
+== Change (#<Set: {:source}>): images/capacites_10.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_01.jpg
+== Change (#<Set: {:source}>): images/cogelec_03.jpg
+== Change (#<Set: {:source}>): images/tentes_09.jpg
+== Change (#<Set: {:source}>): images/capacites_04.jpg
+== Change (#<Set: {:source}>): images/min-nantes_03.jpg
+== Change (#<Set: {:source}>): images/angel1.jpg
+== Change (#<Set: {:source}>): images/publication_100.jpg
+== Change (#<Set: {:source}>): images/viragegroup_14.jpg
+== Change (#<Set: {:source}>): images/publication_114.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_04.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_04.jpg
+== Change (#<Set: {:source}>): images/viragegroup_28.jpg
+== Change (#<Set: {:source}>): images/publication_128.jpg
+== Change (#<Set: {:source}>): images/portrait_stephane-geffroy.jpg
+== Change (#<Set: {:source}>): images/logo-libe.jpg
+== Change (#<Set: {:source}>): images/publication_81.jpg
+== Change (#<Set: {:source}>): images/publication_95.jpg
+== Change (#<Set: {:source}>): images/logo-swpl.jpg
+== Change (#<Set: {:source}>): images/publication_42.jpg
+== Change (#<Set: {:source}>): images/publication_46B.jpg
+== Change (#<Set: {:source}>): images/publication_56.jpg
+== Change (#<Set: {:source}>): images/publication_57.jpg
+== Change (#<Set: {:source}>): images/publication_43.jpg
+== Change (#<Set: {:source}>): images/publication_94.jpg
+== Change (#<Set: {:source}>): images/publication_80.jpg
+== Change (#<Set: {:source}>): images/portraitjulien-2.jpg
+== Change (#<Set: {:source}>): images/publication_129.jpg
+== Change (#<Set: {:source}>): images/viragegroup_29.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_05.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_05.jpg
+== Change (#<Set: {:source}>): images/publication_115.jpg
+== Change (#<Set: {:source}>): images/viragegroup_15.jpg
+== Change (#<Set: {:source}>): images/publication_101.jpg
+== Change (#<Set: {:source}>): images/viragegroup_01.jpg
+== Change (#<Set: {:source}>): images/min-nantes_02.jpg
+== Change (#<Set: {:source}>): images/capacites_05.jpg
+== Change (#<Set: {:source}>): images/tentes_08.jpg
+== Change (#<Set: {:source}>): images/cogelec_02.jpg
+== Change (#<Set: {:source}>): images/capacites_11.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_14.jpg
+== Change (#<Set: {:source}>): images/bobo_2.jpg
+== Change (#<Set: {:source}>): images/planche-contact_02.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_03.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_07.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_19.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_25.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_27.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_05.jpg
+== Change (#<Set: {:source}>): images/publication_53m.jpg
+== Change (#<Set: {:source}>): images/marie_19.jpg
+== Change (#<Set: {:source}>): images/lartdemanifester.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_02.jpg
+== Change (#<Set: {:source}>): images/capacites_07.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_16.jpg
+== Change (#<Set: {:source}>): images/capacites_13.jpg
+== Change (#<Set: {:source}>): images/angel2.jpg
+== Change (#<Set: {:source}>): images/viragegroup_17.jpg
+== Change (#<Set: {:source}>): images/publication_117.jpg
+== Change (#<Set: {:source}>): images/viragegroup_03.jpg
+== Change (#<Set: {:source}>): images/publication_103.jpg
+== Change (#<Set: {:source}>): images/promus_05.jpg
+== Change (#<Set: {:source}>): images/publication_96.jpg
+== Change (#<Set: {:source}>): images/publication_82.jpg
+== Change (#<Set: {:source}>): images/publication_69.jpg
+== Change (#<Set: {:source}>): images/publication_55.jpg
+== Change (#<Set: {:source}>): images/publication_41.jpg
+== Change (#<Set: {:source}>): images/publication_40.jpg
+== Change (#<Set: {:source}>): images/publication_31b.jpg
+== Change (#<Set: {:source}>): images/publication_54.jpg
+== Change (#<Set: {:source}>): images/angel2b.jpg
+== Change (#<Set: {:source}>): images/publication_68.jpg
+== Change (#<Set: {:source}>): images/portraitjulien-1.jpg
+== Change (#<Set: {:source}>): images/publication_83.jpg
+== Change (#<Set: {:source}>): images/promus_04.jpg
+== Change (#<Set: {:source}>): images/publication_97.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_06.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_06.jpg
+== Change (#<Set: {:source}>): images/portrait_stephane-geffroy2.jpg
+== Change (#<Set: {:source}>): images/publication_102.jpg
+== Change (#<Set: {:source}>): images/viragegroup_02.jpg
+== Change (#<Set: {:source}>): images/publication_116.jpg
+== Change (#<Set: {:source}>): images/viragegroup_16.jpg
+== Change (#<Set: {:source}>): images/min-nantes_01.jpg
+== Change (#<Set: {:source}>): images/capacites_12.jpg
+== Change (#<Set: {:source}>): images/capacites_06.jpg
+== Change (#<Set: {:source}>): images/cogelec_01.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_03.jpg
+== Change (#<Set: {:source}>): images/marie_18.jpg
+== Change (#<Set: {:source}>): images/bobo_1.jpg
+== Change (#<Set: {:source}>): images/planche-contact_01.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_04.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_26.jpg
+== Change (#<Set: {:source}>): bio.html.erb
+== Change (#<Set: {:source}>): portraits.html.erb
+== Change (#<Set: {:source}>): viragegroup.html.erb
+== Change (#<Set: {:source}>): blog/2021-08-16-portrait-michel-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2019-06-08-vent-vert-sur-la-reunion.html.markdown
+== Change (#<Set: {:source}>): blog/2017-03-30-premiers-essais-en-mer-du-plus-gros-paquebot-europeen-msc-meraviglia.html.markdown
+== Change (#<Set: {:source}>): blog/2021-02-26-grain-de-sail.html.markdown
+== Change (#<Set: {:source}>): blog/2016-10-27-les-indignes-de-mcdonald-s.html.markdown
+== Change (#<Set: {:source}>): blog/2016-07-22-les-rencontres-d-arles-2016.html.markdown
+== Change (#<Set: {:source}>): blog/2019-11-11-dragon-des-mers.html.markdown
+== Change (#<Set: {:source}>): blog/2015-11-18-ici-et-ailleurs.markdown
+== Change (#<Set: {:source}>): blog/2015-12-04-mon-premier-diaporama-sonore.markdown
+== Change (#<Set: {:source}>): blog/2021-10-16-portrait-remi-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2018-05-18-les-foulees-du-gois.html.markdown
+== Change (#<Set: {:source}>): blog/2021-09-15-portrait-alexisetjeremie-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2015-12-09-meeting-regionales-pecresse.markdown
+== Change (#<Set: {:source}>): blog/2022-02-09-portrait-yannick-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2015-12-10-cop21-portraits.markdown
+== Change (#<Set: {:source}>): blog/2018-01-06-la-route-des-chicanes.markdown
+== Change (#<Set: {:source}>): blog/2015-10-02-Monsieur-Morimoto.markdown
+== Change (#<Set: {:source}>): blog/2016-05-27-manifestation-contre-la-loi-travail.html.markdown
+== Change (#<Set: {:source}>): blog/2017-12-19-un-chantier-xxl.html.markdown
+== Change (#<Set: {:source}>): blog/2015-11-27-marche-pour-le-climat.markdown
+== Change (#<Set: {:source}>): blog/2025-05-21-vendee-globe.html.markdown
+== Change (#<Set: {:source}>): blog/2017-06-12-nantes-food-forum-2017.html.markdown
+== Change (#<Set: {:source}>): blog/2018-06-14-terminal-grand-ouest.html.markdown
+== Change (#<Set: {:source}>): blog/2017-10-30-la-plus-grande-centrale-solaire-des-pays-de-la-loire.markdown
+== Change (#<Set: {:source}>): blog/2021-08-12-portrait-paul-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2015-10-07-serie-dans-la-ville.markdown
+== Change (#<Set: {:source}>): blog/2015-10-03-nuits-blanches-2015.markdown
+== Change (#<Set: {:source}>): blog/2024-12-07-ateliers-perrault.html.markdown
+== Change (#<Set: {:source}>): blog/2020-02-17-portrait-de-bruno-retailleau-pour-le-jdd.html.markdown
+== Change (#<Set: {:source}>): blog/2015-10-02-festival-awa-odori.markdown
+== Change (#<Set: {:source}>): blog/2017-09-03-les-rdv-de-l-erdre.html.markdown
+== Change (#<Set: {:source}>): blog/2015-11-26-concert-regis-kole.markdown
+== Change (#<Set: {:source}>): blog/2018-06-14-montfort-sur-meu.html.markdown
+== Change (#<Set: {:source}>): blog/2016-10-04-mondial-de-l-auto-2016.html.markdown
+== Change (#<Set: {:source}>): blog/2020-04-02-journal-de-confinement.html.markdown
+== Change (#<Set: {:source}>): blog/2018-01-27-mobilisation-pronddl.markdown
+== Change (#<Set: {:source}>): blog/2020-01-04-portraits-en-triptyque.html.markdown
+== Change (#<Set: {:source}>): blog/2019-08-08-ou-est-la-justice.html.markdown
+== Change (#<Set: {:source}>): blog/2018-07-11-emeutes-nantes.html.markdown
+== Change (#<Set: {:source}>): blog/2021-10-11-portrait-isabelle-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2015-11-15-au-temple.markdown
+== Change (#<Set: {:source}>): blog/2015-10-09-manifestation-victimes-amiante.markdown
+== Change (#<Set: {:source}>): blog/2024-11-10-depart-vendee-globe.html.markdown
+== Change (#<Set: {:source}>): blog/2015-10-26-la-fin-des-cabines-telephoniques.markdown
+== Change (#<Set: {:source}>): blog/2019-02-19-nouveau-min-de-nantes.html.markdown
+== Change (#<Set: {:source}>): blog/2018-10-10-44-breizh.html.markdown
+== Change (#<Set: {:source}>): publications.html.erb
+== Change (#<Set: {:source}>): coulissespelerin.html.erb
+== Change (#<Set: {:source, :no_frontmatter}>): layouts/_clientsmedias.erb
+== Change (#<Set: {:source}>): layouts/blog.erb
+== Change (#<Set: {:source, :no_frontmatter}>): layouts/_footer.erb
+== Change (#<Set: {:source}>): layouts/layout.erb
+== Change (#<Set: {:source, :no_frontmatter}>): layouts/_bofpublications.erb
+== Change (#<Set: {:source, :no_frontmatter}>): layouts/_clientsentreprises.erb
+== Change (#<Set: {:source, :no_frontmatter}>): layouts/_navbar.erb
+== Change (#<Set: {:source}>): port-nantes-saint-nazaire.html.erb
+== Change (#<Set: {:source}>): entreprise.html.erb
+== Change (#<Set: {:source}>): confirmation-de-contact.html.erb
+== Change (#<Set: {:source}>): javascripts/all.js
+== Change (#<Set: {:source}>): demande-de-contact.html.erb
+== Change (#<Set: {:source}>): robots.txt
+== Change (#<Set: {:source}>): crossdomain.xml
+== Change (#<Set: {:source}>): stylesheets/all.css
+== Change (#<Set: {:source}>): stylesheets/layout/card.css
+== Change (#<Set: {:source}>): stylesheets/layout/navbar.css
+== Change (#<Set: {:source}>): stylesheets/layout/carousel.css
+== Change (#<Set: {:source}>): stylesheets/layout/button.css
+== Change (#<Set: {:source}>): stylesheets/layout/footer.css
+== Change (#<Set: {:source}>): stylesheets/img/loader.gif
+== Change (#<Set: {:source}>): stylesheets/img/icons.png
+== Change (#<Set: {:source}>): stylesheets/img/icons.svg
+== Change (#<Set: {:source}>): stylesheets/normalize.css
+== Change (#<Set: {:source}>): stylesheets/vendor/animation.css
+== Change (#<Set: {:source}>): stylesheets/vendor/swipebox.css
+== Change (#<Set: {:source}>): photographe-nantes.html.erb
+== Rebuilding resource list
+== Reading: Local config: config.rb
+== Activating: blog
+== Requesting resource list rebuilding: first_run_change_page
+== Requesting resource list rebuilding: first_run_change_page
+== Activating: protect_emails
+== Activating: deploy
+== Activating: minify_html
+== Activating: minify_javascript
+== Activating: asset_hash
+== Activating: relative_assets
+Loaded extensions:
+== Extension: file_watcher
+== Extension: front_matter
+== Extension: data
+== Extension: inline_url_rewriter
+== Extension: sitemap_ondisk
+== Extension: sitemap_import
+== Extension: sitemap_endpoint
+== Extension: sitemap_proxies
+== Extension: sitemap_redirects
+== Extension: sitemap_move_files
+== Extension: sitemap_ignore
+== Extension: external_helpers
+== Extension: erb_renderer
+== Extension: coffee_renderer
+== Extension: haml_renderer
+== Extension: sass_renderer
+== Extension: markdown_renderer
+== Extension: less_renderer
+== Extension: default_helpers
+== Extension: lorem
+== Extension: routing
+== Extension: collections
+== Extension: blog instance_0
+== Extension: protect_emails
+== Extension: deploy
+== Extension: minify_html
+== Extension: minify_javascript
+== Extension: asset_hash
+== Extension: relative_assets
+== Change (#<Set: {:data}>): ouestmedialab.yml
+== Change (#<Set: {:data}>): tgo.yml
+== Change (#<Set: {:data}>): capacites.yml
+== Change (#<Set: {:data}>): philharmonie.yml
+== Change (#<Set: {:data}>): media.yml
+== Change (#<Set: {:data}>): publications.yml
+== Change (#<Set: {:data}>): regis.yml
+== Change (#<Set: {:data}>): champlain.yml
+== Change (#<Set: {:data}>): diane.yml
+== Change (#<Set: {:data}>): globetrotters.yml
+== Change (#<Set: {:data}>): site.yml
+== Change (#<Set: {:data}>): pertuis.yml
+== Change (#<Set: {:data}>): waterlicht.yml
+== Change (#<Set: {:data}>): fukushima.yml
+== Change (#<Set: {:data}>): reportages.yml
+== Change (#<Set: {:data}>): logo.yml
+== Change (#<Set: {:data}>): cop21.yml
+== Change (#<Set: {:data}>): bofpublications.yml
+== Change (#<Set: {:data}>): portraits.yml
+== Change (#<Set: {:data}>): pelerin.yml
+== Change (#<Set: {:data}>): promus.yml
+== Change (#<Set: {:data}>): marseille.yml
+== Change (#<Set: {:data}>): homecards.yml
+== Change (#<Set: {:data}>): portnanteschevire.yml
+== Change (#<Set: {:data}>): tirages.yml
+== Change (#<Set: {:data}>): inondations.yml
+== Change (#<Set: {:data}>): dragon.yml
+== Change (#<Set: {:data}>): viragegroup.yml
+== Change (#<Set: {:data}>): home.yml
+== Change (#<Set: {:data}>): cogelec.yml
+== Change (#<Set: {:data}>): graindesail.yml
+== Change (#<Set: {:data}>): otto.yml
+== Change (#<Set: {:data}>): corporate.yml
+== Change (#<Set: {:data}>): vendee.yml
+== Change (#<Set: {:data}>): prieres.yml
+== Change (#<Set: {:data}>): bobo.yml
+== Change (#<Set: {:data}>): global.yml
+== Change (#<Set: {:data}>): individual.yml
+== Change (#<Set: {:data}>): entreprise.yml
+== Change (#<Set: {:data}>): marie.yml
+== Change (#<Set: {:data}>): mcdonalds.yml
+== Change (#<Set: {:data}>): tentes.yml
+== Change (#<Set: {:data}>): mariage.yml
+== Rebuilding resource list
+== Requesting resource list rebuilding: touched_data_file
+== Change (#<Set: {:source}>): photographe-vendee.html.erb
+== Change (#<Set: {:source}>): new-article.erb
+== Change (#<Set: {:source}>): index.html.erb
+== Change (#<Set: {:source}>): tirages.html.erb
+== Change (#<Set: {:source}>): sitemap.xml.erb
+== Change (#<Set: {:source}>): favicon.ico
+== Change (#<Set: {:source}>): blog.html.erb
+== Change (#<Set: {:source}>): exposition-voie.html.erb
+== Change (#<Set: {:source}>): CNAME
+== Change (#<Set: {:source}>): images/inondations-paris_17.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_03.jpg
+== Change (#<Set: {:source}>): images/marie_01.jpg
+== Change (#<Set: {:source}>): images/marie_15.jpg
+== Change (#<Set: {:source}>): images/tentes_12.jpg
+== Change (#<Set: {:source}>): images/tentes_06.jpg
+== Change (#<Set: {:source}>): images/otto_03.jpg
+== Change (#<Set: {:source}>): images/tirage_1.jpg
+== Change (#<Set: {:source}>): images/logo-icibarbes.jpg
+== Change (#<Set: {:source}>): images/LaR.jpg
+== Change (#<Set: {:source}>): images/graindesail_03.jpg
+== Change (#<Set: {:source}>): images/viragegroup_33.jpg
+== Change (#<Set: {:source}>): images/publication_133.jpg
+== Change (#<Set: {:source}>): images/viragegroup_27.jpg
+== Change (#<Set: {:source}>): images/publication_127.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_03.jpg
+== Change (#<Set: {:source}>): images/cop21-03.jpg
+== Change (#<Set: {:source}>): images/cop21-17.jpg
+== Change (#<Set: {:source}>): images/publication_71.jpg
+== Change (#<Set: {:source}>): images/publication_65.jpg
+== Change (#<Set: {:source}>): images/publication_59.jpg
+== Change (#<Set: {:source}>): images/traces.jpg
+== Change (#<Set: {:source}>): images/angel1b.jpg
+== Change (#<Set: {:source}>): images/fukushima-1.JPG
+== Change (#<Set: {:source}>): images/publication_58.jpg
+== Change (#<Set: {:source}>): images/publication_64.jpg
+== Change (#<Set: {:source}>): images/publication_70.jpg
+== Change (#<Set: {:source}>): images/cop21-16.jpg
+== Change (#<Set: {:source}>): images/cop21-02.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_02.jpg
+== Change (#<Set: {:source}>): images/publication_126.jpg
+== Change (#<Set: {:source}>): images/viragegroup_26.jpg
+== Change (#<Set: {:source}>): images/publication_132.jpg
+== Change (#<Set: {:source}>): images/viragegroup_32.jpg
+== Change (#<Set: {:source}>): images/graindesail_02.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Isabelle-Remi_26.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_01.jpg
+== Change (#<Set: {:source}>): images/otto_02.jpg
+== Change (#<Set: {:source}>): images/tentes_07.jpg
+== Change (#<Set: {:source}>): images/tentes_13.jpg
+== Change (#<Set: {:source}>): images/marie_14.jpg
+== Change (#<Set: {:source}>): images/44BZH_01.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_02.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_16.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_08.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_28.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_14.jpg
+== Change (#<Set: {:source}>): images/marie_16.jpg
+== Change (#<Set: {:source}>): images/marie_02.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Alexis-Jeremie_03.jpg
+== Change (#<Set: {:source}>): images/capacites_08.jpg
+== Change (#<Set: {:source}>): images/tentes_05.jpg
+== Change (#<Set: {:source}>): images/tentes_11.jpg
+== Change (#<Set: {:source}>): images/otto_14.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_03.jpg
+== Change (#<Set: {:source}>): images/logo-pelerin.jpg
+== Change (#<Set: {:source}>): images/tirage_2.jpg
+== Change (#<Set: {:source}>): images/viragegroup_18.jpg
+== Change (#<Set: {:source}>): images/publication_118.jpg
+== Change (#<Set: {:source}>): images/viragegroup_24.jpg
+== Change (#<Set: {:source}>): images/publication_124.jpg
+== Change (#<Set: {:source}>): images/viragegroup_30.jpg
+== Change (#<Set: {:source}>): images/publication_130.jpg
+== Change (#<Set: {:source}>): images/FT-medef_04.jpg
+== Change (#<Set: {:source}>): images/publication_99.jpg
+== Change (#<Set: {:source}>): images/cop21-14.jpg
+== Change (#<Set: {:source}>): images/publication_66.jpg
+== Change (#<Set: {:source}>): images/publication_72.jpg
+== Change (#<Set: {:source}>): images/fukushima-3.JPG
+== Change (#<Set: {:source}>): images/logo-portnantes.jpg
+== Change (#<Set: {:source}>): images/fukushima-2.JPG
+== Change (#<Set: {:source}>): images/viragegroup_18A.jpg
+== Change (#<Set: {:source}>): images/publication_73.jpg
+== Change (#<Set: {:source}>): images/publication_67.jpg
+== Change (#<Set: {:source}>): images/cop21-01.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_01.jpg
+== Change (#<Set: {:source}>): images/cop21-15.jpg
+== Change (#<Set: {:source}>): images/publication_98.jpg
+== Change (#<Set: {:source}>): images/FT-medef_05.jpg
+== Change (#<Set: {:source}>): images/publication_131.jpg
+== Change (#<Set: {:source}>): images/viragegroup_31.jpg
+== Change (#<Set: {:source}>): images/publication_125.jpg
+== Change (#<Set: {:source}>): images/viragegroup_25.jpg
+== Change (#<Set: {:source}>): images/graindesail_01.jpg
+== Change (#<Set: {:source}>): images/publication_119.jpg
+== Change (#<Set: {:source}>): images/viragegroup_19.jpg
+== Change (#<Set: {:source}>): images/logo-unantes.jpg
+== Change (#<Set: {:source}>): images/tirage_3.jpg
+== Change (#<Set: {:source}>): images/publication_69B.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_02.jpg
+== Change (#<Set: {:source}>): images/otto_15.jpg
+== Change (#<Set: {:source}>): images/otto_01.jpg
+== Change (#<Set: {:source}>): images/tentes_10.jpg
+== Change (#<Set: {:source}>): images/tentes_04.jpg
+== Change (#<Set: {:source}>): images/capacites_09.jpg
+== Change (#<Set: {:source}>): images/Portfolio_Corporate_MThomasset.pdf
+== Change (#<Set: {:source}>): images/marie_03.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Alexis-Jeremie_02.jpg
+== Change (#<Set: {:source}>): images/marie_17.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_15.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_01.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_29.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_05.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_11.jpg
+== Change (#<Set: {:source}>): images/publication_150b.png
+== Change (#<Set: {:source}>): images/ouestmedialab_08.jpg
+== Change (#<Set: {:source}>): images/tentes_14.jpg
+== Change (#<Set: {:source}>): images/capacites_19.jpg
+== Change (#<Set: {:source}>): images/marie_13.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Alexis-Jeremie_06.jpg
+== Change (#<Set: {:source}>): images/marie_07.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_06.jpg
+== Change (#<Set: {:source}>): images/otto_05.jpg
+== Change (#<Set: {:source}>): images/otto_11.jpg
+== Change (#<Set: {:source}>): images/tirage_7.jpg
+== Change (#<Set: {:source}>): images/viragegroup_21.jpg
+== Change (#<Set: {:source}>): images/publication_121.jpg
+== Change (#<Set: {:source}>): images/viragegroup_35.jpg
+== Change (#<Set: {:source}>): images/publication_135.jpg
+== Change (#<Set: {:source}>): images/graindesail_05.jpg
+== Change (#<Set: {:source}>): images/graindesail_11.jpg
+== Change (#<Set: {:source}>): images/viragegroup_09.jpg
+== Change (#<Set: {:source}>): images/publication_109.jpg
+== Change (#<Set: {:source}>): images/cop21-11.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_05.jpg
+== Change (#<Set: {:source}>): images/publication_88.jpg
+== Change (#<Set: {:source}>): images/cop21-05.jpg
+== Change (#<Set: {:source}>): images/virage-triptyque_02.jpg
+== Change (#<Set: {:source}>): images/FT-medef_01.jpg
+== Change (#<Set: {:source}>): images/fukushima-6.JPG
+== Change (#<Set: {:source}>): images/publication_63.jpg
+== Change (#<Set: {:source}>): images/publication_77.jpg
+== Change (#<Set: {:source}>): images/logo-lesechospublishing.jpg
+== Change (#<Set: {:source}>): images/publication_76.jpg
+== Change (#<Set: {:source}>): images/publication_62.jpg
+== Change (#<Set: {:source}>): images/fukushima-7.JPG
+== Change (#<Set: {:source}>): images/virage-triptyque_03.jpg
+== Change (#<Set: {:source}>): images/cop21-04.jpg
+== Change (#<Set: {:source}>): images/publication_89.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_04.jpg
+== Change (#<Set: {:source}>): images/cop21-10.jpg
+== Change (#<Set: {:source}>): images/publication_13b.jpg
+== Change (#<Set: {:source}>): images/publication_108.jpg
+== Change (#<Set: {:source}>): images/viragegroup_08.jpg
+== Change (#<Set: {:source}>): images/graindesail_10.jpg
+== Change (#<Set: {:source}>): images/graindesail_04.jpg
+== Change (#<Set: {:source}>): images/publication_134.jpg
+== Change (#<Set: {:source}>): images/viragegroup_34.jpg
+== Change (#<Set: {:source}>): images/publication_120.jpg
+== Change (#<Set: {:source}>): images/viragegroup_20.jpg
+== Change (#<Set: {:source}>): images/tirage_6.jpg
+== Change (#<Set: {:source}>): images/otto_10.jpg
+== Change (#<Set: {:source}>): images/otto_04.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_07.jpg
+== Change (#<Set: {:source}>): images/marie_06.jpg
+== Change (#<Set: {:source}>): images/marie_12.jpg
+== Change (#<Set: {:source}>): images/capacites_18.jpg
+== Change (#<Set: {:source}>): images/tentes_15.jpg
+== Change (#<Set: {:source}>): images/tentes_01.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_09.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_10.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_04.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_12.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_06.jpg
+== Change (#<Set: {:source}>): images/bobo_9.jpg
+== Change (#<Set: {:source}>): images/tentes_03.jpg
+== Change (#<Set: {:source}>): images/marie_04.jpg
+== Change (#<Set: {:source}>): images/marie_10.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_05.jpg
+== Change (#<Set: {:source}>): images/publication_72b.jpg
+== Change (#<Set: {:source}>): images/otto_12.jpg
+== Change (#<Set: {:source}>): images/logo-ft.jpg
+== Change (#<Set: {:source}>): images/otto_06.jpg
+== Change (#<Set: {:source}>): images/tirage_4.jpg
+== Change (#<Set: {:source}>): images/viragegroup_36.jpg
+== Change (#<Set: {:source}>): images/publication_136.jpg
+== Change (#<Set: {:source}>): images/viragegroup_22.jpg
+== Change (#<Set: {:source}>): images/publication_122.jpg
+== Change (#<Set: {:source}>): images/graindesail_12.jpg
+== Change (#<Set: {:source}>): images/graindesail_06.jpg
+== Change (#<Set: {:source}>): images/viragegroup-duo_06.jpg
+== Change (#<Set: {:source}>): images/cop21-06.jpg
+== Change (#<Set: {:source}>): images/portrait-jlbidet.jpg
+== Change (#<Set: {:source}>): images/cop21-12.jpg
+== Change (#<Set: {:source}>): images/FT-medef_02.jpg
+== Change (#<Set: {:source}>): images/virage-triptyque_01.jpg
+== Change (#<Set: {:source}>): images/publication_48.jpg
+== Change (#<Set: {:source}>): images/fukushima-5.JPG
+== Change (#<Set: {:source}>): images/publication_74.jpg
+== Change (#<Set: {:source}>): images/publication_60.jpg
+== Change (#<Set: {:source}>): images/publication_61.jpg
+== Change (#<Set: {:source}>): images/publication_75.jpg
+== Change (#<Set: {:source}>): images/fukushima-4.JPG
+== Change (#<Set: {:source}>): images/publication_49.jpg
+== Change (#<Set: {:source}>): images/publication_48B.jpg
+== Change (#<Set: {:source}>): images/FT-medef_03.jpg
+== Change (#<Set: {:source}>): images/cop21-13.jpg
+== Change (#<Set: {:source}>): images/cop21-07.jpg
+== Change (#<Set: {:source}>): images/graindesail_07.jpg
+== Change (#<Set: {:source}>): images/publication_13a.jpg
+== Change (#<Set: {:source}>): images/graindesail_13.jpg
+== Change (#<Set: {:source}>): images/publication_123.jpg
+== Change (#<Set: {:source}>): images/viragegroup_23.jpg
+== Change (#<Set: {:source}>): images/publication_137.jpg
+== Change (#<Set: {:source}>): images/viragegroup_37.jpg
+== Change (#<Set: {:source}>): images/tirage_5.jpg
+== Change (#<Set: {:source}>): images/otto_07.jpg
+== Change (#<Set: {:source}>): images/otto_13.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_10.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_04.jpg
+== Change (#<Set: {:source}>): images/publication_09b.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Alexis-Jeremie_10.jpg
+== Change (#<Set: {:source}>): images/marie_11.jpg
+== Change (#<Set: {:source}>): images/marie_05.jpg
+== Change (#<Set: {:source}>): images/tentes_02.jpg
+== Change (#<Set: {:source}>): images/logo-lesjours.jpg
+== Change (#<Set: {:source}>): images/tentes_16.jpg
+== Change (#<Set: {:source}>): images/bobo_8.jpg
+== Change (#<Set: {:source}>): images/publication_51m.jpg
+== Change (#<Set: {:source}>): images/portrait_marcel-thebaud.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_07.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_13.jpg
+== Change (#<Set: {:source}>): images/apmsl_06.jpg
+== Change (#<Set: {:source}>): images/prieres-13.jpg
+== Change (#<Set: {:source}>): images/pelerin_16.jpg
+== Change (#<Set: {:source}>): images/pelerin_02.jpg
+== Change (#<Set: {:source}>): images/pertuis_06.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_05.jpg
+== Change (#<Set: {:source}>): images/regis-9.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Isabelle_01.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_07.jpg
+== Change (#<Set: {:source}>): images/waterlicht-1.jpg
+== Change (#<Set: {:source}>): images/publication_18a.jpg
+== Change (#<Set: {:source}>): images/prieres-8.jpg
+== Change (#<Set: {:source}>): images/publication_150.jpg
+== Change (#<Set: {:source}>): images/globetrotters-1.jpg
+== Change (#<Set: {:source}>): images/philharmonie_09.jpg
+== Change (#<Set: {:source}>): images/grasla4.jpg
+== Change (#<Set: {:source}>): images/publication_144.png
+== Change (#<Set: {:source}>): images/publication_150.png
+== Change (#<Set: {:source}>): images/publication_12.jpg
+== Change (#<Set: {:source}>): images/publication_06.jpg
+== Change (#<Set: {:source}>): images/mariage_10.jpg
+== Change (#<Set: {:source}>): images/mariage_04.jpg
+== Change (#<Set: {:source}>): images/mariage_05.jpg
+== Change (#<Set: {:source}>): images/mariage_11.jpg
+== Change (#<Set: {:source}>): images/publication_07.jpg
+== Change (#<Set: {:source}>): images/publication_151.png
+== Change (#<Set: {:source}>): images/publication_145.png
+== Change (#<Set: {:source}>): images/port-nantes_08.jpg
+== Change (#<Set: {:source}>): images/logo-lacroix.jpg
+== Change (#<Set: {:source}>): images/publication_38b.jpg
+== Change (#<Set: {:source}>): images/philharmonie_08.jpg
+== Change (#<Set: {:source}>): images/PC1-bruno-retailleau.jpg
+== Change (#<Set: {:source}>): images/prieres-9.jpg
+== Change (#<Set: {:source}>): images/planche-contact_02B.jpg
+== Change (#<Set: {:source}>): images/logo-apmsl.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_12.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_01.jpg
+== Change (#<Set: {:source}>): images/logo-ouestmedialab.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_06.jpg
+== Change (#<Set: {:source}>): images/regis-8.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_04.jpg
+== Change (#<Set: {:source}>): images/pertuis_07.jpg
+== Change (#<Set: {:source}>): images/pelerin_03.jpg
+== Change (#<Set: {:source}>): images/publication_145bis.png
+== Change (#<Set: {:source}>): images/pelerin_17.jpg
+== Change (#<Set: {:source}>): images/publication_22a.jpg
+== Change (#<Set: {:source}>): images/prieres-12.jpg
+== Change (#<Set: {:source}>): images/apmsl_05.jpg
+== Change (#<Set: {:source}>): images/prieres-10.jpg
+== Change (#<Set: {:source}>): images/redII.jpg
+== Change (#<Set: {:source}>): images/pelerin_01.jpg
+== Change (#<Set: {:source}>): images/tgo_08.jpg
+== Change (#<Set: {:source}>): images/pelerin_15.jpg
+== Change (#<Set: {:source}>): images/pertuis_05.jpg
+== Change (#<Set: {:source}>): images/virage-illustration.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_06.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_03.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_10.jpg
+== Change (#<Set: {:source}>): images/waterlicht-2.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_04.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Isabelle_02.jpg
+== Change (#<Set: {:source}>): images/publication_18b.jpg
+== Change (#<Set: {:source}>): images/publication_153.jpg
+== Change (#<Set: {:source}>): images/globetrotters-2.jpg
+== Change (#<Set: {:source}>): images/regis-24.jpg
+== Change (#<Set: {:source}>): images/publication_147.png
+== Change (#<Set: {:source}>): images/publication_05.jpg
+== Change (#<Set: {:source}>): images/publication_11.jpg
+== Change (#<Set: {:source}>): images/mariage_07.jpg
+== Change (#<Set: {:source}>): images/publication_39.jpg
+== Change (#<Set: {:source}>): images/mariage_13.jpg
+== Change (#<Set: {:source}>): images/mariage_12.jpg
+== Change (#<Set: {:source}>): images/mariage_06.jpg
+== Change (#<Set: {:source}>): images/publication_38.jpg
+== Change (#<Set: {:source}>): images/publication_10.jpg
+== Change (#<Set: {:source}>): images/logo-parisienwe.jpg
+== Change (#<Set: {:source}>): images/regis4.jpg
+== Change (#<Set: {:source}>): images/publication_04.jpg
+== Change (#<Set: {:source}>): images/logo-telerama.jpg
+== Change (#<Set: {:source}>): images/publication_142m.png
+== Change (#<Set: {:source}>): images/publication_146.png
+== Change (#<Set: {:source}>): images/memoriesIII.jpg
+== Change (#<Set: {:source}>): images/regis-19.jpg
+== Change (#<Set: {:source}>): images/globetrotters-3.jpg
+== Change (#<Set: {:source}>): images/publication_152.jpg
+== Change (#<Set: {:source}>): images/dragon_08.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_05.jpg
+== Change (#<Set: {:source}>): images/waterlicht-3.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Isabelle_03.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_11.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_02.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_07.jpg
+== Change (#<Set: {:source}>): images/pertuis_04.jpg
+== Change (#<Set: {:source}>): images/pelerin_14.jpg
+== Change (#<Set: {:source}>): images/tgo_09.jpg
+== Change (#<Set: {:source}>): images/prieres-11.jpg
+== Change (#<Set: {:source}>): images/apmsl_04.jpg
+== Change (#<Set: {:source}>): images/pelerin_04.jpg
+== Change (#<Set: {:source}>): images/pelerin_10.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_06.jpg
+== Change (#<Set: {:source}>): images/waterlicht-7.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_01.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_03.jpg
+== Change (#<Set: {:source}>): images/publication_19c.jpg
+== Change (#<Set: {:source}>): images/publication_142.png
+== Change (#<Set: {:source}>): images/regis-21.jpg
+== Change (#<Set: {:source}>): images/mariage_02.jpg
+== Change (#<Set: {:source}>): images/mariage_16.jpg
+== Change (#<Set: {:source}>): images/publication_28.jpg
+== Change (#<Set: {:source}>): images/publication_14.jpg
+== Change (#<Set: {:source}>): images/publication_15.jpg
+== Change (#<Set: {:source}>): images/regis1.jpg
+== Change (#<Set: {:source}>): images/publication_01.jpg
+== Change (#<Set: {:source}>): images/mariage_17.jpg
+== Change (#<Set: {:source}>): images/publication_29.jpg
+== Change (#<Set: {:source}>): images/mariage_03.jpg
+== Change (#<Set: {:source}>): images/grasla3.jpg
+== Change (#<Set: {:source}>): images/publication_143.jpg
+== Change (#<Set: {:source}>): images/publication_19b.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_02.jpg
+== Change (#<Set: {:source}>): images/waterlicht-6.jpg
+== Change (#<Set: {:source}>): images/pertuis_01.jpg
+== Change (#<Set: {:source}>): images/pelerin_11.jpg
+== Change (#<Set: {:source}>): images/pelerin_05.jpg
+== Change (#<Set: {:source}>): images/apmsl_01.jpg
+== Change (#<Set: {:source}>): images/prieres-14.jpg
+== Change (#<Set: {:source}>): images/logo-lesenigmatics.jpg
+== Change (#<Set: {:source}>): images/apmsl_03.jpg
+== Change (#<Set: {:source}>): images/pelerin_13.jpg
+== Change (#<Set: {:source}>): images/pelerin_07.jpg
+== Change (#<Set: {:source}>): images/portraitmathieu-1.jpg
+== Change (#<Set: {:source}>): images/publication_23a.jpg
+== Change (#<Set: {:source}>): images/pertuis_03.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_02.jpg
+== Change (#<Set: {:source}>): images/waterlicht-4.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_05.jpg
+== Change (#<Set: {:source}>): images/publication_03c.jpg
+== Change (#<Set: {:source}>): images/philharmonie_18.jpg
+== Change (#<Set: {:source}>): images/globetrotters-4.jpg
+== Change (#<Set: {:source}>): images/publication_141.png
+== Change (#<Set: {:source}>): images/logo-moniteur.jpg
+== Change (#<Set: {:source}>): images/publication_39b.jpg
+== Change (#<Set: {:source}>): images/grasla1.jpg
+== Change (#<Set: {:source}>): images/mariage_15.jpg
+== Change (#<Set: {:source}>): images/logo-figaro.jpg
+== Change (#<Set: {:source}>): images/mariage_01.jpg
+== Change (#<Set: {:source}>): images/publication_17.jpg
+== Change (#<Set: {:source}>): images/publication_03.jpg
+== Change (#<Set: {:source}>): images/regis3.jpg
+== Change (#<Set: {:source}>): images/regis2.jpg
+== Change (#<Set: {:source}>): images/publication_02.jpg
+== Change (#<Set: {:source}>): images/publication_16.jpg
+== Change (#<Set: {:source}>): images/publication_147bis.png
+== Change (#<Set: {:source}>): images/mariage_14.jpg
+== Change (#<Set: {:source}>): images/logo-altereco.jpg
+== Change (#<Set: {:source}>): images/regis-23.jpg
+== Change (#<Set: {:source}>): images/publication_140.png
+== Change (#<Set: {:source}>): images/publication_03b.jpg
+== Change (#<Set: {:source}>): images/GPM-Champlain_01.jpg
+== Change (#<Set: {:source}>): images/bruno-retailleau_04.jpg
+== Change (#<Set: {:source}>): images/waterlicht-5.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_03.jpg
+== Change (#<Set: {:source}>): images/moi.jpg
+== Change (#<Set: {:source}>): images/pertuis_02.jpg
+== Change (#<Set: {:source}>): images/sven1.jpg
+== Change (#<Set: {:source}>): images/pelerin_06.jpg
+== Change (#<Set: {:source}>): images/pelerin_12.jpg
+== Change (#<Set: {:source}>): images/memoriesII.jpg
+== Change (#<Set: {:source}>): images/apmsl_02.jpg
+== Change (#<Set: {:source}>): images/blog/amiante-02.JPG
+== Change (#<Set: {:source}>): images/blog/msc-meraviglia_03.jpg
+== Change (#<Set: {:source}>): images/blog/msc-meraviglia_02.jpg
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_01.jpg
+== Change (#<Set: {:source}>): images/blog/amiante-03.JPG
+== Change (#<Set: {:source}>): images/blog/amiante-01.JPG
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-08.jpg
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_03.jpg
+== Change (#<Set: {:source}>): images/blog/msc-meraviglia_01.jpg
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_02.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-09.jpg
+== Change (#<Set: {:source}>): images/blog/amiante-04.JPG
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_06.jpg
+== Change (#<Set: {:source}>): images/blog/route-chicanes_02.jpg
+== Change (#<Set: {:source}>): images/blog/msc-meraviglia_05.jpg
+== Change (#<Set: {:source}>): images/blog/msc-meraviglia_04.jpg
+== Change (#<Set: {:source}>): images/blog/montfort-sur-meu_01.jpg
+== Change (#<Set: {:source}>): images/blog/route-chicanes_03.jpg
+== Change (#<Set: {:source}>): images/blog/amiante-05.JPG
+== Change (#<Set: {:source}>): images/blog/route-chicanes_01.jpg
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_05.jpg
+== Change (#<Set: {:source}>): images/blog/montfort-sur-meu_02.jpg
+== Change (#<Set: {:source}>): images/blog/Nantes-Food-Forum_04.jpg
+== Change (#<Set: {:source}>): images/blog/amiante-06.JPG
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-01.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-07.JPG
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-03.jpg
+== Change (#<Set: {:source}>): images/blog/arles_04.jpg
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-02.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-06.JPG
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-06.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-14.jpg
+== Change (#<Set: {:source}>): images/blog/monroyaume-05.JPG
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-02.jpg
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-04.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-10.JPG
+== Change (#<Set: {:source}>): images/blog/awaodori-04.JPG
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-01.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-05.JPG
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-01B.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-11.JPG
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-05.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-03.jpg
+== Change (#<Set: {:source}>): images/blog/foulee-gois-01.jpg
+== Change (#<Set: {:source}>): images/blog/monroyaume-04.JPG
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-07.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-13.jpg
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-01.jpg
+== Change (#<Set: {:source}>): images/blog/mondialauto2016_02.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-01.JPG
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-05.jpg
+== Change (#<Set: {:source}>): images/blog/arles_03.jpg
+== Change (#<Set: {:source}>): images/blog/arles_02.jpg
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-04.jpg
+== Change (#<Set: {:source}>): images/blog/mondialauto2016_03.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-12.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-06.jpg
+== Change (#<Set: {:source}>): images/blog/monroyaume-01.JPG
+== Change (#<Set: {:source}>): images/blog/monroyaume-03.JPG
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-10.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-04.jpg
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-02.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-02.JPG
+== Change (#<Set: {:source}>): images/blog/mondialauto2016_01.jpg
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-06.jpg
+== Change (#<Set: {:source}>): images/blog/arles_01.jpg
+== Change (#<Set: {:source}>): images/blog/portraits-cop21-07.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-03.JPG
+== Change (#<Set: {:source}>): images/blog/leretourduvoyageur-03.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-05.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-11.jpg
+== Change (#<Set: {:source}>): images/blog/monroyaume-02.JPG
+== Change (#<Set: {:source}>): images/blog/danslaville-02.JPG
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-08.jpg
+== Change (#<Set: {:source}>): images/blog/temple-06.jpg
+== Change (#<Set: {:source}>): images/blog/manifestation-26mai2016-09.jpg
+== Change (#<Set: {:source}>): images/blog/danslaville-03.JPG
+== Change (#<Set: {:source}>): images/blog/danslaville-01.JPG
+== Change (#<Set: {:source}>): images/blog/tgo_01.jpg
+== Change (#<Set: {:source}>): images/blog/temple-05.jpg
+== Change (#<Set: {:source}>): images/blog/temple-04.jpg
+== Change (#<Set: {:source}>): images/blog/danslaville-04.JPG
+== Change (#<Set: {:source}>): images/blog/awaodori-08.JPG
+== Change (#<Set: {:source}>): images/blog/temple-01.jpg
+== Change (#<Set: {:source}>): images/blog/mobilisation-pronddl_01.jpg
+== Change (#<Set: {:source}>): images/blog/awaodori-09.JPG
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-02B.jpg
+== Change (#<Set: {:source}>): images/blog/danslaville-05.JPG
+== Change (#<Set: {:source}>): images/blog/chantierXXL_01.jpg
+== Change (#<Set: {:source}>): images/blog/temple-03.jpg
+== Change (#<Set: {:source}>): images/blog/temple-02.jpg
+== Change (#<Set: {:source}>): images/blog/centrale-solaire_01.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-02.jpg
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-05.jpg
+== Change (#<Set: {:source}>): images/blog/concertregiskole-2.JPG
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-04.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-03.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-01.jpg
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-05.jpg
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-06.jpg
+== Change (#<Set: {:source}>): images/blog/concertregiskole-1.JPG
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-04.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-04.jpg
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-03.jpg
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-02.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-05.jpg
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-01.jpg
+== Change (#<Set: {:source}>): images/blog/rdv-erdre_01.jpg
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-03.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-07.jpg
+== Change (#<Set: {:source}>): images/blog/cabinestelephoniques-01.jpg
+== Change (#<Set: {:source}>): images/blog/meeting-regionales-pecresse-06.jpg
+== Change (#<Set: {:source}>): images/blog/marche-climat-diptyque-02.jpg
+== Change (#<Set: {:source}>): images/tgo_02.jpg
+== Change (#<Set: {:source}>): images/publication_102b.jpg
+== Change (#<Set: {:source}>): images/philharmonie_14.jpg
+== Change (#<Set: {:source}>): images/bobo_10.jpg
+== Change (#<Set: {:source}>): images/dragon_03.jpg
+== Change (#<Set: {:source}>): images/prieres-1.jpg
+== Change (#<Set: {:source}>): images/confinement_02.jpg
+== Change (#<Set: {:source}>): images/regis-12.jpg
+== Change (#<Set: {:source}>): images/publication_33.jpg
+== Change (#<Set: {:source}>): images/publication_114B.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Remi_01.jpg
+== Change (#<Set: {:source}>): images/publication_27.jpg
+== Change (#<Set: {:source}>): images/mariage_19.jpg
+== Change (#<Set: {:source}>): images/mariage_25.jpg
+== Change (#<Set: {:source}>): images/mariage_24.jpg
+== Change (#<Set: {:source}>): images/publication_26.jpg
+== Change (#<Set: {:source}>): images/mariage_18.jpg
+== Change (#<Set: {:source}>): images/publication_32.jpg
+== Change (#<Set: {:source}>): images/regis-13.jpg
+== Change (#<Set: {:source}>): images/depart-vg_04.jpg
+== Change (#<Set: {:source}>): images/port-nantes_01.jpg
+== Change (#<Set: {:source}>): images/confinement_03.jpg
+== Change (#<Set: {:source}>): images/publication_137m.jpg
+== Change (#<Set: {:source}>): images/dragon_02.jpg
+== Change (#<Set: {:source}>): images/emeutes-nantes_01.jpg
+== Change (#<Set: {:source}>): images/bobo_11.jpg
+== Change (#<Set: {:source}>): images/philharmonie_15.jpg
+== Change (#<Set: {:source}>): images/philharmonie_01.jpg
+== Change (#<Set: {:source}>): images/portrait-virage_01.jpg
+== Change (#<Set: {:source}>): images/regis-1.jpg
+== Change (#<Set: {:source}>): images/logo-parisien.jpg
+== Change (#<Set: {:source}>): images/publication_142bis.png
+== Change (#<Set: {:source}>): images/tgo_03.jpg
+== Change (#<Set: {:source}>): images/Portfolio_Portrait_MThomasset.pdf
+== Change (#<Set: {:source}>): images/viragegroup_06A.jpg
+== Change (#<Set: {:source}>): images/pelerin_08.jpg
+== Change (#<Set: {:source}>): images/tgo_01.jpg
+== Change (#<Set: {:source}>): images/pelerin_20.jpg
+== Change (#<Set: {:source}>): images/regis-3.jpg
+== Change (#<Set: {:source}>): images/planche-contact-triptyque_01.jpg
+== Change (#<Set: {:source}>): images/memoriesI.jpg
+== Change (#<Set: {:source}>): images/philharmonie_17.jpg
+== Change (#<Set: {:source}>): images/bobo_13.jpg
+== Change (#<Set: {:source}>): images/philharmonie_03.jpg
+== Change (#<Set: {:source}>): images/prieres-2.jpg
+== Change (#<Set: {:source}>): images/confinement_01.jpg
+== Change (#<Set: {:source}>): images/regis-11.jpg
+== Change (#<Set: {:source}>): images/viragegroup_10A.jpg
+== Change (#<Set: {:source}>): images/port-nantes_03.jpg
+== Change (#<Set: {:source}>): images/logo-tgo.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Remi_02.jpg
+== Change (#<Set: {:source}>): images/publication_24.jpg
+== Change (#<Set: {:source}>): images/publication_30.jpg
+== Change (#<Set: {:source}>): images/publication_18.jpg
+== Change (#<Set: {:source}>): images/publication_19.jpg
+== Change (#<Set: {:source}>): images/publication_31.jpg
+== Change (#<Set: {:source}>): images/publication_25.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Remi_03.jpg
+== Change (#<Set: {:source}>): images/port-nantes_02.jpg
+== Change (#<Set: {:source}>): images/regis-10.jpg
+== Change (#<Set: {:source}>): images/prieres-3.jpg
+== Change (#<Set: {:source}>): images/dragon_01.jpg
+== Change (#<Set: {:source}>): images/Portfolio-Mathieu_Thomasset.pdf
+== Change (#<Set: {:source}>): images/philharmonie_02.jpg
+== Change (#<Set: {:source}>): images/publication_134B.jpg
+== Change (#<Set: {:source}>): images/bobo_12.jpg
+== Change (#<Set: {:source}>): images/philharmonie_16.jpg
+== Change (#<Set: {:source}>): images/portrait-geberowicz.jpg
+== Change (#<Set: {:source}>): images/Portfolio_Mariage_MThomasset.pdf
+== Change (#<Set: {:source}>): images/regis-2.jpg
+== Change (#<Set: {:source}>): images/pelerin_21.jpg
+== Change (#<Set: {:source}>): images/pelerin_09.jpg
+== Change (#<Set: {:source}>): images/musem.jpg
+== Change (#<Set: {:source}>): images/pelerin_19.jpg
+== Change (#<Set: {:source}>): images/tgo_10.jpg
+== Change (#<Set: {:source}>): images/logo-capacites.jpg
+== Change (#<Set: {:source}>): images/tgo_04.jpg
+== Change (#<Set: {:source}>): images/regis-6.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_08.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_01b.jpg
+== Change (#<Set: {:source}>): images/dragon_05.jpg
+== Change (#<Set: {:source}>): images/prieres-7.jpg
+== Change (#<Set: {:source}>): images/bobo_16.jpg
+== Change (#<Set: {:source}>): images/publication_135b.jpg
+== Change (#<Set: {:source}>): images/philharmonie_06.jpg
+== Change (#<Set: {:source}>): images/regis-14.jpg
+== Change (#<Set: {:source}>): images/port-nantes_12.jpg
+== Change (#<Set: {:source}>): images/port-nantes_06.jpg
+== Change (#<Set: {:source}>): images/depart-vg_03.jpg
+== Change (#<Set: {:source}>): images/mariage_23.jpg
+== Change (#<Set: {:source}>): images/publication_09.jpg
+== Change (#<Set: {:source}>): images/publication_21.jpg
+== Change (#<Set: {:source}>): images/publication_35.jpg
+== Change (#<Set: {:source}>): images/publication_34.jpg
+== Change (#<Set: {:source}>): images/publication_20.jpg
+== Change (#<Set: {:source}>): images/voie.jpg
+== Change (#<Set: {:source}>): images/publication_08.jpg
+== Change (#<Set: {:source}>): images/mariage_22.jpg
+== Change (#<Set: {:source}>): images/depart-vg_02.jpg
+== Change (#<Set: {:source}>): images/port-nantes_07.jpg
+== Change (#<Set: {:source}>): images/port-nantes_13.jpg
+== Change (#<Set: {:source}>): images/regis-15.jpg
+== Change (#<Set: {:source}>): images/philharmonie_07.jpg
+== Change (#<Set: {:source}>): images/philharmonie_13.jpg
+== Change (#<Set: {:source}>): images/prieres-6.jpg
+== Change (#<Set: {:source}>): images/dragon_04.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Yannick_01.jpg
+== Change (#<Set: {:source}>): images/marseille-reborn_09.jpg
+== Change (#<Set: {:source}>): images/regis-7.jpg
+== Change (#<Set: {:source}>): images/portrait-frere-christophe.jpg
+== Change (#<Set: {:source}>): images/tgo_05.jpg
+== Change (#<Set: {:source}>): images/tgo_11.jpg
+== Change (#<Set: {:source}>): images/pelerin_18.jpg
+== Change (#<Set: {:source}>): images/tgo_07.jpg
+== Change (#<Set: {:source}>): images/regis-5.jpg
+== Change (#<Set: {:source}>): images/PC2-bruno-retailleau.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Yannick_03.jpg
+== Change (#<Set: {:source}>): images/dragon_06.jpg
+== Change (#<Set: {:source}>): images/prieres-4.jpg
+== Change (#<Set: {:source}>): images/philharmonie_05.jpg
+== Change (#<Set: {:source}>): images/bobo_15.jpg
+== Change (#<Set: {:source}>): images/philharmonie_11.jpg
+== Change (#<Set: {:source}>): images/port-nantes_05.jpg
+== Change (#<Set: {:source}>): images/port-nantes_11.jpg
+== Change (#<Set: {:source}>): images/publication_148.png
+== Change (#<Set: {:source}>): images/mariage_20.jpg
+== Change (#<Set: {:source}>): images/publication_36.jpg
+== Change (#<Set: {:source}>): images/mariage_08.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Remi_04.jpg
+== Change (#<Set: {:source}>): images/publication_22.jpg
+== Change (#<Set: {:source}>): images/publication_23.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Remi_05.jpg
+== Change (#<Set: {:source}>): images/publication_37.jpg
+== Change (#<Set: {:source}>): images/mariage_09.jpg
+== Change (#<Set: {:source}>): images/mariage_21.jpg
+== Change (#<Set: {:source}>): images/publication_149.png
+== Change (#<Set: {:source}>): images/FT-medef_04A.jpg
+== Change (#<Set: {:source}>): images/port-nantes_10.jpg
+== Change (#<Set: {:source}>): images/regis-16.jpg
+== Change (#<Set: {:source}>): images/depart-vg_01.jpg
+== Change (#<Set: {:source}>): images/port-nantes_04.jpg
+== Change (#<Set: {:source}>): images/philharmonie_10.jpg
+== Change (#<Set: {:source}>): images/bobo_14.jpg
+== Change (#<Set: {:source}>): images/philharmonie_04.jpg
+== Change (#<Set: {:source}>): images/prieres-5.jpg
+== Change (#<Set: {:source}>): images/dragon_07.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Yannick_02.jpg
+== Change (#<Set: {:source}>): images/regis-4.jpg
+== Change (#<Set: {:source}>): images/tgo_12.jpg
+== Change (#<Set: {:source}>): images/tgo_06.jpg
+== Change (#<Set: {:source}>): images/portrait-samuel-nantes-atlantique.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_22.jpg
+== Change (#<Set: {:source}>): images/bobo_5.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_04.jpg
+== Change (#<Set: {:source}>): images/redI.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_10.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_07.jpg
+== Change (#<Set: {:source}>): images/capacites_02.jpg
+== Change (#<Set: {:source}>): images/marie_20.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_13.jpg
+== Change (#<Set: {:source}>): images/capacites_16.jpg
+== Change (#<Set: {:source}>): images/marie_08.jpg
+== Change (#<Set: {:source}>): images/min-nantes_05.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_09.jpg
+== Change (#<Set: {:source}>): images/tirage_8.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_02.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_02.jpg
+== Change (#<Set: {:source}>): images/viragegroup_12.jpg
+== Change (#<Set: {:source}>): images/publication_112.jpg
+== Change (#<Set: {:source}>): images/viragegroup_06.jpg
+== Change (#<Set: {:source}>): images/publication_106.jpg
+== Change (#<Set: {:source}>): images/publication_93.jpg
+== Change (#<Set: {:source}>): images/logo-virage.jpg
+== Change (#<Set: {:source}>): images/publication_87.jpg
+== Change (#<Set: {:source}>): images/publication_50.jpg
+== Change (#<Set: {:source}>): images/publication_30b.jpg
+== Change (#<Set: {:source}>): images/publication_44.jpg
+== Change (#<Set: {:source}>): images/publication_78.jpg
+== Change (#<Set: {:source}>): images/vendee-globe_02.jpg
+== Change (#<Set: {:source}>): images/publication_79.jpg
+== Change (#<Set: {:source}>): images/publication_45.jpg
+== Change (#<Set: {:source}>): images/publication_51.jpg
+== Change (#<Set: {:source}>): images/fukushima-8.JPG
+== Change (#<Set: {:source}>): images/publication_86.jpg
+== Change (#<Set: {:source}>): images/publication_92.jpg
+== Change (#<Set: {:source}>): images/promus_01.jpg
+== Change (#<Set: {:source}>): images/publication_107.jpg
+== Change (#<Set: {:source}>): images/viragegroup_07.jpg
+== Change (#<Set: {:source}>): images/publication_113.jpg
+== Change (#<Set: {:source}>): images/viragegroup_13.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_03.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_03.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_Isabelle-Remi_07.jpg
+== Change (#<Set: {:source}>): images/grandprixdiane_08.jpg
+== Change (#<Set: {:source}>): images/min-nantes_04.jpg
+== Change (#<Set: {:source}>): images/marie_09.jpg
+== Change (#<Set: {:source}>): images/capacites_17.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_12.jpg
+== Change (#<Set: {:source}>): images/capacites_03.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_06.jpg
+== Change (#<Set: {:source}>): images/marie_21.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_11.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_05.jpg
+== Change (#<Set: {:source}>): images/bobo_4.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_23.jpg
+== Change (#<Set: {:source}>): images/logo-lobs.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_01.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_03.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_09.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_21.jpg
+== Change (#<Set: {:source}>): images/run-energie_01.jpg
+== Change (#<Set: {:source}>): images/bobo_6.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_10.jpg
+== Change (#<Set: {:source}>): images/capacites_15.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_04.jpg
+== Change (#<Set: {:source}>): images/capacites_01.jpg
+== Change (#<Set: {:source}>): images/min-nantes_06.jpg
+== Change (#<Set: {:source}>): images/publication_06c.jpg
+== Change (#<Set: {:source}>): images/otto_09.jpg
+== Change (#<Set: {:source}>): images/logo-maif.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_01.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_01.jpg
+== Change (#<Set: {:source}>): images/india.jpg
+== Change (#<Set: {:source}>): images/viragegroup_05.jpg
+== Change (#<Set: {:source}>): images/publication_105.jpg
+== Change (#<Set: {:source}>): images/graindesail_09.jpg
+== Change (#<Set: {:source}>): images/viragegroup_11.jpg
+== Change (#<Set: {:source}>): images/publication_111.jpg
+== Change (#<Set: {:source}>): images/cop21-09.jpg
+== Change (#<Set: {:source}>): images/publication_84.jpg
+== Change (#<Set: {:source}>): images/publication_139.png
+== Change (#<Set: {:source}>): images/promus_03.jpg
+== Change (#<Set: {:source}>): images/publication_90.jpg
+== Change (#<Set: {:source}>): images/publication_47.jpg
+== Change (#<Set: {:source}>): images/publication_53.jpg
+== Change (#<Set: {:source}>): images/logo-jdd.jpg
+== Change (#<Set: {:source}>): images/vendee-globe_01.jpg
+== Change (#<Set: {:source}>): images/publication_52.jpg
+== Change (#<Set: {:source}>): images/publication_47B.jpg
+== Change (#<Set: {:source}>): images/publication_46.jpg
+== Change (#<Set: {:source}>): images/publication_138.png
+== Change (#<Set: {:source}>): images/promus_02.jpg
+== Change (#<Set: {:source}>): images/publication_91.jpg
+== Change (#<Set: {:source}>): images/publication_85.jpg
+== Change (#<Set: {:source}>): images/cop21-08.jpg
+== Change (#<Set: {:source}>): images/publication_110.jpg
+== Change (#<Set: {:source}>): images/viragegroup_10.jpg
+== Change (#<Set: {:source}>): images/graindesail_08.jpg
+== Change (#<Set: {:source}>): images/publication_104.jpg
+== Change (#<Set: {:source}>): images/viragegroup_04.jpg
+== Change (#<Set: {:source}>): images/viragegroup_38.jpg
+== Change (#<Set: {:source}>): images/otto_08.jpg
+== Change (#<Set: {:source}>): images/publication_06b.jpg
+== Change (#<Set: {:source}>): images/min-nantes_07.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_05.jpg
+== Change (#<Set: {:source}>): images/capacites_14.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_11.jpg
+== Change (#<Set: {:source}>): images/bobo_7.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_20.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_08.jpg
+== Change (#<Set: {:source}>): images/portrait_sisters.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_02.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_24.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_18.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_06.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_02.jpg
+== Change (#<Set: {:source}>): images/ouestlajustice_01.jpg
+== Change (#<Set: {:source}>): images/planche-contact_03.jpg
+== Change (#<Set: {:source}>): images/bobo_3.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_15.jpg
+== Change (#<Set: {:source}>): images/capacites_10.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_01.jpg
+== Change (#<Set: {:source}>): images/cogelec_03.jpg
+== Change (#<Set: {:source}>): images/tentes_09.jpg
+== Change (#<Set: {:source}>): images/capacites_04.jpg
+== Change (#<Set: {:source}>): images/min-nantes_03.jpg
+== Change (#<Set: {:source}>): images/angel1.jpg
+== Change (#<Set: {:source}>): images/publication_100.jpg
+== Change (#<Set: {:source}>): images/viragegroup_14.jpg
+== Change (#<Set: {:source}>): images/publication_114.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_04.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_04.jpg
+== Change (#<Set: {:source}>): images/viragegroup_28.jpg
+== Change (#<Set: {:source}>): images/publication_128.jpg
+== Change (#<Set: {:source}>): images/portrait_stephane-geffroy.jpg
+== Change (#<Set: {:source}>): images/logo-libe.jpg
+== Change (#<Set: {:source}>): images/publication_81.jpg
+== Change (#<Set: {:source}>): images/publication_95.jpg
+== Change (#<Set: {:source}>): images/logo-swpl.jpg
+== Change (#<Set: {:source}>): images/publication_42.jpg
+== Change (#<Set: {:source}>): images/publication_46B.jpg
+== Change (#<Set: {:source}>): images/publication_56.jpg
+== Change (#<Set: {:source}>): images/publication_57.jpg
+== Change (#<Set: {:source}>): images/publication_43.jpg
+== Change (#<Set: {:source}>): images/publication_94.jpg
+== Change (#<Set: {:source}>): images/publication_80.jpg
+== Change (#<Set: {:source}>): images/portraitjulien-2.jpg
+== Change (#<Set: {:source}>): images/publication_129.jpg
+== Change (#<Set: {:source}>): images/viragegroup_29.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_05.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_05.jpg
+== Change (#<Set: {:source}>): images/publication_115.jpg
+== Change (#<Set: {:source}>): images/viragegroup_15.jpg
+== Change (#<Set: {:source}>): images/publication_101.jpg
+== Change (#<Set: {:source}>): images/viragegroup_01.jpg
+== Change (#<Set: {:source}>): images/min-nantes_02.jpg
+== Change (#<Set: {:source}>): images/capacites_05.jpg
+== Change (#<Set: {:source}>): images/tentes_08.jpg
+== Change (#<Set: {:source}>): images/cogelec_02.jpg
+== Change (#<Set: {:source}>): images/capacites_11.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_14.jpg
+== Change (#<Set: {:source}>): images/bobo_2.jpg
+== Change (#<Set: {:source}>): images/planche-contact_02.jpg
+== Change (#<Set: {:source}>): images/LaGouriniere_PAUL_03.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_07.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_19.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_25.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_27.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_05.jpg
+== Change (#<Set: {:source}>): images/publication_53m.jpg
+== Change (#<Set: {:source}>): images/marie_19.jpg
+== Change (#<Set: {:source}>): images/lartdemanifester.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_02.jpg
+== Change (#<Set: {:source}>): images/capacites_07.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_16.jpg
+== Change (#<Set: {:source}>): images/capacites_13.jpg
+== Change (#<Set: {:source}>): images/angel2.jpg
+== Change (#<Set: {:source}>): images/viragegroup_17.jpg
+== Change (#<Set: {:source}>): images/publication_117.jpg
+== Change (#<Set: {:source}>): images/viragegroup_03.jpg
+== Change (#<Set: {:source}>): images/publication_103.jpg
+== Change (#<Set: {:source}>): images/promus_05.jpg
+== Change (#<Set: {:source}>): images/publication_96.jpg
+== Change (#<Set: {:source}>): images/publication_82.jpg
+== Change (#<Set: {:source}>): images/publication_69.jpg
+== Change (#<Set: {:source}>): images/publication_55.jpg
+== Change (#<Set: {:source}>): images/publication_41.jpg
+== Change (#<Set: {:source}>): images/publication_40.jpg
+== Change (#<Set: {:source}>): images/publication_31b.jpg
+== Change (#<Set: {:source}>): images/publication_54.jpg
+== Change (#<Set: {:source}>): images/angel2b.jpg
+== Change (#<Set: {:source}>): images/publication_68.jpg
+== Change (#<Set: {:source}>): images/portraitjulien-1.jpg
+== Change (#<Set: {:source}>): images/publication_83.jpg
+== Change (#<Set: {:source}>): images/promus_04.jpg
+== Change (#<Set: {:source}>): images/publication_97.jpg
+== Change (#<Set: {:source}>): images/mariage-nb_06.jpg
+== Change (#<Set: {:source}>): images/portrait-aymeric_06.jpg
+== Change (#<Set: {:source}>): images/portrait_stephane-geffroy2.jpg
+== Change (#<Set: {:source}>): images/publication_102.jpg
+== Change (#<Set: {:source}>): images/viragegroup_02.jpg
+== Change (#<Set: {:source}>): images/publication_116.jpg
+== Change (#<Set: {:source}>): images/viragegroup_16.jpg
+== Change (#<Set: {:source}>): images/min-nantes_01.jpg
+== Change (#<Set: {:source}>): images/capacites_12.jpg
+== Change (#<Set: {:source}>): images/capacites_06.jpg
+== Change (#<Set: {:source}>): images/cogelec_01.jpg
+== Change (#<Set: {:source}>): images/ouestmedialab_03.jpg
+== Change (#<Set: {:source}>): images/marie_18.jpg
+== Change (#<Set: {:source}>): images/bobo_1.jpg
+== Change (#<Set: {:source}>): images/planche-contact_01.jpg
+== Change (#<Set: {:source}>): images/indignes-mcdo_04.jpg
+== Change (#<Set: {:source}>): images/inondations-paris_26.jpg
+== Change (#<Set: {:source}>): bio.html.erb
+== Change (#<Set: {:source}>): portraits.html.erb
+== Change (#<Set: {:source}>): viragegroup.html.erb
+== Change (#<Set: {:source}>): blog/2021-08-16-portrait-michel-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2019-06-08-vent-vert-sur-la-reunion.html.markdown
+== Change (#<Set: {:source}>): blog/2017-03-30-premiers-essais-en-mer-du-plus-gros-paquebot-europeen-msc-meraviglia.html.markdown
+== Change (#<Set: {:source}>): blog/2021-02-26-grain-de-sail.html.markdown
+== Change (#<Set: {:source}>): blog/2016-10-27-les-indignes-de-mcdonald-s.html.markdown
+== Change (#<Set: {:source}>): blog/2016-07-22-les-rencontres-d-arles-2016.html.markdown
+== Change (#<Set: {:source}>): blog/2019-11-11-dragon-des-mers.html.markdown
+== Change (#<Set: {:source}>): blog/2015-11-18-ici-et-ailleurs.markdown
+== Change (#<Set: {:source}>): blog/2015-12-04-mon-premier-diaporama-sonore.markdown
+== Change (#<Set: {:source}>): blog/2021-10-16-portrait-remi-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2018-05-18-les-foulees-du-gois.html.markdown
+== Change (#<Set: {:source}>): blog/2021-09-15-portrait-alexisetjeremie-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2015-12-09-meeting-regionales-pecresse.markdown
+== Change (#<Set: {:source}>): blog/2022-02-09-portrait-yannick-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2015-12-10-cop21-portraits.markdown
+== Change (#<Set: {:source}>): blog/2018-01-06-la-route-des-chicanes.markdown
+== Change (#<Set: {:source}>): blog/2015-10-02-Monsieur-Morimoto.markdown
+== Change (#<Set: {:source}>): blog/2016-05-27-manifestation-contre-la-loi-travail.html.markdown
+== Change (#<Set: {:source}>): blog/2017-12-19-un-chantier-xxl.html.markdown
+== Change (#<Set: {:source}>): blog/2015-11-27-marche-pour-le-climat.markdown
+== Change (#<Set: {:source}>): blog/2025-05-21-vendee-globe.html.markdown
+== Change (#<Set: {:source}>): blog/2017-06-12-nantes-food-forum-2017.html.markdown
+== Change (#<Set: {:source}>): blog/2018-06-14-terminal-grand-ouest.html.markdown
+== Change (#<Set: {:source}>): blog/2017-10-30-la-plus-grande-centrale-solaire-des-pays-de-la-loire.markdown
+== Change (#<Set: {:source}>): blog/2021-08-12-portrait-paul-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2015-10-07-serie-dans-la-ville.markdown
+== Change (#<Set: {:source}>): blog/2015-10-03-nuits-blanches-2015.markdown
+== Change (#<Set: {:source}>): blog/2024-12-07-ateliers-perrault.html.markdown
+== Change (#<Set: {:source}>): blog/2020-02-17-portrait-de-bruno-retailleau-pour-le-jdd.html.markdown
+== Change (#<Set: {:source}>): blog/2015-10-02-festival-awa-odori.markdown
+== Change (#<Set: {:source}>): blog/2017-09-03-les-rdv-de-l-erdre.html.markdown
+== Change (#<Set: {:source}>): blog/2015-11-26-concert-regis-kole.markdown
+== Change (#<Set: {:source}>): blog/2018-06-14-montfort-sur-meu.html.markdown
+== Change (#<Set: {:source}>): blog/2016-10-04-mondial-de-l-auto-2016.html.markdown
+== Change (#<Set: {:source}>): blog/2020-04-02-journal-de-confinement.html.markdown
+== Change (#<Set: {:source}>): blog/2018-01-27-mobilisation-pronddl.markdown
+== Change (#<Set: {:source}>): blog/2020-01-04-portraits-en-triptyque.html.markdown
+== Change (#<Set: {:source}>): blog/2019-08-08-ou-est-la-justice.html.markdown
+== Change (#<Set: {:source}>): blog/2018-07-11-emeutes-nantes.html.markdown
+== Change (#<Set: {:source}>): blog/2021-10-11-portrait-isabelle-vendee.html.markdown
+== Change (#<Set: {:source}>): blog/2015-11-15-au-temple.markdown
+== Change (#<Set: {:source}>): blog/2015-10-09-manifestation-victimes-amiante.markdown
+== Change (#<Set: {:source}>): blog/2024-11-10-depart-vendee-globe.html.markdown
+== Change (#<Set: {:source}>): blog/2015-10-26-la-fin-des-cabines-telephoniques.markdown
+== Change (#<Set: {:source}>): blog/2019-02-19-nouveau-min-de-nantes.html.markdown
+== Change (#<Set: {:source}>): blog/2018-10-10-44-breizh.html.markdown
+== Change (#<Set: {:source}>): publications.html.erb
+== Change (#<Set: {:source}>): coulissespelerin.html.erb
+== Change (#<Set: {:source, :no_frontmatter}>): layouts/_clientsmedias.erb
+== Change (#<Set: {:source}>): layouts/blog.erb
+== Change (#<Set: {:source, :no_frontmatter}>): layouts/_footer.erb
+== Change (#<Set: {:source}>): layouts/layout.erb
+== Change (#<Set: {:source, :no_frontmatter}>): layouts/_bofpublications.erb
+== Change (#<Set: {:source, :no_frontmatter}>): layouts/_clientsentreprises.erb
+== Change (#<Set: {:source, :no_frontmatter}>): layouts/_navbar.erb
+== Change (#<Set: {:source}>): port-nantes-saint-nazaire.html.erb
+== Change (#<Set: {:source}>): entreprise.html.erb
+== Change (#<Set: {:source}>): confirmation-de-contact.html.erb
+== Change (#<Set: {:source}>): javascripts/all.js
+== Change (#<Set: {:source}>): demande-de-contact.html.erb
+== Change (#<Set: {:source}>): robots.txt
+== Change (#<Set: {:source}>): crossdomain.xml
+== Change (#<Set: {:source}>): stylesheets/all.css
+== Change (#<Set: {:source}>): stylesheets/layout/card.css
+== Change (#<Set: {:source}>): stylesheets/layout/navbar.css
+== Change (#<Set: {:source}>): stylesheets/layout/carousel.css
+== Change (#<Set: {:source}>): stylesheets/layout/button.css
+== Change (#<Set: {:source}>): stylesheets/layout/footer.css
+== Change (#<Set: {:source}>): stylesheets/img/loader.gif
+== Change (#<Set: {:source}>): stylesheets/img/icons.png
+== Change (#<Set: {:source}>): stylesheets/img/icons.svg
+== Change (#<Set: {:source}>): stylesheets/normalize.css
+== Change (#<Set: {:source}>): stylesheets/vendor/animation.css
+== Change (#<Set: {:source}>): stylesheets/vendor/swipebox.css
+== Change (#<Set: {:source}>): photographe-nantes.html.erb
+== Rebuilding resource list
+== Requesting resource list rebuilding: touched_file
+== Requesting resource list rebuilding: registered_new_manipulator_front_matter
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_ondisk
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_import
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_endpoint
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_proxies
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_redirects
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_move_files
+== Requesting resource list rebuilding: registered_new_manipulator_sitemap_ignore
+== Requesting resource list rebuilding: registered_new_manipulator_routing
+== Requesting resource list rebuilding: registered_new_manipulator_routing
+== Requesting resource list rebuilding: registered_new_manipulator_collections
+== Requesting resource list rebuilding: registered_new_manipulator_blog_blog_articles
+== Requesting resource list rebuilding: registered_new_manipulator_blog_blog_paginate
+== Blog Sources: /blog/{year}-{month}-{day}-{title}.html (:prefix + :sources)
+== Requesting resource list rebuilding: registered_new_manipulator_asset_hash
+== Rebuilding resource list
+== Running manipulator: sitemap_ondisk (0)
+== Running manipulator: sitemap_endpoint (0)
+== Running manipulator: sitemap_proxies (0)
+== Running manipulator: sitemap_redirects (0)
+== Running manipulator: sitemap_ignore (0)
+== Running manipulator: sitemap_import (1)
+== Running manipulator: routing (10)
+== Running manipulator: front_matter (20)
+== Running manipulator: blog_blog_articles (50)
+== Running manipulator: blog_blog_paginate (50)
+== Running manipulator: asset_hash (50)
+== Request: /stylesheets/img/icons.svg
+== Finishing Request: stylesheets/img/icons.svg (0.0s)
+== Request: /stylesheets/all.css
+== Finishing Request: stylesheets/all.css (0.0s)
+== Request: /stylesheets/layout/card.css
+== Finishing Request: stylesheets/layout/card.css (0.0s)
+== Request: /stylesheets/layout/navbar.css
+== Finishing Request: stylesheets/layout/navbar.css (0.0s)
+== Request: /stylesheets/layout/carousel.css
+== Finishing Request: stylesheets/layout/carousel.css (0.0s)
+== Request: /stylesheets/layout/button.css
+== Finishing Request: stylesheets/layout/button.css (0.0s)
+== Request: /stylesheets/layout/footer.css
+== Finishing Request: stylesheets/layout/footer.css (0.0s)
+== Request: /javascripts/all.js
+== Finishing Request: javascripts/all.js (0.0s)
+== Request: /stylesheets/normalize.css
+== Finishing Request: stylesheets/normalize.css (0.0s)
+== Request: /stylesheets/vendor/animation.css
+== Finishing Request: stylesheets/vendor/animation.css (0.0s)
+== Request: /stylesheets/vendor/swipebox.css
+== Finishing Request: stylesheets/vendor/swipebox.css (0.0s)
+== Running manipulator: sitemap_move_files (101)
+== Running manipulator: collections (110)
+== Running manipulator: routing (130)
+== Prerendering CSS
+== Request: /stylesheets/layout/button-0c89a99c.css
+== Finishing Request: stylesheets/layout/button-0c89a99c.css (0.0s)
+   identical  build/stylesheets/layout/button-0c89a99c.css
+== Request: /stylesheets/layout/carousel-22c26d47.css
+== Finishing Request: stylesheets/layout/carousel-22c26d47.css (0.0s)
+   identical  build/stylesheets/layout/carousel-22c26d47.css
+== Request: /stylesheets/layout/footer-3a497ec7.css
+== Finishing Request: stylesheets/layout/footer-3a497ec7.css (0.0s)
+   identical  build/stylesheets/layout/footer-3a497ec7.css
+== Request: /stylesheets/vendor/animation-2ba1d516.css
+== Finishing Request: stylesheets/vendor/animation-2ba1d516.css (0.0s)
+   identical  build/stylesheets/vendor/animation-2ba1d516.css
+== Request: /stylesheets/layout/card-cd87befc.css
+== Finishing Request: stylesheets/layout/card-cd87befc.css (0.0s)
+   identical  build/stylesheets/layout/card-cd87befc.css
+== Request: /stylesheets/all-84850098.css
+== Finishing Request: stylesheets/all-84850098.css (0.0s)
+   identical  build/stylesheets/all-84850098.css
+== Request: /stylesheets/layout/navbar-4e0270d1.css
+== Finishing Request: stylesheets/layout/navbar-4e0270d1.css (0.0s)
+   identical  build/stylesheets/layout/navbar-4e0270d1.css
+== Request: /stylesheets/normalize-bcc5ac6e.css
+== Finishing Request: stylesheets/normalize-bcc5ac6e.css (0.0s)
+   identical  build/stylesheets/normalize-bcc5ac6e.css
+== Request: /stylesheets/vendor/swipebox-e7291103.css
+== Finishing Request: stylesheets/vendor/swipebox-e7291103.css (0.0s)
+   identical  build/stylesheets/vendor/swipebox-e7291103.css
+== Building files
+   identical  build/images/publication_138-b6784512.png
+   identical  build/images/publication_149-ab04bc25.png
+   identical  build/stylesheets/img/icons-736d71a2.png
+   identical  build/images/publication_139-09cf0b3a.png
+   identical  build/images/publication_142-abbb2a0a.png
+   identical  build/images/publication_147-88a319f6.png
+   identical  build/images/publication_140-e2ce4767.png
+   identical  build/images/publication_147bis-9a4b8118.png
+   identical  build/images/publication_142bis-273c8a12.png
+   identical  build/images/publication_148-63b660aa.png
+   identical  build/images/publication_145bis-25cf94af.png
+   identical  build/images/publication_150b-78249bf0.png
+   identical  build/images/publication_145-8f6e5661.png
+   identical  build/images/publication_151-ca465d53.png
+   identical  build/images/publication_146-fe486ce5.png
+   identical  build/images/publication_142m-e4ad5769.png
+   identical  build/images/publication_150-df07de00.png
+   identical  build/images/publication_141-cfcadf36.png
+   identical  build/images/publication_144-b8ee97d1.png
+   identical  build/images/marie_01-b155a643.jpg
+   identical  build/images/graindesail_02-5016120c.jpg
+   identical  build/images/publication_132-554738bd.jpg
+   identical  build/images/LaGouriniere_Isabelle-Remi_26-3495b41b.jpg
+   identical  build/images/grandprixdiane_01-76bd1562.jpg
+   identical  build/images/viragegroup_32-4147a64d.jpg
+   identical  build/images/inondations-paris_14-aaf762ee.jpg
+   identical  build/images/tentes_07-6057db07.jpg
+   identical  build/images/inondations-paris_28-d082dd97.jpg
+   identical  build/images/otto_02-b30981dd.jpg
+   identical  build/images/tentes_13-f89128a2.jpg
+   identical  build/images/LaGouriniere_Alexis-Jeremie_03-1df1373f.jpg
+   identical  build/images/indignes-mcdo_08-e6780961.jpg
+   identical  build/images/inondations-paris_17-3995bd9e.jpg
+   identical  build/images/inondations-paris_03-f2a7ab81.jpg
+   identical  build/images/marie_14-e7038f66.jpg
+   identical  build/images/44BZH_01-86c66df1.jpg
+   identical  build/images/marie_02-f3be0bf0.jpg
+   identical  build/images/marie_16-2958184f.jpg
+   identical  build/images/inondations-paris_02-d3f5a7fd.jpg
+   identical  build/images/tirage_6-39aeac65.jpg
+   identical  build/images/inondations-paris_16-16c3b50d.jpg
+   identical  build/images/publication_122-cd0bfdec.jpg
+   identical  build/images/graindesail_06-3c05c657.jpg
+   identical  build/images/cop21-12-d82a8d64.jpg
+   identical  build/images/viragegroup-duo_06-f311b0ed.jpg
+   identical  build/images/portrait-jlbidet-5579ed9d.jpg
+   identical  build/images/graindesail_12-0fac2a06.jpg
+   identical  build/images/cop21-06-0a5ae147.jpg
+   identical  build/images/FT-medef_02-b1b00fca.jpg
+   identical  build/images/publication_74-869f511f.jpg
+   identical  build/images/virage-triptyque_01-ddb32265.jpg
+   identical  build/images/publication_60-9e626917.jpg
+   identical  build/images/publication_75-85e9b672.jpg
+   identical  build/images/publication_48B-e68b709e.jpg
+   identical  build/images/publication_48-f7d0ba67.jpg
+   identical  build/images/traces-a0e20024.jpg
+   identical  build/images/publication_61-c1edf0e9.jpg
+   identical  build/images/FT-medef_03-a3f10d84.jpg
+   identical  build/images/angel1b-56051ee3.jpg
+   identical  build/images/publication_49-1dd3e3f6.jpg
+   identical  build/images/publication_58-5a83d4d8.jpg
+   identical  build/images/cop21-02-a6fa12ec.jpg
+   identical  build/images/publication_70-9b079dd5.jpg
+   identical  build/images/publication_64-16ef41c1.jpg
+   identical  build/images/cop21-16-27663f86.jpg
+   identical  build/images/publication_126-98e97073.jpg
+   identical  build/images/viragegroup-duo_02-e3ed876f.jpg
+   identical  build/images/viragegroup_26-99b9e695.jpg
+   identical  build/images/grandprixdiane_02-36b49089.jpg
+   identical  build/images/otto_15-bc44b076.jpg
+   identical  build/images/otto_01-9cebf601.jpg
+   identical  build/images/tentes_10-3b69d326.jpg
+   identical  build/images/tentes_04-93e783b9.jpg
+   identical  build/images/LaGouriniere_Alexis-Jeremie_02-d9c632aa.jpg
+   identical  build/images/marie_03-a98414b1.jpg
+   identical  build/images/capacites_09-0d25b322.jpg
+   identical  build/images/ouestmedialab_08-40740d11.jpg
+   identical  build/images/inondations-paris_01-7d7eb751.jpg
+   identical  build/images/inondations-paris_15-012a5a03.jpg
+   identical  build/images/marie_17-4a51e9b6.jpg
+   identical  build/images/inondations-paris_29-ca7400a4.jpg
+   identical  build/images/inondations-paris_11-efab844a.jpg
+   identical  build/images/logo-pelerin-d8fe1c4d.jpg
+   identical  build/images/capacites_08-41c0cacf.jpg
+   identical  build/images/inondations-paris_05-9caf4b5f.jpg
+   identical  build/images/tentes_14-820f9375.jpg
+   identical  build/images/tentes_05-02ef2483.jpg
+   identical  build/images/capacites_19-1eff6c1d.jpg
+   identical  build/images/tentes_11-259befe5.jpg
+   identical  build/images/otto_14-8786fe4e.jpg
+   identical  build/images/tirage_2-7da42456.jpg
+   identical  build/images/publication_118-ec03a14c.jpg
+   identical  build/images/publication_124-5c39bbf1.jpg
+   identical  build/images/viragegroup_24-29c9fcdf.jpg
+   identical  build/images/viragegroup_18-b1b33215.jpg
+   identical  build/images/grandprixdiane_03-27e434a2.jpg
+   identical  build/images/tentes_06-f1ab5cdc.jpg
+   identical  build/images/marie_15-8662b5cc.jpg
+   identical  build/images/logo-icibarbes-848ca2a2.jpg
+   identical  build/images/tentes_12-f605decd.jpg
+   identical  build/images/tirage_1-1b00d1cd.jpg
+   identical  build/images/graindesail_03-d2151763.jpg
+   identical  build/images/LaR-4cdc46ae.jpg
+   identical  build/images/otto_03-b509cdbe.jpg
+   identical  build/images/publication_133-141e396b.jpg
+   identical  build/images/viragegroup_27-a2460e08.jpg
+   identical  build/images/viragegroup_33-d5a10d95.jpg
+   identical  build/images/cop21-03-364bc42a.jpg
+   identical  build/images/viragegroup-duo_03-e0306ed9.jpg
+   identical  build/images/publication_131-03b7268d.jpg
+   identical  build/images/publication_127-bd99a590.jpg
+   identical  build/images/publication_71-b5301a05.jpg
+   identical  build/images/publication_59-05051b35.jpg
+   identical  build/images/publication_125-3a2f7955.jpg
+   identical  build/images/cop21-17-6187217e.jpg
+   identical  build/images/viragegroup_31-6bf3c7e0.jpg
+   identical  build/images/logo-unantes-c368162d.jpg
+   identical  build/images/publication_65-527db66e.jpg
+   identical  build/images/viragegroup_25-af00d61f.jpg
+   identical  build/images/publication_119-7635e77a.jpg
+   identical  build/images/viragegroup_19-63f5f3e7.jpg
+   identical  build/images/tirage_3-31a20584.jpg
+   identical  build/images/otto_10-3dcd688a.jpg
+   identical  build/images/otto_04-e0191713.jpg
+   identical  build/images/publication_69B-fa023c2e.jpg
+   identical  build/images/graindesail_01-762e3d73.jpg
+   identical  build/images/tentes_01-72019ba7.jpg
+   identical  build/images/grandprixdiane_07-3160d28c.jpg
+   identical  build/images/capacites_18-bba9e0f8.jpg
+   identical  build/images/ouestmedialab_09-ed41dba5.jpg
+   identical  build/images/marie_12-2e015c21.jpg
+   identical  build/images/inondations-paris_10-08db5bde.jpg
+   identical  build/images/inondations-paris_04-33ec32dd.jpg
+   identical  build/images/marie_06-c51257b8.jpg
+   identical  build/images/inondations-paris_12-5a400ab3.jpg
+   identical  build/images/inondations-paris_06-422b2ffc.jpg
+   identical  build/images/LaGouriniere_Alexis-Jeremie_06-8787cf23.jpg
+   identical  build/images/tentes_03-870e361d.jpg
+   identical  build/images/marie_04-704e39ef.jpg
+   identical  build/images/tentes_15-695664ed.jpg
+   identical  build/images/marie_07-b920cb3c.jpg
+   identical  build/images/grandprixdiane_06-9db6de55.jpg
+   identical  build/images/bobo_9-fe39c412.jpg
+   identical  build/images/otto_05-9d0af96e.jpg
+   identical  build/images/publication_135-416566ac.jpg
+   identical  build/images/publication_121-467208a4.jpg
+   identical  build/images/otto_11-d277470c.jpg
+   identical  build/images/tirage_7-0c02070e.jpg
+   identical  build/images/viragegroup_21-79b9b0c4.jpg
+   identical  build/images/viragegroup_35-82f01475.jpg
+   identical  build/images/inondations-paris_18-3d7dcb35.jpg
+   identical  build/images/LaGouriniere_PAUL_02-7c62743a.jpg
+   identical  build/images/indignes-mcdo_06-8b7a42dd.jpg
+   identical  build/images/inondations-paris_24-be073312.jpg
+   identical  build/images/otto_13-cdff8153.jpg
+   identical  build/images/ouestmedialab_15-28ff81fd.jpg
+   identical  build/images/bobo_3-34c673b0.jpg
+   identical  build/images/ouestlajustice_01-5ebc20c1.jpg
+   identical  build/images/cogelec_03-9a730513.jpg
+   identical  build/images/capacites_10-1a8144bd.jpg
+   identical  build/images/ouestmedialab_01-cb43383c.jpg
+   identical  build/images/angel1-bb3c7799.jpg
+   identical  build/images/tentes_09-e32f4af9.jpg
+   identical  build/images/planche-contact_03-c7422207.jpg
+   identical  build/images/capacites_04-3c0859d8.jpg
+   identical  build/images/viragegroup-duo_04-eb124be7.jpg
+   identical  build/images/publication_89-1ac4dedb.jpg
+   identical  build/images/cop21-10-137a4164.jpg
+   identical  build/images/min-nantes_03-c2d8936f.jpg
+   identical  build/images/viragegroup_34-25fc50ff.jpg
+   identical  build/images/publication_108-d0a31fd4.jpg
+   identical  build/images/viragegroup_08-6030ffd1.jpg
+   identical  build/images/graindesail_04-53159b78.jpg
+   identical  build/images/graindesail_10-473a3ba5.jpg
+   identical  build/images/marie_13-49f4b285.jpg
+   identical  build/images/publication_120-0d1831cc.jpg
+   identical  build/images/publication_134-5a85d28a.jpg
+   identical  build/images/publication_13b-4a06e71a.jpg
+   identical  build/images/LaGouriniere_Alexis-Jeremie_10-7b90cb67.jpg
+   identical  build/images/grandprixdiane_10-866e662f.jpg
+   identical  build/images/publication_09b-2e99be91.jpg
+   identical  build/images/marie_11-689af77a.jpg
+   identical  build/images/viragegroup_20-802f8640.jpg
+   identical  build/images/grandprixdiane_04-8e52a24f.jpg
+   identical  build/images/logo-lesjours-6be2a309.jpg
+   identical  build/images/marie_05-57ea6ac2.jpg
+   identical  build/images/publication_51m-5b029f8c.jpg
+   identical  build/images/bobo_8-f0cc141a.jpg
+   identical  build/images/tentes_02-e917b1a5.jpg
+   identical  build/images/portrait_marcel-thebaud-87d7ae80.jpg
+   identical  build/images/apmsl_06-ffc0269f.jpg
+   identical  build/images/tentes_16-6b8bceb9.jpg
+   identical  build/images/inondations-paris_13-20b6d0ed.jpg
+   identical  build/images/prieres-13-42a4da2c.jpg
+   identical  build/images/inondations-paris_07-63469814.jpg
+   identical  build/images/marie_10-9aa53f5d.jpg
+   identical  build/images/pelerin_16-8a3600ae.jpg
+   identical  build/images/logo-ft-7c9c654c.jpg
+   identical  build/images/publication_72b-0102a01a.jpg
+   identical  build/images/grandprixdiane_05-b5f463be.jpg
+   identical  build/images/viragegroup_36-3616cccb.jpg
+   identical  build/images/otto_06-44921c2d.jpg
+   identical  build/images/otto_12-de47346c.jpg
+   identical  build/images/publication_136-8ee5d196.jpg
+   identical  build/images/viragegroup_22-476b3ca2.jpg
+   identical  build/images/tirage_4-5dc2a629.jpg
+   identical  build/images/graindesail_05-b522fb84.jpg
+   identical  build/images/graindesail_11-8f360c11.jpg
+   identical  build/images/publication_109-c9d7053c.jpg
+   identical  build/images/viragegroup_09-ea676a40.jpg
+   identical  build/images/cop21-11-163b54e8.jpg
+   identical  build/images/publication_88-52f92b6a.jpg
+   identical  build/images/virage-triptyque_02-97efba0d.jpg
+   identical  build/images/viragegroup-duo_05-b7755266.jpg
+   identical  build/images/FT-medef_01-c0179e02.jpg
+   identical  build/images/publication_63-7e8d1987.jpg
+   identical  build/images/cop21-05-bccaf58f.jpg
+   identical  build/images/publication_77-0f41c6f2.jpg
+   identical  build/images/logo-lesechospublishing-f6725021.jpg
+   identical  build/images/publication_76-b58e56fd.jpg
+   identical  build/images/publication_62-09e33ce3.jpg
+   identical  build/images/cop21-04-4f52c6b1.jpg
+   identical  build/images/virage-triptyque_03-8a64b7d2.jpg
+   identical  build/images/cop21-07-f6e25778.jpg
+   identical  build/images/cop21-13-66c9cb90.jpg
+   identical  build/images/publication_13a-d8651fb5.jpg
+   identical  build/images/publication_123-535b51ce.jpg
+   identical  build/images/graindesail_13-e3e7675d.jpg
+   identical  build/images/viragegroup_37-503f39c0.jpg
+   identical  build/images/graindesail_07-bc4a5816.jpg
+   identical  build/images/publication_137-15d30728.jpg
+   identical  build/images/publication_18b-eb94cf57.jpg
+   identical  build/images/tirage_5-4c454d4f.jpg
+   identical  build/images/viragegroup_23-15decf6f.jpg
+   identical  build/images/marseille-reborn_04-9e509923.jpg
+   identical  build/images/otto_07-461a1fa4.jpg
+   identical  build/images/LaGouriniere_Isabelle_02-d119d726.jpg
+   identical  build/images/regis-9-ce9527fb.jpg
+   identical  build/images/viragegroup_30-ebfb0911.jpg
+   identical  build/images/pertuis_06-5e73ac94.jpg
+   identical  build/images/GPM-Champlain_05-db16e13a.jpg
+   identical  build/images/publication_18a-c816fa84.jpg
+   identical  build/images/LaGouriniere_Isabelle_01-7929e4aa.jpg
+   identical  build/images/prieres-8-436d140c.jpg
+   identical  build/images/publication_150-5fadaeab.jpg
+   identical  build/images/grasla4-37fd6e46.jpg
+   identical  build/images/marseille-reborn_07-c1c6b444.jpg
+   identical  build/images/waterlicht-1-63162f9d.jpg
+   identical  build/images/publication_06-2f7ae066.jpg
+   identical  build/images/philharmonie_09-e71145d1.jpg
+   identical  build/images/publication_12-e62efcb4.jpg
+   identical  build/images/logo-lacroix-b2957b73.jpg
+   identical  build/images/mariage_10-b48fd401.jpg
+   identical  build/images/mariage_04-28dc0e53.jpg
+   identical  build/images/globetrotters-1-ef0a9f7b.jpg
+   identical  build/images/publication_07-08899596.jpg
+   identical  build/images/port-nantes_08-9321d8a8.jpg
+   identical  build/images/publication_38b-1a00147b.jpg
+   identical  build/images/philharmonie_08-ce4083a2.jpg
+   identical  build/images/PC1-bruno-retailleau-b8cca804.jpg
+   identical  build/images/mariage_05-a7331b6a.jpg
+   identical  build/images/logo-ouestmedialab-6776d2fb.jpg
+   identical  build/images/logo-apmsl-55d7ddd2.jpg
+   identical  build/images/pelerin_02-73012cc6.jpg
+   identical  build/images/planche-contact_02B-7ac6e1d7.jpg
+   identical  build/images/regis-8-55b37585.jpg
+   identical  build/images/blog/portraits-cop21-01-f4dd5f0a.jpg
+   identical  build/images/marseille-reborn_12-d1633f41.jpg
+   identical  build/images/mariage_11-8217b5dd.jpg
+   identical  build/images/pelerin_03-3b8a8482.jpg
+   identical  build/images/marseille-reborn_06-682c899f.jpg
+   identical  build/images/bruno-retailleau_01-dc7fde5d.jpg
+   identical  build/images/pertuis_07-6db93e5e.jpg
+   identical  build/images/publication_22a-3d8e7500.jpg
+   identical  build/images/pelerin_17-c10725cc.jpg
+   identical  build/images/apmsl_05-c238f7d6.jpg
+   identical  build/images/GPM-Champlain_04-c5324537.jpg
+   identical  build/images/prieres-12-ebb128ae.jpg
+   identical  build/images/prieres-10-48a565df.jpg
+   identical  build/images/virage-illustration-c73f05b0.jpg
+   identical  build/images/redII-d6e7c2b1.jpg
+   identical  build/images/pelerin_15-34f04fc4.jpg
+   identical  build/images/GPM-Champlain_06-4222d74d.jpg
+   identical  build/images/bruno-retailleau_03-03abf6dd.jpg
+   identical  build/images/marseille-reborn_10-86709e57.jpg
+   identical  build/images/tgo_08-30b7d704.jpg
+   identical  build/images/pertuis_05-96230346.jpg
+   identical  build/images/waterlicht-2-7da44f57.jpg
+   identical  build/images/prieres-9-45848226.jpg
+   identical  build/images/pelerin_01-638d3db8.jpg
+   identical  build/images/publication_153-444ad339.jpg
+   identical  build/images/regis-24-12e45925.jpg
+   identical  build/images/GPM-Champlain_02-dd066280.jpg
+   identical  build/images/publication_39-0ca97466.jpg
+   identical  build/images/publication_11-61d6b2ec.jpg
+   identical  build/images/globetrotters-2-e08f5e1d.jpg
+   identical  build/images/publication_05-323a2f53.jpg
+   identical  build/images/mariage_13-ad9b8bfc.jpg
+   identical  build/images/mariage_06-960b7f30.jpg
+   identical  build/images/publication_38-0cc49afa.jpg
+   identical  build/images/logo-parisienwe-f780df9c.jpg
+   identical  build/images/mariage_12-d7a015a5.jpg
+   identical  build/images/publication_10-754a24a9.jpg
+   identical  build/images/LaGouriniere_Isabelle_03-41b90c1c.jpg
+   identical  build/images/waterlicht-3-558e659a.jpg
+   identical  build/images/bruno-retailleau_02-aba03edb.jpg
+   identical  build/images/marseille-reborn_11-8cadae2a.jpg
+   identical  build/images/mariage_07-4b327a8a.jpg
+   identical  build/images/marseille-reborn_05-a02b6223.jpg
+   identical  build/images/logo-telerama-de7ccb03.jpg
+   identical  build/images/regis4-efe23c7c.jpg
+   identical  build/images/memoriesIII-d328436a.jpg
+   identical  build/images/regis-19-fb389d49.jpg
+   identical  build/images/dragon_08-49066542.jpg
+   identical  build/images/publication_152-3c739727.jpg
+   identical  build/images/pertuis_04-60b09340.jpg
+   identical  build/images/globetrotters-3-b7810ce3.jpg
+   identical  build/images/pelerin_14-4a692e8a.jpg
+   identical  build/images/GPM-Champlain_07-09de6ab9.jpg
+   identical  build/images/tgo_09-351497be.jpg
+   identical  build/images/publication_04-8a32cd2a.jpg
+   identical  build/images/pelerin_04-30d47f29.jpg
+   identical  build/images/apmsl_04-d19607e3.jpg
+   identical  build/images/prieres-11-7f708baf.jpg
+   identical  build/images/bruno-retailleau_06-7464a9b5.jpg
+   identical  build/images/GPM-Champlain_03-d5effc77.jpg
+   identical  build/images/waterlicht-7-b6a96e9f.jpg
+   identical  build/images/publication_19c-68b80cf8.jpg
+   identical  build/images/pelerin_10-48d6ebaa.jpg
+   identical  build/images/publication_28-7c786a96.jpg
+   identical  build/images/marseille-reborn_01-f1c9fd71.jpg
+   identical  build/images/mariage_16-1b1bfd06.jpg
+   identical  build/images/publication_14-233f081f.jpg
+   identical  build/images/regis1-61e449ee.jpg
+   identical  build/images/mariage_02-844ff7ef.jpg
+   identical  build/images/publication_15-a75dd362.jpg
+   identical  build/images/regis-21-1cd5255e.jpg
+   identical  build/images/publication_29-186c4bb4.jpg
+   identical  build/images/publication_01-a70a3853.jpg
+   identical  build/images/publication_19b-f89230de.jpg
+   identical  build/images/publication_143-a57950a9.jpg
+   identical  build/images/grasla3-e4b8bf0b.jpg
+   identical  build/images/sven1-d85555be.jpg
+   identical  build/images/pertuis_02-e02b0ad1.jpg
+   identical  build/images/mariage_17-fc1c9079.jpg
+   identical  build/images/mariage_03-2fdee535.jpg
+   identical  build/images/memoriesII-2c92701e.jpg
+   identical  build/images/pelerin_12-f2551f8e.jpg
+   identical  build/images/pelerin_06-67743711.jpg
+   identical  build/images/apmsl_02-4630302c.jpg
+   identical  build/images/blog/Nantes-Food-Forum_01-c09dd86e.jpg
+   identical  build/images/blog/msc-meraviglia_03-cc9b7704.jpg
+   identical  build/images/blog/msc-meraviglia_02-ba2754c4.jpg
+   identical  build/images/blog/Nantes-Food-Forum_03-2f84f9c8.jpg
+   identical  build/images/blog/msc-meraviglia_01-f7f4bfce.jpg
+   identical  build/images/blog/meeting-regionales-pecresse-08-cfa7a87e.jpg
+   identical  build/images/blog/Nantes-Food-Forum_02-35acc99f.jpg
+   identical  build/images/logo-lesenigmatics-d5825b81.jpg
+   identical  build/images/apmsl_01-c6335d00.jpg
+   identical  build/images/pelerin_05-5def42b1.jpg
+   identical  build/images/pelerin_11-34c39f34.jpg
+   identical  build/images/publication_23a-f0ed7aa9.jpg
+   identical  build/images/pelerin_07-2b6698fa.jpg
+   identical  build/images/portraitmathieu-1-35f6be94.jpg
+   identical  build/images/pelerin_13-c5694161.jpg
+   identical  build/images/prieres-14-8977ad1c.jpg
+   identical  build/images/pertuis_01-e14e814e.jpg
+   identical  build/images/apmsl_03-d181c51e.jpg
+   identical  build/images/pertuis_03-4f11e5ff.jpg
+   identical  build/images/publication_130-b434736c.jpg
+   identical  build/images/publication_99-bb95437c.jpg
+   identical  build/images/FT-medef_04-d9b86935.jpg
+   identical  build/images/logo-portnantes-334193da.jpg
+   identical  build/images/waterlicht-4-ff779ba6.jpg
+   identical  build/images/publication_66-3a6466d5.jpg
+   identical  build/images/cop21-14-ea2d4d1b.jpg
+   identical  build/images/viragegroup-duo_01-7e5acd82.jpg
+   identical  build/images/publication_67-c1ab43ea.jpg
+   identical  build/images/cop21-01-3a13113b.jpg
+   identical  build/images/marseille-reborn_02-39f61122.jpg
+   identical  build/images/publication_98-66525030.jpg
+   identical  build/images/viragegroup_18A-94cf31a1.jpg
+   identical  build/images/FT-medef_05-2062f8cc.jpg
+   identical  build/images/publication_73-54074373.jpg
+   identical  build/images/logo-altereco-2e51fbe1.jpg
+   identical  build/images/publication_02-ac17e42b.jpg
+   identical  build/images/waterlicht-6-66fe24f5.jpg
+   identical  build/images/regis-23-1890ce68.jpg
+   identical  build/images/cop21-15-5d721d3c.jpg
+   identical  build/images/publication_72-df5d2906.jpg
+   identical  build/images/publication_16-5b637b71.jpg
+   identical  build/images/publication_03b-a01d1a3d.jpg
+   identical  build/images/waterlicht-5-2d239f37.jpg
+   identical  build/images/moi-0081ea90.jpg
+   identical  build/images/marseille-reborn_03-298ea128.jpg
+   identical  build/images/GPM-Champlain_01-d276f9e0.jpg
+   identical  build/images/bruno-retailleau_04-2bdf6815.jpg
+   identical  build/images/mariage_14-90e08998.jpg
+   identical  build/images/blog/portraits-cop21-07-05c9c8af.jpg
+   identical  build/images/blog/leretourduvoyageur-02-18c8069a.jpg
+   identical  build/images/blog/manifestation-26mai2016-06-da394c81.jpg
+   identical  build/images/blog/mondialauto2016_01-f349dc8e.jpg
+   identical  build/images/blog/manifestation-26mai2016-04-f8868d7a.jpg
+   identical  build/images/bruno-retailleau_05-acae5f45.jpg
+   identical  build/images/blog/portraits-cop21-06-4ef45d95.jpg
+   identical  build/images/blog/arles_01-ea4cd010.jpg
+   identical  build/images/blog/manifestation-26mai2016-10-c2426ade.jpg
+   identical  build/images/blog/route-chicanes_02-e7e01a46.jpg
+   identical  build/images/blog/route-chicanes_03-de2867aa.jpg
+   identical  build/images/blog/Nantes-Food-Forum_05-fb0f82fb.jpg
+   identical  build/images/blog/msc-meraviglia_05-873ae670.jpg
+   identical  build/images/blog/montfort-sur-meu_02-e149b45b.jpg
+   identical  build/images/blog/montfort-sur-meu_01-84cc1d0c.jpg
+   identical  build/images/blog/meeting-regionales-pecresse-09-f1fe0d85.jpg
+   identical  build/images/blog/route-chicanes_01-04802bb0.jpg
+   identical  build/images/blog/Nantes-Food-Forum_06-f708d865.jpg
+   identical  build/images/blog/msc-meraviglia_04-83e47089.jpg
+   identical  build/images/blog/Nantes-Food-Forum_04-60b898f2.jpg
+   identical  build/images/blog/arles_04-500e5f41.jpg
+   identical  build/images/blog/portraits-cop21-03-2f5389cc.jpg
+   identical  build/images/blog/manifestation-26mai2016-01-2242dce1.jpg
+   identical  build/images/blog/leretourduvoyageur-06-6f66513e.jpg
+   identical  build/images/blog/manifestation-26mai2016-14-dcae14e7.jpg
+   identical  build/images/blog/manifestation-26mai2016-02-4ea33f9a.jpg
+   identical  build/images/blog/leretourduvoyageur-04-57206202.jpg
+   identical  build/images/publication_03c-526f0f3d.jpg
+   identical  build/images/blog/portraits-cop21-02-ec0dbaed.jpg
+   identical  build/images/logo-moniteur-83e3305f.jpg
+   identical  build/images/globetrotters-4-c1fa55fb.jpg
+   identical  build/images/philharmonie_18-a97df195.jpg
+   identical  build/images/grasla1-4c8b8f37.jpg
+   identical  build/images/logo-figaro-e00f8625.jpg
+   identical  build/images/publication_03-bcfc77b5.jpg
+   identical  build/images/publication_17-7249dc09.jpg
+   identical  build/images/mariage_15-7be5081f.jpg
+   identical  build/images/publication_39b-bc046ba1.jpg
+   identical  build/images/mariage_01-4ad25cee.jpg
+   identical  build/images/regis3-8ab657f8.jpg
+   identical  build/images/regis2-26b05d2c.jpg
+   identical  build/images/blog/manifestation-26mai2016-03-4ae2fdba.jpg
+   identical  build/images/blog/leretourduvoyageur-05-05fd9063.jpg
+   identical  build/images/blog/manifestation-26mai2016-13-b9a94896.jpg
+   identical  build/images/blog/marche-climat-diptyque-01B-2ff7a055.jpg
+   identical  build/images/blog/arles_03-2c3c1d91.jpg
+   identical  build/images/blog/portraits-cop21-05-92e29d17.jpg
+   identical  build/images/blog/leretourduvoyageur-01-4aa87061.jpg
+   identical  build/images/blog/foulee-gois-01-caa9404a.jpg
+   identical  build/images/blog/manifestation-26mai2016-07-922b09a7.jpg
+   identical  build/images/publication_26-8795d17d.jpg
+   identical  build/images/blog/mondialauto2016_02-70024857.jpg
+   identical  build/images/blog/portraits-cop21-04-15868e74.jpg
+   identical  build/images/regis-13-2134f44d.jpg
+   identical  build/images/blog/mondialauto2016_03-a65443ad.jpg
+   identical  build/images/blog/arles_02-26f2f915.jpg
+   identical  build/images/publication_137m-91caf5a6.jpg
+   identical  build/images/blog/manifestation-26mai2016-12-fb4e7b68.jpg
+   identical  build/images/depart-vg_04-026c0d5b.jpg
+   identical  build/images/publication_32-6141b7b2.jpg
+   identical  build/images/mariage_18-63498913.jpg
+   identical  build/images/confinement_03-67b66037.jpg
+   identical  build/images/emeutes-nantes_01-9db0bf2f.jpg
+   identical  build/images/bobo_11-d25d2f2c.jpg
+   identical  build/images/port-nantes_01-f99f8a79.jpg
+   identical  build/images/philharmonie_15-77f8d725.jpg
+   identical  build/images/logo-parisien-c7b5629a.jpg
+   identical  build/images/philharmonie_01-c23043df.jpg
+   identical  build/images/regis-1-cfb6eabf.jpg
+   identical  build/images/dragon_02-3ae64730.jpg
+   identical  build/images/logo-virage-c96c9052.jpg
+   identical  build/images/portrait-virage_01-a92653cb.jpg
+   identical  build/images/publication_87-e9edaf26.jpg
+   identical  build/images/tgo_03-2a5dcafe.jpg
+   identical  build/images/publication_50-e8466832.jpg
+   identical  build/images/pelerin_08-7bc3bedf.jpg
+   identical  build/images/tgo_01-0b10fb5d.jpg
+   identical  build/images/viragegroup_06A-db22f6f2.jpg
+   identical  build/images/publication_18-fd78eb60.jpg
+   identical  build/images/min-nantes_01-4cda8164.jpg
+   identical  build/images/publication_31-463f4190.jpg
+   identical  build/images/publication_19-2c18da9e.jpg
+   identical  build/images/blog/marche-climat-diptyque-01-346f372d.jpg
+   identical  build/images/publication_25-131d63e2.jpg
+   identical  build/images/vendee-globe_02-11cdc06f.jpg
+   identical  build/images/publication_79-0b44ed6e.jpg
+   identical  build/images/regis-10-42041116.jpg
+   identical  build/images/publication_78-d1353eea.jpg
+   identical  build/images/port-nantes_02-4e793157.jpg
+   identical  build/images/LaGouriniere_Remi_03-4e5cf53c.jpg
+   identical  build/images/dragon_01-b4858d4e.jpg
+   identical  build/images/philharmonie_02-b125f676.jpg
+   identical  build/images/publication_44-83a3d871.jpg
+   identical  build/images/regis-2-bc3a147d.jpg
+   identical  build/images/prieres-3-5ec7a195.jpg
+   identical  build/images/portrait-geberowicz-dbed5a0b.jpg
+   identical  build/images/philharmonie_16-b5487826.jpg
+   identical  build/images/pelerin_21-5b16077d.jpg
+   identical  build/images/bobo_12-2ee23b79.jpg
+   identical  build/images/publication_134B-74806e52.jpg
+   identical  build/images/capacites_12-d9606878.jpg
+   identical  build/images/capacites_06-b981d3ae.jpg
+   identical  build/images/cogelec_01-b10740bb.jpg
+   identical  build/images/publication_93-f30faa79.jpg
+   identical  build/images/publication_30b-2ab98a7f.jpg
+   identical  build/images/pelerin_09-4df74e77.jpg
+   identical  build/images/bobo_1-6a505bc2.jpg
+   identical  build/images/mariage_24-c7197b6a.jpg
+   identical  build/images/planche-contact_01-131be96a.jpg
+   identical  build/images/ouestmedialab_03-38c8eea0.jpg
+   identical  build/images/indignes-mcdo_04-a87e1ab9.jpg
+   identical  build/images/publication_106-22af122d.jpg
+   identical  build/images/inondations-paris_26-04cab88a.jpg
+   identical  build/images/cogelec_02-0b827ff5.jpg
+   identical  build/images/marie_18-32262a28.jpg
+   identical  build/images/viragegroup_06-99de8fbb.jpg
+   identical  build/images/tentes_08-320b78ac.jpg
+   identical  build/images/capacites_11-127bcf8b.jpg
+   identical  build/images/ouestmedialab_14-4ddd8b8d.jpg
+   identical  build/images/LaGouriniere_PAUL_03-42536b85.jpg
+   identical  build/images/bobo_2-6ea1b1a6.jpg
+   identical  build/images/indignes-mcdo_07-948858e7.jpg
+   identical  build/images/planche-contact_02-2ca4aebe.jpg
+   identical  build/images/regis-3-0a489893.jpg
+   identical  build/images/inondations-paris_19-45bb0b26.jpg
+   identical  build/images/philharmonie_17-c1249308.jpg
+   identical  build/images/memoriesI-45243325.jpg
+   identical  build/images/inondations-paris_25-64438561.jpg
+   identical  build/images/pelerin_20-62c415a7.jpg
+   identical  build/images/inondations-paris_27-79e9c2bc.jpg
+   identical  build/images/planche-contact-triptyque_01-1a7256f9.jpg
+   identical  build/images/bobo_13-436e1ccf.jpg
+   identical  build/images/publication_41-2b397cb9.jpg
+   identical  build/images/publication_31b-d573d7c8.jpg
+   identical  build/images/publication_40-091a4aa4.jpg
+   identical  build/images/capacites_05-15d777a5.jpg
+   identical  build/images/portraitjulien-1-1d660500.jpg
+   identical  build/images/publication_68-6d0145e5.jpg
+   identical  build/images/publication_54-ccbad85c.jpg
+   identical  build/images/publication_83-f133f420.jpg
+   identical  build/images/angel2b-dedfac9d.jpg
+   identical  build/images/mariage-nb_06-1f4ab596.jpg
+   identical  build/images/portrait-aymeric_06-928cf550.jpg
+   identical  build/images/publication_102-3ebbab07.jpg
+   identical  build/images/publication_97-2f840321.jpg
+   identical  build/images/publication_116-0e0a4cde.jpg
+   identical  build/images/viragegroup_02-396fb9e1.jpg
+   identical  build/images/promus_04-46789b8c.jpg
+   identical  build/images/philharmonie_04-2ac2bd1b.jpg
+   identical  build/images/portrait_stephane-geffroy2-484f6ef8.jpg
+   identical  build/images/viragegroup_16-4d3e5355.jpg
+   identical  build/images/bobo_14-ae7a8af4.jpg
+   identical  build/images/blog/marche-climat-diptyque-03-cb1d99b6.jpg
+   identical  build/images/blog/marche-climat-diptyque-02-841ed229.jpg
+   identical  build/images/tgo_02-e670bd6a.jpg
+   identical  build/images/blog/meeting-regionales-pecresse-07-93eb03e8.jpg
+   identical  build/images/publication_102b-f0bc9237.jpg
+   identical  build/images/philharmonie_14-63dfbf95.jpg
+   identical  build/images/philharmonie_10-6e5b926d.jpg
+   identical  build/images/bobo_10-3b1fb66b.jpg
+   identical  build/images/dragon_03-330ea7f7.jpg
+   identical  build/images/port-nantes_04-cdeeccbc.jpg
+   identical  build/images/regis-12-2dd14cc3.jpg
+   identical  build/images/confinement_02-3baa6f5c.jpg
+   identical  build/images/blog/meeting-regionales-pecresse-06-86d4b63f.jpg
+   identical  build/images/depart-vg_01-d83209b9.jpg
+   identical  build/images/blog/rdv-erdre_01-97e6f433.jpg
+   identical  build/images/blog/cabinestelephoniques-01-1b98285d.jpg
+   identical  build/images/prieres-1-c67ae3ad.jpg
+   identical  build/images/publication_33-329ff037.jpg
+   identical  build/images/regis-16-4f7edb27.jpg
+   identical  build/images/blog/mobilisation-pronddl_01-7c275c7f.jpg
+   identical  build/images/portrait-samuel-nantes-atlantique-ad757061.jpg
+   identical  build/images/publication_114B-264baf43.jpg
+   identical  build/images/bobo_5-77cdaedc.jpg
+   identical  build/images/ouestmedialab_07-a1357fa5.jpg
+   identical  build/images/inondations-paris_22-76698629.jpg
+   identical  build/images/LaGouriniere_PAUL_04-20a97d8a.jpg
+   identical  build/images/LaGouriniere_PAUL_10-9b9c9703.jpg
+   identical  build/images/capacites_02-7e3d76d3.jpg
+   identical  build/images/redI-d1876854.jpg
+   identical  build/images/blog/leretourduvoyageur-03-d1fed91d.jpg
+   identical  build/images/ouestmedialab_13-4f7cb81a.jpg
+   identical  build/images/blog/marche-climat-diptyque-05-c78a06b9.jpg
+   identical  build/images/regis-4-a66e739a.jpg
+   identical  build/images/tgo_12-e6625786.jpg
+   identical  build/images/LaGouriniere_Yannick_02-4f91008b.jpg
+   identical  build/images/marie_20-fc8deff4.jpg
+   identical  build/images/blog/marche-climat-diptyque-04-fa86c65f.jpg
+   identical  build/images/tgo_06-aef84b8f.jpg
+   identical  build/images/blog/cabinestelephoniques-06-5543d9c0.jpg
+   identical  build/images/publication_86-da11f93f.jpg
+   identical  build/images/prieres-5-62519f04.jpg
+   identical  build/images/blog/cabinestelephoniques-03-15fe01ea.jpg
+   identical  build/images/blog/meeting-regionales-pecresse-05-8bef1765.jpg
+   identical  build/images/blog/meeting-regionales-pecresse-04-3488959a.jpg
+   identical  build/images/blog/cabinestelephoniques-02-2f3cc3c1.jpg
+   identical  build/images/blog/marche-climat-diptyque-02B-c408e3f7.jpg
+   identical  build/images/publication_51-8e899196.jpg
+   identical  build/images/blog/chantierXXL_01-8b3110c6.jpg
+   identical  build/images/dragon_07-783e46ff.jpg
+   identical  build/images/blog/temple-03-e5b4a25e.jpg
+   identical  build/images/blog/temple-02-506ca354.jpg
+   identical  build/images/publication_45-43467820.jpg
+   identical  build/images/blog/cabinestelephoniques-04-1cf92abe.jpg
+   identical  build/images/regis-11-942422b2.jpg
+   identical  build/images/blog/meeting-regionales-pecresse-01-0889aa91.jpg
+   identical  build/images/blog/cabinestelephoniques-05-1c3cb13d.jpg
+   identical  build/images/blog/meeting-regionales-pecresse-03-6ef50044.jpg
+   identical  build/images/blog/meeting-regionales-pecresse-02-4aa5b34b.jpg
+   identical  build/images/philharmonie_03-99ef0e24.jpg
+   identical  build/images/logo-tgo-6bf7d888.jpg
+   identical  build/images/LaGouriniere_Remi_02-835289ee.jpg
+   identical  build/images/viragegroup_10A-97d06586.jpg
+   identical  build/images/publication_24-6c8e09e8.jpg
+   identical  build/images/LaGouriniere_Remi_01-3f056659.jpg
+   identical  build/images/port-nantes_03-f3cc7e17.jpg
+   identical  build/images/confinement_01-d396facc.jpg
+   identical  build/images/prieres-2-765d6dc6.jpg
+   identical  build/images/FT-medef_04A-a7434dbd.jpg
+   identical  build/images/publication_27-e8ad931d.jpg
+   identical  build/images/blog/manifestation-26mai2016-05-1fd5f2e2.jpg
+   identical  build/images/port-nantes_10-98f57fd5.jpg
+   identical  build/images/publication_30-84aedbb4.jpg
+   identical  build/images/mariage_19-ec478eaa.jpg
+   identical  build/images/blog/centrale-solaire_01-0be9a10b.jpg
+   identical  build/images/blog/manifestation-26mai2016-11-2fe61bd2.jpg
+   identical  build/images/mariage_21-4526642e.jpg
+   identical  build/images/mariage_25-f07f8d83.jpg
+   identical  build/images/blog/manifestation-26mai2016-08-26063064.jpg
+   identical  build/images/LaGouriniere_Remi_05-3d4f50d6.jpg
+   identical  build/images/mariage_09-a86c8aab.jpg
+   identical  build/images/blog/manifestation-26mai2016-09-8bdb6417.jpg
+   identical  build/images/publication_107-67679f22.jpg
+   identical  build/images/blog/tgo_01-689bff9a.jpg
+   identical  build/images/publication_37-7c805f8d.jpg
+   identical  build/images/viragegroup_07-31877bb0.jpg
+   identical  build/images/blog/temple-04-d7a0e5f3.jpg
+   identical  build/images/blog/temple-05-6b295f02.jpg
+   identical  build/images/publication_92-94fa0e96.jpg
+   identical  build/images/LaGouriniere_Isabelle-Remi_07-7e247ae5.jpg
+   identical  build/images/promus_01-192088e5.jpg
+   identical  build/images/publication_113-0593d7f1.jpg
+   identical  build/images/blog/temple-06-46cbdff8.jpg
+   identical  build/images/min-nantes_05-8ba8cc1e.jpg
+   identical  build/images/marie_09-ef2bb07c.jpg
+   identical  build/images/grandprixdiane_08-5b78bfb8.jpg
+   identical  build/images/min-nantes_04-4caecd03.jpg
+   identical  build/images/capacites_03-ace9eafc.jpg
+   identical  build/images/capacites_17-3547422c.jpg
+   identical  build/images/LaGouriniere_PAUL_11-748c781c.jpg
+   identical  build/images/ouestmedialab_12-45080d94.jpg
+   identical  build/images/logo-lobs-041cf1f6.jpg
+   identical  build/images/marie_21-f8163a44.jpg
+   identical  build/images/ouestmedialab_06-887a7bc3.jpg
+   identical  build/images/bobo_4-f2a85787.jpg
+   identical  build/images/indignes-mcdo_03-e5e3063b.jpg
+   identical  build/images/LaGouriniere_PAUL_05-1be932ca.jpg
+   identical  build/images/inondations-paris_23-562c101b.jpg
+   identical  build/images/indignes-mcdo_01-3dd8db3c.jpg
+   identical  build/images/bobo_6-de21653d.jpg
+   identical  build/images/run-energie_01-eae1dad0.jpg
+   identical  build/images/capacites_15-8b633877.jpg
+   identical  build/images/inondations-paris_21-74f40b81.jpg
+   identical  build/images/graindesail_09-42be2c8c.jpg
+   identical  build/images/inondations-paris_09-e1e6bc06.jpg
+   identical  build/images/ouestmedialab_04-d54a3b06.jpg
+   identical  build/images/publication_111-af239f53.jpg
+   identical  build/images/ouestmedialab_10-ec37629e.jpg
+   identical  build/images/viragegroup_11-e649bebd.jpg
+   identical  build/images/logo-jdd-13f098d1.jpg
+   identical  build/images/publication_84-24a5ec7b.jpg
+   identical  build/images/cop21-09-5fefa2a7.jpg
+   identical  build/images/publication_53-4b2bc586.jpg
+   identical  build/images/publication_47-8bea987a.jpg
+   identical  build/images/publication_47B-bc58e9d9.jpg
+   identical  build/images/publication_90-1a6416ac.jpg
+   identical  build/images/promus_02-3fc379dc.jpg
+   identical  build/images/publication_85-66a746ef.jpg
+   identical  build/images/vendee-globe_01-8aafc1d5.jpg
+   identical  build/images/publication_46-7a8eec5c.jpg
+   identical  build/images/publication_52-a5725c4d.jpg
+   identical  build/images/promus_03-ecfd4955.jpg
+   identical  build/images/publication_91-de747685.jpg
+   identical  build/images/publication_110-71af1973.jpg
+   identical  build/images/cop21-08-86e67938.jpg
+   identical  build/images/viragegroup_10-96aba1f4.jpg
+   identical  build/images/portrait-aymeric_03-fee66515.jpg
+   identical  build/images/mariage-nb_03-21bd3814.jpg
+   identical  build/images/capacites_01-7d1341a4.jpg
+   identical  build/images/publication_129-9494ba03.jpg
+   identical  build/images/graindesail_08-9e33089a.jpg
+   identical  build/images/portrait-aymeric_05-1d6e2331.jpg
+   identical  build/images/viragegroup_29-e732f8f7.jpg
+   identical  build/images/mariage-nb_05-aec27667.jpg
+   identical  build/images/publication_101-2e720cd5.jpg
+   identical  build/images/publication_104-8ea66dc1.jpg
+   identical  build/images/viragegroup_15-e210e418.jpg
+   identical  build/images/viragegroup_01-6606f2f7.jpg
+   identical  build/images/min-nantes_02-d8ed146f.jpg
+   identical  build/images/publication_115-6cac13a5.jpg
+   identical  build/images/otto_08-93877357.jpg
+   identical  build/images/viragegroup_04-708bb46e.jpg
+   identical  build/images/viragegroup_38-0178e77d.jpg
+   identical  build/images/ouestmedialab_05-10f9b102.jpg
+   identical  build/images/publication_06b-91474838.jpg
+   identical  build/images/ouestmedialab_11-1009c9e4.jpg
+   identical  build/images/capacites_14-95b9f516.jpg
+   identical  build/images/bobo_7-b6cdf49a.jpg
+   identical  build/images/inondations-paris_08-84fe2d2c.jpg
+   identical  build/images/inondations-paris_20-6de813e9.jpg
+   identical  build/images/indignes-mcdo_02-c5962f53.jpg
+   identical  build/images/portrait_sisters-74be556c.jpg
+   identical  build/images/min-nantes_06-c17c462e.jpg
+   identical  build/images/min-nantes_07-a0da227f.jpg
+   identical  build/images/publication_06c-aa752741.jpg
+   identical  build/images/otto_09-e17f61b4.jpg
+   identical  build/images/publication_100-e039f54b.jpg
+   identical  build/images/portrait-aymeric_04-39efcffd.jpg
+   identical  build/images/mariage-nb_04-d4734fb6.jpg
+   identical  build/images/publication_114-1d94d9df.jpg
+   identical  build/images/publication_128-e8fcc29b.jpg
+   identical  build/images/publication_81-da1faa53.jpg
+   identical  build/images/portrait_stephane-geffroy-0397f142.jpg
+   identical  build/images/viragegroup_14-7d0668af.jpg
+   identical  build/images/viragegroup_28-d7a2874b.jpg
+   identical  build/images/logo-libe-66b04037.jpg
+   identical  build/images/logo-swpl-5d3993b6.jpg
+   identical  build/images/publication_95-f04fc225.jpg
+   identical  build/images/publication_56-fef27251.jpg
+   identical  build/images/publication_42-727e68dd.jpg
+   identical  build/images/blog/temple-01-29a21b4f.jpg
+   identical  build/images/publication_46B-bb7e64f7.jpg
+   identical  build/images/publication_80-b8e5369a.jpg
+   identical  build/images/publication_94-baed88f1.jpg
+   identical  build/images/publication_57-0912019c.jpg
+   identical  build/images/publication_43-31a5f663.jpg
+   identical  build/images/portraitjulien-2-7da1bb31.jpg
+   identical  build/images/regis-15-eda7b320.jpg
+   identical  build/images/capacites_16-e68f43b1.jpg
+   identical  build/images/marie_08-bdf93ccb.jpg
+   identical  build/images/voie-eaa613d7.jpg
+   identical  build/images/depart-vg_02-51666d2f.jpg
+   identical  build/images/port-nantes_13-294b2177.jpg
+   identical  build/images/port-nantes_07-ea2f4448.jpg
+   identical  build/images/publication_08-54ae10b9.jpg
+   identical  build/images/publication_20-180c2ff3.jpg
+   identical  build/images/publication_34-c8128d56.jpg
+   identical  build/images/publication_35-c23dc3c9.jpg
+   identical  build/images/mariage_22-1f1ded8c.jpg
+   identical  build/images/depart-vg_03-0d3b7690.jpg
+   identical  build/images/publication_21-f0f2225a.jpg
+   identical  build/images/regis-14-98ad92d6.jpg
+   identical  build/images/publication_135b-0525e318.jpg
+   identical  build/images/philharmonie_06-78018b41.jpg
+   identical  build/images/publication_09-07a611e1.jpg
+   identical  build/images/port-nantes_06-226bd395.jpg
+   identical  build/images/port-nantes_12-16a10caa.jpg
+   identical  build/images/bobo_16-345cfc12.jpg
+   identical  build/images/publication_53m-df3e4317.jpg
+   identical  build/images/mariage_23-a4380f73.jpg
+   identical  build/images/capacites_07-46f99a8d.jpg
+   identical  build/images/lartdemanifester-8b217a3e.jpg
+   identical  build/images/indignes-mcdo_05-ac28b09f.jpg
+   identical  build/images/dragon_06-7c74eafe.jpg
+   identical  build/images/marie_19-06efc66e.jpg
+   identical  build/images/ouestmedialab_02-d5d1fe90.jpg
+   identical  build/images/capacites_13-0446a8bc.jpg
+   identical  build/images/publication_103-5ccc8e36.jpg
+   identical  build/images/viragegroup_17-8ff1a9b2.jpg
+   identical  build/images/ouestmedialab_16-801f698c.jpg
+   identical  build/images/publication_117-16e49c65.jpg
+   identical  build/images/publication_96-77bc02c7.jpg
+   identical  build/images/publication_82-ef8726d8.jpg
+   identical  build/images/publication_55-954ec8b6.jpg
+   identical  build/images/promus_05-44162ba2.jpg
+   identical  build/images/viragegroup_03-ff20f99e.jpg
+   identical  build/images/angel2-2d909bae.jpg
+   identical  build/images/mariage-nb_02-6a99af22.jpg
+   identical  build/images/publication_69-098c4248.jpg
+   identical  build/images/regis-5-f7078f1e.jpg
+   identical  build/images/publication_112-eccdf25b.jpg
+   identical  build/images/viragegroup_12-8f7c1d6d.jpg
+   identical  build/images/PC2-bruno-retailleau-0654e9ce.jpg
+   identical  build/images/portrait-aymeric_02-828f5a43.jpg
+   identical  build/images/tirage_8-d3387a47.jpg
+   identical  build/images/regis-7-39d257c4.jpg
+   identical  build/images/grandprixdiane_09-0b7cab24.jpg
+   identical  build/images/tgo_07-114fcf93.jpg
+   identical  build/images/portrait-frere-christophe-a4ac3b1d.jpg
+   identical  build/images/LaGouriniere_Yannick_03-226a6eae.jpg
+   identical  build/images/tgo_11-b29e6289.jpg
+   identical  build/images/marseille-reborn_09-1a52aaca.jpg
+   identical  build/images/LaGouriniere_Yannick_01-64b42660.jpg
+   identical  build/images/philharmonie_07-ddfc33f2.jpg
+   identical  build/images/philharmonie_13-2ede3da7.jpg
+   identical  build/images/prieres-6-a4f958ad.jpg
+   identical  build/images/tgo_05-b55b529e.jpg
+   identical  build/images/logo-maif-f8ed6cb6.jpg
+   identical  build/images/pelerin_18-6bcd47d6.jpg
+   identical  build/images/dragon_04-7bd5beb7.jpg
+   identical  build/images/musem-42bbcb6f.jpg
+   identical  build/images/mariage-nb_01-f67799dd.jpg
+   identical  build/images/india-55866cb1.jpg
+   identical  build/images/portrait-aymeric_01-6c4beca3.jpg
+   identical  build/images/viragegroup_05-3888d063.jpg
+   identical  build/images/regis-6-ca81d54d.jpg
+   identical  build/images/dragon_05-3026ae9e.jpg
+   identical  build/images/viragegroup_13-c31f2f77.jpg
+   identical  build/images/publication_105-79c11a6f.jpg
+   identical  build/images/prieres-7-5bca43ef.jpg
+   identical  build/images/indignes-mcdo_01b-66efd25a.jpg
+   identical  build/images/logo-capacites-cb1df84b.jpg
+   identical  build/images/publication_23-93c8bccc.jpg
+   identical  build/images/publication_22-f8a13ef5.jpg
+   identical  build/images/marseille-reborn_08-09281ce2.jpg
+   identical  build/images/tgo_04-67df8a0e.jpg
+   identical  build/images/LaGouriniere_Remi_04-3a0c0191.jpg
+   identical  build/images/tgo_10-b39a746f.jpg
+   identical  build/images/publication_36-8442507e.jpg
+   identical  build/images/pelerin_19-f0a3273a.jpg
+   identical  build/images/port-nantes_11-b5746980.jpg
+   identical  build/images/mariage_08-8121608d.jpg
+   identical  build/images/port-nantes_05-3c902254.jpg
+   identical  build/images/philharmonie_11-199f30e2.jpg
+   identical  build/stylesheets/img/loader-73cc8b57.gif
+   identical  build/images/philharmonie_05-700cf3b6.jpg
+   identical  build/images/mariage_20-01f7865b.jpg
+   identical  build/favicon.ico
+   identical  build/images/prieres-4-a36e59df.jpg
+   identical  build/images/fukushima-4.JPG
+   identical  build/images/bobo_15-e54db0d8.jpg
+== Request: /stylesheets/img/icons-793ebf03.svg
+== Finishing Request: stylesheets/img/icons-793ebf03.svg (0.0s)
+   identical  build/stylesheets/img/icons-793ebf03.svg
+   identical  build/images/fukushima-1.JPG
+== Request: /robots.txt
+== Finishing Request: robots.txt (0.0s)
+   identical  build/robots.txt
+== Request: /crossdomain.xml
+== Finishing Request: crossdomain.xml (0.0s)
+   identical  build/crossdomain.xml
+== Request: /javascripts/all-5a1d7806.js
+== Finishing Request: javascripts/all-5a1d7806.js (0.0s)
+== Request: /confirmation-de-contact.html
+== Finishing Request: confirmation-de-contact.html (0.01s)
+   identical  build/confirmation-de-contact.html
+== Request: /viragegroup.html
+== Finishing Request: viragegroup.html (0.02s)
+   identical  build/viragegroup.html
+== Request: /demande-de-contact.html
+== Finishing Request: demande-de-contact.html (0.01s)
+   identical  build/demande-de-contact.html
+== Request: /grain-de-sail.html
+== Finishing Request: grain-de-sail.html (0.03s)
+   identical  build/grain-de-sail.html
+== Request: /photographe-vendee.html
+== Finishing Request: photographe-vendee.html (0.03s)
+   identical  build/photographe-vendee.html
+== Request: /portrait-michel-vendee.html
+== Finishing Request: portrait-michel-vendee.html (0.03s)
+   identical  build/portrait-michel-vendee.html
+== Request: /vent-vert-sur-la-reunion.html
+== Finishing Request: vent-vert-sur-la-reunion.html (0.03s)
+   identical  build/vent-vert-sur-la-reunion.html
+== Request: /photographe-nantes.html
+== Finishing Request: photographe-nantes.html (0.03s)
+   identical  build/photographe-nantes.html
+== Request: /blog/2015-10-26-la-fin-des-cabines-telephoniques
+== Finishing Request: blog/2015-10-26-la-fin-des-cabines-telephoniques (0.0s)
+   identical  build/blog/2015-10-26-la-fin-des-cabines-telephoniques
+== Request: /nouveau-min-de-nantes.html
+== Finishing Request: nouveau-min-de-nantes.html (0.01s)
+   identical  build/nouveau-min-de-nantes.html
+== Request: /blog/2015-11-15-au-temple
+== Finishing Request: blog/2015-11-15-au-temple (0.0s)
+   identical  build/blog/2015-11-15-au-temple
+== Request: /premiers-essais-en-mer-du-plus-gros-paquebot-europeen-msc-meraviglia.html
+== Finishing Request: premiers-essais-en-mer-du-plus-gros-paquebot-europeen-msc-meraviglia.html (0.05s)
+   identical  build/premiers-essais-en-mer-du-plus-gros-paquebot-europeen-msc-meraviglia.html
+== Request: /blog/2015-10-09-manifestation-victimes-amiante
+== Finishing Request: blog/2015-10-09-manifestation-victimes-amiante (0.01s)
+   identical  build/blog/2015-10-09-manifestation-victimes-amiante
+== Request: /entreprise.html
+== Finishing Request: entreprise.html (0.02s)
+   identical  build/entreprise.html
+   identical  build/images/blog/concertregiskole-2.JPG
+   identical  build/images/fukushima-6.JPG
+== Request: /44-breizh.html
+== Finishing Request: 44-breizh.html (0.02s)
+   identical  build/44-breizh.html
+== Request: /port-nantes-saint-nazaire.html
+== Finishing Request: port-nantes-saint-nazaire.html (0.03s)
+   identical  build/port-nantes-saint-nazaire.html
+== Request: /coulissespelerin.html
+== Finishing Request: coulissespelerin.html (0.03s)
+   identical  build/coulissespelerin.html
+   identical  build/images/fukushima-7.JPG
+== Request: /portrait-isabelle-vendee.html
+== Finishing Request: portrait-isabelle-vendee.html (0.01s)
+   identical  build/portrait-isabelle-vendee.html
+== Request: /depart-vendee-globe.html
+== Finishing Request: depart-vendee-globe.html (0.03s)
+   identical  build/depart-vendee-globe.html
+== Request: /emeutes-nantes.html
+== Finishing Request: emeutes-nantes.html (0.01s)
+   identical  build/emeutes-nantes.html
+== Request: /ou-est-la-justice.html
+== Finishing Request: ou-est-la-justice.html (0.01s)
+   identical  build/ou-est-la-justice.html
+== Request: /blog/2017-10-30-la-plus-grande-centrale-solaire-des-pays-de-la-loire
+== Finishing Request: blog/2017-10-30-la-plus-grande-centrale-solaire-des-pays-de-la-loire (0.0s)
+   identical  build/blog/2017-10-30-la-plus-grande-centrale-solaire-des-pays-de-la-loire
+== Request: /ateliers-perrault.html
+== Finishing Request: ateliers-perrault.html (0.01s)
+   identical  build/ateliers-perrault.html
+== Request: /blog/2015-11-27-marche-pour-le-climat
+== Finishing Request: blog/2015-11-27-marche-pour-le-climat (0.0s)
+   identical  build/blog/2015-11-27-marche-pour-le-climat
+== Request: /blog/2015-10-03-nuits-blanches-2015
+== Finishing Request: blog/2015-10-03-nuits-blanches-2015 (0.02s)
+   identical  build/blog/2015-10-03-nuits-blanches-2015
+== Request: /un-chantier-xxl.html
+== Finishing Request: un-chantier-xxl.html (0.01s)
+   identical  build/un-chantier-xxl.html
+== Request: /blog/2015-10-07-serie-dans-la-ville
+== Finishing Request: blog/2015-10-07-serie-dans-la-ville (0.02s)
+   identical  build/blog/2015-10-07-serie-dans-la-ville
+== Request: /terminal-grand-ouest.html
+== Finishing Request: terminal-grand-ouest.html (0.01s)
+   identical  build/terminal-grand-ouest.html
+== Request: /nantes-food-forum-2017.html
+== Finishing Request: nantes-food-forum-2017.html (0.01s)
+   identical  build/nantes-food-forum-2017.html
+== Request: /blog/2015-10-02-Monsieur-Morimoto
+== Finishing Request: blog/2015-10-02-Monsieur-Morimoto (0.0s)
+   identical  build/blog/2015-10-02-Monsieur-Morimoto
+== Request: /vendee-globe.html
+== Finishing Request: vendee-globe.html (0.01s)
+   identical  build/vendee-globe.html
+== Request: /blog/2018-01-06-la-route-des-chicanes
+== Finishing Request: blog/2018-01-06-la-route-des-chicanes (0.0s)
+   identical  build/blog/2018-01-06-la-route-des-chicanes
+== Request: /blog/2015-12-10-cop21-portraits
+== Finishing Request: blog/2015-12-10-cop21-portraits (0.01s)
+   identical  build/blog/2015-12-10-cop21-portraits
+== Request: /portrait-paul-vendee.html
+== Finishing Request: portrait-paul-vendee.html (0.03s)
+   identical  build/portrait-paul-vendee.html
+== Request: /manifestation-contre-la-loi-travail.html
+== Finishing Request: manifestation-contre-la-loi-travail.html (0.02s)
+   identical  build/manifestation-contre-la-loi-travail.html
+== Request: /portrait-remi-vendee.html
+== Finishing Request: portrait-remi-vendee.html (0.01s)
+   identical  build/portrait-remi-vendee.html
+== Request: /blog/2015-12-09-meeting-regionales-pecresse
+== Finishing Request: blog/2015-12-09-meeting-regionales-pecresse (0.01s)
+   identical  build/blog/2015-12-09-meeting-regionales-pecresse
+   identical  build/images/fukushima-5.JPG
+== Request: /les-foulees-du-gois.html
+== Finishing Request: les-foulees-du-gois.html (0.01s)
+   identical  build/les-foulees-du-gois.html
+   identical  build/images/blog/danslaville-05.JPG
+== Request: /blog/2015-12-04-mon-premier-diaporama-sonore
+== Finishing Request: blog/2015-12-04-mon-premier-diaporama-sonore (0.01s)
+   identical  build/blog/2015-12-04-mon-premier-diaporama-sonore
+   identical  build/images/fukushima-8.JPG
+== Request: /portrait-yannick-vendee.html
+== Finishing Request: portrait-yannick-vendee.html (0.01s)
+   identical  build/portrait-yannick-vendee.html
+== Request: /blog/2015-11-18-ici-et-ailleurs
+== Finishing Request: blog/2015-11-18-ici-et-ailleurs (0.0s)
+   identical  build/blog/2015-11-18-ici-et-ailleurs
+== Request: /portrait-alexisetjeremie-vendee.html
+== Finishing Request: portrait-alexisetjeremie-vendee.html (0.01s)
+   identical  build/portrait-alexisetjeremie-vendee.html
+   identical  build/images/blog/awaodori-09.JPG
+   identical  build/images/blog/awaodori-08.JPG
+   identical  build/images/blog/awaodori-11.JPG
+   identical  build/images/blog/danslaville-04.JPG
+   identical  build/images/blog/monroyaume-04.JPG
+   identical  build/images/blog/monroyaume-02.JPG
+   identical  build/images/blog/danslaville-01.JPG
+   identical  build/images/blog/awaodori-01.JPG
+   identical  build/images/blog/danslaville-03.JPG
+   identical  build/images/blog/danslaville-02.JPG
+   identical  build/images/blog/awaodori-03.JPG
+   identical  build/images/blog/monroyaume-03.JPG
+   identical  build/images/blog/awaodori-02.JPG
+   identical  build/images/blog/monroyaume-01.JPG
+   identical  build/images/blog/amiante-06.JPG
+   identical  build/images/blog/awaodori-07.JPG
+   identical  build/images/blog/amiante-05.JPG
+   identical  build/images/blog/awaodori-06.JPG
+   identical  build/images/blog/amiante-04.JPG
+   identical  build/images/blog/concertregiskole-1.JPG
+   identical  build/images/blog/monroyaume-05.JPG
+== Request: /dragon-des-mers.html
+== Finishing Request: dragon-des-mers.html (0.01s)
+   identical  build/dragon-des-mers.html
+   identical  build/images/blog/awaodori-05.JPG
+   identical  build/images/blog/awaodori-04.JPG
+   identical  build/images/blog/awaodori-10.JPG
+== Request: /les-rencontres-d-arles-2016.html
+== Finishing Request: les-rencontres-d-arles-2016.html (0.01s)
+   identical  build/les-rencontres-d-arles-2016.html
+== Request: /les-indignes-de-mcdonald-s.html
+== Finishing Request: les-indignes-de-mcdonald-s.html (0.01s)
+   identical  build/les-indignes-de-mcdonald-s.html
+== Request: /blog/2015-11-26-concert-regis-kole
+== Finishing Request: blog/2015-11-26-concert-regis-kole (0.0s)
+   identical  build/blog/2015-11-26-concert-regis-kole
+== Request: /blog/2018-01-27-mobilisation-pronddl
+== Finishing Request: blog/2018-01-27-mobilisation-pronddl (0.0s)
+   identical  build/blog/2018-01-27-mobilisation-pronddl
+== Request: /new-article
+== Finishing Request: new-article (0.0s)
+   identical  build/new-article
+== Request: /journal-de-confinement.html
+== Finishing Request: journal-de-confinement.html (0.01s)
+   identical  build/journal-de-confinement.html
+== Request: /les-rdv-de-l-erdre.html
+== Finishing Request: les-rdv-de-l-erdre.html (0.01s)
+   identical  build/les-rdv-de-l-erdre.html
+== Request: /mondial-de-l-auto-2016.html
+== Finishing Request: mondial-de-l-auto-2016.html (0.01s)
+   identical  build/mondial-de-l-auto-2016.html
+== Request: /montfort-sur-meu.html
+== Finishing Request: montfort-sur-meu.html (0.01s)
+   identical  build/montfort-sur-meu.html
+== Request: /publications.html
+== Finishing Request: publications.html (0.05s)
+   identical  build/publications.html
+== Request: /blog/2015-10-02-festival-awa-odori
+== Finishing Request: blog/2015-10-02-festival-awa-odori (0.01s)
+   identical  build/blog/2015-10-02-festival-awa-odori
+== Request: /sitemap.xml
+== Finishing Request: sitemap.xml (0.0s)
+   identical  build/sitemap.xml
+== Request: /CNAME
+== Finishing Request: CNAME (0.0s)
+   identical  build/CNAME
+== Request: /portraits-en-triptyque.html
+== Finishing Request: portraits-en-triptyque.html (0.01s)
+   identical  build/portraits-en-triptyque.html
+   identical  build/images/fukushima-3.JPG
+   identical  build/images/Portfolio_Corporate_MThomasset.pdf
+   identical  build/images/fukushima-2.JPG
+== Request: /tirages.html
+== Finishing Request: tirages.html (0.01s)
+   identical  build/tirages.html
+== Request: /index.html
+== Finishing Request: index.html (0.01s)
+   identical  build/index.html
+   identical  build/images/Portfolio_Portrait_MThomasset.pdf
+   identical  build/images/Portfolio_Mariage_MThomasset.pdf
+   identical  build/images/blog/amiante-02.JPG
+== Request: /exposition-voie.html
+== Finishing Request: exposition-voie.html (0.01s)
+   identical  build/exposition-voie.html
+   identical  build/images/blog/amiante-03.JPG
+   identical  build/images/blog/amiante-01.JPG
+   identical  build/images/Portfolio-Mathieu_Thomasset.pdf
+   identical  build/javascripts/all-5a1d7806.js
+== Request: /portrait-de-bruno-retailleau-pour-le-jdd.html
+== Finishing Request: portrait-de-bruno-retailleau-pour-le-jdd.html (0.01s)
+   identical  build/portrait-de-bruno-retailleau-pour-le-jdd.html
+== Request: /bio.html
+== Finishing Request: bio.html (0.02s)
+   identical  build/bio.html
+== Request: /portraits.html
+== Finishing Request: portraits.html (0.03s)
+   identical  build/portraits.html
+== Request: /blog.html
+== Finishing Request: blog.html (0.07s)
+   identical  build/blog.html
+Project built successfully.

@@ -4,50 +4,39 @@
 @import url("layout/button.css");
 @import url("layout/card.css");
 @import url("vendor/animation.css");
+/* @import url("vendor/swipebox.css"); */
 
-.spacer {
-  height: 1em;
-}
+.spacer { height: 1em; }
+.mid-spacer { height: 4em; }
+.big-spacer { height: 6em; }
 
-.mid-spacer {
-  height: 4em;
-}
+.thumbnail { border: 0; }
+.img-blog { width: 100%; }
 
-.big-spacer {
-  height: 6em;
-}
-
-.thumbnail {
-  border: 0px;
-}
-
-.img-blog {
-  width: 100%;
-}
-
+/* --- Video --- */
 .video-container {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px;
-height: 0;
-overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 .video-container iframe,
 .video-container object,
 .video-container embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
 }
 
+/* --- Jspane --- */
 .jspane {
   display: inline-block;
   line-height: 0;
   overflow: hidden;
   position: relative;
 }
+
 .jspane img {
   line-height: 0;
   width: 100%;
@@ -59,13 +48,9 @@ height: 100%;
   width: 100%;
   height: 100%;
   line-height: normal;
-  padding: 2px 30px 2px 30px;
+  padding: 2px 30px;
   position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
+  top: 0; left: 0;
   box-sizing: border-box;
 }
 
@@ -81,20 +66,10 @@ height: 100%;
   padding-top: 3px;
 }
 
-#next-post {
-  display: inline;
-  float: right;
-}
+#next-post { display: inline; float: right; }
+#previous-post { display: inline; float: left; }
 
-#previous-post {
-  display: inline;
-  float: left;
-}
-
-/* #wrapper {
-  height: 700px;
-} */
-
+/* body & headings */
 body {
   font-family: 'Abel', sans-serif;
   color: #777;
@@ -105,68 +80,38 @@ body h1 {
   font-size: 1.8em;
   font-family: 'Roboto', sans-serif;
 }
-
-body h2 {
-  font-size: 1.6em;
-}
-
+body h2 { font-size: 1.6em; }
 body h3 {
   color: grey;
   font-size: 1.3em;
   font-family: 'Roboto', sans-serif;
 }
-
-.carousel-caption > h1 {
-  color: white;
-}
-
-body p {
-  font-size: 18px;
-}
-
-article p {
-  font-size: 1.2em;
-}
-
+.carousel-caption > h1 { color: #fff; }
+body p { font-size: 18px; }
+article p { font-size: 1.2em; }
 article h1 {
   color: rgb(78, 75, 75);
   font-size: 1.7em;
 }
 
-#logo {
-  border-radius: 1%;
-}
-
-#fuveau {
-  color: #BA6E4D;
-  text-transform: uppercase;
-}
-
-#uk {
-  color: black;
-}
-
+#logo { border-radius: 1%; }
+#fuveau { color: #BA6E4D; text-transform: uppercase; }
+#uk { color: #000; }
 #uk2 {
-  color: black;
+  color: #5B91B9;
   font-size: 1.5em;
   text-transform: uppercase;
 }
+#upper { text-transform: uppercase; }
+#small { font-size: 1.1em; }
 
-#upper {
-  text-transform: uppercase;
-}
-
-#small {
-  font-size: 1.1em;
-}
-/* === Séparateur avant & après la section === */
+/* === Section intro === */
 .home-intro {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-  background-color: #fff; /* garde ton fond clair */
+  background-color: #fff;
 }
-
-/* === Titre (col gauche) : plus élégant, lisible, éditorial === */
+/* Titre éditorial */
 .home-intro h1 {
   font-size: clamp(1.6rem, 2vw + 1rem, 2.3rem);
   line-height: 1.3;
@@ -178,21 +123,22 @@ article h1 {
   margin: 0 0 1rem;
 }
 
+/* Carousel captions */
 .carousel-caption h2 {
-  font-size: clamp(2.2rem, 4vw, 3.2rem);  /* Légèrement plus petit qu'un H1 */
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #fff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
   margin-bottom: 0.6rem;
 }
 
 .carousel-caption h3 {
-  font-size: clamp(1.6rem, 3vw, 2.2rem);  /* Agrandi pour reprendre l’esprit H2 en desktop */
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 500;
   font-style: italic;
-  color: #f4f4f4;                        /* Contrasté mais subtil */
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  color: #f4f4f4;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
   margin-bottom: 1rem;
 }
