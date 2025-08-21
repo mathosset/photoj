@@ -4,7 +4,6 @@
 @import url("layout/button.css");
 @import url("layout/card.css");
 @import url("vendor/animation.css");
-/* @import url("vendor/swipebox.css"); */
 
 .spacer {
   height: 1em;
@@ -98,8 +97,7 @@ height: 100%;
 
 body {
   font-family: 'Abel', sans-serif;
-/*  padding-top: 6em;
-*/  color: #777;
+  color: #777;
 }
 
 body h1 {
@@ -150,7 +148,6 @@ article h1 {
 
 #uk2 {
   color: black;
-  color: #5B91B9;
   font-size: 1.5em;
   text-transform: uppercase;
 }
