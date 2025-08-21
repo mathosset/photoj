@@ -1,6 +1,6 @@
 ---
-title: Photographe entreprise en Vendée | Reportage & Portrait – Montaigu
-description: Photographe basé en Vendée Grand Ouest - Reportage, Portrait, Corporate pour la Presse, les Entreprises et les particuliers - Membre du studio Hans Lucas
+title: Photographe portrait & reportage en Vendée – Mathieu Thomasset
+description: Photographe basé en Vendée, je réalise portraits professionnels et reportages pour entreprises, institutions et presse dans le Grand Ouest (Pays de la Loire, Nantes, Vendée).
 preferred_url: http://www.mathieuthomasset.fr
 ---
 
@@ -19,8 +19,8 @@ preferred_url: http://www.mathieuthomasset.fr
         <div class="item <%= 'active' if index == 0 %>">
           <div class="fill" style="background-image:url('../images/<%= y.picture %>');"></div>
           <div class="carousel-caption">
-            <h1><%= y.title.upcase %></h1>
-            <h2><%= y.subtitle %></h2>
+            <h2><%= y.title.upcase %></h2>
+            <h3><%= y.subtitle %></h3>
             <div class="spacer"></div>
             <a href="<%= y.page %>" class="btn-medium"><%= y.category %></a>
           </div>
@@ -37,9 +37,28 @@ preferred_url: http://www.mathieuthomasset.fr
     </a>
     -->
 </header>
-
+<section class="home-intro">
+  <%# <div class="spacer"></div> %>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h1>Photographe portrait & reportage en Vendée — Entreprises, presse & institutions</h1>
+      </div>
+      <div class="col-sm-4">
+      <p><span id="uk">Mathieu THOMASSET</span> est un photographe membre du <span id="uk">Studio HANS LUCAS</span> et de la <span id="uk">SAIF</span> - Société des Auteurs des arts visuels et de l'Image Fixe.</p>
+      <p>Son travail documentaire et presse est diffusé sur PIXPALACE et via l'agence photo HANS LUCAS & ses partenaires : AGENCE FRANCE PRESSE - AFP (diffusion mondiale), agence BELGA (Benelux), agence REUTERS (diffusion mondiale), Forum Polska (Pologne), DPA (Allemagne, Autriche et Suisse), Contrasto (Italie), REDUX (USA).</p></br>         
+      </div>
+      <div class="col-sm-5">      
+        <%# <h2 id="upper"><span id="uk">"Grasla"</span></h2> %>
+        <p>Basé à Montaigu (Vendée), j’accompagne <span id="uk">entreprises</span>, <span id="uk">institutions</span> et <span id="uk">rédactions</span> dans l’Ouest de la France. Je réalise des <%= link_to 'portraits', 'portraits' %> et des reportages qui valorisent les équipes, les métiers et les territoires.</p>
+        <p>Formé aux <a href="https://www.gobelins.fr/" target="_blank" rel="noopener">Gobelins</a> et à l’<a href="http://www.emi.coop/" target="_blank" rel="noopener">EMI</a>, mon approche héritée du photojournalisme privilégie l’immersion et la justesse : des images authentiques, sensibles et immédiatement utiles à la communication interne/externe et aux médias. Mon travail témoigne des métiers, des mémoires et des mutations d’un territoire.</p>     
+        <p>Prestations : <%= link_to 'portraits', "portraits"%><span id="uk"> éditoriaux & corporate</span>, <%= link_to 'reportages en entreprise', 'entreprise' %> (industrie, innovation, collectivités, patrimoine), <span id="uk">événements</span> et communication de marque. Livraison soignée, formats web & print, respect des chartes et droits.</p>
+      </div>
+    </div>
+  </div>
+</section>
 <div class="container">
-  <div class="mid-spacer"></div>
+  <%# <div class="mid-spacer"></div> %>
   <div class="row">
     <% (data.homecards || []).each_with_index do |y, index| %>
       <div class="col-xs-12 col-sm-4">
@@ -55,7 +74,7 @@ preferred_url: http://www.mathieuthomasset.fr
       </div>
     <% end %>
   </div>
-  <div class="mid-spacer"></div>
+  <div class="spacer"></div>
   <div class="row">
     <div class="col-sm-12">
       <p><%= partial 'layouts/bofpublications' %></p>
