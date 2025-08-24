@@ -1,7 +1,7 @@
 @import url("layout/navbar-4e0270d1.css");
 @import url("layout/footer-3a497ec7.css");
 @import url("layout/carousel-22c26d47.css");
-@import url("layout/button-0c89a99c.css");
+@import url("layout/button-d0377505.css");
 @import url("layout/card-cd87befc.css");
 @import url("vendor/animation-2ba1d516.css");
 /* @import url("vendor/swipebox-e7291103.css"); */
@@ -141,4 +141,31 @@ article h1 {
   color: #f4f4f4;
   text-shadow: 0 1px 3px rgba(0,0,0,0.5);
   margin-bottom: 1rem;
+}
+
+/* grille publications */
+.masonry-grid {
+  display: flex;
+  margin-left: -15px;
+  width: auto;
+}
+
+.grid-item {
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 33.3333%; /* 3 colonnes */
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.vertical {
+  max-height: 90%;
 }
