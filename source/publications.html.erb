@@ -7,36 +7,36 @@ preferred_url: http://www.mathieuthomasset.fr/publications
 <div class="big-spacer"></div>
 <section class="home-intro">
   <%# <div class="spacer"></div> %>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-3">
+      <div class="col-xs-12 col-sm-2 col-md-offset-1">
         <h1>Photographe portrait & reportage en Vendée</h1>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-3">
       <p>Mon travail documentaire et presse est diffusé sur <strong>PIXPALACE</strong> et via l'agence photo HANS LUCAS & ses partenaires : AGENCE FRANCE PRESSE - <strong>AFP</strong> (diffusion mondiale), agence <strong>BELGA</strong> (Benelux), agence <strong>REUTERS</strong> (diffusion mondiale), Forum <strong>Polska</strong> (Pologne), <strong>DPA</strong> (Allemagne, Autriche et Suisse), <strong>Contrasto</strong> (Italie), <strong>REDUX</strong> (USA).</p>
       </div>
-      <div class="col-sm-5">      
+      <div class="col-sm-6">      
       <p><%= partial 'layouts/bofpublications' %></p>
       </div>
     </div>
   </div>
 </section>
 <div class="container-fluid">
-  <div class="row">
-    <div class="spacer"></div>
-    <section id="grid">
-      <% data.publications.each do |y| %>
-        <div class="col-xs-12 col-sm-6 col-lg-3">
-          <% if y.vertical == "yes" %>
-            <%= image_tag y.picture, width: "78%", class: "center-block" %>
-          <% else %>
-            <%= image_tag y.picture, width: "100%" %>
-          <% end %>
-          <p><%= y.caption %></p>
-        </div>
+<section class="masonry-grid" data-masonry='{"itemSelector": ".grid-item", "columnWidth": ".grid-sizer", "percentPosition": true }'>
+  <div class="grid-sizer col-xs-12 col-sm-6 col-md-3"></div>
+  <% data.publications.each do |y| %>
+    <div class="grid-item col-xs-12 col-sm-6 col-md-3">
+      <% if y.vertical == "yes" %>
+        <%= image_tag y.picture, class: "img-responsive vertical" %>
+      <% else %>
+        <%= image_tag y.picture, class: "img-responsive" %>
       <% end %>
-    </section>
-  </div>
+      <p><strong><%= y.caption %></strong></p>
+    </div>
+  <% end %>
+</section>
+
+
 </div>
 
 <div class="spacer"></div>

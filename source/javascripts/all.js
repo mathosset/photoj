@@ -49,3 +49,12 @@ $(document).ready(function() {
   }
 
 });
+
+$(document).ready(function() {
+  $('.masonry-grid').masonry({
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true
+  });
+});
+

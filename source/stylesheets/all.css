@@ -142,3 +142,30 @@ article h1 {
   text-shadow: 0 1px 3px rgba(0,0,0,0.5);
   margin-bottom: 1rem;
 }
+
+/* grille publications */
+.masonry-grid {
+  display: flex;
+  margin-left: -15px;
+  width: auto;
+}
+
+.grid-item {
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 33.3333%; /* 3 colonnes */
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.vertical {
+  max-height: 90%;
+}
