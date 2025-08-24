@@ -22,20 +22,19 @@ preferred_url: http://www.mathieuthomasset.fr/publications
   </div>
 </section>
 <div class="container-fluid">
-<section class="masonry-grid" data-masonry='{"itemSelector": ".grid-item", "columnWidth": ".grid-sizer", "percentPosition": true }'>
-  <div class="grid-sizer col-xs-12 col-sm-6 col-md-3"></div>
+  <section class="masonry-grid">
+  <div class="grid-sizer"></div>
   <% data.publications.each do |y| %>
-    <div class="grid-item col-xs-12 col-sm-6 col-md-3">
+    <div class="grid-item">
       <% if y.vertical == "yes" %>
         <%= image_tag y.picture, class: "img-responsive vertical" %>
       <% else %>
         <%= image_tag y.picture, class: "img-responsive" %>
       <% end %>
-      <p><strong><%= y.caption %></strong></p>
+      <div class="caption"><%= y.caption %></div>
     </div>
   <% end %>
 </section>
-
 
 </div>
 

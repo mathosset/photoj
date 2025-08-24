@@ -48,13 +48,16 @@ $(document).ready(function() {
     $(".navbar-default .navbar-toggle .icon-bar").css("background-color", "white");
   }
 
-});
+  // === Masonry ===
+  var $grid = $('.masonry-grid');
 
-$(document).ready(function() {
-  $('.masonry-grid').masonry({
+  // attendre que toutes les images soient chargées avant Masonry
+  $grid.imagesLoaded(function() {
+  $grid.masonry({
     itemSelector: '.grid-item',
     columnWidth: '.grid-sizer',
     percentPosition: true
+    });
   });
 });
 
