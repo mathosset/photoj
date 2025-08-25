@@ -9,60 +9,76 @@ preferred_url: http://www.mathieuthomasset.fr/demande-de-contact
 <div class="container-fluid">
   <div class="row">
     <div class="spacer"></div>
+
+    <!-- Texte d’intro -->
     <div class="col-xs-12 col-sm-3 col-md-offset-1">
       <h1 id="upper">Demande de Contact</h1>
-      </br>
-      <p>Vous avez un projet photographique et souhaitez être contacté pour recevoir un devis ou vous souhaitez simplement des renseignements ou commander un tirage, remplissez ce formulaire afin que je vous contacte très prochainement.</p>
-      <p><i class="fa fa-mobile"></i> +33(0)6.95.51.46.79</p>
+      <br>
+      <p>Vous avez un projet photographique et souhaitez recevoir un devis personnalisé ?</p>
+      <p>Vous aimeriez plus d’informations sur mes prestations (<strong>reportages, portraits, entreprises, presse</strong>) ou commander un tirage ?</p>
+      <p>👉 Remplissez simplement ce formulaire : je vous répondrai rapidement pour échanger sur vos besoins et trouver la solution la plus adaptée.</p>
+      <p>📞 Vous pouvez également me joindre directement au : <strong>+33 (0)6 95 51 46 79</strong></p>
       <div class="spacer"></div>
     </div>
+
+    <!-- Formulaire -->
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-6 col-md-offset-1">
-      <form class="" target="_self" enctype="multipart/form-data" action="https://formsubmit.co/57427478b9289612af1787bff0ea585e" accept-charset="UTF-8" method="post">
-        <input name="utf8" type="hidden" value="&#x2713;" />
-        <fieldset>
-          <div class="row">
-            <div class="form-group col-xs-8" id="Nom__div">
-              <label title="required" for="Nom">Nom *</label>
-              <input type="text" name="Nom" id="Nom" required="required" autofocus="autofocus" class="form-control" />
+      <div id="contactForm">
+        <form target="_self" enctype="multipart/form-data"
+              action="https://formsubmit.co/57427478b9289612af1787bff0ea585e"
+              accept-charset="UTF-8" method="post">
+
+          <input name="utf8" type="hidden" value="&#x2713;" />
+
+          <fieldset>
+            <div class="row">
+              <div class="form-group col-xs-8">
+                <label for="Nom">Nom *</label>
+                <input type="text" name="Nom" id="Nom" required class="form-control" />
+              </div>
+              <div class="form-group col-xs-4">
+                <label for="Pr_nom">Prénom</label>
+                <input type="text" name="Prénom" id="Pr_nom" class="form-control" />
+              </div>
             </div>
-            <div class="form-group col-xs-4" id="Pr_nom__div">
-              <label for="Pr_nom">Prénom</label>
-              <input type="text" name="Prénom" id="Pr_nom" class="form-control" />
+
+            <div class="row">
+              <div class="form-group col-xs-12">
+                <label for="Entreprise___Structure">Entreprise / Structure</label>
+                <input type="text" name="Entreprise / Structure" id="Entreprise___Structure" class="form-control" />
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="form-group col-xs-12" id="Entreprise___Structure__div">
-              <label for="Entreprise___Structure">Entreprise / Structure</label>
-              <input type="text" name="Entreprise / Structure" id="Entreprise___Structure" class="form-control" />
+
+            <div class="row">
+              <div class="form-group col-xs-6">
+                <label for="Email">Email *</label>
+                <input type="email" name="Email" id="Email" required placeholder="exemple@email.com" class="form-control" />
+              </div>
+              <div class="form-group col-xs-6">
+                <label for="Tel">Téléphone *</label>
+                <input type="tel" name="Téléphone" id="Tel" required placeholder="06-12-34-56-78" class="form-control" />
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="form-group col-xs-6" id="Email__div">
-              <label title="required" for="Email">Email *</label>
-              <input type="email" name="Email" id="Email" required="required" placeholder="example@example.com" class="form-control" />
+
+            <div class="row">
+              <div class="form-group col-xs-12">
+                <label for="Message">Message *</label>
+                <textarea name="Message" id="Message" required class="form-control" rows="6"></textarea>
+                <input type="hidden" name="_next" value="http://www.mathieuthomasset.fr/confirmation-de-contact.html">
+              </div>
             </div>
-            <div class="form-group col-xs-6" id="T_l_phone__div">
-              <label title="required" for="T_l_phone">Téléphone *</label>
-              <input type="tel" name="Téléphone" id="T_l_phone" required="required" placeholder="02-34-56-78-91" class="form-control" />
+
+            <div class="row">
+              <div class="col-xs-12">
+                <button type="submit" class="btn btn-block btn-primary">Envoyer</button>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="form-group col-xs-12" id="Message__div">
-              <label title="required" for="Message">Message *</label>
-              <textarea name="Message" id="Message" required="required" class="form-control"></textarea>
-              <input type="hidden" name="_next" value="http://www.mathieuthomasset.fr/confirmation-de-contact.html">
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-xs-12">
-              <input type="submit" value="Envoyer" class="btn btn-block btn-primary" data-disable-with="Envoyer" />
-            </div>
-          </div>
-        </fieldset>
-      </form>
-    </div>  
+          </fieldset>
+        </form>
+      </div>
+    </div>
   </div>
 </div>
+
 <div class="spacer"></div>
