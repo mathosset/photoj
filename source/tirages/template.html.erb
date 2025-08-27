@@ -1,0 +1,80 @@
+<%# source/tirages/template.html.erb %>
+<div class="big-spacer"></div>
+
+<div class="container-fluid tirage-page">
+  <div class="row">
+
+    <!-- Colonne gauche : Galerie -->
+    <div class="col-sm-7 tirage-gallery">
+      <div class="tirage-main">
+        <!-- Image principale -->
+        <a href="<%= image_path "tirages/#{tirage.original}" %>" class="main-lightbox">
+          <%= image_tag "tirages/#{tirage.original}", class: "img-responsive main-image", alt: "#{tirage.title} — #{tirage.year}" %>
+        </a>
+      </div>
+
+      <div class="tirage-thumbs row">
+        <!-- Vignette principale -->
+        <div class="thumb-wrapper active col-xs-3">
+          <img
+            src="<%= image_path "tirages/#{tirage.original}" %>"
+            data-large="<%= image_path "tirages/#{tirage.original}" %>"
+            class="img-responsive thumb"
+            alt="<%= tirage.title %> — original">
+        </div>
+
+        <% (tirage.mockups || []).each do |m| %>
+          <div class="thumb-wrapper col-xs-3">
+            <img
+              src="<%= image_path "tirages/#{m}" %>"
+              data-large="<%= image_path "tirages/#{m}" %>"
+              class="img-responsive thumb"
+              alt="<%= tirage.title %> — mise en scène">
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+    <!-- Colonne droite : Infos -->
+    <div class="col-sm-5 tirage-info">
+      <h1 id="upper"><%= tirage.title %> — <%= tirage.year %></h1>
+      <p class="tirage-ref">Réf. : <%= tirage.id.upcase %></p>
+
+      <!-- prix par défaut -->
+      <p id="selected-price" class="tirage-price"><%= tirage.default_price %></p>
+
+      <p class="tirage-description"><%= tirage.description %></p>
+
+      <% if tirage.paper_default %>
+        <p class="tirage-paper"><i class="fa fa-check"></i> <%= tirage.paper_default %></p>
+      <% end %>
+
+      <% if (tirage.prices || []).any? %>
+        <h4>Choisir la version :</h4>
+        <form id="price-options">
+          <% tirage.prices.each_with_index do |p, idx| %>
+            <div class="price-option">
+              <label>
+                <input type="radio"
+                       name="tirage_price"
+                       value="<%= p[:price] %>"
+                       data-label="<%= p[:label] %>"
+                       <%= 'checked' if p[:is_default] %>>
+                <span><%= p[:label] %> — <%= p[:price] %></span>
+              </label>
+            </div>
+          <% end %>
+        </form>
+      <% end %>
+
+      <div class="spacer"></div>
+      <p>
+        <% link_to "/demande-de-contact.html?tirage=#{tirage.title}", 
+                   class: "btn-modern", 
+                   id: "commander-btn" do %>
+          <i class="fa fa-cubes"></i> Commander
+        <% end %>
+      </p>
+    </div>
+  </div>
+</div>

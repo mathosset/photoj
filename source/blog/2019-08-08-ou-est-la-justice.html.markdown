@@ -15,7 +15,7 @@ author:
 
 > Publication dans le TELERAMA DU 7 août 2019 
 
-![picture alt](/images/publication_32.jpg "Où est la Justice ?"){: .img-blog}
+![picture alt](/images/publications/publication_32.jpg "Où est la Justice ?"){: .img-blog}
 
 > Lien vers toute la série sur le site Hans Lucas : [Où est Steve ?](http://hanslucas.com/mthomasset/photo/25518)
 

@@ -17,6 +17,6 @@ Lien vers toute la série sur le site Hans Lucas : [Emeutes à Nantes](http://ha
 
 Publication sur La Zone d’Expression Prioritaire [la-zep.fr](https://www.la-zep.fr/)
 
-![picture alt](/images/publication_38b.jpg "La Zep"){: .img-blog}
+![picture alt](/images/publications/publication_38b.jpg "La Zep"){: .img-blog}
 
-![picture alt](/images/publication_38.jpg "La Zep"){: .img-blog}
+![picture alt](/images/publications/publication_38.jpg "La Zep"){: .img-blog}

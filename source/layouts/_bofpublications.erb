@@ -6,7 +6,7 @@
 <div class="row">
 	<% data.bofpublications.each do |y| %>
 		<div class="col-xs-3">
-			<%= image_tag y.picture, width: "100%", height: "100%" %>
+			<%= image_tag "publications/#{y.picture}", width: "100%", height: "100%" %>
 		</div>
     <% end %>
 </div>

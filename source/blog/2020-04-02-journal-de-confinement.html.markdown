@@ -21,22 +21,22 @@ author:
    </div>	
    <div class="row">
     <div class="col-xs-12 col-sm-4">
-    	<img src="/images/publication_51.jpg" alt="Publication presse" style="height:400px">
+    	<img src="/images/publications/publication_51.jpg" alt="Publication presse" style="height:400px">
     </div>
     <div class="col-sm-4">
-    	<img src="/images/publication_52.jpg" alt="Publication presse" style="height:400px">
+    	<img src="/images/publications/publication_52.jpg" alt="Publication presse" style="height:400px">
     </div>
     <div class="col-sm-4">
-    	<img src="/images/publication_55.jpg" alt="Publication presse" style="height:400px">
+    	<img src="/images/publications/publication_55.jpg" alt="Publication presse" style="height:400px">
     </div>
     <div class="col-sm-4">
-    	<img src="/images/publication_56.jpg" alt="Publication presse" style="height:400px">
+    	<img src="/images/publications/publication_56.jpg" alt="Publication presse" style="height:400px">
     </div>
     <div class="col-sm-4">
-    	<img src="/images/publication_48B.jpg" alt="Publication presse" style="height:400px">
+    	<img src="/images/publications/publication_48B.jpg" alt="Publication presse" style="height:400px">
     </div>
     <div class="col-sm-4">
-    	<img src="/images/publication_44.jpg" alt="Publication presse" style="height:400px">
+    	<img src="/images/publications/publication_44.jpg" alt="Publication presse" style="height:400px">
     </div>
   </div>
 </div>

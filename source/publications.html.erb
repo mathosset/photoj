@@ -25,15 +25,16 @@ preferred_url: http://www.mathieuthomasset.fr/publications
   <section class="masonry-grid">
   <div class="grid-sizer"></div>
   <% data.publications.each do |y| %>
-    <div class="grid-item">
-      <% if y.vertical == "yes" %>
-        <%= image_tag y.picture, class: "img-responsive vertical" %>
-      <% else %>
-        <%= image_tag y.picture, class: "img-responsive" %>
-      <% end %>
-      <div class="caption"><%= y.caption %></div>
-    </div>
-  <% end %>
+  <div class="grid-item">
+    <% if y.vertical == "yes" %>
+      <%= image_tag "publications/#{y.picture}", class: "img-responsive vertical" %>
+    <% else %>
+      <%= image_tag "publications/#{y.picture}", class: "img-responsive" %>
+    <% end %>
+    <div class="caption"><%= y.caption %></div>
+  </div>
+<% end %>
+
 </section>
 
 </div>

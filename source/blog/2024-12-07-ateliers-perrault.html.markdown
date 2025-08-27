@@ -13,4 +13,4 @@ author:
 
 > ###Portrait pour le Financial Times de Jean-Louis Bidet, menuisier et chef de l'atelier de menuiserie des Ateliers Perrault qui ont eu en charge le chantier de reconstruction de la charpente du chœur de Notre-Dame de Paris.
 
-![picture alt](/images/publication_142.png "Portrait de Jean-Louis Bidet, Ateliers Perrault"){: .img-blog}
+![picture alt](/images/publications/publication_142.png "Portrait de Jean-Louis Bidet, Ateliers Perrault"){: .img-blog}

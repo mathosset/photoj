@@ -6,10 +6,12 @@
 @import url("vendor/animation.css");
 /* @import url("vendor/swipebox.css"); */
 
+/* === Espacements généraux === */
 .spacer { height: 1em; }
 .mid-spacer { height: 4em; }
 .big-spacer { height: 6em; }
 
+/* === Divers === */
 .thumbnail { border: 0; }
 .img-blog { width: 100%; }
 
@@ -30,78 +32,38 @@
 }
 
 /* --- Jspane --- */
-.jspane {
-  display: inline-block;
-  line-height: 0;
-  overflow: hidden;
-  position: relative;
-}
-
-.jspane img {
-  line-height: 0;
-  width: 100%;
-}
-
+.jspane { display: inline-block; line-height: 0; overflow: hidden; position: relative; }
+.jspane img { line-height: 0; width: 100%; }
 .jspane .text {
   background: rgba(255, 255, 255, 1);
   color: #5B91B9;
-  width: 100%;
-  height: 100%;
+  width: 100%; height: 100%;
   line-height: normal;
   padding: 2px 30px;
   position: absolute;
   top: 0; left: 0;
   box-sizing: border-box;
 }
-
-.jspane .text h1 {
-  font-size: 1.3em;
-  border-bottom: 1px dotted;
-  letter-spacing: -1px;
-}
-
-.jspane .text p {
-  color: #777;
-  font-size: 1.1em;
-  padding-top: 3px;
-}
+.jspane .text h1 { font-size: 1.3em; border-bottom: 1px dotted; letter-spacing: -1px; }
+.jspane .text p { color: #777; font-size: 1.1em; padding-top: 3px; }
 
 #next-post { display: inline; float: right; }
 #previous-post { display: inline; float: left; }
 
-/* body & headings */
-body {
-  font-family: 'Abel', sans-serif;
-  color: #777;
-}
-
-body h1 {
-  color: rgb(78, 75, 75);
-  font-size: 1.8em;
-  font-family: 'Roboto', sans-serif;
-}
+/* === Corps & titres === */
+body { font-family: 'Abel', sans-serif; color: #777; }
+body h1 { color: rgb(78, 75, 75); font-size: 1.8em; font-family: 'Roboto', sans-serif; }
 body h2 { font-size: 1.6em; }
-body h3 {
-  color: grey;
-  font-size: 1.3em;
-  font-family: 'Roboto', sans-serif;
-}
+body h3 { color: grey; font-size: 1.3em; font-family: 'Roboto', sans-serif; }
 .carousel-caption > h1 { color: #fff; }
 body p { font-size: 18px; }
 article p { font-size: 1.2em; }
-article h1 {
-  color: rgb(78, 75, 75);
-  font-size: 1.7em;
-}
+article h1 { color: rgb(78, 75, 75); font-size: 1.7em; }
 
 #logo { border-radius: 1%; }
 #fuveau { color: #BA6E4D; text-transform: uppercase; }
 #uk { color: #000; }
-#uk2 {
-  color: #5B91B9;
-  font-size: 1.5em;
-  text-transform: uppercase;
-}
+#uk2 { color: #5B91B9; font-size: 1.5em; text-transform: uppercase; }
 #upper { text-transform: uppercase; }
 #small { font-size: 1.1em; }
 
@@ -111,7 +73,6 @@ article h1 {
   padding-bottom: 2.5rem;
   background-color: #fff;
 }
-/* Titre éditorial */
 .home-intro h1 {
   font-size: clamp(1.6rem, 2vw + 1rem, 2.3rem);
   line-height: 1.3;
@@ -123,7 +84,7 @@ article h1 {
   margin: 0 0 1rem;
 }
 
-/* Carousel captions */
+/* === Carousel captions === */
 .carousel-caption h2 {
   font-size: clamp(2.2rem, 4vw, 3.2rem);
   font-weight: 700;
@@ -133,7 +94,6 @@ article h1 {
   text-shadow: 0 2px 4px rgba(0,0,0,0.6);
   margin-bottom: 0.6rem;
 }
-
 .carousel-caption h3 {
   font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 500;
@@ -143,76 +103,50 @@ article h1 {
   margin-bottom: 1rem;
 }
 
-/* grille publications */
-.masonry-grid {
-  margin: 0 auto; /* centre la grille */
-}
+/* === Masonry publications === */
+.masonry-grid { margin: 0 auto; }
+.grid-sizer, .grid-item { width: 25%; }
+.grid-item { margin-bottom: 20px; }
 
-.grid-sizer,
-.grid-item {
-  width: 25%; /* 4 colonnes par défaut */
-}
+@media (max-width: 1200px) { .grid-sizer, .grid-item { width: 33.3333%; } }
+@media (max-width: 992px) { .grid-sizer, .grid-item { width: 50%; } }
+@media (max-width: 576px) { .grid-sizer, .grid-item { width: 100%; } }
 
-.grid-item {
-  margin-bottom: 20px;
-}
-
-/* Responsive */
-@media (max-width: 1200px) {
-  .grid-sizer, .grid-item { width: 33.3333%; } /* 3 colonnes */
-}
-@media (max-width: 992px) {
-  .grid-sizer, .grid-item { width: 50%; } /* 2 colonnes */
-}
-@media (max-width: 576px) {
-  .grid-sizer, .grid-item { width: 100%; } /* 1 colonne */
-}
-
+.tirages-grid img { display:block; width:100%; height:auto; }
 .caption {
   margin-top: 8px;
   font-size: 0.95em;
   line-height: 1.4;
   color: #444;
-  text-align: center;       /* centrer la légende */
+  text-align: center;
   font-family: 'Roboto', sans-serif;
   background: #f2ecec;
   padding: 6px 10px;
-  /* border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1); */
 }
 
-/* --- Bloc formulaire --- */
+/* --- Lightbox variantes --- */
+.glightbox-clean .gdesc-inner .lightbox-variants img {
+  display:block; max-width:100%; height:auto; margin-bottom:12px;
+}
+
+/* === Formulaire === */
 #contactForm {
   background: #fafafa;
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
-
-form fieldset {
-  border: none;        /* supprime le liseré gris */
-  margin: 0;           /* supprime marges inutiles */
-  padding: 0;          /* supprime padding si tu veux un rendu plus plat */
-}
-
-#contactForm label {
-  font-weight: 600;
-  color: #444;
-  margin-bottom: 5px;
-}
-
+#contactForm label { font-weight: 600; color: #444; margin-bottom: 5px; }
 #contactForm .form-control {
   border-radius: 4px;
   border: 1px solid #ccc;
   box-shadow: none;
   transition: border-color 0.2s ease-in-out;
 }
-
 #contactForm .form-control:focus {
   border-color: #5B91B9;
   box-shadow: 0 0 5px rgba(91,145,185,0.3);
 }
-
 #contactForm button[type="submit"] {
   background-color: #5B91B9;
   border: none;
@@ -222,30 +156,185 @@ form fieldset {
   border-radius: 6px;
   transition: background-color 0.2s ease-in-out;
 }
-
-#contactForm button[type="submit"]:hover {
-  background-color: #487ba0;
-}
-
-/* --- Messages succès / erreur --- */
-#form-messages {
-  margin-bottom: 20px;
-}
-
+#contactForm button[type="submit"]:hover { background-color: #487ba0; }
+#form-messages { margin-bottom: 20px; }
 #form-messages .alert {
   padding: 12px 15px;
   border-radius: 5px;
   font-weight: 500;
 }
+#form-messages .alert-success { background-color: #d4edda; border: 1px solid #c3e6cb; color: #155724; }
+#form-messages .alert-danger { background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; }
 
-#form-messages .alert-success {
-  background-color: #d4edda;
-  border: 1px solid #c3e6cb;
-  color: #155724;
+.tirage-page .mockup { margin-top: 12px; }
+
+/* === Galerie tirages (grille boutique) === */
+.tirages-grid { margin: 0 auto; }
+.tirages-grid .grid-sizer, .tirages-grid .grid-item { width: 25%; }
+.tirages-grid .grid-item { margin-bottom: 30px; padding: 10px; } /* espace entre carrés */
+
+@media (max-width: 1200px) { .tirages-grid .grid-sizer, .tirages-grid .grid-item { width: 33.3333%; } }
+@media (max-width: 992px)  { .tirages-grid .grid-sizer, .tirages-grid .grid-item { width: 50%; } }
+@media (max-width: 576px)  { .tirages-grid .grid-sizer, .tirages-grid .grid-item { width: 100%; } }
+
+/* --- Passe-partout style Eric Canto --- */
+.tirage-card { text-align: center; margin-bottom: 40px; }
+
+.tirage-square {
+  width: 100%;
+  padding-top: 100%; /* carré */
+  position: relative;
 }
 
-#form-messages .alert-danger {
-  background-color: #f8d7da;
-  border: 1px solid #f5c6cb;
-  color: #721c24;
+.tirage-frame {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #fff;
+  padding: 30px; /* passe-partout */
+  border-radius: 0; /* coins carrés */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tirage-frame:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+}
+.tirage-frame img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 0;
+  display: block;
+}
+
+/* === Style éditorial tirage (version agrandie) === */
+.tirage-info {
+  padding-left: 30px;
+}
+
+.tirage-info h1 {
+  font-size: clamp(2rem, 3vw + 1rem, 3rem); /* très grand titre */
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-variant-caps: small-caps;
+  color: #111;
+  margin-bottom: 0.2rem;
+}
+
+.tirage-info .tirage-ref {
+  font-size: 1.8rem;   /* plus grand */
+  color: #666;
+  margin-bottom: 2.2rem;
+  font-weight: 500;
+}
+
+.tirage-info .tirage-description {
+  font-size: 1.75rem;   /* très lisible */
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+  color: #333;
+}
+
+.tirage-info h4 {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;   /* sous-titres tarifs */
+  font-weight: 600;
+  color: #111;
+}
+
+.tirage-info .tirage-prices li {
+  font-size: 1.6rem;  /* gros et lisible */
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+
+/* Infos sous l’image */
+.tirage-info { margin-top: 20px; }
+.tirage-title { font-size: 1em; font-weight: 700; color: #111; margin: 8px 0 4px; text-transform: uppercase; }
+.tirage-paper { font-size: 1.1em; color: #555; margin: 1px; }
+.tirage-price { font-size: 1.4em; font-weight: 700; color: #424242; }
+
+/* === Page détail tirage === */
+.tirage-page { margin-top: 20px; }
+.tirage-gallery { margin-bottom: 20px; }
+.tirage-main { margin-bottom: 15px; border: 1px solid #eee; padding: 5px; background: #fafafa; text-align: center; }
+.tirage-main img { max-width: 100%; height: auto; }
+.tirage-thumbs { display: flex; gap: 10px; margin-top: 10px; }
+.thumb-wrapper {
+  width: 80px; height: 80px;
+  border: 2px solid transparent;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden; background: #f9f9f9; cursor: pointer;
+}
+.thumb-wrapper.active { border: 2px solid #5B91B9; border-radius: 0; }
+.tirage-thumbs img.thumb { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+.tirage-info { padding-left: 30px; }
+.tirage-title { font-size: 2rem; font-weight: 600; }
+.tirage-ref { font-size: 0.9rem; color: #666; margin-bottom: 15px; }
+.tirage-description { font-size: 1.1rem; margin-bottom: 15px; }
+.tirage-paper { font-weight: 500; margin-bottom: 15px; }
+.tirage-prices { list-style: none; padding: 0; }
+.tirage-prices li { padding: 5px 0; border-bottom: 1px dotted #ddd; font-size: 1.05rem; }
+
+
+/* === STYLE PAGE TIRAGE (cohérent avec portraits.html, mais + grand) === */
+.tirage-info {
+  padding-left: 30px;
+}
+
+.tirage-title {
+  font-size: 2.1rem;   /* plus grand que portraits */
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.tirage-ref {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 18px;
+}
+
+.tirage-price {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 22px;
+}
+
+.tirage-description {
+  font-size: 1.2rem;   /* lisible mais sobre */
+  line-height: 1.6;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+.tirage-paper {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 18px;
+  color: #444;
+}
+
+.tirage-versions-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 20px 0 14px;
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+#Message {
+  min-height: 250px;  /* augmente la hauteur */
+  font-size: 1.6rem;  /* texte plus grand dans la zone */
+  line-height: 1.2;   /* améliore la lisibilité */
 }

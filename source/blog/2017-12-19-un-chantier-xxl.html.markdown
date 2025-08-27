@@ -14,5 +14,5 @@ Visite du chantier du Marché d'intérêt national MIN de Nantes, le deuxième d
 
 Publication dans le LE MONITEUR N°5952.
 
-![picture alt](/images/publication_15.jpg "chantier du Marché d'intérêt national MIN de Nantes"){: .img-blog}
+![picture alt](/images/publications/publication_15.jpg "chantier du Marché d'intérêt national MIN de Nantes"){: .img-blog}
 

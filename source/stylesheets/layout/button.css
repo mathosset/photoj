@@ -57,3 +57,89 @@
   color: white;
   /* border: 2px solid #5B91B9; */
 }
+
+/* Bouton moderne noir & blanc inversé */
+.btn-modern {
+  background: #fff;
+  color: #111 !important;
+  border: 2px solid #111;
+  border-radius: 4px;
+  padding: 12px 22px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  transition: background .2s ease, color .2s ease, border-color .2s ease, transform .15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.btn-modern:hover,
+.btn-modern:focus {
+  background: #111;
+  color: #fff !important;
+  border-color: #111;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* === Boutons radio stylisés (remplace l'ancien bloc) === */
+#price-options {
+  margin-top: 15px;
+}
+
+.price-option {
+  margin-bottom: 16px;
+}
+
+.price-option label {
+  display: flex;
+  align-items: center;
+  font-size: 1.35rem;          /* même taille que le sous-titre */
+  font-weight: 600;
+  color: #111;
+  cursor: pointer;
+}
+
+/* Le cercle externe */
+.price-option input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-sizing: border-box;
+
+  width: 24px;
+  height: 24px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background: #fff;
+
+  display: grid;               /* permet de centrer le ::before */
+  place-items: center;         /* centre parfaitement le point */
+  margin-right: 14px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+/* Le point noir centré */
+.price-option input[type="radio"]::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #000;
+
+  transform: scale(0);         /* caché par défaut */
+  transition: transform 120ms ease-in-out;
+}
+
+/* Quand sélectionné, le point apparaît au centre */
+.price-option input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.price-option span {
+  line-height: 1.45;
+}
+
