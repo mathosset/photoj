@@ -35,3 +35,4 @@ gem "nokogiri"
 
 gem 'net-ftp', require: 'net/ftp'
 
+gem 'uglifier', '>= 4.2'

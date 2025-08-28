@@ -216,6 +216,7 @@ DEPENDENCIES
   net-ftp
   nokogiri
   tzinfo-data
+  uglifier (>= 4.2)
   wdm (~> 0.1.0)
 
 BUNDLED WITH

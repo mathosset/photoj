@@ -1,0 +1,30 @@
+<%# source/partials/_tiragesfaq.erb %>
+<section class="tirages-faq container-fluid">
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <h2>FAQ</h2>
+      <div class="panel-group" id="faq-accordion">
+        <% data.tiragesfaq.each_with_index do |item, idx| %>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse"
+                   data-parent="#faq-accordion"
+                   href="#faq<%= idx %>"
+                   aria-expanded="false">
+                  <%= item.question %>
+                </a>
+              </h4>
+            </div>
+            <div id="faq<%= idx %>" class="panel-collapse collapse">
+              <div class="panel-body">
+                <%= item.answer %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+
