@@ -52,7 +52,7 @@
 
 /* === Corps & titres === */
 body { font-family: 'Abel', sans-serif; color: #777; }
-body h1 { color: rgb(78, 75, 75); font-size: 1.8em; font-family: 'Roboto', sans-serif; }
+body h1 { color: rgb(78, 75, 75); font-size: 1.8em; font-family: 'Roboto', sans-serif; font-weight: 900; }
 body h2 { font-size: 1.6em; }
 body h3 { color: grey; font-size: 1.3em; font-family: 'Roboto', sans-serif; }
 .carousel-caption > h1 { color: #fff; }
@@ -574,3 +574,139 @@ article h1 { color: rgb(78, 75, 75); font-size: 1.7em; }
   background: #fafafa;
   margin-bottom: 10px;
 }
+
+/* === Bandeau Tirages sur homepage === */
+.home-tirages {
+  padding: 30px 0;
+  background: #fafafa;
+  text-align: center;
+}
+
+.home-tirages h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.home-tirages .intro {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* Grille des tirages */
+.tirages-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* espace entre les cartes */
+  justify-content: center;
+}
+
+.tirages-preview .tirage-card {
+  flex: 1 1 calc(33.333% - 20px); /* 3 colonnes desktop */
+  max-width: calc(33.333% - 20px);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* carré harmonisé */
+.tirages-preview .tirage-square {
+  width: 100%;
+  padding-top: 100%; /* ratio carré */
+  position: relative;
+}
+
+.tirages-preview .tirage-frame {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #fff;
+  padding: 20px; /* effet passe-partout */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tirages-preview .tirage-frame:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.tirages-preview .tirage-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.tirages-preview .tirage-title {
+  font-size: 2rem;
+  margin-top: 12px;
+  font-weight: 600;
+  color: #111;
+}
+
+.tirages-preview .tirage-price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+  margin-top: 5px;
+}
+
+/* === Responsive === */
+@media (max-width: 992px) {
+  .tirages-preview .tirage-card {
+    flex: 1 1 calc(50% - 20px); /* 2 colonnes tablette */
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .tirages-preview .tirage-card {
+    flex: 1 1 100%; /* 1 colonne mobile */
+    max-width: 100%;
+  }
+
+  .home-tirages h2 {
+    font-size: 2.2rem;
+  }
+
+  .home-tirages .intro {
+    font-size: 1.5rem;
+  }
+
+  .tirages-preview .tirage-title {
+    font-size: 1.6rem;
+  }
+
+  .tirages-preview .tirage-price {
+    font-size: 1.4rem;
+  }
+}
+
+/* H2 global dans les containers type actualités */
+.container > h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #111;
+  text-align: center; /* optionnel si tu veux le centrer comme dans home-tirages */
+}
+
+/* Centrage uniquement des H2 ENTREPRISES, MEDIAS, PUBLICATIONS */
+.portraits-h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7rem; /* harmonisé avec home-tirages */
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0 15px;
+  color: #111;
+  letter-spacing: 0.05em; espace un peu les lettres pour l’élégance
+}
+

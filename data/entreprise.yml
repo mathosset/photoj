@@ -1,7 +1,3 @@
-- picture: virage-triptyque_01.jpg
-  caption: Portrait en triptyque de salariés de l'éditeur nantais Virage Group
-- picture: virage-triptyque_02.jpg
-  caption: Portrait en triptyque de salariés de l'éditeur nantais Virage Group
 - picture: dragon_03.jpg
   caption: Reportage pour le Grand Port maritime de Nantes Saint-Nazaire
 - picture: dragon_01.jpg
@@ -40,6 +36,10 @@
 - picture: FT-medef_02.jpg
   caption: Portrait de Bruno Fradet, manager de SDEI Ouest pour le Financial Times
   vertical: "yes"
+- picture: virage-triptyque_01.jpg
+  caption: Portrait en triptyque de salariés de l'éditeur nantais Virage Group
+- picture: virage-triptyque_02.jpg
+  caption: Portrait en triptyque de salariés de l'éditeur nantais Virage Group
 - picture: pelerin_03.jpg
   caption: Portrait de Père Sébastien Antoni, assomptionniste
 - picture: globetrotters-1.jpg

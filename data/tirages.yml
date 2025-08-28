@@ -34,13 +34,13 @@
     - label: "Tirage Edition Limitée signé & numéroté 33x48cm avec certificat"
       price: "180€"
 
-- id: Shinjuku
-  title: "Shinjuku"
+- id: SaigonSC
+  title: "Saïgon social club"
   year: 2024
-  original: "tirage3.jpg"
+  original: "tirage4.jpg"
   mockups:
   description: >
-     Tirage Open Edition signé imprimé sur papier Epson Premium Luster,
+     Tirage Open Edition signé imprimé sur papier Epson Premium Luster ou 
      Tirage Edition Limitée signé et numéroté, imprimé sur papier Epson Mat Archival et limité à 30 exemplaires.
   default_price: "50€"
   prices:
@@ -52,13 +52,13 @@
     - label: "Tirage Edition Limitée signé & numéroté 33x48cm avec certificat"
       price: "180€"
 
-- id: SaigonSC
-  title: "Saïgon social club"
+- id: Shinjuku
+  title: "Shinjuku"
   year: 2024
-  original: "tirage4.jpg"
+  original: "tirage3.jpg"
   mockups:
   description: >
-     Tirage Open Edition signé imprimé sur papier Epson Premium Luster ou 
+     Tirage Open Edition signé imprimé sur papier Epson Premium Luster,
      Tirage Edition Limitée signé et numéroté, imprimé sur papier Epson Mat Archival et limité à 30 exemplaires.
   default_price: "50€"
   prices:

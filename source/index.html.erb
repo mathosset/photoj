@@ -38,7 +38,6 @@ preferred_url: "http://www.mathieuthomasset.fr"
     -->
 </header>
 <section class="home-intro">
-  <%# <div class="spacer"></div> %>
   <div class="container">
     <div class="row">
       <div class="col-sm-3">
@@ -57,8 +56,39 @@ preferred_url: "http://www.mathieuthomasset.fr"
     </div>
   </div>
 </section>
+<section class="home-tirages">
+  <div class="container-fluid text-center">
+    <h2>TIRAGES D’ART</h2>
+    <p class="intro">
+      Découvrez une sélection de mes photographies disponibles en 
+      <strong>Open Edition</strong> ou en <strong>Éditions Limitées</strong>, signées et numérotées.
+    </p>
+    <div class="row tirages-preview">
+      <% data.tirages.first(3).each do |t| %>
+        <div class="col-sm-4 tirage-card">
+          <a href="/tirages/<%= t.id %>.html" class="tirage-link">
+            <div class="tirage-square">
+              <div class="tirage-frame">
+                <%= image_tag "tirages/#{t.original}", class: "tirage-img", alt: "#{t.title} — #{t.year}" %>
+              </div>
+            </div>
+            <h3 class="tirage-title"><%= t.title %></h3>
+            <p class="tirage-price"><%= t.default_price %></p>
+          </a>
+        </div>
+      <% end %>
+    </div>
+    <a href="/tirages.html" class="btn-modern">
+      <i class="fa fa-camera"></i> Voir la galerie complète
+    </a>
+    <div class="spacer"></div>
+  </div>
+</section>
+<div class="mid-spacer">
 <div class="container">
-  <%# <div class="mid-spacer"></div> %>
+  <div class="spacer"></div>
+  <h2>ACTUALITES</h2>
+  <div class="spacer"></div>
   <div class="row">
     <% (data.homecards || []).each_with_index do |y, index| %>
       <div class="col-xs-12 col-sm-4">
@@ -75,6 +105,9 @@ preferred_url: "http://www.mathieuthomasset.fr"
     <% end %>
   </div>
   <div class="spacer"></div>
+</div>
+<div class="container">
+  <h2>PUBLICATIONS</h2>
   <div class="row">
     <div class="col-sm-12">
       <p><%= partial 'layouts/bofpublications' %></p>
