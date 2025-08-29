@@ -1,51 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Page d'accueil -->
   <url>
     <loc>http://www.mathieuthomasset.fr/</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-08-28</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Pages principales -->
   <url>
     <loc>http://www.mathieuthomasset.fr/portraits</loc>
-    <lastmod>2021-07-06</lastmod>
+    <lastmod>2025-08-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
-  <url>
-    <loc>http://www.mathieuthomasset.fr/corporate</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
   <url>
     <loc>http://www.mathieuthomasset.fr/entreprise</loc>
-    <lastmod>2021-07-06</lastmod>
+    <lastmod>2025-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>http://www.mathieuthomasset.fr/publications</loc>
-    <lastmod>2021-07-06</lastmod>
+    <lastmod>2025-08-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>http://www.mathieuthomasset.fr/entreprise</loc>
-    <lastmod>2021-07-06</lastmod>
+    <loc>http://www.mathieuthomasset.fr/tirages</loc>
+    <lastmod>2025-08-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
+
+  <url>
+    <loc>http://www.mathieuthomasset.fr/contact</loc>
+    <lastmod>2025-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Pages secondaires -->
   <url>
     <loc>http://www.mathieuthomasset.fr/blog</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2025-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>http://www.mathieuthomasset.fr/bio</loc>
-    <lastmod>2021-07-06</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-08-28</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
+
 </urlset>
