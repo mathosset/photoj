@@ -32,6 +32,26 @@
       <link rel="canonical" href="<%= current_page.data.preferred_url %>">
     <% end %>
 
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Mathieu Thomasset Photographe",
+      "url": "https://www.mathieuthomasset.fr",
+      "telephone": "",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Montaigu-Vendée",
+        "addressRegion": "Pays de la Loire",
+        "addressCountry": "FR"
+      },
+      "description": "Photographe professionnel en Vendée. Portraits, reportages corporate et presse pour entreprises, institutions et médias.",
+      "priceRange": "€€",
+      "areaServed": ["Vendée", "Pays de la Loire", "Grand Ouest"]
+    }
+    </script>
+
     <!-- Styles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
