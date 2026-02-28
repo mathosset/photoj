@@ -1,6 +1,7 @@
 - id: NewShinmachi
   title: "ニューシンマチ"
   year: 2024
+  alt: "ニューシンマチ — Tirage photo noir et blanc Japon 2024 Mathieu Thomasset"
   original: "tirage1.jpg"
   mockups:
   description: >
@@ -19,6 +20,7 @@
 - id: Kyoto2
   title: "Écho urbain"
   year: 2024
+  alt: "Écho urbain — Tirage photo Kyoto 2024 Mathieu Thomasset"
   original: "tirage2.jpg"
   mockups:
   description: >
@@ -37,6 +39,7 @@
 - id: SaigonSC
   title: "Saïgon social club"
   year: 2024
+  alt: "Saïgon social club — Tirage photo Vietnam 2024 Mathieu Thomasset"
   original: "tirage4.jpg"
   mockups:
   description: >

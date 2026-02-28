@@ -1,6 +1,6 @@
 ---
 title: "Photographe en Vendée – Portrait & Reportage | Mathieu Thomasset"
-description: "Photographe portrait et reportage basé à Montaigu-Vendée. Entreprises, institutions, presse, artisanat et monde agricole : reportages, portraits corporate et savoir-faire documentés avec authenticité dans le Grand Ouest."
+description: "Mathieu Thomasset, photographe professionnel en Vendée. Portraits, reportages corporate et presse pour entreprises, institutions et médias. Basé à Montaigu, intervient dans tout le Grand Ouest."
 preferred_url: "http://www.mathieuthomasset.fr"
 ---
 
@@ -69,7 +69,7 @@ preferred_url: "http://www.mathieuthomasset.fr"
           <a href="/tirages/<%= t.id %>.html" class="tirage-link">
             <div class="tirage-square">
               <div class="tirage-frame">
-                <%= image_tag "tirages/#{t.original}", class: "tirage-img", alt: "#{t.title} — #{t.year}" %>
+                <%= image_tag "tirages/#{t.original}", class: "tirage-img", alt: t.alt || "#{t.title} — #{t.year}" %>
               </div>
             </div>
             <h3 class="tirage-title"><%= t.title %></h3>
