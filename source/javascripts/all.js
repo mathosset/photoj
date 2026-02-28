@@ -138,7 +138,7 @@ $(document).ready(function() {
       $('#selected-price').text(versionPrice);
 
       // Met à jour le bouton Commander
-      const newUrl = `/demande-de-contact.html?tirage=${encodeURIComponent(tirageName)}&label=${encodeURIComponent(versionLabel)}&prix=${encodeURIComponent(versionPrice)}`;
+      const newUrl = `/demande-de-contact?tirage=${encodeURIComponent(tirageName)}&label=${encodeURIComponent(versionLabel)}&prix=${encodeURIComponent(versionPrice)}`;
       commanderBtn.setAttribute('href', newUrl);
     }
 

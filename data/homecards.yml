@@ -1,193 +1,193 @@
 # - picture: portrait_stephane-geffroy.jpg
-#   page: portraits.html
+#   page: portraits
 #   title: "Stephane Geffroy"
 #   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
 #   category: "Portraits"
 
 # - picture: publication_137.jpg
-#   page: vendee-globe.html
+#   page: vendee-globe
 #   title: "Vendée Globe Monochrome"
 #   caption: "Vendée"
 #   category: "Série"
 
 - picture: vendee-globe_01.jpg
-  page: vendee-globe.html
+  page: vendee-globe
   title: "Vendée Globe Monochrome"
   caption: "Vendée"
   category: "Série"
 
 - picture: portrait-jlbidet.jpg
-  page: ateliers-perrault.html 
+  page: ateliers-perrault
   title: "Portrait pour le Financial Times"
   caption: "Maine-et-Loire"
   category: "Portrait Presse"
 
 - picture: depart-vg_01.jpg
-  page: depart-vendee-globe.html
+  page: depart-vendee-globe
   title: "Départ du Vendée Globe"
   caption: "Vendée"
   category: "Presse"
 
 # - picture: LaGouriniere_Yannick_01.jpg
-#   page: portrait-yannick-vendee.html
+#   page: portrait-yannick-vendee
 #   title: "Portraits à la ferme"
 #   caption: "Vendée"
 #   category: "Portrait"
 
 # - picture: LaGouriniere_PAUL_04.jpg
-#   page: portrait-paul-vendee.html
+#   page: portrait-paul-vendee
 #   title: "Portraits à la ferme"
 #   caption: "Vendée"
 #   category: "Portrait"
 
 # - picture: LaGouriniere_Isabelle_01.jpg
-#   page: portrait-isabelle-vendee.html
+#   page: portrait-isabelle-vendee
 #   title: "Portraits à la ferme"
 #   caption: "Vendée"
 #   category: "Portrait"
 
 - picture: dragon_03.jpg
-  page: port-nantes-saint-nazaire.html
+  page: port-nantes-saint-nazaire
   title: "Grand Port Maritime de Nantes-Saint-Nazaire"
   caption: "Industrie"
   category: "Corporate"
 
 - picture: LaGouriniere_PAUL_10.jpg
-  page: portrait-michel-vendee.html
+  page: portrait-michel-vendee
   title: "Portraits à la ferme"
   caption: "Vendée"
   category: "Portrait"
 
 # - picture: LaGouriniere_Alexis-Jeremie_03.jpg
-#   page: portrait-alexisetjeremie-vendee.html
+#   page: portrait-alexisetjeremie-vendee
 #   title: "Portraits à la ferme"
 #   caption: "Vendée"
 #   category: "Portrait"
 
 # - picture: LaGouriniere_Remi_02.jpg
-#   page: portrait-remi-vendee.html
+#   page: portrait-remi-vendee
 #   title: "Portraits à la ferme"
 #   caption: "Vendée"
 #   category: "Portrait"
 
 - picture: bruno-retailleau_06.jpg
-  page: portrait-de-bruno-retailleau-pour-le-jdd.html
+  page: portrait-de-bruno-retailleau-pour-le-jdd
   title: "Portrait de Bruno Retailleau pour le JDD"
   caption: "Vendée"
   category: "Portrait Presse"
 
 
 # - picture: FT-medef_04.jpg
-#   page: portraits.html
+#   page: portraits
 #   title: "Portraits d'entrepreneurs pour le Financial Times"
 #   caption: "Vendée"
 #   category: "Portrait Presse"
 
 # - picture: confinement_02.jpg
-#   page: journal-de-confinement.html
+#   page: journal-de-confinement
 #   title: "Journal d'un confinement"
 #   caption: "Nantes"
 #   category: "Blog"
 
 # - picture: run-energie_01.jpg
-#   page: vent-vert-sur-la-reunion.html
+#   page: vent-vert-sur-la-reunion
 #   title: "Vent vert sur la Réunion"
 #   caption: "La Réunion"
 #   category: "Blog"
 
 # - picture: blog/mobilisation-pronddl_01.jpg
-#   page: mobilisation-pronddl.html
+#   page: mobilisation-pronddl
 #   title: "Mobilisation des pro-NDDL"
 #   caption: "Les riverains de l'aéroport en colère"
 #   category: "News"
 
 # - picture: ouestlajustice_01.jpg
-#   page: ou-est-la-justice.html
+#   page: ou-est-la-justice
 #   title: "Où est la Justice ?"
 #   caption: "Disparition de Steve Maia Caniço à Nantes"
 #   category: "News"
 
 # - picture: portrait_stephane-geffroy.jpg
-#   page: portraits.html
+#   page: portraits
 #   title: "Photographe portrait en Vendée"
 #   caption: "Grand Ouest"
 #   category: "Portrait"
 
 # - picture: blog/tgo_01.jpg
-#   page: terminal-grand-ouest.html
+#   page: terminal-grand-ouest
 #   title: "Terminal Grand Ouest"
 #   caption: "Saint-Nazaire"
 #   category: "Corporate"
 
 # - picture: 44BZH_01.jpg
-#   page: 44-breizh.html
+#   page: 44-breizh
 #   title: "44 = BREIZH"
 #   caption: "Nantes"
 #   category: "News"
-  
+
 # - picture: blog/chantierXXL_01.jpg
-#   page: un-chantier-xxl.html
+#   page: un-chantier-xxl
 #   title: "Un chantier XXL"
 #   caption: "Min de Nantes"
 #   category: "News"
 
 # - picture: portrait-virage_01.jpg
-#   page: viragegroup.html
+#   page: viragegroup
 #   title: "Virage Group"
 #   caption: "Nantes"
 #   category: "Corporate"
 
 # - picture: emeutes-nantes_01.jpg
-#   page: emeutes-nantes.html
+#   page: emeutes-nantes
 #   title: "Vent de révolte à Nantes"
 #   caption: "Nantes"
 #   category: "News"
 
 # - picture: blog/foulee-gois-01.jpg
-#   page: les-foulees-du-gois.html
+#   page: les-foulees-du-gois
 #   title: "Les Foulées du Gois"
 #   caption: "Noirmoutier"
 #   category: "Blog"
 
 # - picture: blog/centrale-solaire_01.jpg
-#   page: la-plus-grande-centrale-solaire-des-pays-de-la-loire.html
+#   page: la-plus-grande-centrale-solaire-des-pays-de-la-loire
 #   title: "Energie solaire"
 #   caption: "La plus grande centrale solaire des Pays de la Loire"
 #   category: "Blog"
 
 
 # - picture: blog/route-chicanes_02.jpg
-#   page: la-route-des-chicanes.html
+#   page: la-route-des-chicanes
 #   title: "La route des chicanes"
 #   caption: "Notre Dame-des-Landes"
 #   category: "News"
 
 # - picture: globetrotters-1.jpg
-#   page: globetrotters.html
+#   page: globetrotters
 #   title: "D'ici et d'ailleurs"
 #   caption: "Le retour du voyageur au long cours"
 #   category: "Portraits"
 
 # - picture: lartdemanifester.jpg
-#   page: multimedia.html
+#   page: multimedia
 #   title: "L'art de manifester"
 #   caption: "Quelle est la place de la manifestation dans notre société ?"
 #   category: "Multimedia"
 
 # - picture: blog/Nantes-Food-Forum_02.jpg
-#   page: nantes-food-forum-2017.html
+#   page: nantes-food-forum-2017
 #   title: "Nantes Food Forum"
 #   caption: "Morceaux choisis"
 #   category: "Blog"
 
 # - picture: publication_06.jpg
-#   page: publications.html
+#   page: publications
 #   title: "Grand Angle - PELERIN N°6962"
 #   caption: "Dans les coulisses du journal Pèlerin"
 #   category: "Publications"
 
 # - picture: portraitmathieu-1.jpg
-#   page: bio.html
+#   page: bio
 #   title: "Parcours et Contact"
 #   caption: "Photographe indépendant basé à Nantes"
 #   category: "Bio"

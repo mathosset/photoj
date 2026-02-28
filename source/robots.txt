@@ -1,6 +1,6 @@
 User-agent: *
 Disallow: /favicon.ico
-Disallow: /confirmation-de-contact.html
+Disallow: /confirmation-de-contact
 
 User-agent: Googlebot-Image
 Disallow:

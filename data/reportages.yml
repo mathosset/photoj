@@ -1,59 +1,59 @@
 - picture: bruno-retailleau_06.jpg
-  page: portrait-de-bruno-retailleau-pour-le-jdd.html
+  page: portrait-de-bruno-retailleau-pour-le-jdd
   title: "Portrait pour le JDD"
   # caption: "Nantes"
   category: "Portrait Presse"
 - picture: ouestlajustice_01.jpg
-  page: ou-est-la-justice.html
+  page: ou-est-la-justice
   title: "Où est la Justice ?"
   # caption: "Disparition de Steve Maia Caniço"
   category: "News"
 - picture: publication_23.jpg
-  page: publications.html
+  page: publications
   title: "PUBLICATIONS"
   # caption: "Nantes"
   category: "Presse"
 - picture: marie_16.jpg
-  page: entre-ciel-et-terre.html
+  page: entre-ciel-et-terre
   title: "Marie et les filles"
   # caption: "La Réunion"
   category: "Reportage"
 - picture: pelerin_21.jpg
-  page: coulissespelerin.html
+  page: coulissespelerin
   title: "Dans les coulisses d'une rédaction"
   # caption: "La Réunion"
-  category: "Reportage"  
+  category: "Reportage"
 - picture: blog/chantierXXL_01.jpg
-  page: un-chantier-xxl.html
+  page: un-chantier-xxl
   title: "Un chantier XXL"
   # caption: "Min de Nantes"
   category: "News"
 - picture: blog/route-chicanes_02.jpg
-  page: la-route-des-chicanes.html
+  page: la-route-des-chicanes
   title: "La route des chicanes"
   # caption: "Notre Dame-des-Landes"
   category: "News"
 - picture: 44BZH_01.jpg
-  page: 44-breizh.html
+  page: 44-breizh
   title: "44 = BREIZH"
   # caption: "Nantes"
-  category: "News"  
+  category: "News"
 - picture: emeutes-nantes_01.jpg
-  page: emeutes-nantes.html
+  page: emeutes-nantes
   title: "Vent de révolte à Nantes"
   category: "News"
 - picture: blog/mobilisation-pronddl_01.jpg
-  page: mobilisation-pronddl.html
+  page: mobilisation-pronddl
   title: "Mobilisation des pro-NDDL"
   # caption: "Les riverains de l'aéroport en colère"
   category: "News"
 - picture: philharmonie_01.jpg
-  page: philharmonie.html
+  page: philharmonie
   title: "Behind the scene"
   # caption: "Les riverains de l'aéroport en colère"
   category: "Reportage"
 - picture: lartdemanifester.jpg
-  page: multimedia.html
+  page: multimedia
   title: "L'art de manifester"
   # caption: "Quelle est la place de la manifestation dans notre société ?"
   category: "Multimedia"
