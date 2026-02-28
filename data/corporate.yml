@@ -1,89 +1,89 @@
 - picture: portrait-virage_01.jpg
-  page: viragegroup.html
+  page: viragegroup
   title: "Virage Group"
   caption: "Nantes"
   category: "Portrait"
 
 - picture: dragon_03.jpg
-  page: port-nantes-saint-nazaire.html
+  page: port-nantes-saint-nazaire
   title: "Grand Port Maritime Nantes-Saint-Nazaire"
   caption: "Nantes"
   category: "Reportage"
 
 - picture: capacites_02.jpg
-  page: capacites.html
+  page: capacites
   title: "Université de Nantes"
   caption: "Nantes"
   category: "Evénementiel"
 
 - picture: cogelec_01.jpg
-  page: cogelec.html
+  page: cogelec
   title: "Les Echos Publishing"
   caption: "Vendée"
   category: "Portrait"
 
 - picture: promus_03.jpg
-  page: promus.html
+  page: promus
   title: "Les Echos Publishing"
   caption: "Nantes"
   category: "Portrait"
 
 - picture: ouestmedialab_01.jpg
-  page: ouestmedialab.html
+  page: ouestmedialab
   title: "OuestMedialab SpeedTraining"
   caption: "Nantes"
   category: "Evénementiel"
 
 # - picture: port-nantes_03.jpg
-#   page: port-nantes-chevire.html
+#   page: port-nantes-chevire
 #   title: "Port de Nantes"
 #   caption: "Nantes"
 #   category: "Reportage"
 
 - picture: blog/tgo_01.jpg
-  page: tgo.html
+  page: tgo
   title: "Terminal Grand Ouest"
   caption: "Saint-Nazaire"
   category: "Reportage"
 
 - picture: portraitjulien-1.jpg
-  page: portraits.html
+  page: portraits
   title: "Porfolio portraits"
   caption: "Nantes"
   category: "Portrait"
 
 - picture: blog/foulee-gois-01.jpg
-  page: les-foulees-du-gois.html
+  page: les-foulees-du-gois
   title: "Les foulées du Gois"
   caption: "Noirmoutier"
   category: "Evénementiel"
 
 - picture: philharmonie_08.jpg
-  page: philharmonie.html
+  page: philharmonie
   title: "Dans les coulisses de la Philharmonie"
   caption: "Paris"
   category: "Reportage"
 
 - picture: lartdemanifester.jpg
-  page: multimedia.html
+  page: multimedia
   title: "Diaporama sonore"
   caption: ""
   category: "Reportage"
 
 - picture: pelerin_21.jpg
-  page: coulissespelerin.html
+  page: coulissespelerin
   title: "Dans les coulisses d'une rédaction"
   caption: "Montrouge"
   category: "Reportage"
 
 # - picture: marie_21.jpg
-#   page: entre-ciel-et-terre.html
+#   page: entre-ciel-et-terre
 #   title: "Marie et les filles"
 #   caption: "Saint germain-en-laye"
 #   category: "Reportage"
 
 # - picture: otto_01.jpg
-#   page: otto10.html
+#   page: otto10
 #   title: "OTTO10 : Que votre volonté soit fête !"
 #   caption: "Paris"
 #   category: "Evénementiel"

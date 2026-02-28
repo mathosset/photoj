@@ -16,7 +16,7 @@
   subtitle: "Presse - Corporate - Entreprise - Industrie - Artisans"
 
 # - picture: planche-contact_02B.jpg
-#   page: viragegroup.html
+#   page: viragegroup
 #   category: "PORTRAIT"
 #   title: "Portraits de salariés en studio mobile"
 
@@ -49,19 +49,19 @@
 #   caption: "Quelques semaines dans la vie de la rédaction du journal Pèlerin au contact de ceux qui font cet hebdomadaire créé en 1873 et édité par le groupe de presse indépendant Bayard."
 
 # - picture: blog/Nantes-Food-Forum_06.jpg
-#   page: nantes-food-forum-2017.html
+#   page: nantes-food-forum-2017
 #   category: "NEWS"
 #   title: "Nantes Food Forum 2017"
 #   caption: "Première édition du Nantes Food Forum autour du thème manger demain."
 
 # - picture: marseille-reborn_01.jpg
-#   page: marseille-reborn.html
+#   page: marseille-reborn
 #   category: "STORIES"
 #   title: "Marseille reborn"
 #   caption: "Le renouveau du quartier de la Joliette à Marseille, épicentre du renouveau culturel de la ville. Cet ensemble s'inscrit dans le projet Marseille Euroméditerranée, la plus grande opération de rénovation urbaine d'Europe du Sud, qui, en près de vingt, a refaçonné le visage de la ville."
 
 # - picture: tentes_01.jpg
-#   page: tentes-migrants.html
+#   page: tentes-migrants
 #   category: "NEWS"
 #   title: "Des benevoles se mobilisent pour aider les migrants"
 #   caption: "La maire de Paris, Anne Hidalgo, a annoncé la mise à disposition d’un camps humanitaire aux normes internationales pour accueillir les réfugiés d’ici à la mi septembre. En attendant des bénévoles se regroupent pour apporter une aide concrète et immédiate aux réfugiés."

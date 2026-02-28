@@ -66,7 +66,7 @@ preferred_url: "http://www.mathieuthomasset.fr"
     <div class="row tirages-preview">
       <% data.tirages.first(3).each do |t| %>
         <div class="col-sm-4 tirage-card">
-          <a href="/tirages/<%= t.id %>.html" class="tirage-link">
+          <a href="/tirages/<%= t.id %>" class="tirage-link">
             <div class="tirage-square">
               <div class="tirage-frame">
                 <%= image_tag "tirages/#{t.original}", class: "tirage-img", alt: t.alt || "#{t.title} — #{t.year}" %>
@@ -78,7 +78,7 @@ preferred_url: "http://www.mathieuthomasset.fr"
         </div>
       <% end %>
     </div>
-    <a href="/tirages.html" class="btn-modern">
+    <a href="/tirages" class="btn-modern">
       <i class="fa fa-camera"></i> Voir la galerie complète
     </a>
     <div class="spacer"></div>
