@@ -4,17 +4,13 @@
   _src  = File.dirname(File.dirname(blog.articles.first.source_file))
   _root = File.dirname(_src)
 
-  def _mtime(path)
-    File.mtime(path).strftime('%Y-%m-%d')
-  rescue
-    Date.today.iso8601
-  end
+  _mtime = ->(path) { File.mtime(path).strftime('%Y-%m-%d') rescue Date.today.iso8601 }
 %>
 
   <!-- ===================== PAGE D'ACCUEIL ===================== -->
   <url>
     <loc>https://www.mathieuthomasset.fr/</loc>
-    <lastmod><%= _mtime(File.join(_src, 'index.html.erb')) %></lastmod>
+    <lastmod><%= _mtime.(File.join(_src, 'index.html.erb')) %></lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -29,7 +25,7 @@
   ].each do |p| %>
   <url>
     <loc>https://www.mathieuthomasset.fr<%= p[:loc] %></loc>
-    <lastmod><%= _mtime(File.join(_src, p[:file])) %></lastmod>
+    <lastmod><%= _mtime.(File.join(_src, p[:file])) %></lastmod>
     <changefreq><%= p[:freq] %></changefreq>
     <priority><%= p[:pri] %></priority>
   </url>
@@ -43,7 +39,7 @@
   ].each do |p| %>
   <url>
     <loc>https://www.mathieuthomasset.fr<%= p[:loc] %></loc>
-    <lastmod><%= _mtime(File.join(_src, p[:file])) %></lastmod>
+    <lastmod><%= _mtime.(File.join(_src, p[:file])) %></lastmod>
     <changefreq><%= p[:freq] %></changefreq>
     <priority><%= p[:pri] %></priority>
   </url>
@@ -59,14 +55,14 @@
   ].each do |p| %>
   <url>
     <loc>https://www.mathieuthomasset.fr<%= p[:loc] %></loc>
-    <lastmod><%= _mtime(File.join(_src, p[:file])) %></lastmod>
+    <lastmod><%= _mtime.(File.join(_src, p[:file])) %></lastmod>
     <changefreq><%= p[:freq] %></changefreq>
     <priority><%= p[:pri] %></priority>
   </url>
   <% end %>
 
   <!-- ===================== PAGES DE TIRAGES ===================== -->
-  <% _tirages_mtime = _mtime(File.join(_root, 'data', 'tirages.yml')) %>
+  <% _tirages_mtime = _mtime.(File.join(_root, 'data', 'tirages.yml')) %>
   <% data.tirages.each do |t| %>
   <url>
     <loc>https://www.mathieuthomasset.fr/tirages/<%= t.id %></loc>
