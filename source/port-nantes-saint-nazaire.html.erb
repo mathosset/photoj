@@ -9,7 +9,7 @@ preferred_url: "https://www.mathieuthomasset.fr/port-nantes-saint-nazaire"
   <div class="row">
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-3 col-md-offset-1">
-      <%= image_tag "logo-portnantes.jpg", width: "50%" %>
+      <%= image_tag "logo-portnantes.jpg", width: "50%" , loading: "lazy" %>
       <p>Client : <span id="uk">Grand Port Maritime Nantes-Saint-Nazaire</span></br></br>
       Reportage à Saint-Nazaire pour le déchangement du voilier cargo Grain Sail qui rapporte 33 tonnes de cacao bio en provenance de la République Dominicaine.</p>
       <div class="spacer"></div>
@@ -21,9 +21,9 @@ preferred_url: "https://www.mathieuthomasset.fr/port-nantes-saint-nazaire"
         <div class="col-xs-12 col-sm-6">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
-              <%= image_tag y.picture, width: "80%", class: "center-block" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" , loading: "lazy" %>
             <% else %>
-              <%= image_tag y.picture, width: "100%" %>
+              <%= image_tag y.picture, width: "100%" , loading: "lazy" %>
             <% end %>
           </a>
           <p><%= y.caption %></p>
@@ -45,9 +45,9 @@ preferred_url: "https://www.mathieuthomasset.fr/port-nantes-saint-nazaire"
         <div class="col-xs-12 col-sm-6">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
-              <%= image_tag y.picture, width: "80%", class: "center-block" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" , loading: "lazy" %>
             <% else %>
-              <%= image_tag y.picture, width: "100%" %>
+              <%= image_tag y.picture, width: "100%" , loading: "lazy" %>
             <% end %>
           </a>
           <p><%= y.caption %></p>
@@ -59,7 +59,7 @@ preferred_url: "https://www.mathieuthomasset.fr/port-nantes-saint-nazaire"
   <div class="row">
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-3 col-md-offset-1">
-  <!--     <%= image_tag "logo-portnantes.jpg", width: "50%" %>
+  <!--     <%= image_tag "logo-portnantes.jpg", width: "50%" , loading: "lazy" %>
       <p>Client : <span id="uk">Grand Port Maritime Nantes-Saint-Nazaire</span></br></br> -->
      <p>Reportage sur les quais du Grand Port Maritime Nantes-Saint-Nazaire pour le chargement d'un dragon de 72 tonnes fabriqué par la Compagnie La Machine en partence pour la ville de Calais.</p>
       <div class="spacer"></div>
@@ -71,9 +71,9 @@ preferred_url: "https://www.mathieuthomasset.fr/port-nantes-saint-nazaire"
         <div class="col-xs-12 col-sm-6">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
-              <%= image_tag y.picture, width: "80%", class: "center-block" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" , loading: "lazy" %>
             <% else %>
-              <%= image_tag y.picture, width: "100%" %>
+              <%= image_tag y.picture, width: "100%" , loading: "lazy" %>
             <% end %>
           </a>
           <p><%= y.caption %></p>
@@ -85,7 +85,7 @@ preferred_url: "https://www.mathieuthomasset.fr/port-nantes-saint-nazaire"
   <div class="row">
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-3 col-md-offset-1">
-<!--       <%= image_tag "logo-portnantes.jpg", width: "50%" %>
+<!--       <%= image_tag "logo-portnantes.jpg", width: "50%" , loading: "lazy" %>
       <p>Client : <span id="uk">Grand Port Maritime Nantes-Saint-Nazaire</span></br></br> -->
       <p>Reportage de nuit pour la mise en place du pivot sur le pont métallique du Pertuis au port de Saint-Nazaire.</p>
       <div class="spacer"></div>
@@ -97,9 +97,9 @@ preferred_url: "https://www.mathieuthomasset.fr/port-nantes-saint-nazaire"
         <div class="col-xs-12 col-sm-6">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
-              <%= image_tag y.picture, width: "80%", class: "center-block" %>
+              <%= image_tag y.picture, width: "80%", class: "center-block" , loading: "lazy" %>
             <% else %>
-              <%= image_tag y.picture, width: "100%" %>
+              <%= image_tag y.picture, width: "100%" , loading: "lazy" %>
             <% end %>
           </a>
           <p><%= y.caption %></p>

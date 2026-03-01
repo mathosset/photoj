@@ -28,9 +28,9 @@ preferred_url: "https://www.mathieuthomasset.fr/publications"
   <% data.publications.each do |y| %>
   <div class="grid-item">
     <% if y.vertical == "yes" %>
-      <%= image_tag "publications/#{y.picture}", class: "img-responsive vertical" %>
+      <%= image_tag "publications/#{y.picture}", class: "img-responsive vertical" , loading: "lazy" %>
     <% else %>
-      <%= image_tag "publications/#{y.picture}", class: "img-responsive" %>
+      <%= image_tag "publications/#{y.picture}", class: "img-responsive" , loading: "lazy" %>
     <% end %>
     <div class="caption"><%= y.caption %></div>
   </div>

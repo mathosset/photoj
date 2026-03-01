@@ -9,7 +9,7 @@
       <div class="tirage-main">
         <!-- Image principale -->
         <a href="<%= image_path "tirages/#{tirage.original}" %>" class="main-lightbox">
-          <%= image_tag "tirages/#{tirage.original}", class: "img-responsive main-image", alt: "#{tirage.title} — #{tirage.year}" %>
+          <%= image_tag "tirages/#{tirage.original}", class: "img-responsive main-image", alt: "#{tirage.title} — #{tirage.year}" , loading: "lazy" %>
         </a>
       </div>
 
@@ -20,6 +20,7 @@
             src="<%= image_path "tirages/#{tirage.original}" %>"
             data-large="<%= image_path "tirages/#{tirage.original}" %>"
             class="img-responsive thumb"
+            loading="lazy"
             alt="<%= tirage.title %> — original">
         </div>
 
@@ -29,6 +30,7 @@
               src="<%= image_path "tirages/#{m}" %>"
               data-large="<%= image_path "tirages/#{m}" %>"
               class="img-responsive thumb"
+              loading="lazy"
               alt="<%= tirage.title %> — mise en scène">
           </div>
         <% end %>

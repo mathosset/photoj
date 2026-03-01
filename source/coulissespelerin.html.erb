@@ -16,7 +16,7 @@ preferred_url: "https://www.mathieuthomasset.fr/coulissespelerin"
       </br>
       <p>Quelques semaines dans la vie de la rédaction du journal Pèlerin au contact de ceux qui font cet hebdomadaire créé en 1873 et édité par le groupe de presse indépendant Bayard.</br>Chaque numéro mobilise une équipe de 64 personnes : 46 membres de la rédaction dont 41 journalistes, ainsi que les services communication, publicité, diffusion, fabrication...</br></br>
       <% link_to "publications" do %>
-        <%= image_tag "publication_06.jpg", width: "150px" %>
+        <%= image_tag "publication_06.jpg", width: "150px" , loading: "lazy" %>
       <%end%>
       Publication dans le Grand Angle du Pèlerin n°6962.</p>
       <div class="spacer"></div>
@@ -31,7 +31,7 @@ preferred_url: "https://www.mathieuthomasset.fr/coulissespelerin"
       <% data.pelerin.each do |y| %>
         <div class="col-xs-6 col-sm-4">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
-            <%= image_tag y.picture, width: "100%" %>
+            <%= image_tag y.picture, width: "100%" , loading: "lazy" %>
           </a>
           <p><%= y.caption %></p>
         </div>
