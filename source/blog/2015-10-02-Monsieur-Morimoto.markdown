@@ -20,4 +20,4 @@ Avec son chapeau traditionnel, une barbe qui n'a rien à envier à celle du plus
 ![picture alt](/images/blog/awaodori-11.JPG "Monsieur Morimoto, un japonnais à Paris"){: .img-blog}
 
 
-Pour tout savoir sur ce festival et son origine : [Awa Odori Paris](http://awaodoriparis.com/fr/awa/)
+Pour tout savoir sur ce festival et son origine : [Awa Odori Paris](https://awaodoriparis.com/fr/awa/)

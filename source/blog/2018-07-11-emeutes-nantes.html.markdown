@@ -13,7 +13,7 @@ author:
 Bâtiments et voitures incendiés après deux nuits de violences urbaines à Nantes suite à la mort d'un jeune homme atteint par un tir de policier lors d'un contrôle dans le quartier du Breil.
 
 
-Lien vers toute la série sur le site Hans Lucas : [Emeutes à Nantes](http://hanslucas.com/vue/EmeutesNantes)
+Lien vers toute la série sur le site Hans Lucas : [Emeutes à Nantes](https://hanslucas.com/vue/EmeutesNantes)
 
 Publication sur La Zone d’Expression Prioritaire [la-zep.fr](https://www.la-zep.fr/)
 

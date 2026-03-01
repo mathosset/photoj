@@ -11,7 +11,7 @@ author:
 
 ![picture alt](/images/confinement_03.jpg "Journal de confinement"){: .img-blog}
 
-> ###Illustration d'une vie confinée à domicile : [Série sur le site du Studio Hans Lucas](http://hanslucas.com/mthomasset/photo/31959)
+> ###Illustration d'une vie confinée à domicile : [Série sur le site du Studio Hans Lucas](https://hanslucas.com/mthomasset/photo/31959)
 
 <div class="container">
   <div class="row">

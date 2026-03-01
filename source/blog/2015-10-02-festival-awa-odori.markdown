@@ -32,4 +32,4 @@ La version française, bien plus modeste, a permis de faire découvrir cette tra
 
 ![picture alt](/images/blog/awaodori-01.JPG "Le festival Awa Odori à Paris"){: .img-blog}
 
-Pour tout savoir sur ce festival et son origine : [Awa Odori Paris](http://awaodoriparis.com/fr/awa/)
+Pour tout savoir sur ce festival et son origine : [Awa Odori Paris](https://awaodoriparis.com/fr/awa/)

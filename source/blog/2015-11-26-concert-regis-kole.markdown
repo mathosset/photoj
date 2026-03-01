@@ -16,5 +16,5 @@ Superbe soirée au Sunset pour le concert de Régis Kole.
 
 Pour en savoir plus :
 
-- [Concert de Kole au Sunset](http://www.sunset-sunside.com/2015/11/artiste/1940/)
+- [Concert de Kole au Sunset](https://www.sunset-sunside.com/2015/11/artiste/1940/)
 - [Régis Kole, backstage au Sunset Sunside](https://slate.adobe.com/a/4D69v/)

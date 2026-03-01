@@ -12,5 +12,5 @@ author:
 
 Les Foulées du Gois 2018, course 8km Populaires sur la route submersible qui relie le continent à l'île de Normoutier.
 
-Lien vers toute la série sur le site Hans Lucas : [Foulées du Gois 2018](http://hanslucas.com/mthomasset/photo/16465)
+Lien vers toute la série sur le site Hans Lucas : [Foulées du Gois 2018](https://hanslucas.com/mthomasset/photo/16465)
 

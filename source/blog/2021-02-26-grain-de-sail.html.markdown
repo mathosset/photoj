@@ -11,4 +11,4 @@ author:
 
 ![picture alt](/images/graindesail_01.jpg "Journal de confinement"){: .img-blog}
 
-> ###Le renouveau de la marine marchande à voile : [Série sur le site du Studio Hans Lucas](http://hanslucas.com/mthomasset/photo/42988)
+> ###Le renouveau de la marine marchande à voile : [Série sur le site du Studio Hans Lucas](https://hanslucas.com/mthomasset/photo/42988)

@@ -7,7 +7,7 @@ thumbnail:
 category:
 excerpt: ""
 author:
-image_path: "http://www.mathieuthomasset.fr/images/bruno-retailleau_06.jpg"
+image_path: "https://www.mathieuthomasset.fr/images/bruno-retailleau_06.jpg"
 ---
 
 ![picture alt](/images/bruno-retailleau_06.jpg "Portrait sénateur Bruno Retailleau pour le JDD"){: .img-blog}

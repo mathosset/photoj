@@ -17,5 +17,5 @@ author:
 
 ![picture alt](/images/publications/publication_32.jpg "Où est la Justice ?"){: .img-blog}
 
-> Lien vers toute la série sur le site Hans Lucas : [Où est Steve ?](http://hanslucas.com/mthomasset/photo/25518)
+> Lien vers toute la série sur le site Hans Lucas : [Où est Steve ?](https://hanslucas.com/mthomasset/photo/25518)
 

@@ -13,7 +13,7 @@ author:
 La route départementale 281, appelée aussi la route des chicanes, traverse la ZAD et la zone du projet d'aéroport de Notre Dame des Landes. Elle est devenue un symbole de la résistance des anti-aéroport.
 Notre-Dame-des-Landes, le 6 Jan. 2018.
 
-Lien vers toute la série sur le site Hans Lucas : [Route des Chicanes](http://hanslucas.com/vue/routedeschicanes)
+Lien vers toute la série sur le site Hans Lucas : [Route des Chicanes](https://hanslucas.com/vue/routedeschicanes)
 
 
 
