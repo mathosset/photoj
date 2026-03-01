@@ -5,4 +5,4 @@ Disallow: /confirmation-de-contact
 User-agent: Googlebot-Image
 Disallow:
 
-Sitemap: http://www.mathieuthomasset.fr/sitemap.xml
+Sitemap: https://www.mathieuthomasset.fr/sitemap.xml
