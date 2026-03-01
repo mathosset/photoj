@@ -1,63 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<%
+  _src  = File.dirname(File.dirname(blog.articles.first.source_file))
+  _root = File.dirname(_src)
 
-  <!-- Page d'accueil -->
+  def _mtime(path)
+    File.mtime(path).strftime('%Y-%m-%d')
+  rescue
+    Date.today.iso8601
+  end
+%>
+
+  <!-- ===================== PAGE D'ACCUEIL ===================== -->
   <url>
     <loc>https://www.mathieuthomasset.fr/</loc>
-    <lastmod>2025-08-28</lastmod>
+    <lastmod><%= _mtime(File.join(_src, 'index.html.erb')) %></lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Pages principales -->
+  <!-- ===================== PAGES PRINCIPALES ===================== -->
+  <% [
+    { file: 'portraits.html.erb',          loc: '/portraits',          freq: 'monthly', pri: '0.9' },
+    { file: 'tirages.html.erb',            loc: '/tirages',            freq: 'monthly', pri: '0.9' },
+    { file: 'entreprise.html.erb',         loc: '/entreprise',         freq: 'monthly', pri: '0.8' },
+    { file: 'publications.html.erb',       loc: '/publications',       freq: 'monthly', pri: '0.7' },
+    { file: 'demande-de-contact.html.erb', loc: '/demande-de-contact', freq: 'monthly', pri: '0.7' },
+  ].each do |p| %>
   <url>
-    <loc>https://www.mathieuthomasset.fr/portraits</loc>
-    <lastmod>2025-08-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.mathieuthomasset.fr<%= p[:loc] %></loc>
+    <lastmod><%= _mtime(File.join(_src, p[:file])) %></lastmod>
+    <changefreq><%= p[:freq] %></changefreq>
+    <priority><%= p[:pri] %></priority>
   </url>
+  <% end %>
 
+  <!-- ===================== PAGES SEO LOCALES ===================== -->
+  <% [
+    { file: 'photographe-vendee.html.erb',        loc: '/photographe-vendee',        freq: 'monthly', pri: '0.7' },
+    { file: 'photographe-nantes.html.erb',        loc: '/photographe-nantes',        freq: 'monthly', pri: '0.7' },
+    { file: 'port-nantes-saint-nazaire.html.erb', loc: '/port-nantes-saint-nazaire', freq: 'monthly', pri: '0.6' },
+  ].each do |p| %>
   <url>
-    <loc>https://www.mathieuthomasset.fr/entreprise</loc>
-    <lastmod>2025-08-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.mathieuthomasset.fr<%= p[:loc] %></loc>
+    <lastmod><%= _mtime(File.join(_src, p[:file])) %></lastmod>
+    <changefreq><%= p[:freq] %></changefreq>
+    <priority><%= p[:pri] %></priority>
   </url>
+  <% end %>
 
+  <!-- ===================== PAGES SECONDAIRES ===================== -->
+  <% [
+    { file: 'blog.html.erb',            loc: '/blog',            freq: 'weekly',  pri: '0.6' },
+    { file: 'viragegroup.html.erb',     loc: '/viragegroup',     freq: 'monthly', pri: '0.5' },
+    { file: 'coulissespelerin.html.erb',loc: '/coulissespelerin',freq: 'yearly',  pri: '0.5' },
+    { file: 'exposition-voie.html.erb', loc: '/exposition-voie', freq: 'yearly',  pri: '0.5' },
+    { file: 'bio.html.erb',             loc: '/bio',             freq: 'yearly',  pri: '0.5' },
+  ].each do |p| %>
   <url>
-    <loc>https://www.mathieuthomasset.fr/publications</loc>
-    <lastmod>2025-08-28</lastmod>
+    <loc>https://www.mathieuthomasset.fr<%= p[:loc] %></loc>
+    <lastmod><%= _mtime(File.join(_src, p[:file])) %></lastmod>
+    <changefreq><%= p[:freq] %></changefreq>
+    <priority><%= p[:pri] %></priority>
+  </url>
+  <% end %>
+
+  <!-- ===================== PAGES DE TIRAGES ===================== -->
+  <% _tirages_mtime = _mtime(File.join(_root, 'data', 'tirages.yml')) %>
+  <% data.tirages.each do |t| %>
+  <url>
+    <loc>https://www.mathieuthomasset.fr/tirages/<%= t.id %></loc>
+    <lastmod><%= _tirages_mtime %></lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <% end %>
 
+  <!-- ===================== ARTICLES DE BLOG ===================== -->
+  <% blog.articles.each do |article| %>
   <url>
-    <loc>https://www.mathieuthomasset.fr/tirages</loc>
-    <lastmod>2025-08-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mathieuthomasset.fr/contact</loc>
-    <lastmod>2025-08-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Pages secondaires -->
-  <url>
-    <loc>https://www.mathieuthomasset.fr/blog</loc>
-    <lastmod>2025-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.mathieuthomasset.fr/bio</loc>
-    <lastmod>2025-08-28</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.mathieuthomasset.fr<%= article.url.sub('.html', '') %></loc>
+    <lastmod><%= article.date.to_date.iso8601 %></lastmod>
+    <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
+  <% end %>
 
 </urlset>
