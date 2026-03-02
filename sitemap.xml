@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>https://www.mathieuthomasset.fr/publications</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -51,6 +51,18 @@
   <url>
     <loc>https://www.mathieuthomasset.fr/photographe-nantes</loc>
     <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mathieuthomasset.fr/photographe-la-roche-sur-yon</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mathieuthomasset.fr/photographe-artisan-vendee</loc>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -88,7 +100,7 @@
   </url>
   <url>
     <loc>https://www.mathieuthomasset.fr/bio</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
