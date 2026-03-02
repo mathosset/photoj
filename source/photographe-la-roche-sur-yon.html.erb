@@ -1,0 +1,51 @@
+---
+title: "Photographe professionnel à La Roche-sur-Yon — Portrait & Reportage Corporate"
+description: "Photographe à La Roche-sur-Yon et en Vendée : portraits de dirigeants, reportages d'entreprise, studio mobile. Carte de presse n°127141. Devis rapide."
+preferred_url: "https://www.mathieuthomasset.fr/photographe-la-roche-sur-yon"
+---
+
+<div class="big-spacer"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">Photographe professionnel à La Roche-sur-Yon</h1>
+      <h3 style="text-transform: uppercase;">Portrait Corporate & Reportage d'entreprise</h3>
+      </br>
+      <p>Basé à <strong>Montaigu-Vendée</strong>, à 25 minutes de <strong>La Roche-sur-Yon</strong>, j'interviens régulièrement dans la préfecture de la Vendée pour des missions de <%= link_to 'portraits corporate', 'portraits' %>, de <%= link_to "reportages d'entreprise", 'entreprise' %> et de communication institutionnelle.</p>
+      <p>La Roche-sur-Yon concentre les sièges sociaux des grandes entreprises vendéennes — industrie, agroalimentaire, services — et je connais bien les enjeux visuels de ce tissu économique local. Je réalise des <strong>portraits de dirigeants</strong>, des <strong>portraits LinkedIn professionnels</strong>, des reportages de séminaires et d'inaugurations, ainsi que des <strong>photothèques d'entreprise</strong> complètes.</p>
+      <p><strong>Studio mobile disponible</strong> : j'installe un fond et un éclairage professionnel directement dans vos locaux, sans déplacement de vos équipes.</p>
+      <div class="spacer"></div>
+      <p class="text-right"><% link_to "demande-de-contact", class: "btn-treehouse" do %>
+        <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
+      <% end %></p>
+      <div class="big-spacer"></div>
+      <p>Clients entreprises :</p>
+      <p><%= partial 'layouts/clientsentreprises' %></p>
+      <p>Médias partenaires :</p>
+      <p><%= partial 'layouts/clientsmedias' %></p>
+      <div class="spacer"></div>
+      <p><i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon <%= link_to 'PORTFOLIO', '/images/Portfolio-Mathieu_Thomasset.pdf', target: "_blank" %></p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+      <section id="grid">
+        <% data.vendee.each do |y| %>
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+            <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+              <% if y.vertical == "yes" %>
+                <%= image_tag y.picture, width: "100%", class: "center-block", loading: "lazy" %>
+              <% else %>
+                <%= image_tag y.picture, width: "100%", loading: "lazy" %>
+              <% end %>
+            </a>
+            <div class="spacer"></div>
+          </div>
+        <% end %>
+      </section>
+    </div>
+  </div>
+</div>
+<div class="spacer"></div>
