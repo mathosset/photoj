@@ -25,9 +25,7 @@ gem "middleman-minify-html"
 gem "middleman-deploy", "2.0.0.pre.alpha"
 
 # Assets
-gem 'jquery-middleman'
 gem 'bootstrap-sass', ">= 3.4.1"
-gem 'font-awesome-sass'
 
 gem "nokogiri"
 
