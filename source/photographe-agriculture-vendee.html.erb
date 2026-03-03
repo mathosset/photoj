@@ -1,0 +1,57 @@
+---
+title: "Photographe du monde agricole en Vendée — Portraits & Reportages d'exploitation"
+description: "Photographe spécialisé dans les portraits d'agriculteurs et les reportages d'exploitation en Vendée. Éleveurs, maraîchers, circuits courts : je documente le monde agricole vendéen avec authenticité."
+preferred_url: "https://www.mathieuthomasset.fr/photographe-agriculture-vendee"
+---
+
+<div class="big-spacer"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">Photographe du monde agricole en Vendée</h1>
+      <h3 style="text-transform: uppercase;">Portraits & Reportages d'exploitation</h3>
+      </br>
+      <p>La Vendée est l'un des premiers départements agricoles des Pays de la Loire — élevage, maraîchage, viticulture, circuits courts. J'y documente depuis plusieurs années les <strong>hommes et les femmes</strong> qui font vivre ce territoire : dans leurs champs, leurs étables, leurs ateliers de transformation.</p>
+      <p>Mon approche documentaire vise à <strong>raconter le geste et la saison</strong>, au-delà du simple portrait. Je produis des images utilisables pour votre <strong>communication, vos réseaux sociaux, vos dossiers de presse ou vos demandes de labels</strong> (bio, AOP, circuits courts).</p>
+      <p><strong>Clients types :</strong> exploitations agricoles, coopératives (Terrena, Agrial), IAA, associations de producteurs, collectivités en charge du développement rural.</p>
+      <p><strong>Zone d'intervention :</strong> Vendée (85), Pays de la Loire, Grand Ouest.</p>
+      <div class="spacer"></div>
+      <p><strong>Portraits de ferme — série documentaire :</strong></p>
+      <ul>
+        <li><%= link_to 'Paul, éleveur de porc en Vendée', '/portrait-paul-vendee' %></li>
+        <li><%= link_to 'Michel, transformation à la ferme en Vendée', '/portrait-michel-vendee' %></li>
+        <li><%= link_to 'Jérémie & Alexis, maraîchers en Vendée', '/portrait-alexisetjeremie-vendee' %></li>
+        <li><%= link_to 'Isabelle, éleveuse de vaches limousines', '/portrait-isabelle-vendee' %></li>
+        <li><%= link_to 'Rémi, éleveur et boulanger en Vendée', '/portrait-remi-vendee' %></li>
+        <li><%= link_to 'Yannick, éleveur de volailles bio en Vendée', '/portrait-yannick-vendee' %></li>
+      </ul>
+      <div class="spacer"></div>
+      <p class="text-right"><% link_to "demande-de-contact", class: "btn-treehouse" do %>
+        <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
+      <% end %></p>
+      <div class="big-spacer"></div>
+      <p><i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon <%= link_to 'PORTFOLIO', '/images/Portfolio-Mathieu_Thomasset.pdf', target: "_blank" %></p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+      <section id="grid">
+        <% data.agriculture_vendee.each do |y| %>
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+            <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
+              <% if y.vertical == "yes" %>
+                <%= image_tag y.picture, width: "100%", class: "center-block", loading: "lazy" %>
+              <% else %>
+                <%= image_tag y.picture, width: "100%", loading: "lazy" %>
+              <% end %>
+            </a>
+            <div class="spacer"></div>
+          </div>
+        <% end %>
+      </section>
+    </div>
+  </div>
+</div>
+<div class="spacer"></div>
