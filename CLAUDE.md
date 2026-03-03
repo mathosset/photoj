@@ -78,23 +78,29 @@ Instructions et contexte pour les sessions de travail sur ce projet.
   - Tester manuellement après migration : carousel Bootstrap, galerie tirages (GLightbox/swipebox), Masonry sur /publications, formulaire contact
   - Simple changement de CDN dans `source/layouts/layout.erb`
 
-### Audit SEO Étape 3 — Non commencé
-**A. Conversion**
-- CTAs cohérents sur toutes les pages (texte, placement, visibilité)
-- Page `/demande-de-contact` : formulaire, friction, message de confirmation
-- Page `/tirages` : fiche produit, confiance, tunnel d'achat
+### Audit SEO Étape 3 — COMPLET
 
-**B. Performance technique**
-- Core Web Vitals : LCP, CLS, FID
-- Images : compression et formats modernes (WebP)
-- Ressources bloquantes : jQuery, Bootstrap chargés en CDN synchrone
+**A — Maillage interne** ✅ commit 8bd0bda
+- Liens depuis `/entreprise` (panels 4+5, FAQ Q5), `/photographe-vendee`, `/index` vers les 3 nouvelles pages
+- Fix : guillemets typographiques (U+2018/2019) dans ERB → SyntaxError Ruby — toujours utiliser des quotes ASCII droites dans `<%= %>`
 
-**C. Données structurées**
-- Schema.org `Product` sur les pages tirages (prix, disponibilité)
-- Schema.org `FAQPage` sur les pages avec FAQ existante (`/portraits`)
+**B — Schema.org FAQPage** ✅ commit 8e0d721
+- `/portraits` : FAQPage JSON-LD (4 Q&A) injecté dans `<head>` via `content_for :head`
+- Mécanisme `content_for :head` / `yield_content :head` ajouté dans `layout.erb` — réutilisable pour toutes les pages
 
-**D. Maillage interne global**
-- Vérifier que les nouvelles pages (La Roche, artisan, agriculture) sont liées depuis au moins une autre page du site (homepage, nav, /portraits, /entreprise)
+**C — Conversion /tirages** ✅ commits 00e260a + 51fe3dc + d80ef41
+- FAQPage JSON-LD sur `/tirages` (dynamique depuis `data/tiragesfaq.yml`)
+- Product JSON-LD sur chaque `/tirages/:id` (prix min/max, stock, image fingerprinted)
+- Bouton "Commander ce tirage" rendu visible (`<% link_to do %>` → `<a href>`)
+- Pré-remplissage formulaire restauré (`?tirage=` dans href)
+- Social proof : section expédition + packaging dans `_tiragesinfos.erb`
+- Fix : `<%= link_to ... do %>` multi-lignes génère `do).to_s` invalide dans Tilt — utiliser `<a href>` direct
+
+**D — Performance** ✅ commit 032a6ff
+- Font Awesome CSS : non-bloquant (`media=print onload` + `<noscript>` fallback)
+- GLightbox CSS : déplacé de `<body>` vers `<head>`, non-bloquant
+- Homepage LCP : `<link rel=preload fetchpriority=high>` sur la première image carousel (URL fingerprinted via `image_path()`)
+- WebP non implémenté (847 images, 407 MB — nécessite pipeline `cwebp`/`libvips` + intégration `<picture>` dans les templates)
 
 ---
 
