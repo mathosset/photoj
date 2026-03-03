@@ -2,7 +2,7 @@
 title: "Portrait LinkedIn professionnel en Vendée"
 title_seo: "Pourquoi un portrait LinkedIn professionnel change tout en Vendée"
 description: "Un portrait LinkedIn professionnel génère plus de visibilité, de crédibilité et de prises de contact. Ce que ça change concrètement — et comment se préparer."
-date: 2026-03-03 09:00:00 +0100
+date: 2026-01-07 09:00:00 +0100
 thumbnail:
 category:
 excerpt: ""
