@@ -4,6 +4,13 @@ description: "Mathieu Thomasset, photographe professionnel en Vendée. Portraits
 preferred_url: "https://www.mathieuthomasset.fr"
 ---
 
+<% content_for :head do %>
+  <% first_slide = (data.home || []).first %>
+  <% if first_slide %>
+  <link rel="preload" as="image" href="<%= image_path(first_slide.picture) %>" fetchpriority="high">
+  <% end %>
+<% end %>
+
 <header id="myCarousel" class="carousel slide">
     <!-- Indicators -->
     <!--
