@@ -11,6 +11,7 @@ activate :blog do |blog|
   blog.layout = "layouts/blog"
   blog.default_extension = ".markdown"
   blog.new_article_template = "source/new-article.erb"
+  blog.publish_future_dated = true
 
   blog.paginate = true
   blog.per_page = 20
