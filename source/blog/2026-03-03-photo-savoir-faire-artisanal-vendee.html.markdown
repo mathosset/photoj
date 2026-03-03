@@ -9,6 +9,8 @@ excerpt: ""
 author:
 ---
 
+![Portrait de Jean-Louis Bidet, menuisier des Ateliers Perrault](/images/portrait-jlbidet.jpg "Portrait de Jean-Louis Bidet, menuisier — Ateliers Perrault, Vendée"){: .img-blog}
+
 La Vendée compte parmi les départements les plus denses en artisans de France. Menuisiers, charpentiers, éleveurs, boulangers, maraîchers, forgerons, tailleurs de pierre — chaque métier est porteur d'un **savoir-faire unique**, souvent transmis sur plusieurs générations.
 
 Pourtant, la plupart de ces professionnels ne disposent d'aucune image de qualité pour se présenter en ligne, répondre à un appel d'offres ou postuler à un label. À l'heure où le premier réflexe d'un client potentiel est de chercher sur Google ou Instagram, l'absence d'image, c'est l'absence tout court.
@@ -23,6 +25,8 @@ Pourtant, la plupart de ces professionnels ne disposent d'aucune image de qualit
 
 **Pour la communication institutionnelle :** de nombreuses collectivités vendéennes (Conseil Départemental, communautés de communes) et organisations professionnelles (Chambre de Métiers, coopératives agricoles) cherchent régulièrement des images d'artisans locaux pour leurs publications.
 
+![Portrait de Michel travaillant à la transformation dans une ferme en Vendée](/images/LaGouriniere_PAUL_10.jpg "Portrait de Michel, transformation à la ferme — Vendée"){: .img-blog}
+
 ## Mon approche : documentaire et au plus près du geste
 
 Je ne fais pas de la photo de catalogue. Mon approche, héritée du photojournalisme, vise à **raconter un métier** — la lumière qui tombe sur un établi, la main qui guide un rabot, la vapeur qui monte d'un four de boulanger à l'aube.
@@ -30,6 +34,8 @@ Je ne fais pas de la photo de catalogue. Mon approche, héritée du photojournal
 Je travaille le plus souvent **en lumière naturelle ou avec un éclairage discret**, pour ne pas altérer les conditions réelles de travail. Je m'installe dans votre espace, j'observe, et je photographie au moment où les gestes sont vrais — pas mis en scène.
 
 Le résultat : des images qui ressemblent à votre métier et à votre manière de le pratiquer.
+
+![Portrait de Yannick, éleveur de volailles bio en Vendée](/images/LaGouriniere_Yannick_01.jpg "Portrait de Yannick, éleveur de volailles bio — Vendée"){: .img-blog}
 
 ## Comment se déroule un reportage artisan
 

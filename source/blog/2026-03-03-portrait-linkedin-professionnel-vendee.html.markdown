@@ -9,6 +9,8 @@ excerpt: ""
 author:
 ---
 
+![Portrait de salariés en triptyque](/images/virage-triptyque_01.jpg "Portraits de salariés — Virage Group, Nantes"){: .img-blog}
+
 Votre photo de profil LinkedIn est la première chose que voit un prospect, un recruteur ou un partenaire avant même de lire votre titre ou votre résumé. Pourtant, en Vendée comme partout, une grande majorité de profils sont illustrés par une photo floue prise lors d'un pot de départ, ou pire — pas de photo du tout.
 
 ## Ce que dit LinkedIn
@@ -16,6 +18,8 @@ Votre photo de profil LinkedIn est la première chose que voit un prospect, un r
 Selon les données publiées par LinkedIn, un profil avec photo reçoit **21 fois plus de vues** et **9 fois plus de demandes de connexion** qu'un profil sans photo. Pour les profils avec une photo professionnelle (vs amateur), l'écart est encore plus marqué sur le taux de réponse aux messages.
 
 Un **portrait LinkedIn professionnel** n'est pas un luxe réservé aux dirigeants du CAC 40. C'est un outil de communication directement rentable pour tout professionnel en activité — dirigeant de PME, artisan, consultant, chef de projet, commercial.
+
+![Portrait de Roland Besnard, pdg de Bouyer Leroux](/images/FT-medef_04A.jpg "Portrait de dirigeant — Financial Times"){: .img-blog}
 
 ## Ce qui fait un bon portrait LinkedIn
 
@@ -37,6 +41,8 @@ La séance ne dure généralement que **20 à 30 minutes**. Voici quelques conse
 2. Reposez-vous bien la veille — les traits tirés se voient en photo
 3. Prévoyez 2 à 3 tenues alternatives pour avoir le choix à la livraison
 4. Pensez à votre coiffure comme pour un rendez-vous important
+
+![Portrait de Roger Leclerc, pdg de Cogelec](/images/cogelec_03.jpg "Portrait de dirigeant — Cogelec, Vendée"){: .img-blog}
 
 ## Ce que je propose
 

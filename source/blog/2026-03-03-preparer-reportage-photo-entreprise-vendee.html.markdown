@@ -9,6 +9,8 @@ excerpt: ""
 author:
 ---
 
+![Reportage Ouestmedialab lors du Medialab SpeedTraining](/images/ouestmedialab_01.jpg "Reportage en entreprise — OuestMedialab, Nantes"){: .img-blog}
+
 Un **reportage photo en entreprise** est un investissement. Pour qu'il soit rentabilisé — et que les images servent effectivement votre communication pendant plusieurs années — il faut le préparer. Voici comment je travaille et ce que j'attends de mes clients pour que la journée se passe bien.
 
 ## 1. Définir les usages avant la prise de vue
@@ -34,6 +36,8 @@ Avant la journée de reportage, je demande systématiquement à mes clients de m
 
 Cette liste devient un **brief de tournage** que j'adapte en fonction de la lumière disponible et de la logistique du jour.
 
+![Séminaire Capacités, pôle innovation de l'Université de Nantes](/images/capacites_02.jpg "Séminaire entreprise — Université de Nantes"){: .img-blog}
+
 ## 3. Préparer les espaces et les personnes
 
 Les deux erreurs les plus fréquentes :
@@ -51,6 +55,8 @@ Pour un reportage d'une journée complète dans une entreprise de taille interm�
 - **Après-midi** : reportage en conditions réelles (réunions, production, gestes métier)
 
 Je conseille de ne pas planifier de portraits après 16h — la fatigue de la journée se voit sur les visages.
+
+![Photothèque pour un éditeur de logiciel nantais](/images/viragegroup_34.jpg "Photothèque entreprise — Virage Group, Nantes"){: .img-blog}
 
 ## 5. La livraison
 
