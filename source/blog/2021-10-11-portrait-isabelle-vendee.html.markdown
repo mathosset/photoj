@@ -18,3 +18,6 @@ author:
 ![picture alt](/images/LaGouriniere_Remi_01.jpg "Portrait de Rémi"){: .img-blog}
 
 ![picture alt](/images/LaGouriniere_Isabelle_03.jpg "Portrait Isabelle"){: .img-blog}
+
+---
+*Photographe du monde agricole en Vendée — [voir mes reportages d'exploitation](/photographe-agriculture-vendee) ou [demander un devis](/demande-de-contact).*

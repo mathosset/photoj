@@ -14,3 +14,6 @@ author:
 > ###Portrait de Michel travaillant à la transformation dans une ferme en Vendée en vente directe
 
 ![picture alt](/images/LaGouriniere_PAUL_11.jpg "Portrait de Michel"){: .img-blog}
+
+---
+*Photographe du monde agricole en Vendée — [voir mes reportages d'exploitation](/photographe-agriculture-vendee) ou [demander un devis](/demande-de-contact).*

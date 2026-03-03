@@ -18,3 +18,6 @@ author:
 ![picture alt](/images/LaGouriniere_Alexis-Jeremie_06.jpg "Portrait de Paul"){: .img-blog}
 
 ![picture alt](/images/LaGouriniere_Alexis-Jeremie_02.jpg "Portrait de Paul"){: .img-blog}
+
+---
+*Photographe du monde agricole en Vendée — [voir mes reportages d'exploitation](/photographe-agriculture-vendee) ou [demander un devis](/demande-de-contact).*
