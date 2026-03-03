@@ -76,7 +76,7 @@ preferred_url: "https://www.mathieuthomasset.fr"
           <a href="/tirages/<%= t.id %>" class="tirage-link">
             <div class="tirage-square">
               <div class="tirage-frame">
-                <%= image_tag "tirages/#{t.original}", class: "tirage-img", alt: t.alt || "#{t.title} — #{t.year}" , loading: "lazy" %>
+                <%= picture_tag "tirages/#{t.original}", class: "tirage-img", alt: t.alt || "#{t.title} — #{t.year}" , loading: "lazy" %>
               </div>
             </div>
             <h3 class="tirage-title"><%= t.title %></h3>

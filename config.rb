@@ -24,6 +24,24 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
+helpers do
+  def picture_tag(source, options = {})
+    webp_source = source.sub(/\.(jpe?g|png)$/i, '.webp')
+    webp_file = File.join(app.root, 'source', 'images', webp_source)
+    if File.exist?(webp_file)
+      "<picture><source type=\"image/webp\" srcset=\"#{image_path(webp_source)}\">#{image_tag(source, options)}</picture>"
+    else
+      image_tag(source, options)
+    end
+  end
+
+  def webp_image_path(source)
+    webp_source = source.sub(/\.(jpe?g|png)$/i, '.webp')
+    webp_file = File.join(app.root, 'source', 'images', webp_source)
+    File.exist?(webp_file) ? image_path(webp_source) : nil
+  end
+end
+
 page "/sitemap.xml", :layout => false
 
 activate :protect_emails

@@ -36,9 +36,9 @@ preferred_url: "https://www.mathieuthomasset.fr/photographe-la-roche-sur-yon"
           <div class="col-xs-12 col-sm-6 col-lg-6">
             <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
               <% if y.vertical == "yes" %>
-                <%= image_tag y.picture, width: "100%", class: "center-block", loading: "lazy" %>
+                <%= picture_tag y.picture, width: "100%", class: "center-block", loading: "lazy" %>
               <% else %>
-                <%= image_tag y.picture, width: "100%", loading: "lazy" %>
+                <%= picture_tag y.picture, width: "100%", loading: "lazy" %>
               <% end %>
             </a>
             <div class="spacer"></div>

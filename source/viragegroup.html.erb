@@ -12,7 +12,7 @@ preferred_url: "https://www.mathieuthomasset.fr/viragegroup"
     <div class="col-xs-12 col-sm-3 col-md-offset-1">
 <!--       <h1 id="upper">Virage Group</h1>
       </br> -->
-      <%= image_tag "logo-virage.jpg", width: "50%", loading: "lazy" %><%= image_tag "logo-swpl.jpg", width: "50%", loading: "lazy" %>
+      <%= picture_tag "logo-virage.jpg", width: "50%", loading: "lazy" %><%= picture_tag "logo-swpl.jpg", width: "50%", loading: "lazy" %>
       <p>Client : <span id="uk">Virage Group</span></br></br>
       Editeur de logiciel nantais spécialisé dans la gestion de projets et la performance </br></br>
       Réalisation de 90 portraits de salariés en studio mobile et création d'une photothèque d'illustration.</p>
@@ -25,9 +25,9 @@ preferred_url: "https://www.mathieuthomasset.fr/viragegroup"
         <div class="col-xs-12 col-sm-6 col-lg-12">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
             <% if y.vertical == "yes" %>
-              <%= image_tag y.picture, width: "100%", class: "center-block" , loading: "lazy" %>
+              <%= picture_tag y.picture, width: "100%", class: "center-block" , loading: "lazy" %>
             <% else %>
-              <%= image_tag y.picture, width: "100%" , loading: "lazy" %>
+              <%= picture_tag y.picture, width: "100%" , loading: "lazy" %>
             <% end %>
           </a>
           <p><%= y.caption %></p>

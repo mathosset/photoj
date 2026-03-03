@@ -30,7 +30,15 @@
       <div class="tirage-main">
         <!-- Image principale -->
         <a href="<%= image_path "tirages/#{tirage.original}" %>" class="main-lightbox">
-          <%= image_tag "tirages/#{tirage.original}", class: "img-responsive main-image", alt: "#{tirage.title} — #{tirage.year}" , loading: "lazy" %>
+          <% _webp_main = webp_image_path("tirages/#{tirage.original}") %>
+          <% if _webp_main %>
+          <picture>
+            <source type="image/webp" srcset="<%= _webp_main %>" class="js-tirage-webp">
+            <%= image_tag "tirages/#{tirage.original}", class: "img-responsive main-image", alt: "#{tirage.title} — #{tirage.year}", loading: "lazy" %>
+          </picture>
+          <% else %>
+          <%= image_tag "tirages/#{tirage.original}", class: "img-responsive main-image", alt: "#{tirage.title} — #{tirage.year}", loading: "lazy" %>
+          <% end %>
         </a>
       </div>
 
@@ -40,6 +48,7 @@
           <img
             src="<%= image_path "tirages/#{tirage.original}" %>"
             data-large="<%= image_path "tirages/#{tirage.original}" %>"
+            data-large-webp="<%= webp_image_path("tirages/#{tirage.original}") %>"
             class="img-responsive thumb"
             loading="lazy"
             alt="<%= tirage.title %> — original">
@@ -50,6 +59,7 @@
             <img
               src="<%= image_path "tirages/#{m}" %>"
               data-large="<%= image_path "tirages/#{m}" %>"
+              data-large-webp="<%= webp_image_path("tirages/#{m}") %>"
               class="img-responsive thumb"
               loading="lazy"
               alt="<%= tirage.title %> — mise en scène">

@@ -70,9 +70,11 @@ $(document).ready(function() {
 
       var $img = $(this).find('img.thumb');
       var largeUrl = $img.data('large');
+      var webpUrl = $img.data('large-webp');
 
       $('.tirage-main .main-image').attr('src', largeUrl);
       $('.tirage-main .main-lightbox').attr('href', largeUrl);
+      if (webpUrl) { $('.tirage-main picture source.js-tirage-webp').attr('srcset', webpUrl); }
 
       $('.tirage-thumbs .thumb-wrapper').removeClass('active');
       $(this).addClass('active');
