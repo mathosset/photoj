@@ -4,13 +4,32 @@ description: "Galerie de tirages d’art photographiques en éditions limitées,
 preferred_url: "https://www.mathieuthomasset.fr/tirages"
 ---
 
+<% content_for :head do %>
+<script type="application/ld+json">
+<%= ({
+  "@context" => "https://schema.org",
+  "@type" => "FAQPage",
+  "mainEntity" => data.tiragesfaq.map { |q|
+    {
+      "@type" => "Question",
+      "name" => q.question,
+      "acceptedAnswer" => {
+        "@type" => "Answer",
+        "text" => q.answer.strip
+      }
+    }
+  }
+}).to_json %>
+</script>
+<% end %>
+
 <div class="big-spacer"></div>
 
 <section class="home-intro">
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-sm-10 col-md-offset-1">
-        <h1 id="upper">VENTE DE TIRAGES</h1>
+        <h1 id="upper">Tirages photographiques d'art</h1>
         <p>
           Découvrez ma galerie virtuelle de <strong>tirages photographiques</strong> disponibles en <strong>Open Edition</strong> ou en <strong>Editions Limitées</strong> numérotées et signées. Cliquez sur une image pour découvrir ses détails, ses mises en scène et les formats disponibles.
         </p>

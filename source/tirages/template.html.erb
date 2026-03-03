@@ -1,4 +1,25 @@
 <%# source/tirages/template.html.erb %>
+<% content_for :head do %>
+<script type="application/ld+json">
+<%= ({
+  "@context" => "https://schema.org",
+  "@type" => "Product",
+  "name" => "#{tirage.title} \u2014 Tirage photographique d'art",
+  "description" => tirage.description.strip,
+  "image" => "https://www.mathieuthomasset.fr#{image_path("tirages/#{tirage.original}")}",
+  "brand" => { "@type" => "Brand", "name" => "Mathieu Thomasset" },
+  "offers" => {
+    "@type" => "AggregateOffer",
+    "priceCurrency" => "EUR",
+    "lowPrice" => (tirage.prices || []).map { |p| p.price.to_i }.min || 50,
+    "highPrice" => (tirage.prices || []).map { |p| p.price.to_i }.max || 180,
+    "availability" => "https://schema.org/InStock",
+    "seller" => { "@type" => "Person", "name" => "Mathieu Thomasset", "url" => "https://www.mathieuthomasset.fr" }
+  }
+}).to_json %>
+</script>
+<% end %>
+
 <div class="big-spacer"></div>
 
 <div class="container-fluid tirage-page">
@@ -71,11 +92,9 @@
 
       <div class="spacer"></div>
       <p>
-        <% link_to "/demande-de-contact?tirage=#{tirage.title}",
-                   class: "btn-modern", 
-                   id: "commander-btn" do %>
-          <i class="fa fa-cubes"></i> Commander
-        <% end %>
+        <a href="/demande-de-contact" class="btn-modern" id="commander-btn">
+          <i class="fa fa-cubes"></i> Commander ce tirage
+        </a>
       </p>
     </div>
   </div>
