@@ -31,7 +31,7 @@ preferred_url: "https://www.mathieuthomasset.fr/coulissespelerin"
       <% data.pelerin.each do |y| %>
         <div class="col-xs-6 col-sm-4">
           <a href="images/<%= y.picture %>" class="swipebox" title="<%= y.caption %>">
-            <%= picture_tag y.picture, width: "100%" , loading: "lazy" %>
+            <%= picture_tag y.picture, width: 960, height: 640, style: "width:100%;height:auto", loading: "lazy" %>
           </a>
           <p><%= y.caption %></p>
         </div>
