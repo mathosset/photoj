@@ -24,7 +24,11 @@ preferred_url: "https://www.mathieuthomasset.fr"
     <div class="carousel-inner">
       <% (data.home || []).each_with_index do |y, index| %>
         <div class="item <%= 'active' if index == 0 %>">
-          <div class="fill" style="background-image:url('../images/<%= y.picture %>');"></div>
+          <% if index == 0 %>
+            <%= picture_tag y.picture, class: "fill-img", fetchpriority: "high", alt: y.title %>
+          <% else %>
+            <%= picture_tag y.picture, class: "fill-img", loading: "lazy", alt: y.title %>
+          <% end %>
           <div class="carousel-caption">
             <h2><%= y.title.upcase %></h2>
             <h3><%= y.subtitle %></h3>
