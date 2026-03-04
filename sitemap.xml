@@ -253,37 +253,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.mathieuthomasset.fr/vent-vert-sur-la-reunion</loc>
-    <lastmod>2019-06-08</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://www.mathieuthomasset.fr/nouveau-min-de-nantes</loc>
     <lastmod>2019-02-19</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.mathieuthomasset.fr/44-breizh</loc>
-    <lastmod>2018-10-10</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.mathieuthomasset.fr/emeutes-nantes</loc>
-    <lastmod>2018-07-11</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://www.mathieuthomasset.fr/montfort-sur-meu</loc>
-    <lastmod>2018-06-14</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.mathieuthomasset.fr/terminal-grand-ouest</loc>
     <lastmod>2018-06-14</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
@@ -301,20 +277,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.mathieuthomasset.fr/les-rdv-de-l-erdre</loc>
-    <lastmod>2017-09-03</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://www.mathieuthomasset.fr/les-indignes-de-mcdonald-s</loc>
     <lastmod>2016-10-27</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.mathieuthomasset.fr/mondial-de-l-auto-2016</loc>
-    <lastmod>2016-10-04</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
