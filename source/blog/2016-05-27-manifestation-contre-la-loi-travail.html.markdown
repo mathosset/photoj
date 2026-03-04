@@ -1,7 +1,7 @@
 ---
 title: Manifestation contre la loi travail
 title_seo: "Manifestation contre la loi travail le 26 mai 2016 à Paris"
-description: ""
+description: "Reportage à Paris le 26 mai 2016 : manifestation contre la loi travail entre syndicats, fumigènes et forces de l'ordre — photojournalisme de rue."
 date: 2016-05-27 14:33:12 +0200
 thumbnail:
 category: manifestation

@@ -1,5 +1,5 @@
 ---
-title: Portraits à la ferme en Vendée
+title: "Portrait d'Isabelle, éleveuse de vaches limousines en Vendée"
 title_seo: "Portrait d'Isabelle et Rémi éleveuse de vaches limousines en Vendée"
 description: "Portrait d'Isabelle éleveuse de vaches limousines en Vendée"
 date: 2021-10-11 11:53:45 +0100

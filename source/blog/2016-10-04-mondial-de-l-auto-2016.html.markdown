@@ -1,7 +1,7 @@
 ---
 title: Mondial de l'auto 2016
 title_seo: ""
-description: ""
+description: "Reportage au Mondial de l'Automobile 2016 à Paris — entre clichés et contre-clichés dans le plus grand salon automobile européen."
 date: 2016-10-04 17:09:25 +0200
 thumbnail:
 category:

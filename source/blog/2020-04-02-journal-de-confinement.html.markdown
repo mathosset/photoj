@@ -1,7 +1,7 @@
 ---
 title: Journal de confinement
 title_seo: ""
-description: ""
+description: "Journal visuel du confinement — série photographique illustrant la vie à domicile en mars-avril 2020, en Vendée."
 date: 2020-04-02 10:34:47 +0200
 thumbnail:
 category:

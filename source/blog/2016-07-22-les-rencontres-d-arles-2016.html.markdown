@@ -1,7 +1,7 @@
 ---
 title: Les rencontres d'Arles 2016
 title_seo: "Les rencontres d'Arles 2016"
-description: ""
+description: "Sélection photographique des Rencontres de la Photographie d'Arles 2016, festival international de photographie."
 date: 2016-07-22 15:21:32 +0200
 thumbnail:
 category:
