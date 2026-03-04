@@ -30,10 +30,19 @@ body {
     height: 100%;
 }
 
-.carousel,
+.carousel {
+    height: 60vh;
+}
+
 .item,
 .active {
     height: 100%;
+}
+
+@media (min-width: 768px) {
+    .carousel {
+        height: 100vh;
+    }
 }
 
 .carousel-inner {
