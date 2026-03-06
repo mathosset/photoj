@@ -4,6 +4,29 @@ description: "Photographe spécialisé dans les portraits d'artisans et les repo
 preferred_url: "https://www.mathieuthomasset.fr/photographe-artisan-vendee"
 ---
 
+<% content_for :head do %>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": "Photographe d'artisans en Vendée — galerie",
+  "url": "https://www.mathieuthomasset.fr/photographe-artisan-vendee",
+  "author": {"@type": "Person", "name": "Mathieu Thomasset"},
+  "hasPart": [
+    <% data.artisan_vendee.each_with_index do |y, i| %>{
+      "@type": "ImageObject",
+      "url": "https://www.mathieuthomasset.fr<%= image_path(y.picture) %>",
+      "name": <%= y.caption.to_s.to_json %>,
+      "width": <%= (y.vertical == "yes") ? 640 : 960 %>,
+      "height": <%= (y.vertical == "yes") ? 960 : 640 %>,
+      "author": {"@type": "Person", "name": "Mathieu Thomasset"}
+    }<%= (i < data.artisan_vendee.length - 1) ? "," : "" %>
+    <% end %>
+  ]
+}
+</script>
+<% end %>
+
 <div class="big-spacer"></div>
 
 <div class="container-fluid">
