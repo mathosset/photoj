@@ -10,19 +10,24 @@
     <meta name="author" content="Mathieu Thomasset">
     <meta name="robots" content="index,follow">
 
+    <% _is_homepage     = current_page.data.preferred_url == 'https://www.mathieuthomasset.fr' %>
+    <% _is_blog_article = !current_page.data.date.nil? %>
+    <% _og_image = _is_blog_article && current_page.data.thumbnail ? "https://www.mathieuthomasset.fr#{current_page.data.thumbnail}" : "https://www.mathieuthomasset.fr/images/moi.jpg" %>
+    <% _og_url = current_page.data.preferred_url || current_page_url %>
+
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="<%= data.site.twitter_handle %>">
     <meta name="twitter:title" content="<%= page_title %>">
     <meta name="twitter:description" content="<%= page_description %>">
     <meta name="twitter:creator" content="<%= data.site.twitter_handle %>">
-    <meta name="twitter:image" content="<%= page_image %>">
+    <meta name="twitter:image" content="<%= _og_image %>">
 
     <!-- Open Graph -->
     <meta property="og:title" content="<%= page_title %>"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="<%= current_page_url %>"/>
-    <meta property="og:image" content="<%= page_image %>"/>
+    <meta property="og:type" content="<%= _is_blog_article ? 'article' : 'website' %>"/>
+    <meta property="og:url" content="<%= _og_url %>"/>
+    <meta property="og:image" content="<%= _og_image %>"/>
     <meta property="og:image:width" content="1024"/>
     <meta property="og:image:height" content="768"/>
     <meta property="og:description" content="<%= page_description %>"/>
@@ -83,9 +88,6 @@
       ]
     }
     </script>
-
-    <% _is_homepage     = current_page.data.preferred_url == 'https://www.mathieuthomasset.fr' %>
-    <% _is_blog_article = !current_page.data.date.nil? %>
 
     <% unless _is_homepage %>
     <!-- Schema.org BreadcrumbList — pages internes -->
