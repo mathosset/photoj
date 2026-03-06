@@ -17,29 +17,23 @@
     <div class="collapse navbar-collapse" id="main-navbar">
 
       <ul class="nav navbar-nav navbar-right">
-        <li>
-          <% link_to "tirages" do %>
-            <i class="fa fa-cube"></i> TIRAGES
-          <% end %>
-        </li>
+        <li><% link_to "portraits" do %><i class="fa fa-cube"></i> PORTRAITS<% end %></li>
+        <li><% link_to "entreprise" do %><i class="fa fa-cube"></i> ENTREPRISES<% end %></li>
+        <li><% link_to "publications" do %>PRESSE &amp; PUBLICATIONS<% end %></li>
+        <li><% link_to "blog" do %>BLOG<% end %></li>
         <% if current_page.data.preferred_url == 'https://www.mathieuthomasset.fr' %>
-          <li>
+          <li style="margin-left: auto">
             <% link_to "demande-de-contact", class: "btn-medium" do %>
               <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
             <% end %>
           </li>
         <% else %>
-          <li>
+          <li style="margin-left: auto">
             <% link_to "demande-de-contact", class: "btn-medium-nav" do %>
               <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
             <% end %>
           </li>
         <% end %>
-        <li><% link_to "portraits" do %><i class="fa fa-cube"></i> PORTRAITS<% end %></li>
-        <li><% link_to "entreprise" do %><i class="fa fa-cube"></i> ENTREPRISES<% end %></li>
-        <li><% link_to "publications" do %>PUBLICATIONS<% end %></li>
-        <li><% link_to "blog" do %>BLOG<% end %></li>
-        <li><% link_to "bio" do %>BIO<% end %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
