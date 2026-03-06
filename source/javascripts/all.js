@@ -2,6 +2,12 @@
 
 $(document).ready(function() {
 
+  // === Protection email ===
+  document.querySelectorAll('.email-protected').forEach(function(el) {
+    var email = el.dataset.user + '@' + el.dataset.domain;
+    el.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
+  });
+
   // JSPane hover effect
   if ($('.jspane').length) {
     $('.jspane').each(function() {

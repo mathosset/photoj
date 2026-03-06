@@ -1,46 +1,68 @@
 <div id="footer">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
-        <ul class="list-inline social"> 
-          <!--<li><a href="https://app.blink.la/u/mathosset" target="_blank"><img src="https://blink.la/img/widgets/30.png" style="border:none; overflow:hidden; width:30px; height:30px;"/></a></li> -->
-          <li>Photos ©Mathieu Thomasset</li>
-          <li>
-            <a href="mailto:mathieuthomasset@gmx.com"><i class="fa fa-envelope-o"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/mathosset" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://facebook.com/mathosset" target="_blank">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://instagram.com/mathosset" target="_blank">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/mathosset" target="_blank">
-              <i class="fa fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/mathosset" target="_blank">
-              <i class="fa fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://blink.la/u/mathosset" target="_blank">
-              <i class="fa fa-map-marker"></i>
-            </a>
-          </li>
-          <li>Photographe professionnel Vendée - Reportage, Portraits, Corporate - Montaigu-Vendée - Nantes - La Roche-sur-Yon</li>
+
+      <!-- Colonne 1 : Logo + social -->
+      <div class="col-sm-4 footer-col">
+        <div class="footer-brand"><i class="fa fa-camera-retro"></i> MATHIEU THOMASSET</div>
+        <div class="footer-tagline">Photographe professionnel — Vendée &amp; Pays de la Loire</div>
+        <ul class="footer-social">
+          <li><a href="https://twitter.com/mathosset" target="_blank" rel="noopener" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/mathosset" target="_blank" rel="noopener" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/mathosset" target="_blank" rel="noopener" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://facebook.com/mathosset" target="_blank" rel="noopener" title="Facebook"><i class="fa fa-facebook"></i></a></li>
         </ul>
       </div>
+
+      <!-- Colonne 2 : Navigation -->
+      <div class="col-sm-4 footer-col">
+        <div class="footer-col-title">Navigation</div>
+        <ul class="footer-links">
+          <li><a href="/portraits">Portraits</a></li>
+          <li><a href="/entreprise">Entreprises</a></li>
+          <li><a href="/publications">Presse &amp; Publications</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/tirages">Tirages photo</a></li>
+          <li><a href="/bio">À propos</a></li>
+          <li><a href="/demande-de-contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Colonne 3 : Contact -->
+      <div class="col-sm-4 footer-col">
+        <div class="footer-col-title">Contact</div>
+        <div class="footer-contact-item">
+          <i class="fa fa-map-marker"></i> Montaigu-Vendée (85), Pays de la Loire
+        </div>
+        <div class="footer-contact-item">
+          <i class="fa fa-phone"></i> <a href="tel:+33695514679" class="footer-link-plain">+33 6 95 51 46 79</a>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fa fa-envelope-o"></i>
+          <span class="email-protected" data-user="mathieuthomasset" data-domain="gmx.com"></span>
+        </div>
+        <div class="footer-contact-item" style="margin-top:12px;">
+          Photos &copy;Mathieu Thomasset — Membre <a href="https://hanslucas.com" target="_blank" rel="noopener">Hans Lucas</a>
+        </div>
+      </div>
+
+    </div><!-- /.row -->
+
+    <!-- Bas de footer : tags SEO + légal -->
+    <div class="footer-bottom">
+      <div class="footer-tags">
+        <span class="footer-tag">Photographe Vendée</span>
+        <span class="footer-tag">Portrait professionnel</span>
+        <span class="footer-tag">Reportage entreprise</span>
+        <span class="footer-tag">Photo presse</span>
+        <span class="footer-tag">La Roche-sur-Yon</span>
+        <span class="footer-tag">Nantes</span>
+        <span class="footer-tag">Pays de la Loire</span>
+      </div>
+      <p class="footer-legal">
+        &copy; <%= Time.now.year %> Mathieu Thomasset — Photographe professionnel — Tous droits réservés — <a href="/mentions-legales" style="color:#aaaaaa;">Mentions légales</a>
+      </p>
     </div>
-  </div>
-</div>
+
+  </div><!-- /.container -->
+</div><!-- /#footer -->
