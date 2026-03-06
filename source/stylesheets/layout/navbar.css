@@ -145,3 +145,17 @@
 .navbar-transparent .dropdown-menu :before {
   display: none;
 }
+
+/* Bouton CONTACT navbar — style pilule */
+.navbar-right .btn-medium {
+  border-radius: 20px;
+  border: 1px solid white;
+  background: transparent;
+  color: #ffffff;
+  padding: 6px 16px;
+}
+.navbar-right .btn-medium:hover {
+  border: 1px solid white;
+  opacity: 1;
+  color: #ffffff;
+}
