@@ -72,3 +72,12 @@ data.tirages.each do |t|
         locals: { tirage: t },
         ignore: true
 end
+
+# === Redirections 301 — pages supprimées (404 GSC) ===
+redirect "promus/index.html",                                             to: "/"
+redirect "promus.html",                                                   to: "/"
+redirect "Monsieur-Morimoto.html",                                        to: "/"
+redirect "tentes-migrants/index.html",                                    to: "/"
+redirect "philharmonie.html",                                             to: "/"
+redirect "la-plus-grande-centrale-solaire-des-pays-de-la-loire.html",    to: "/"
+redirect "inondations-paris-2016/index.html",                            to: "/"
