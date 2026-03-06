@@ -8,6 +8,11 @@ $(document).ready(function() {
     el.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
   });
 
+  document.querySelectorAll('.phone-protected').forEach(function(el) {
+    var phone = el.dataset.part1 + ' ' + el.dataset.part2 + ' ' + el.dataset.part3 + ' ' + el.dataset.part4 + ' ' + el.dataset.part5;
+    el.innerHTML = '<a href="tel:+33' + el.dataset.part1.substring(1) + el.dataset.part2 + el.dataset.part3 + el.dataset.part4 + el.dataset.part5 + '">' + phone + '</a>';
+  });
+
   // JSPane hover effect
   if ($('.jspane').length) {
     $('.jspane').each(function() {
