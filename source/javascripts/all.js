@@ -54,7 +54,8 @@ $(document).ready(function() {
     $blogGrid.imagesLoaded(function() {
       $blogGrid.masonry({
         itemSelector: 'article',
-        percentPosition: true
+        percentPosition: true,
+        horizontalOrder: true
       });
     });
   }
