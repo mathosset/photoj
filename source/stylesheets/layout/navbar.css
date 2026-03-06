@@ -124,6 +124,11 @@
   color: #ffffff !important;
 }
 
+.navbar-transparent.navbar-default .navbar-nav > li > a,
+.navbar-transparent.navbar-default .navbar-brand {
+  color: #ffffff !important;
+}
+
 /* Dropdown transparent */
 .navbar-transparent .navbar-right .dropdown-menu {
   background: transparent;
