@@ -9,7 +9,7 @@ excerpt: ""
 author:
 ---
 
-![Portraits de salariés en triptyque — Virage Group, Nantes](/images/virage-triptyque_01.jpg "Portraits d'équipe en triptyque — Virage Group, Nantes"){: .img-blog}
+![Portraits de salariés en triptyque — Virage Group, Nantes](/images/viragegroup_34.jpg "Portraits d'équipe en triptyque — Virage Group, Nantes"){: .img-blog}
 
 Nantes est le deuxième pôle économique du Grand Ouest. Sièges sociaux, start-ups de la French Tech, ETI industrielles, cabinets de conseil, institutions publiques : la métropole concentre des acteurs qui ont tous besoin d'images professionnelles pour exister dans un univers où la communication visuelle est devenue incontournable.
 

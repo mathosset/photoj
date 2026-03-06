@@ -15,6 +15,8 @@ La Vendée est l'un des départements les plus industriels des Pays de la Loire.
 
 Or, ces entreprises ont des besoins photographiques importants : dossiers de presse, appels d'offres, communication institutionnelle, recrutement, rapports annuels. La **photographie industrielle** est une spécialité qui demande une expérience spécifique — et des résultats très différents d'un reportage d'entreprise classique.
 
+![Grain de Sail — reportage sur un voilier cargo en Loire-Atlantique](/images/graindesail_05.jpg "Grain de Sail — voilier cargo, construction navale"){: .img-blog}
+
 ## Ce que couvre un reportage industriel
 
 **Lignes de production et process**
@@ -31,6 +33,8 @@ La façade atlantique vendéenne et ligérienne génère une activité industrie
 
 ![Grain de Sail — reportage sur un voilier cargo en Loire-Atlantique](/images/graindesail_01.jpg "Grain de Sail — voilier cargo, construction navale"){: .img-blog}
 
+![Grain de Sail — reportage sur un voilier cargo en Loire-Atlantique](/images/graindesail_08.jpg "Grain de Sail — voilier cargo, construction navale"){: .img-blog}
+
 ## Les contraintes spécifiques du milieu industriel
 
 La photographie industrielle impose des contraintes absentes d'un reportage d'entreprise classique :
@@ -46,7 +50,7 @@ Ma formation de photojournaliste me donne une capacité à **m'adapter rapidemen
 
 J'ai réalisé des reportages industriels pour des chantiers navals en Loire-Atlantique, des opérateurs portuaires, des entreprises agroalimentaires vendéennes et des acteurs de la logistique. Certains de ces reportages ont été publiés dans la presse professionnelle et nationale.
 
-![Reportage APMSL — opérations portuaires en Loire-Atlantique](/images/apmsl_01.jpg "Reportage APMSL — opérations portuaires, Loire-Atlantique"){: .img-blog}
+![Reportage APMSL — opérations portuaires en Loire-Atlantique](/images/GPM-Champlain_04.jpg "Reportage Samule Champlain — opérations portuaires, Loire-Atlantique"){: .img-blog}
 
 ## Ce que je livre
 
