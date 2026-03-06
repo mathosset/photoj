@@ -19,18 +19,18 @@
       <ul class="nav navbar-nav navbar-right">
         <li><% link_to "portraits" do %><i class="fa fa-cube"></i> PORTRAITS<% end %></li>
         <li><% link_to "entreprise" do %><i class="fa fa-cube"></i> ENTREPRISES<% end %></li>
-        <li><% link_to "publications" do %>PRESSE &amp; PUBLICATIONS<% end %></li>
+        <li><% link_to "publications" do %><i class="fa fa-cubes"></i> PRESSE &amp; PUBLICATIONS<% end %></li>
         <li><% link_to "blog" do %>BLOG<% end %></li>
         <% if current_page.data.preferred_url == 'https://www.mathieuthomasset.fr' %>
           <li style="margin-left: 60px">
             <% link_to "demande-de-contact", class: "btn-medium" do %>
-              <i class="fa fa-cubes"></i> CONTACT
+              CONTACT
             <% end %>
           </li>
         <% else %>
           <li style="margin-left: 60px">
             <% link_to "demande-de-contact", class: "btn-medium-nav" do %>
-              <i class="fa fa-cubes"></i> CONTACT
+              CONTACT
             <% end %>
           </li>
         <% end %>
