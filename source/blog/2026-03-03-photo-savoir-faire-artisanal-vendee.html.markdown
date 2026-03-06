@@ -3,7 +3,7 @@ title: "Valoriser son savoir-faire artisanal par la photo en Vendée"
 title_seo: "Valoriser son savoir-faire artisanal par la photo en Vendée"
 description: "La photo de savoir-faire artisanal valorise votre métier, renforce votre crédibilité et améliore votre visibilité en ligne. Pourquoi et comment faire appel à un photographe en Vendée."
 date: 2026-03-03 11:00:00 +0100
-thumbnail:
+thumbnail: /images/portrait-jlbidet.jpg
 category:
 excerpt: ""
 author:

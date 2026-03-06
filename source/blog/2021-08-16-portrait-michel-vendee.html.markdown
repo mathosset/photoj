@@ -3,7 +3,7 @@ title: "Portrait de Michel, saisonnier dans une ferme en Vendée"
 title_seo: "Portrait de Michel travaillant à la transformation dans une ferme en Vendée"
 description: "Portrait de Michel travaillant à la transformation dans une ferme en Vendée"
 date: 2021-08-16 15:53:45 +0100
-thumbnail:
+thumbnail: /images/LaGouriniere_PAUL_10.jpg
 category:
 excerpt: ""
 author:

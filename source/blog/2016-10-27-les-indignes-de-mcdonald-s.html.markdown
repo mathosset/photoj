@@ -3,7 +3,7 @@ title: Les indignés de McDonald's
 title_seo: "Les indignés de McDonald's"
 description: "Manifestation en soutien aux salariés McDonald's à Paris pour une revalorisation du salaire horaire au sein de la chaine de restauration rapide"
 date: 2016-10-27 21:40:24 +0200
-thumbnail:
+thumbnail: /images/indignes-mcdo_08.jpg
 category: manifestation
 excerpt: ""
 author:

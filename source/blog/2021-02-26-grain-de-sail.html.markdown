@@ -3,7 +3,7 @@ title: Grain de Sail
 title_seo: "Grain de Sail"
 description: "Le renouveau de la marine marchande à voile"
 date: 2021-02-26 11:53:45 +0100
-thumbnail:
+thumbnail: /images/graindesail_01.jpg
 category:
 excerpt: ""
 author:

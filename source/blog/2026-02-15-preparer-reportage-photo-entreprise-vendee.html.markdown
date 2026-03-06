@@ -3,7 +3,7 @@ title: "Préparer un reportage photo en entreprise"
 title_seo: "Préparer un reportage photo en entreprise : guide pratique"
 description: "Un reportage photo d'entreprise réussi se prépare en amont. Voici les étapes clés pour optimiser la journée de prise de vue et obtenir des images exploitables immédiatement."
 date: 2026-02-15 10:00:00 +0100
-thumbnail:
+thumbnail: /images/ouestmedialab_01.jpg
 category:
 excerpt: ""
 author:

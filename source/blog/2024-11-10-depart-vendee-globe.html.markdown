@@ -3,7 +3,7 @@ title: Départ du Vendée Globe 2024
 title_seo: "Départ de la 10ème édition du Vendée Globe"
 description: "Départ de la 10ème édition du Vendée Globe"
 date: 2024-11-10 18:24:53 +0200
-thumbnail:
+thumbnail: /images/depart-vg_01.jpg
 category:
 excerpt: ""
 author:

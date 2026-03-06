@@ -3,7 +3,7 @@ title: Portrait du sénateur Bruno Retailleau pour le JDD
 title_seo: ""
 description: "Portrait du sénateur Bruno Retailleau, président du groupe Les Républicains au Sénat, réalisé dans sa maison en Vendée pour le Journal du Dimanche."
 date: 2020-02-17 11:06:10 +0100
-thumbnail:
+thumbnail: /images/bruno-retailleau_06.jpg
 category:
 excerpt: ""
 author:

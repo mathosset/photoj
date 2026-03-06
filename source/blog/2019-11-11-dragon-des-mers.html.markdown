@@ -3,7 +3,7 @@ title: Dragon des mers
 title_seo: ""
 description: "Reportage sur les quais du Grand Port Maritime Nantes-Saint-Nazaire pour le chargement du dragon de 72 tonnes de la Compagnie La Machine, en partance pour Calais."
 date: 2019-11-11 20:51:35 +0100
-thumbnail:
+thumbnail: /images/dragon_03.jpg
 category:
 excerpt: ""
 author:

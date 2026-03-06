@@ -3,7 +3,7 @@ title: "Portrait de Rémi, éleveur et boulanger en Vendée"
 title_seo: "Portrait de Rémi éleveur de vaches limousines et boulanger en Vendée"
 description: "Portrait de Rémi éleveur de vaches limousines et boulanger en Vendée"
 date: 2021-10-16 15:53:45 +0100
-thumbnail:
+thumbnail: /images/LaGouriniere_Remi_02.jpg
 category:
 excerpt: ""
 author:

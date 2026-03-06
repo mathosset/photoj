@@ -3,7 +3,7 @@ title: Portrait aux Ateliers Perrault
 title_seo: "Portrait de Jean-Louis Bidet des Ateliers Perrault"
 description: "Portrait de Jean-Louis Bidet, menuisier et chef de l'atelier de menuiserie des Ateliers Perrault"
 date: 2024-12-07 15:22:08 +0100
-thumbnail:
+thumbnail: /images/portrait-jlbidet.jpg
 category:
 excerpt: ""
 author:

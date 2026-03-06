@@ -3,7 +3,7 @@ title: "Photographe industriel en Vendée — Reportages d'usines et de chantier
 title_seo: "Photographe industriel en Vendée : usines, chantiers et reportages d'entreprise"
 description: "Photographe industriel en Vendée : reportages en usines, sur chantiers, en milieu maritime. Images pour vos supports de communication, dossiers de presse et appels d'offres."
 date: 2026-03-07 09:00:00 +0100
-thumbnail:
+thumbnail: /images/dragon_01.jpg
 category:
 excerpt: ""
 author:

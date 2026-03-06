@@ -3,7 +3,7 @@ title: Vendée Globe
 title_seo: "Vendée Globe monochrome"
 description: "Immersion en monochrome dans la 10ème édition de la course au large"
 date: 2025-05-21 18:24:53 +0200
-thumbnail:
+thumbnail: /images/vendee-globe_01.jpg
 category:
 excerpt: ""
 author:

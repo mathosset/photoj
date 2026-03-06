@@ -3,7 +3,7 @@ title: Où est la Justice ?
 title_seo: "Inscriptions Où est la Justice ? sur les statues de l'oeuvre de Stéphane Vigny place Royale en centre ville de Nantes. Steve Maia Caniço."
 description: "Inscriptions Où est la Justice ? sur les statues de l'oeuvre de Stéphane Vigny place Royale en centre ville de Nantes. Steve Maia Caniço."
 date: 2019-08-08 18:06:40 +0200
-thumbnail:
+thumbnail: /images/ouestlajustice_01.jpg
 category:
 excerpt: ""
 author:

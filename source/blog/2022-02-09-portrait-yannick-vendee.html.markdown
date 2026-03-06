@@ -3,7 +3,7 @@ title: Portrait à la ferme en Vendée
 title_seo: "Portrait de Yannick éleveur de volailles bio en Vendée"
 description: "Portrait de Yannick éleveur de volailles bio en Vendée"
 date: 2022-02-09 15:22:08 +0100
-thumbnail:
+thumbnail: /images/LaGouriniere_Yannick_01.jpg
 category:
 excerpt: ""
 author:

@@ -3,7 +3,7 @@ title: La route des chicanes
 title_seo: "La route départementale 281 ou route des chicanes traverse la ZAD à Notre Dame des Landes"
 description: "La route départementale 281 ou route des chicanes traverse la ZAD à Notre Dame des Landes"
 date: 2018-01-06 11:29:06 +0100
-thumbnail:
+thumbnail: /images/blog/route-chicanes_01.jpg
 category:
 excerpt: ""
 author:

@@ -3,7 +3,7 @@ title: Portrait en triptyque
 title_seo: ""
 description: "Série de portraits en triptyque pour l'éditeur Groupe Virage à Nantes — postures entre immobilité et mouvement."
 date: 2020-01-04 16:18:14 +0100
-thumbnail:
+thumbnail: /images/virage-triptyque_01.jpg
 category:
 excerpt: ""
 author:

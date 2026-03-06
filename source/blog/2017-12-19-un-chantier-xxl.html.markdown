@@ -3,7 +3,7 @@ title: Un chantier XXL
 title_seo: "Visite du chantier du Marché d'intérêt national MIN de Nantes, le deuxième de France après Rungis"
 description: "Visite du chantier du Marché d'intérêt national MIN de Nantes, le deuxième de France après Rungis"
 date: 2017-12-19 11:29:06 +0100
-thumbnail:
+thumbnail: /images/blog/chantierXXL_01.jpg
 category:
 excerpt: ""
 author:

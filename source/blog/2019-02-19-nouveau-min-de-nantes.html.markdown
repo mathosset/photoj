@@ -3,7 +3,7 @@ title: Nouveau MiN de Nantes
 title_seo: "Ouverture du MiN de Nantes, le 2ème marché de gros de France après Rungis."
 description: "Installation des opérateurs pour l'ouverture du nouveau Marché d'Intérêt Nantional de Nantes, le 2ème marché de gros de France après Rungis."
 date: 2019-02-19 15:37:56 +0100
-thumbnail:
+thumbnail: /images/min-nantes_02.jpg
 category:
 excerpt: ""
 author:

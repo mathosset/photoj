@@ -3,7 +3,7 @@ title: "Photographe corporate à Nantes — Portraits et reportages d'entreprise
 title_seo: "Photographe corporate à Nantes : portraits de dirigeants et reportages d'entreprise"
 description: "Photographe corporate à Nantes : portraits de dirigeants, reportages d'équipes, événements d'entreprise. Studio mobile disponible, déplacement en 45 min depuis la Vendée."
 date: 2026-03-06 09:00:00 +0100
-thumbnail:
+thumbnail: /images/viragegroup_34.jpg
 category:
 excerpt: ""
 author:
