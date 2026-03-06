@@ -23,7 +23,7 @@ preferred_url: "https://www.mathieuthomasset.fr/blog"
               <%= article.title %>
             </h1>
             <a href="<%= article.url %>">
-              <p><%= article.summary(5, '...') %></p>
+              <p><%= strip_tags(article.body).split.first(20).join(' ') %>…</p>
             </a></br>
             <!-- <a href="<%= article.url %>">Lire plus</a></br> -->
         </article>
