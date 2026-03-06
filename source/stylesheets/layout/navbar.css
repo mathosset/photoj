@@ -112,3 +112,36 @@
   background: rgba(20,20,20,0.95) !important;
   transition: background 0.3s ease;
 }
+
+/* Liens navbar : blancs avec protection lisibilité */
+.navbar-right li > a {
+  color: #ffffff !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+/* Dropdown transparent */
+.navbar-transparent .navbar-right .dropdown-menu {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding-top: 8px;
+}
+
+.navbar-transparent .navbar-right .dropdown-menu li > a {
+  color: #ffffff !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+  background: transparent;
+}
+
+.navbar-transparent .navbar-right .dropdown-menu li > a:hover,
+.navbar-transparent .navbar-right .dropdown-menu li > a:focus {
+  background: rgba(255,255,255,0.15) !important;
+  color: #ffffff !important;
+}
+
+/* Supprimer le losange (Bootstrap + custom navbar.css) */
+.navbar-right .dropdown-menu::before,
+.navbar-right .dropdown-menu::after,
+.navbar-transparent .dropdown-menu :before {
+  display: none;
+}

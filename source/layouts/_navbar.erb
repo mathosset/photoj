@@ -15,31 +15,21 @@
 
     <!-- Navbar links -->
     <div class="collapse navbar-collapse" id="main-navbar">
-
       <ul class="nav navbar-nav navbar-right">
-        <li>
-          <% link_to "tirages" do %>
-            <i class="fa fa-cube"></i> TIRAGES
-          <% end %>
+        <li><a href="/portraits"><i class="fa fa-cube"></i> PORTRAITS</a></li>
+        <li class="dropdown">
+          <a href="/entreprise" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-cube"></i> ENTREPRISES <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-right">
+            <li><a href="/entreprise">Reportage entreprise</a></li>
+            <li><a href="/photographe-artisan-vendee">Artisanat</a></li>
+            <li><a href="/photographe-agriculture-vendee">Agriculture</a></li>
+          </ul>
         </li>
-        <% if current_page.data.preferred_url == 'https://www.mathieuthomasset.fr' %>
-          <li>
-            <% link_to "demande-de-contact", class: "btn-medium" do %>
-              <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
-            <% end %>
-          </li>
-        <% else %>
-          <li>
-            <% link_to "demande-de-contact", class: "btn-medium-nav" do %>
-              <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
-            <% end %>
-          </li>
-        <% end %>
-        <li><% link_to "portraits" do %><i class="fa fa-cube"></i> PORTRAITS<% end %></li>
-        <li><% link_to "entreprise" do %><i class="fa fa-cube"></i> ENTREPRISES<% end %></li>
-        <li><% link_to "publications" do %>PUBLICATIONS<% end %></li>
-        <li><% link_to "blog" do %>BLOG<% end %></li>
-        <li><% link_to "bio" do %>BIO<% end %></li>
+        <li><a href="/publications">PRESSE &amp; PUBLICATIONS</a></li>
+        <li><a href="/blog">BLOG</a></li>
+        <li><a href="/demande-de-contact" class="btn-medium"><i class="fa fa-cubes"></i> CONTACT</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
