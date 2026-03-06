@@ -107,3 +107,8 @@
     overflow: hidden!important;
   }
 }
+
+.navbar-scrolled {
+  background: rgba(20,20,20,0.95) !important;
+  transition: background 0.3s ease;
+}

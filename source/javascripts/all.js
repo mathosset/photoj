@@ -46,6 +46,14 @@ $(document).ready(function() {
     $(".navbar-default .navbar-nav>li>a").css("color", "white");
     $(".navbar-default .navbar-brand").css("color", "white");
     $(".navbar-default .navbar-toggle .icon-bar").css("background-color", "white");
+
+    $(window).on('scroll.navbar', function() {
+      if ($(this).scrollTop() > window.innerHeight) {
+        $('#transparent').addClass('navbar-scrolled');
+      } else {
+        $('#transparent').removeClass('navbar-scrolled');
+      }
+    });
   }
 
   // === Masonry (blog) ===
