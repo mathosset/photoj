@@ -48,6 +48,17 @@ $(document).ready(function() {
     $(".navbar-default .navbar-toggle .icon-bar").css("background-color", "white");
   }
 
+  // === Masonry (blog) ===
+  var $blogGrid = $('.blog-grid');
+  if ($blogGrid.length) {
+    $blogGrid.imagesLoaded(function() {
+      $blogGrid.masonry({
+        itemSelector: 'article',
+        percentPosition: true
+      });
+    });
+  }
+
   // === Masonry (publications) ===
   var $grid = $('.masonry-grid');
   if ($grid.length) {

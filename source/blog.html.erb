@@ -9,20 +9,16 @@ preferred_url: "https://www.mathieuthomasset.fr/blog"
 
 <div id="wrapper">
   <div class="container-fluid">
-    <div class="row">
+    <div class="row blog-grid">
     <% page_articles.each_with_index do |article, i| %>
-        <article>
-          <div class="col-xs-12 col-sm-6 col-lg-4">
+        <article class="col-xs-12 col-sm-6 col-lg-4">
+            <time>/// <%= article.date.strftime('%e %b %Y')%> ///</time>
+            <h1><%= article.title %></h1>
             <% if article.data.thumbnail %>
             <a href="<%= article.url %>">
-              <img src="<%= article.data.thumbnail %>" alt="<%= article.title %>" style="width:100%;height:auto;margin-bottom:10px" loading="lazy">
+              <img src="<%= article.data.thumbnail %>" alt="<%= article.title %>" style="width:100%;height:auto;margin-top:10px" loading="lazy">
             </a>
             <% end %>
-            <time>/// <%= article.date.strftime('%e %b %Y')%> ///</time>
-            <h1>
-              <%= article.title %>
-            </h1>
-            <!-- <a href="<%= article.url %>">Lire plus</a></br> -->
         </article>
         <% end %>
           <div class="spacer"></div>
