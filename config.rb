@@ -26,13 +26,34 @@ set :images_dir, 'images'
 
 helpers do
   def picture_tag(source, options = {})
-    webp_source = source.sub(/\.(jpe?g|png)$/i, '.webp')
-    webp_file = File.join(app.root, 'source', 'images', webp_source)
-    if File.exist?(webp_file)
-      "<picture><source type=\"image/webp\" srcset=\"#{image_path(webp_source)}\">#{image_tag(source, options)}</picture>"
-    else
-      image_tag(source, options)
+    img_dir = File.join(app.root, 'source', 'images')
+    base    = source.sub(/\.(jpe?g|png)$/i, '')
+    ext     = source[/\.(jpe?g|png)$/i]
+    widths  = [480, 720, 960, 1440]
+    sizes   = options.delete(:sizes) || "(max-width: 576px) 100vw, (max-width: 992px) 50vw, 960px"
+
+    webp_srcset = widths
+      .select { |w| File.exist?(File.join(img_dir, "#{base}_#{w}.webp")) }
+      .map    { |w| "#{image_path("#{base}_#{w}.webp")} #{w}w" }
+
+    jpg_srcset = widths
+      .select { |w| File.exist?(File.join(img_dir, "#{base}_#{w}#{ext}")) }
+      .map    { |w| "#{image_path("#{base}_#{w}#{ext}")} #{w}w" }
+
+    img = image_tag(source, options)
+    sources = []
+
+    if webp_srcset.any?
+      sources << "<source type=\"image/webp\" srcset=\"#{webp_srcset.join(', ')}\" sizes=\"#{sizes}\">"
+    elsif File.exist?(File.join(img_dir, "#{base}.webp"))
+      sources << "<source type=\"image/webp\" srcset=\"#{image_path("#{base}.webp")}\">"
     end
+
+    if jpg_srcset.any?
+      sources << "<source type=\"image/jpeg\" srcset=\"#{jpg_srcset.join(', ')}\" sizes=\"#{sizes}\">"
+    end
+
+    sources.any? ? "<picture>#{sources.join}#{img}</picture>" : img
   end
 
   def webp_image_path(source)

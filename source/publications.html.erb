@@ -29,9 +29,9 @@ preferred_url: "https://www.mathieuthomasset.fr/publications"
   <% data.publications.each do |y| %>
   <div class="grid-item">
     <% if y.vertical == "yes" %>
-      <%= image_tag "publications/#{y.picture}", width: 640, height: 960, class: "img-responsive vertical", style: "width:100%;height:auto", loading: "lazy" %>
+      <%= picture_tag "publications/#{y.picture}", width: 640, height: 960, class: "img-responsive vertical", style: "width:100%;height:auto", loading: "lazy" %>
     <% else %>
-      <%= image_tag "publications/#{y.picture}", width: 960, height: 640, class: "img-responsive", style: "width:100%;height:auto", loading: "lazy" %>
+      <%= picture_tag "publications/#{y.picture}", width: 960, height: 640, class: "img-responsive", style: "width:100%;height:auto", loading: "lazy" %>
     <% end %>
     <div class="caption"><%= y.caption %></div>
   </div>
