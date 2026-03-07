@@ -1,13 +1,9 @@
-/*
- *= require normalize
- *= require vendor/animation
- *= require layout/card
- *= require layout/carousel
- *= require layout/navbar
- *= require layout/button
- *= require layout/footer
- *= require_self
- */
+@import url("layout/navbar.css");
+@import url("layout/footer.css");
+@import url("layout/carousel.css");
+@import url("layout/button.css");
+@import url("layout/card.css");
+@import url("vendor/animation.css");
 
 /* === Espacements généraux === */
 .spacer { height: 1em; }
