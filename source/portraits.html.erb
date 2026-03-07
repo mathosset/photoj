@@ -5,14 +5,6 @@ preferred_url: "https://www.mathieuthomasset.fr/portraits"
 ---
 
 <% content_for :head do %>
-  <% _first = data.portraits.first %>
-  <% if (webp = webp_image_path(_first.picture)) %>
-    <link rel="preload" as="image" href="<%= webp %>" type="image/webp" fetchpriority="high">
-  <% end %>
-  <link rel="preload" as="image" href="<%= image_path(_first.picture) %>" fetchpriority="high">
-<% end %>
-
-<% content_for :head do %>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
