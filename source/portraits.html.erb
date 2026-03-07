@@ -5,6 +5,14 @@ preferred_url: "https://www.mathieuthomasset.fr/portraits"
 ---
 
 <% content_for :head do %>
+  <% _first = data.portraits.first %>
+  <% if (webp = webp_image_path(_first.picture)) %>
+    <link rel="preload" as="image" href="<%= webp %>" type="image/webp" fetchpriority="high">
+  <% end %>
+  <link rel="preload" as="image" href="<%= image_path(_first.picture) %>" fetchpriority="high">
+<% end %>
+
+<% content_for :head do %>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -244,12 +252,12 @@ preferred_url: "https://www.mathieuthomasset.fr/portraits"
     <div class="spacer"></div>
     <div class="col-xs-12 col-sm-8">
       <section id="grid">
-        <% data.portraits.each do |y| %>
+        <% data.portraits.each_with_index do |y, i| %>
           <div class="col-xs-12 col-sm-6 col-lg-6">
             <% if y.vertical == "yes" %>
-              <%= picture_tag y.picture, width: 640, height: 960, class: "center-block", style: "width:100%;height:auto", alt: y.caption, loading: "lazy" %>
+              <%= picture_tag y.picture, width: 640, height: 960, class: "center-block", style: "width:100%;height:auto", alt: y.caption, loading: (i == 0 ? nil : "lazy"), fetchpriority: (i == 0 ? "high" : nil) %>
             <% else %>
-              <%= picture_tag y.picture, width: 960, height: 640, style: "width:100%;height:auto", alt: y.caption, loading: "lazy" %>
+              <%= picture_tag y.picture, width: 960, height: 640, style: "width:100%;height:auto", alt: y.caption, loading: (i == 0 ? nil : "lazy"), fetchpriority: (i == 0 ? "high" : nil) %>
             <% end %>
             <div class="spacer"></div>
           </div>
