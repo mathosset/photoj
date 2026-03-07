@@ -1,0 +1,74 @@
+---
+title: "Photographe industriel en Pays de la Loire — Reportages & Entreprises"
+description: "Photographe industriel en Pays de la Loire : reportages d'entreprise, ports, usines, événements économiques. Grand Port Maritime de Nantes-Saint-Nazaire, industrie agroalimentaire, événements Medef. Carte de presse n°127141."
+preferred_url: "https://www.mathieuthomasset.fr/photographe-industrie-pays-de-la-loire"
+---
+
+<% content_for :head do %>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": "Photographe industriel en Pays de la Loire — galerie",
+  "url": "https://www.mathieuthomasset.fr/photographe-industrie-pays-de-la-loire",
+  "author": {"@type": "Person", "name": "Mathieu Thomasset"},
+  "hasPart": [
+    <% data.industrie_pdl.each_with_index do |y, i| %>{
+      "@type": "ImageObject",
+      "url": "https://www.mathieuthomasset.fr<%= image_path(y.picture) %>",
+      "name": <%= y.caption.to_s.to_json %>,
+      "width": <%= (y.vertical == "yes") ? 640 : 960 %>,
+      "height": <%= (y.vertical == "yes") ? 960 : 640 %>,
+      "author": {"@type": "Person", "name": "Mathieu Thomasset"}
+    }<%= (i < data.industrie_pdl.length - 1) ? "," : "" %>
+    <% end %>
+  ]
+}
+</script>
+<% end %>
+
+<div class="big-spacer"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-3 col-md-offset-1">
+      <h1 id="upper">Photographe industriel en Pays de la Loire</h1>
+      <h3 style="text-transform: uppercase;">Reportages d'entreprise & Industrie</h3>
+      </br>
+      <p>Les Pays de la Loire concentrent un tissu industriel dense — port autonome, agroalimentaire, aéronautique, numérique, énergie. J'y documente depuis plusieurs années les <strong>entreprises, les sites de production et les événements économiques</strong> qui structurent ce territoire.</p>
+      <p>Titulaire de la <strong>carte de presse n°127141</strong>, je réalise des reportages immersifs sur site : usines, quais portuaires, ateliers, inaugurations. Mon approche documentaire vise à <strong>valoriser l'outil industriel et les équipes</strong>, en produisant des images utilisables pour votre <strong>communication institutionnelle, vos appels d'offres, vos rapports annuels et vos dossiers de presse</strong>.</p>
+      <p>J'ai notamment travaillé pour le <strong>Grand Port Maritime de Nantes-Saint-Nazaire</strong> (GPM), le <strong>Medef Pays de la Loire</strong>, et plusieurs entreprises industrielles régionales. Ces travaux ont été publiés dans la presse régionale et nationale.</p>
+      <p><strong>Zone d'intervention :</strong> Loire-Atlantique (44), Vendée (85), Maine-et-Loire (49), Pays de la Loire.</p>
+      <div class="spacer"></div>
+      <p class="text-right"><% link_to "demande-de-contact", class: "btn-treehouse" do %>
+        <i class="fa fa-cubes"></i> DEMANDER UN DEVIS
+      <% end %></p>
+      <div class="big-spacer"></div>
+      <p>Quelques références :</p>
+      <p><%= partial 'layouts/clientsentreprises' %></p>
+      <p><%= partial 'layouts/clientsmedias' %></p>
+      <div class="spacer"></div>
+      <p><i class="fa fa-arrow-down" aria-hidden="true"></i> Télécharger mon <%= link_to 'PORTFOLIO', '/images/Portfolio-Mathieu_Thomasset.pdf', target: "_blank" %></p>
+      <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-xs-12 col-sm-8">
+      <section id="grid">
+        <% data.industrie_pdl.each do |y| %>
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+            <a href="images/<%= y.picture %>" class="glightbox" data-gallery="galerie" data-title="<%= y.caption %>">
+              <% if y.vertical == "yes" %>
+                <%= picture_tag y.picture, width: 640, height: 960, class: "center-block", style: "width:100%;height:auto", loading: "lazy" %>
+              <% else %>
+                <%= picture_tag y.picture, width: 960, height: 640, style: "width:100%;height:auto", loading: "lazy" %>
+              <% end %>
+            </a>
+            <div class="spacer"></div>
+          </div>
+        <% end %>
+      </section>
+    </div>
+  </div>
+</div>
+<div class="spacer"></div>
