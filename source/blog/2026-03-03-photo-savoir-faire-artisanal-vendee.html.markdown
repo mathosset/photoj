@@ -3,13 +3,13 @@ title: "Valoriser son savoir-faire artisanal par la photo en Vendée"
 title_seo: "Valoriser son savoir-faire artisanal par la photo en Vendée"
 description: "La photo de savoir-faire artisanal valorise votre métier, renforce votre crédibilité et améliore votre visibilité en ligne. Pourquoi et comment faire appel à un photographe en Vendée."
 date: 2026-03-03 11:00:00 +0100
-thumbnail: /images/portrait-jlbidet.jpg
+thumbnail: /images/AteliersPerrault_04.jpg
 category:
 excerpt: ""
 author:
 ---
 
-![Portrait de Jean-Louis Bidet, menuisier des Ateliers Perrault](/images/portrait-jlbidet.jpg "Portrait de Jean-Louis Bidet, menuisier — Ateliers Perrault, Vendée"){: .img-blog}
+![menuisier des Ateliers Perrault](/images/AteliersPerrault_04.jpg "menuisier — Ateliers Perrault, Vendée"){: .img-blog}
 
 La Vendée compte parmi les départements les plus denses en artisans de France. Menuisiers, charpentiers, éleveurs, boulangers, maraîchers, forgerons, tailleurs de pierre — chaque métier est porteur d'un **savoir-faire unique**, souvent transmis sur plusieurs générations.
 
