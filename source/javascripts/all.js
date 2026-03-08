@@ -87,12 +87,14 @@ $(document).ready(function() {
   // === Masonry (publications) ===
   var $grid = $('.masonry-grid');
   if ($grid.length) {
-    $grid.imagesLoaded(function() {
-      $grid.masonry({
-        itemSelector: '.grid-item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true
-      });
+    $grid.masonry({
+      itemSelector: '.grid-item',
+      columnWidth: '.grid-sizer',
+      percentPosition: true,
+      initLayout: false
+    });
+    $grid.imagesLoaded().progress(function() {
+      $grid.masonry('layout');
     });
   }
 
