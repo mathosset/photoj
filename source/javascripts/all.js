@@ -96,6 +96,17 @@ $(document).ready(function() {
     });
   }
 
+  // === Masonry (galeries locales #grid) ===
+  var $galleryGrid = $('#grid');
+  if ($galleryGrid.length) {
+    $galleryGrid.imagesLoaded(function() {
+      $galleryGrid.masonry({
+        itemSelector: '[class*="col-"]',
+        percentPosition: true
+      });
+    });
+  }
+
   // === Galerie tirage (page template) ===
   if ($('.tirage-gallery').length) {
 
