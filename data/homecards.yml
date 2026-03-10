@@ -1,8 +1,20 @@
-# - picture: portrait_stephane-geffroy.jpg
-#   page: portraits
-#   title: "Stephane Geffroy"
-#   caption: "Auteur du livre 'A l'abattoir' aux éditions Seuil"
-#   category: "Portraits"
+- picture: GPM-Champlain_04.jpg
+  page: photographe-industriel-vendee
+  title: "Photographe industriel en Vendée"
+  caption: "Reportages d'usines et de chantiers"
+  category: "Corporate"
+
+- picture: viragegroup_34.jpg
+  page: photographe-corporate-vendee
+  title: "Photographe corporate à Nantes"
+  caption: "Portraits et reportages d'entreprise"
+  category: "Corporate"
+
+- picture: AteliersPerrault_04.jpg
+  page: photographe-industriel-vendee
+  title: "Valoriser son savoir-faire artisanal par la photo en Vendée"
+  caption: "Métiers et Artisanat"
+  category: "Corporate"
 
 # - picture: publication_137.jpg
 #   page: vendee-globe
