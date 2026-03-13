@@ -84,6 +84,32 @@
   transform: translateY(-1px);
 }
 
+/* Variante compacte pour colonnes latérales */
+.btn-modern-sm {
+  background: #fff;
+  color: #777 !important;
+  border: 2px solid #777;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  transition: background .2s ease, color .2s ease, border-color .2s ease, transform .15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.btn-modern-sm:hover,
+.btn-modern-sm:focus {
+  background: #777;
+  color: #fff !important;
+  border-color: #777;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
 /* === Boutons radio stylisés (remplace l'ancien bloc) === */
 #price-options {
   margin-top: 15px;
