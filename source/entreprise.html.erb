@@ -210,7 +210,7 @@ preferred_url: "https://www.mathieuthomasset.fr/entreprise"
       <section id="grid">
         <% data.entreprise.each do |y| %>
           <div class="col-xs-12 col-sm-6 col-lg-6">
-            <a href="images/<%= y.picture %>" class="glightbox" data-gallery="galerie" data-title="<%= y.caption %>">
+            <a href="<%= image_path(y.picture) %>" class="glightbox" data-gallery="galerie" data-title="<%= y.caption %>">
               <% if y.vertical == "yes" %>
                 <%= picture_tag y.picture, width: 640, height: 960, class: "center-block", style: "width:100%;height:auto", alt: y.caption, loading: "lazy" %>
               <% else %>
