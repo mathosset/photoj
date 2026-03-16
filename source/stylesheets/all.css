@@ -200,6 +200,7 @@ article h1 { color: rgb(78, 75, 75); font-size: 1.7em; }
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .tirage-frame:hover {
